@@ -1,0 +1,15 @@
+{
+ "GAME_ADJUSTMENTS": "Game Adjustments",
+  "TOTAL_COST": "Total Cost",
+  "TICKET_COST": "Ticket Cost",
+  "SELECT_TICKETS": "Select Tickets",
+  "WIN_UP_TO": "Win up to",
+  "DISCLAIMER": "",
+  "AUTOPLAY_AUTOPLAY":"Automaattipeli",
+  "AUTOPLAY_NUM_PLAYS": "Toistojen määrä",
+  "AUTOPLAY_STOP_DECREASED": "Pysäytä, kun käteinen laskee",
+  "AUTOPLAY_STOP_SINGLE_WIN": "Lopeta, kun yksi voittaa enemmän kuin",
+  "AUTOPLAY_JACKPOT": "Jackpot on voitettu",
+  "AUTOPLAY_SELECT_START": "Valitse aloittaaksesi",
+  "AUTOPLAY_ENTER_AMOUNT": "Anna summa"
+}

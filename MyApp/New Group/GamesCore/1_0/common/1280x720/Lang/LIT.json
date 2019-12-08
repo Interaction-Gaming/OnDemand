@@ -1,0 +1,15 @@
+{
+ "GAME_ADJUSTMENTS": "Žaidimo nustatymai",
+  "TOTAL_COST": "Suma",
+  "TICKET_COST": "Bilieto kaina",
+  "SELECT_TICKETS": "Bilietų kiekis",
+  "WIN_UP_TO": "Laimėk iki",
+  "DISCLAIMER": "Galite kontroliuoti savo išlaidas skiltyje „Atsakingas žaidimas”",
+  "AUTOPLAY_AUTOPLAY":"Auto žaidimas",
+  "AUTOPLAY_NUM_PLAYS": "Žaidimai",
+  "AUTOPLAY_STOP_DECREASED": "Sustabdyti, kai pinigai sumažėja iki",
+  "AUTOPLAY_STOP_SINGLE_WIN": "Sustabdyti, kai laimėjimas didesnis nei",
+  "AUTOPLAY_JACKPOT": "Didysis prizas laimėtas",
+  "AUTOPLAY_SELECT_START": "Spauskite „pradėti”",
+  "AUTOPLAY_ENTER_AMOUNT": "Prašome įrašyti kiekį"
+}

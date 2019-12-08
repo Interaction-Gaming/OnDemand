@@ -1,0 +1,15 @@
+{
+ "GAME_ADJUSTMENTS": "Game Adjustments",
+  "TOTAL_COST": "Total Cost",
+  "TICKET_COST": "Ticket Cost",
+  "SELECT_TICKETS": "Select Tickets",
+  "WIN_UP_TO": "Win up to",
+  "DISCLAIMER": "",
+  "AUTOPLAY_AUTOPLAY":"Autospill",
+  "AUTOPLAY_NUM_PLAYS": "Antall spill",
+  "AUTOPLAY_STOP_DECREASED": "Stopp når kontanter minker med",
+  "AUTOPLAY_STOP_SINGLE_WIN": "Stopp når single vinne mer enn",
+  "AUTOPLAY_JACKPOT": "Jackpot er vunnet",
+  "AUTOPLAY_SELECT_START": "Velg for å starte",
+  "AUTOPLAY_ENTER_AMOUNT": "Velg for å starte"
+}

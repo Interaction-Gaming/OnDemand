@@ -1,0 +1,16 @@
+<font>
+  <info face="Title_font" size="153" bold="0" italic="0" charset="" unicode="" stretchH="100" smooth="1" aa="1" padding="2,2,2,2" spacing="0,0" outline="0"/>
+  <common lineHeight="214" base="108" scaleW="559" scaleH="392" pages="1" packed="0"/>
+  <pages>
+    <page id="0" file="Title_font.png"/>
+  </pages>
+  <chars count="6">
+    <char id="73" x="2" y="2" width="128" height="192" xoffset="-22" yoffset="2" xadvance="55" page="0" chnl="15"/>
+    <char id="71" x="2" y="196" width="184" height="192" xoffset="-27" yoffset="0" xadvance="101" page="0" chnl="15"/>
+    <char id="87" x="132" y="2" width="234" height="192" xoffset="-29" yoffset="2" xadvance="151" page="0" chnl="15"/>
+    <char id="78" x="188" y="196" width="192" height="192" xoffset="-22" yoffset="2" xadvance="120" page="0" chnl="15"/>
+    <char id="32" x="2" y="390" width="0" height="0" xoffset="0" yoffset="140" xadvance="29" page="0" chnl="15"/>
+    <char id="66" x="368" y="2" width="189" height="192" xoffset="-22" yoffset="2" xadvance="110" page="0" chnl="15"/>
+    <char id="32" x="0" y="0" width="0" height="0" xoffset="-22" yoffset="2" xadvance="29" page="0" chnl="15"/>
+  </chars>
+</font>

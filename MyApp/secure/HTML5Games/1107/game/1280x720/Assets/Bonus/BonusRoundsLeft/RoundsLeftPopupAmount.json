@@ -1,0 +1,12 @@
+﻿{
+    "dropShadow": true,
+    "dropShadowAlpha": 0.8,
+    "dropShadowAngle": 1.5,
+    "dropShadowBlur": 3,
+    "dropShadowDistance": 10,
+    "fill": "#e7c13a",
+    "fontSize": 210,
+    "lineJoin": "round",
+    "stroke": "#242424",
+    "strokeThickness": 4
+}

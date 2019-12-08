@@ -1,0 +1,2 @@
+var loc = loc || {}; 
+ loc.res_BonusInfoPopup_Loc={InfoPopup_mc:{PopupContent_mc:{Btn_mc:{HitArea_mc:{},BG_mc:{}},TextAnim_mc:{title_tf:{w:446.15,h:45.25,x:108,y:67.3},tf1:{w:648,h:50.3,x:26.5,y:167},tf2:{w:648,h:52.4,x:26.5,y:229},tf3:{w:648,h:49.3,x:26.5,y:298.15},tf4:{w:648,h:52,x:26.5,y:359.55}}},BG_mc:{},DarkMaskContainer_mc:{}}};
