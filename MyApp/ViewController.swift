@@ -38,8 +38,6 @@ class ViewController: UIViewController, WKNavigationDelegate, WKUIDelegate, UIWe
              print("htmlPath: " + htmlPath)
             let url = URL(fileURLWithPath: htmlPath)
             let content = try String(contentsOfFile: htmlPath)
-            //  let url = NSURL(string: htmlPath!)
-            // let request = URL(url: url! as URL)
             myWebView.loadHTMLString(content as String, baseURL: url)
             
             let libraryPath = try! FileManager.default.url(for: .libraryDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
@@ -63,7 +61,9 @@ class ViewController: UIViewController, WKNavigationDelegate, WKUIDelegate, UIWe
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        //DOWNLOAD FROM A SERVER
       //  downloadZipResource()
+        //DOWNLOAD ON DEMAND
         /*request = NSBundleResourceRequest(tags:["1121"])
         request.conditionallyBeginAccessingResources { (available) in
             if available{
@@ -151,7 +151,6 @@ class ViewController: UIViewController, WKNavigationDelegate, WKUIDelegate, UIWe
             }
             
            print(response)
-            print(data)
             
             do {
                 let json = try JSONSerialization.jsonObject(with: data!, options: [])
@@ -187,45 +186,8 @@ class ViewController: UIViewController, WKNavigationDelegate, WKUIDelegate, UIWe
     
    
     
-    func getMyJavaScript() -> String {
-        if let filepath = Bundle.main.path(forResource: "initial", ofType: "js") {
-            do {
-                return try String(contentsOfFile: filepath)
-            } catch {
-                return ""
-            }
-        } else {
-            return ""
-        }
-    }
+
         
 }
 
-extension ViewController: WKScriptMessageHandler {
-    
-    func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-        guard let body = message.body as? [String: Any] else { return }
-        guard let type = body["type"] as? String else { return }
-        
-        if (type == "SEND_HTTP_REQUEST") {
-            guard let uuid = body["uuid"] as? String else { return }
-            guard let urlString = body["url"] as? String else { return }
-            guard let bodyString = body["body"] as? String else { return }
-            guard let method = body["method"] as? String else { return }
-            guard let contentType = body["content_type"] as? String else { return }
-            guard let accept = body["accept"] as? String else { return }
-            guard let url = URL(string: urlString) else { return }
-            
-            var request = URLRequest(url: url)
-            request.httpMethod = method
-            request.httpBody = bodyString.data(using: .utf8)
-            request.addValue(contentType, forHTTPHeaderField: "Content-Type")
-            request.addValue(accept, forHTTPHeaderField: "Accept")
-            
-            let task = URLSession.shared.dataTask(with: request) { data, response, error in
-                // TODO: handle the result
-            }
-            task.resume()
-        }
-    }
-}
+
