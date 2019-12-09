@@ -6,6 +6,9 @@
          contextName = "ViewController.webViewDidFinishLoad(_:):ViewController.swift">
          <PersistentStrings>
             <PersistentString
+               value = "data">
+            </PersistentString>
+            <PersistentString
                value = "myWebView">
             </PersistentString>
          </PersistentStrings>

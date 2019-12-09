@@ -10,6 +10,7 @@
 		08057AE42374000F0086DED6 /* BaseGame.html in Resources */ = {isa = PBXBuildFile; fileRef = 08057AE32374000F0086DED6 /* BaseGame.html */; };
 		08057AE923741FE10086DED6 /* initial.js in Resources */ = {isa = PBXBuildFile; fileRef = 08057AE823741FE10086DED6 /* initial.js */; };
 		0824296523856D0F00A64860 /* LoadImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0824296423856D0F00A64860 /* LoadImage.png */; };
+		082C9310239E3AE800DB5754 /* callback.js in Resources */ = {isa = PBXBuildFile; fileRef = 082C930F239E3AE800DB5754 /* callback.js */; };
 		08A21BC4238162180072E5C6 /* Arial.ttf.woff in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B60238162180072E5C6 /* Arial.ttf.woff */; settings = {ASSET_TAGS = (1121, ); }; };
 		08A21BC5238162180072E5C6 /* web.config in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B66238162180072E5C6 /* web.config */; settings = {ASSET_TAGS = (1121, ); }; };
 		08A21BC6238162180072E5C6 /* Arial.ttf.eot in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B67238162180072E5C6 /* Arial.ttf.eot */; settings = {ASSET_TAGS = (1121, ); }; };
@@ -208,6 +209,7 @@
 		08057AE32374000F0086DED6 /* BaseGame.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = BaseGame.html; sourceTree = "<group>"; };
 		08057AE823741FE10086DED6 /* initial.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = initial.js; sourceTree = "<group>"; };
 		0824296423856D0F00A64860 /* LoadImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoadImage.png; sourceTree = "<group>"; };
+		082C930F239E3AE800DB5754 /* callback.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = callback.js; sourceTree = "<group>"; };
 		08A21B60238162180072E5C6 /* Arial.ttf.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf.woff; sourceTree = "<group>"; };
 		08A21B66238162180072E5C6 /* web.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = web.config; sourceTree = "<group>"; };
 		08A21B67238162180072E5C6 /* Arial.ttf.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf.eot; sourceTree = "<group>"; };
@@ -666,6 +668,7 @@
 		08A64F0223706B7300932286 = {
 			isa = PBXGroup;
 			children = (
+				082C930F239E3AE800DB5754 /* callback.js */,
 				08A64F0D23706B7300932286 /* MyApp */,
 				08A64F0C23706B7300932286 /* Products */,
 			);
@@ -1208,6 +1211,7 @@
 				08A21BEF238162180072E5C6 /* ITA.json in Resources */,
 				08F1E256238160E400DCFF6C /* res_MainGame.js in Resources */,
 				08F1E24B238160E400DCFF6C /* freeGamesRibbon.png in Resources */,
+				082C9310239E3AE800DB5754 /* callback.js in Resources */,
 				08A64F1423706B7300932286 /* Main.storyboard in Resources */,
 				08F1E24E238160E400DCFF6C /* LegendTextStyle.json in Resources */,
 				08F1E25C238160E400DCFF6C /* res_GameArea_atlas_9.png in Resources */,

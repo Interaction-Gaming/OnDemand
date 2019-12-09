@@ -8,7 +8,17 @@
 
                     
 
-             
+           <script src="callback.js"></script>
+           <script>
+               var resourceUrl = "";
+               
+               function updateLibraryPath(path)
+               {
+                   resourceUrl = path;
+                   return "seccuss";
+                   
+               }
+               </script>
     </head>
     <body>
         <script>
@@ -16,7 +26,7 @@
             function mystart()
             
             {
-                var ENV_NOT_WORK = true;
+                var ENV_NOT_WORK = false;
 
                 var queryParams = parseQueryString(location.search);
                 var languageCode = queryParams && queryParams.LanguageCode ? queryParams.LanguageCode : 'ENG';
@@ -133,7 +143,7 @@
                     var username = queryParams && queryParams.username ? queryParams.username : 'neomaster2@ng.com';
                     var password = queryParams && queryParams.password ? queryParams.password : '123456ng';
                     var _playMode = queryParams && queryParams.PlayMode ? queryParams.PlayMode : 'D';
-                    var _csi = queryParams && queryParams.CSI ? queryParams.CSI : 113;
+                    var _csi = queryParams && queryParams.CSI ? queryParams.CSI : 4;
                     var _languageCode = queryParams && queryParams.LanguageCode ? queryParams.LanguageCode : 'ENG';
                     
                     
@@ -174,14 +184,7 @@
                                        return acc;
                                        }, {});
         }
-        var resourceUrl ;
-        
-       window.updateLibraryPath = function(path)
-        {
-            resourceUrl = path;
-            return "seccuss";
-        
-        }
+       
         
             </script>
         <h2> Local HTML </h2>
