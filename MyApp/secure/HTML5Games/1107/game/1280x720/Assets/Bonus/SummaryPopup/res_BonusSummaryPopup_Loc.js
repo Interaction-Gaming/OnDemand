@@ -1,2 +1,0 @@
-var loc = loc || {}; 
- loc.res_BonusSummaryPopup_Loc={BonusSummaryPopup_mc:{PopupContent_mc:{Text_mc:{tf:{w:728.95,h:64,x:-25.95,y:-17.95}},Text1_mc:{tf:{w:728.95,h:64,x:-82.95,y:-16.95}},TextAmountAnim_mc:{tf:{w:441.95,h:124,x:-81.95,y:-22}}}}};

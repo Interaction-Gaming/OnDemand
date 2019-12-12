@@ -1,2 +1,0 @@
-var loc = loc || {}; 
- loc.res_BonusToolbar_Loc={Toolbar_mc:{TotalWins_mc:{TotalWinsAnimContainer_mc:{},TotalWinsAnim_mc:{title_tf:{w:110.6,h:28.55,x:-15.55,y:-91.45},tf:{w:115.05,h:89.35,x:-17.5,y:-79.9}}},Ibtn_mc:{HitArea_mc:{},BG_mc:{}},PlayBtn_mc:{HitArea_mc:{},Text_mc:{TextUp_mc:{tf:{w:126.5,h:57.2,x:39.55,y:-15}},TextOver_mc:{tf:{w:126.5,h:57.2,x:39.55,y:-15}},TextPress_mc:{tf:{w:126.5,h:57.2,x:39.55,y:-15}},TextDisabled_mc:{tf:{w:126.5,h:57.2,x:39.55,y:-15}}},CallToAction_mc:{},BG_mc:{}}}};

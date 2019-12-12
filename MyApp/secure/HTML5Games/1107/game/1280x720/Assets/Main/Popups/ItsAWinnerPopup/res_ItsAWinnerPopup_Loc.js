@@ -1,2 +1,0 @@
-var loc = loc || {}; 
- loc.res_ItsAWinnerPopup_Loc={ItsAWinnerPopup_mc:{PopupContent_mc:{ItsAWinnerStars_mc:{},TextAnim_mc:{tf:{w:383.1,h:74,x:-98,y:-23.35}},TextAnim1_mc:{tf:{w:386.1,h:79.95,x:-40,y:-22.8}},TextAmountAnim_mc:{tf:{w:473.1,h:124,x:-76,y:-6}}}}};

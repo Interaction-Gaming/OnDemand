@@ -1,0 +1,760 @@
+@font-face {
+    font-family: 'grenadier_nfregular';
+    src: url('Fonts/grenadiernf-webfont.eot');
+    src: url('Fonts/grenadiernf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/grenadiernf-webfont.woff2') format('woff2'),
+         url('Fonts/grenadiernf-webfont.woff') format('woff'),
+         url('Fonts/grenadiernf-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Game-BG {
+	background: #000000 ; /* Old browsers */
+	background: -moz-linear-gradient(top,  #000000  0%, #2b0d0b 100%)!important;  /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000 ), color-stop(100%,#2b0d0b))!important;  /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #000000  0%,#2b0d0b 100%)!important;  /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #000000  0%,#2b0d0b 100%)!important;  /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #000000  0%,#2b0d0b 100%)!important;  /* IE10+ */
+	background: linear-gradient(to bottom,  #000000  0%,#2b0d0b 100%)!important;  /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000 ', endColorstr='#2b0d0b',GradientType=0 )!important;  /* IE6-9 */
+}
+
+.FullMenu-header-label
+{
+	color: #7c7c7c;
+}
+
+.Bet-selector-win-up-to
+{
+	color: #ebb453 !important;
+}
+
+.Carousel-selectedValue 
+{
+    color: #ebb453 !important;
+}
+
+.GameSettings-TotalCostValue
+{
+	color: #ebb453;
+}
+
+.Game-settings-menu {
+	padding-top: 30px;
+}
+
+.settings-menu-subtitle {
+	color: #373329;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 2px;
+    text-align: center;
+}
+
+.Panel 
+{
+	background: transparent;
+}
+
+.noPointerEvents
+{
+	pointer-events: none;
+}
+
+.InstructionsPopupTriangle:before {
+  left: 119px;
+}
+
+.InstructionsPopupTriangle:after {
+  left: 119px;
+}
+
+.Cashier {
+	color: #c8a04c;
+	font-size: 24px;
+}
+
+.Autoplay-Text
+{
+	color: #c8a04c;
+	font-size: 24px;
+}
+
+.Cashier:disabled, .Cashier[disabled] {
+	color: #474747;
+	font-size: 24px;
+}
+
+.Autoplay-Text:disabled, .Autoplay-Text[disabled] 
+{
+	color: #474747;
+	font-size: 24px;
+}
+
+.Autoplay-Numbers 
+{
+	color: #474747;
+	font-size: 24px;
+}
+
+.SplashDoNotShowAgain
+{
+	color: #ffffff;
+	font-size: 30px;
+}
+
+.panelLabelsTitles  
+{
+	color:#311f12;
+	font-size: 20px;
+	/**font-family: 'grenadier_nfregular';**/
+	text-shadow: -0px -0px 1px #f0c18a, -0px +0px 1px #f0c18a, +0px -0px 1px #f0c18a, +0px +0px 1px #f0c18a;
+	-moz-text-shadow: -0px -0px 1px #f0c18a, -0px +0px 1px #f0c18a, +0px -0px 1px #f0c18a, +0px +0px 1px #f0c18a;
+	-webkit-text-shadow: -0px -0px 1px #f0c18a, -0px +0px 1px #f0c18a, +0px -0px 1px #f0c18a, +0px +0px 1px #f0c18a;
+}
+
+.panelLabelsTitlesDark 
+{
+	color:#282828;
+	font-size: 20px;
+	font-family: 'grenadier_nfregular';
+}
+
+.panelLabelsValues 
+{
+	font-family: 'Open Sans', sans-serif;
+	color:#a0f6f5;
+	font-size: 18px;
+}
+
+.panelLabelsValuesDark
+{
+	font-family: 'Open Sans', sans-serif;
+	color:#282828 !important;
+    font-size: 18px;
+}
+
+.legendTitles
+{
+	/**font-family: 'grenadier_nfregular';**/
+	font-family: 'Open Sans', sans-serif;
+	color: #a0f6f5;
+	font-size: 18px;
+}
+
+.legendGlow
+{
+	text-shadow: -2px -2px 2px #63aab0, -2px +2px 2px #63aab0, +2px -2px 2px #63aab0, +2px +2px 2px #63aab0;
+	-moz-text-shadow: -2px -2px 2px #63aab0, -2px +2px 2px #63aab0, +2px -2px 2px #63aab0, +2px +2px 2px #63aab0;
+	-webkit-text-shadow: -2px -2px 2px #63aab0, -2px +2px 2px #63aab0, +2px -2px 2px #63aab0, +2px +2px 2px #63aab0;
+}
+
+.legendTitlesWin
+{
+	/**font-family: 'grenadier_nfregular';**/
+	color: #ffffca;
+	font-size: 21px;
+}
+
+.prize 
+{
+	color:#c8ad81;
+	font-size: 20px;
+/**	font-family: 'Lady Ice Regular';**/
+}
+
+.winTitle 
+{
+	font-family: 'Open Sans', sans-serif;
+	color:#53fdff;
+	font-size: 23px;
+}
+
+.winTitleWin
+{
+	font-family: 'Open Sans', sans-serif;
+	color:#a6fffe;
+	font-size: 23px;
+
+	text-shadow: -2px -2px 5px #63aab0, -2px +2px 5px #63aab0, +2px -2px 5px #63aab0, +2px +2px 5px #63aab0;
+	-moz-text-shadow: -2px -2px 5px #63aab0, -2px +2px 5px #63aab0, +2px -2px 5px #63aab0, +2px +2px 5px #63aab0;
+	-webkit-text-shadow: -2px -2px 5px #63aab0, -2px +2px 5px #63aab0, +2px -2px 5px #63aab0, +2px +2px 5px #63aab0;
+}
+
+.CardId 
+{
+	color: #7b524e;
+	font-size: 16px;
+	white-space: nowrap;
+}
+
+.Play-Button 
+{
+	color:#23322f;
+	font-size: 40px;
+	/**font-family: 'grenadier_nfregular';**/
+	text-shadow: -1px -1px 2px #d9d7d1, -1px +1px 2px #d9d7d1, +1px -1px 2px #d9d7d1, +1px +1px 2px #d9d7d1;
+	-moz-text-shadow: -1px -1px 2px #d9d7d1, -1px +1px 2px #d9d7d1, +1px -1px 2px #d9d7d1, +1px +1px 2px #d9d7d1;
+	-webkit-text-shadow: -1px -1px 2px #d9d7d1, -1px +1px 2px #d9d7d1, +1px -1px 2px #d9d7d1, +1px +1px 2px #d9d7d1;
+}
+
+.Play-Button[disabled]
+{
+	color:#38403f;
+	font-size: 40px;
+	/**font-family: 'grenadier_nfregular';**/
+}
+
+.Play-Button-disabled
+{
+	color:#38403f;
+	font-size: 40px;
+	/**font-family: 'grenadier_nfregular';**/
+}
+
+/** It's a winner popup **/
+.itsAwinnerPopupTitle
+{
+	color:#FFDFA3;
+	font-size:36px;
+}
+
+.itsAwinnerPopupAmount
+{
+	font-family: 'Open Sans', sans-serif;
+	color:#E3EDCC;
+	font-size:60px;
+	text-shadow: -2px -2px 6px #C56E60, -2px +2px 6px #C56E60, +2px -2px 6px #C56E60, +2px +2px 6px #C56E60;
+	-moz-text-shadow: -2px -2px 6px #C56E60, -2px +2px 6px #C56E60, +2px -2px 6px #C56E60, +2px +2px 6px #C56E60;
+	-webkit-text-shadow: -2px -2px 6px #C56E60, -2px +2px 6px #C56E60, +2px -2px 6px #C56E60, +2px +2px 6px #C56E60;
+}
+
+.itsAwinnerPopupPanel
+{
+	overflow: visible !important;
+	pointer-events: none;
+}
+
+.infoPopupPanel
+{
+	overflow: visible !important;
+}
+
+.infoPopupTitle
+{
+	color:#cbb783;
+	font-size:53px;
+	/**font-family: 'grenadier_nfregular';**/
+}
+
+.infoPopupSubTitle
+{
+	color:#cbb783;
+	font-size:30px;
+	/**font-family: 'grenadier_nfregular';**/
+}
+
+.infoPopupText
+{
+	color:#cbb783;
+	font-size:17px;
+	/**font-family: 'grenadier_nfregular';**/
+}
+
+.bigWinPopupTitle
+{
+	color:#FFDFA3;
+	font-size:46px;
+	font-family: 'grenadier_nfregular';
+}
+
+.bigWinPopupAmount 
+{
+	color:#322818;
+	font-size:200px;
+	font-weight: bold;
+	color:#1a160f;
+	text-shadow: -0px -0px 1px #a56c06, -0px +0px 1px #e8ba66, +0px -0px 1px #e8ba66, +0px +2px 1px#e8ba66;
+	-moz-text-shadow: -0px -0px 1px #e8ba66, -0px +0px 1px #e8ba66, +0px -0px 1px #e8ba66, +0px +2px 1px#e8ba66;
+	-webkit-text-shadow: -0px -0px 1px #e8ba66, -0px +0px 1px #e8ba66, +0px -0px 1px #e8ba66, +0px +2px 1px#e8ba66;
+}
+
+.bigWinPopupPanel
+{
+	overflow: visible !important;
+	pointer-events: none;
+}
+
+/** Joker Bonus **/
+.jokerBonusPaytableTextOff
+{
+	font-family: 'Open Sans', sans-serif;
+    color: #c19652;
+    font-size: 26px;
+    font-weight: bold;
+
+    text-shadow: -1px -1px 2px#372d21, -1px +1px 2px #372d21, +1px -1px 2px #372d21, +1px +1px 2px #372d21;
+    -moz-text-shadow: -1px -1px 2px#372d21, -1px +1px 2px #372d21, +1px -1px 2px #372d21, +1px +1px 2px #372d21;
+	-webkit-text-shadow: -1px -1px 2px#372d21, -1px +1px 2px #372d21, +1px -1px 2px #372d21, +1px +1px 2px #372d21;
+}
+
+.jokerBonusPaytableTextOffAnim
+{
+	-webkit-animation: paytableTextOffAnimation 0.2s 1 ease-in-out forwards;
+	-moz-animation: paytableTextOffAnimation 0.2s 1 ease-in-out forwards;
+	-o-animation: paytableTextOffAnimation 0.2s 1 ease-in-out forwards;
+}
+
+.jokerBonusPaytableTextOn
+{
+/**	font-family: "BlackChancery Regular";**/
+	font-family: 'Open Sans', sans-serif;
+    color: #FFDB8B;
+    font-size: 26px;
+    
+    text-shadow: -2px -2px 6px rgba(255, 219, 139, 0.5), -2px +2px 6px rgba(255, 219, 139, 0.47), +2px -2px 6px rgba(255, 219, 139, 0.49), +2px +2px 6px rgba(255, 219, 139, 0.52);
+    -moz-text-shadow: -2px -2px 6px rgba(255, 219, 139, 0.5), -2px +2px 6px rgba(255, 219, 139, 0.47), +2px -2px 6px rgba(255, 219, 139, 0.49), +2px +2px 6px rgba(255, 219, 139, 0.52);
+	-webkit-text-shadow: -2px -2px 6px rgba(255, 219, 139, 0.5), -2px +2px 6px rgba(255, 219, 139, 0.47), +2px -2px 6px rgba(255, 219, 139, 0.49), +2px +2px 6px rgba(255, 219, 139, 0.52);
+
+	-webkit-animation: paytableTextOnAnimation 0.2s 1 ease-in-out forwards;
+	-moz-animation: paytableTextOnAnimation 0.2s 1 ease-in-out forwards;
+	-o-animation: paytableTextOnAnimation 0.2s 1 ease-in-out forwards;
+}
+
+.jokerBonusWinTitleWin
+{
+	font-family: 'Open Sans', sans-serif;
+	color:#a6fffe;
+	font-size: 30px;
+
+	text-shadow: -2px -2px 5px #63aab0, -2px +2px 5px #63aab0, +2px -2px 5px #63aab0, +2px +2px 5px #63aab0;
+	-moz-text-shadow: -2px -2px 5px #63aab0, -2px +2px 5px #63aab0, +2px -2px 5px #63aab0, +2px +2px 5px #63aab0;
+	-webkit-text-shadow: -2px -2px 5px #63aab0, -2px +2px 5px #63aab0, +2px -2px 5px #63aab0, +2px +2px 5px #63aab0;
+}
+
+.bonusPopupText
+{
+	color:#d6b363;
+	font-size:19px;
+/**	font-family: "Bauhaus Std Light";**/
+}
+
+.jokerBonusPopupButton
+{
+	color:#30291f;
+	font-size:45px;
+	font-family: 'grenadier_nfregular';
+
+	-moz-transform: rotate(-2.91deg);
+    -ms-transform: rotate(-2.91deg);
+    -webkit-transform: rotate(-2.91deg);
+
+	text-shadow: -2px -2px #c5a950, -2px +2px #c5a950, +2px -2px #c5a950, +2px +2px #c5a950;
+	-moz-text-shadow: -2px -2px #c5a950, -2px +2px #c5a950, +2px -2px #c5a950, +2px +2px #c5a950;
+	-webkit-text-shadow: -2px -2px #c5a950, -2px +2px #c5a950, +2px -2px #c5a950, +2px +2px #c5a950;
+	
+	pointer-events: all;
+}
+
+.warBonusPopupButton
+{
+	color:#30291f;
+	font-size:26px;
+	font-family: 'grenadier_nfregular';
+
+	text-shadow: -1px -1px 1px #c5a950, -1px +1px 1px #c5a950, +1px -1px 1px #c5a950, +1px +1px 1px#c5a950;
+	-moz-text-shadow: -1px -1px 1px #c5a950, -1px +1px 1px #c5a950, +1px -1px 1px #c5a950, +1px +1px 1px#c5a950;
+	-webkit-text-shadow: -1px -1px 1px #c5a950, -1px +1px 1px #c5a950, +1px -1px 1px #c5a950, +1px +1px 1px#c5a950;
+	
+	pointer-events: all;
+}
+
+.warBonusTotalWins
+{
+	font-family: 'Open Sans', sans-serif;
+    color: #A0F6F5;
+    font-size: 25px;
+}
+
+.warBonusRoundPrize
+{
+	font-family: 'Open Sans', sans-serif;
+    color: #A0F6F5;
+    font-size: 25px;
+}
+
+.warBonusRoundsLeft
+{
+	font-family: 'Open Sans', sans-serif;
+   	color: #A0F6F5;
+    font-size: 18px;
+}
+
+.bonusPopupSummaryText
+{
+	color:#d6b363;
+	font-size:26px;
+/**	font-family: "Bauhaus Std Light";**/
+}
+
+.jokerBonusPopupAmount
+{
+	font-family: 'grenadier_nfregular';
+	color:#fbee9b;
+	font-size:58px;
+
+	-moz-transform: rotate(-2.91deg);
+    -ms-transform: rotate(-2.91deg);
+    -webkit-transform: rotate(-2.91deg);
+}
+
+.warBonusPopupAmount
+{
+	font-family: 'grenadier_nfregular';
+	color:#fbee9b;
+	font-size:58px;
+}
+
+.bonusPopupFadeIn
+{
+	-webkit-animation: bonusPopupFadeInAnimation 0.8s;
+	-moz-animation: bonusPopupFadeInAnimation 0.8s;
+	-o-animation: bonusPopupFadeInAnimation 0.8s;
+}
+
+.bonusFadePanel
+{
+	background: #000000;
+	pointer-events: none;
+}
+
+.bonusFadePanelFadeIn
+{
+	-webkit-animation: bonusBlackPanelFadeInAnimation 0.6s;
+	-moz-animation: bonusBlackPanelFadeInAnimation 0.6s;
+	-o-animation: bonusBlackPanelFadeInAnimation 0.6s;
+}
+
+.bonusFadePanelFadeOut
+{
+	-webkit-animation: bonusBlackPanelFadeOutAnimation 1s forwards;
+	-moz-animation: bonusBlackPanelFadeOutAnimation 1s forwards;
+	-o-animation: bonusBlackPanelFadeOutAnimation 1s forwards;
+}
+
+.tooltipFadeIn
+{
+	-webkit-animation: bonusPopupFadeInAnimation 0.5s forwards;
+	-moz-animation: bonusPopupFadeInAnimation 0.5s forwards;
+	-o-animation: bonusPopupFadeInAnimation 0.5s forwards;
+}
+
+.bonusPopupDark
+{
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.bonusPopupFadeOut
+{
+	-webkit-animation: bonusPopupFadeOutAnimation 0.8s;
+	-moz-animation: bonusPopupFadeOutAnimation 0.8s;
+	-o-animation: bonusPopupFadeOutAnimation 0.8s;
+}
+
+/** splash fade out animation **/
+
+.splashFadeOutAnimation 
+{
+	animation: fadeOutAnimation 1s ease-out forwards;
+	-moz-animation: fadeOutAnimation 1s ease-out forwards;
+	-webkit-animation: fadeOutAnimation 1s ease-out forwards;
+}
+
+.swashOut 
+{
+	-webkit-animation: swashOut 0.5s forwards;
+	-moz-animation: swashOut 0.5s forwards;
+	-o-animation: swashOut 0.5s forwards;
+}
+
+.swashIn 
+{
+  	animation: swashInAnimation 0.5s forwards;
+	-moz-animation: swashInAnimation 0.5s forwards;
+	-webkit-animation: swashInAnimation 0.5s forwards;
+}
+
+@-webkit-keyframes fadeOutAnimation 
+{
+	0% {
+		opacity: 1.0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fadeOutAnimation 
+{
+	0% {
+		opacity: 1.0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+/** paytable Text On **/
+
+/** paytable Text On **/
+
+@-webkit-keyframes paytableTextOnAnimation 
+{
+	from { -webkit-transform: scale(0.75); }
+	to { -webkit-transform: scale(1); }
+}
+
+@-moz-keyframes paytableTextOnAnimation 
+{
+	from { -moz-transform: scale(0.75); }
+	to { -moz-transform: scale(1); }
+}
+
+@-o-keyframes paytableTextOnAnimation 
+{
+	from { -o-transform: scale(0.75); }
+	to { -o-transform: scale(1); }
+}
+
+@keyframes paytableTextOnAnimation 
+{
+	from { transform: scale(0.75); }
+	to { transform: scale(1); }
+}
+
+/** paytable Text Off **/
+
+@-webkit-keyframes paytableTextOffAnimation 
+{
+	from { -webkit-transform: scale(1.2); }
+	to { -webkit-transform: scale(1); }
+}
+
+@-moz-keyframes paytableTextOffAnimation 
+{
+	from { -moz-transform: scale(1.2); }
+	to { -moz-transform: scale(1); }
+}
+
+@-o-keyframes paytableTextOffAnimation 
+{
+	from { -o-transform: scale(1.2); }
+	to { -o-transform: scale(1); }
+}
+
+@keyframes paytableTextOffAnimation 
+{
+	from { transform: scale(1.2); }
+	to { transform: scale(1); }
+}
+
+/*** Bonus black panel fade in **/
+
+@-webkit-keyframes bonusBlackPanelFadeInAnimation
+{
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@-moz-keyframes bonusBlackPanelFadeInAnimation 
+{
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@-o-keyframes bonusBlackPanelFadeInAnimation 
+{
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+/*** Bonus black panel fade in **/
+
+@-webkit-keyframes bonusBlackPanelFadeOutAnimation
+{
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+
+@-moz-keyframes bonusBlackPanelFadeOutAnimation 
+{
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+
+@-o-keyframes bonusBlackPanelFadeOutAnimation 
+{
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+
+/** bonus Popup Fade In **/
+
+@-webkit-keyframes bonusPopupFadeInAnimation 
+{
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@-moz-keyframes bonusPopupFadeInAnimation 
+{
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@-o-keyframes bonusPopupFadeInAnimation 
+{
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+/** bonus Popup Fade Out **/
+
+@-webkit-keyframes bonusPopupFadeOutAnimation 
+{
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+
+@-moz-keyframes bonusPopupFadeOutAnimation 
+{
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+
+@-o-keyframes bonusPopupFadeOutAnimation 
+{
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+
+@-webkit-keyframes swashOut {
+  0% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1);
+  }
+
+  80% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(0.9, 0.9);
+  }
+
+  100% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(0, 0);
+  }
+}
+
+@-moz-keyframes swashOut {
+  0% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1);
+  }
+
+  80% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(0.9, 0.9);
+  }
+
+  100% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(0, 0);
+  }
+}
+
+@-o-keyframes swashOut {
+  0% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1);
+  }
+
+  80% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(0.9, 0.9);
+  }
+
+  100% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(0, 0);
+  }
+}
+
+@-webkit-keyframes swashInAnimation {
+  0% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(0, 0);
+  }
+
+  90% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(0.9, 0.9);
+  }
+
+  100% {
+  	opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1);
+  }
+}
+
+@-moz-keyframes swashInAnimation {
+  0% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(0, 0);
+  }
+
+  90% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(0.9, 0.9);
+  }
+
+  100% {
+  	opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1);
+  }
+}
+
+@-o-keyframes swashInAnimation {
+  0% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(0, 0);
+  }
+
+  90% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(0.9, 0.9);
+  }
+
+  100% {
+  	opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1);
+  }
+}

@@ -6,7 +6,13 @@
          contextName = "ViewController.webViewDidFinishLoad(_:):ViewController.swift">
          <PersistentStrings>
             <PersistentString
+               value = "gameID">
+            </PersistentString>
+            <PersistentString
                value = "data">
+            </PersistentString>
+            <PersistentString
+               value = "gameType">
             </PersistentString>
             <PersistentString
                value = "myWebView">
@@ -14,7 +20,37 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "MainViewController.copyFolderToLibrary(_:):MainViewController.swift">
+      </ContextState>
+      <ContextState
          contextName = "closure #1 in ViewController.getResource():ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ViewController.viewDidAppear(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "request">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ViewController.accessResources():ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.loadView():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "gameId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.viewDidAppear(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "request">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
    </ContextStates>
 </VariablesViewState>

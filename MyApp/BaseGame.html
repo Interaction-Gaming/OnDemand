@@ -8,7 +8,7 @@
 
                     
 
-           <script src="callback.js"></script>
+           <script src="./callback.js"></script>
            <script>
                var resourceUrl = "";
                
@@ -23,16 +23,20 @@
     <body>
         <script>
             var myConsoleLog = console.log;
-            function mystart()
+            function startGame(gid, gameType)
             
             {
+                if(gameType === "")
+                {
+                    gameType = null
+                }
                 var ENV_NOT_WORK = false;
 
                 var queryParams = parseQueryString(location.search);
                 var languageCode = queryParams && queryParams.LanguageCode ? queryParams.LanguageCode : 'ENG';
                 window.EnvData = {
                     "BAL":50,
-                    "BBR":1,
+                    "BBR":0,
                     "BD":"https:\/\/Info.qa.michiganlottery.com",
                     "BDN":"michiganlottery.com",
                     "BN":"Michigan Lottery",
@@ -84,7 +88,7 @@
                     "BETD": "0.25,0.50,1.00,2.00,5.00,10.00,20.00",
                     "BType": 220,
                     "DEFD": 0.5,
-                    "GID": 1121,
+                    "GID": gid,
                     "GMN": "King",
                     "GMT": "XOX",
                     "ISDR": 0,
@@ -100,13 +104,13 @@
                 };
                 
             
-                var ngtGID = queryParams && queryParams.GameID ? queryParams.GameID : '1121';
+            var ngtGID = gid;
                 var ngtENV = 'M';//queryParams && queryParams.env ? queryParams.env : 'W';
                 
             
                 
                 window.GameData = GameDataSet;
-                window.GameData.GMTCH = 'H_PIXI';
+                window.GameData.GMTCH = gameType;
                 window.gameConfiguration = gameConfig[ngtENV];
                 window.initialParams = {
                     brandId: '113',
@@ -124,7 +128,14 @@
                 
                 var game = document.createElement('script');
                 game.type = 'application/javascript';
-                game.src = './HTML5ScriptsLauncher.js';
+                if(gameType === 'H_PIXI')
+                {
+                     game.src = './PixiHTML5ScriptsLauncher.js';
+                }
+                else{
+                    game.src = './GWTHTML5ScriptsLauncher.js';
+                }
+                
                 
                 var secureURL = 'https://qa.gameserver1-mt.com/scratchcards/sapi.aspx';
                 
@@ -187,10 +198,13 @@
        
         
             </script>
-        <h2> Local HTML </h2>
+      
+      <!-- <h2> Local HTML </h2>
         
-        <a href="javascript:window.mystart();"> Click Here </a>
-   
+        <a href="javascript:window.startGame('1121', 'H_PIXI');"> Game 1121 </a>
+        <p/>
+        <a href="javascript:window.startGame('431', null);"> Game 431 </a>
+   -->
     </body>
     
 </html>

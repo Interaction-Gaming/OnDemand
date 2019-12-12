@@ -11,93 +11,151 @@
 		08057AE923741FE10086DED6 /* initial.js in Resources */ = {isa = PBXBuildFile; fileRef = 08057AE823741FE10086DED6 /* initial.js */; };
 		0824296523856D0F00A64860 /* LoadImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0824296423856D0F00A64860 /* LoadImage.png */; };
 		082C9310239E3AE800DB5754 /* callback.js in Resources */ = {isa = PBXBuildFile; fileRef = 082C930F239E3AE800DB5754 /* callback.js */; };
-		08A21BC4238162180072E5C6 /* Arial.ttf.woff in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B60238162180072E5C6 /* Arial.ttf.woff */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BC5238162180072E5C6 /* web.config in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B66238162180072E5C6 /* web.config */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BC6238162180072E5C6 /* Arial.ttf.eot in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B67238162180072E5C6 /* Arial.ttf.eot */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BC7238162180072E5C6 /* common.css in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B68238162180072E5C6 /* common.css */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BC8238162180072E5C6 /* Arial.ttf.svg in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B69238162180072E5C6 /* Arial.ttf.svg */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BC9238162180072E5C6 /* arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B6A238162180072E5C6 /* arial.ttf */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BCA238162180072E5C6 /* selftest.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B6D238162180072E5C6 /* selftest.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BCB238162180072E5C6 /* playlimit.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B6E238162180072E5C6 /* playlimit.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BCC238162180072E5C6 /* pausegame.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B6F238162180072E5C6 /* pausegame.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BCD238162180072E5C6 /* backButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B70238162180072E5C6 /* backButtonImage.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BCE238162180072E5C6 /* onButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B71238162180072E5C6 /* onButton.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BCF238162180072E5C6 /* gamesTopBarBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B72238162180072E5C6 /* gamesTopBarBG.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BD0238162180072E5C6 /* ScrollUpPanelHand.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B73238162180072E5C6 /* ScrollUpPanelHand.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BD1238162180072E5C6 /* rightButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B74238162180072E5C6 /* rightButton.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BD2238162180072E5C6 /* soundButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B75238162180072E5C6 /* soundButtonImage.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BD3238162180072E5C6 /* ShortImg_iOS6.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B76238162180072E5C6 /* ShortImg_iOS6.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BD4238162180072E5C6 /* infoButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B77238162180072E5C6 /* infoButtonImage.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BD5238162180072E5C6 /* ShortImg_iOS7.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B78238162180072E5C6 /* ShortImg_iOS7.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BD6238162180072E5C6 /* ScrollUpPanelArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B79238162180072E5C6 /* ScrollUpPanelArrow.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BD7238162180072E5C6 /* leftButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B7A238162180072E5C6 /* leftButton.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BD8238162180072E5C6 /* autoPlayExtendedDisabledCheckBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B7C238162180072E5C6 /* autoPlayExtendedDisabledCheckBox.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BD9238162180072E5C6 /* autoPlayExtendedSelectedCheckBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B7D238162180072E5C6 /* autoPlayExtendedSelectedCheckBox.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BDA238162180072E5C6 /* autoplayExtendedHorz.xml in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B7E238162180072E5C6 /* autoplayExtendedHorz.xml */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BDB238162180072E5C6 /* autoPlayExtendedBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B7F238162180072E5C6 /* autoPlayExtendedBox.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BDC238162180072E5C6 /* autoPlayExtendedDisabledUncheckedCheckBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B80238162180072E5C6 /* autoPlayExtendedDisabledUncheckedCheckBox.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BDD238162180072E5C6 /* autoPlayExtendedButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B81238162180072E5C6 /* autoPlayExtendedButton.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BDE238162180072E5C6 /* autoPlayExtendedUnSelectedCheckBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B82238162180072E5C6 /* autoPlayExtendedUnSelectedCheckBox.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BDF238162180072E5C6 /* locations.xml in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B83238162180072E5C6 /* locations.xml */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BE0238162180072E5C6 /* pBar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B84238162180072E5C6 /* pBar.gif */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BE1238162180072E5C6 /* nextBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B85238162180072E5C6 /* nextBtn.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BE2238162180072E5C6 /* helpButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B86238162180072E5C6 /* helpButtonImage.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BE3238162180072E5C6 /* carouselBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B87238162180072E5C6 /* carouselBack.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BE4238162180072E5C6 /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B88238162180072E5C6 /* test.xml */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BE5238162180072E5C6 /* SWE.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B8A238162180072E5C6 /* SWE.json */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BE6238162180072E5C6 /* LIT.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B8B238162180072E5C6 /* LIT.json */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BE7238162180072E5C6 /* POR.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B8C238162180072E5C6 /* POR.json */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BE8238162180072E5C6 /* GER.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B8D238162180072E5C6 /* GER.json */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BE9238162180072E5C6 /* BUL.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B8E238162180072E5C6 /* BUL.json */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BEA238162180072E5C6 /* DAN.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B8F238162180072E5C6 /* DAN.json */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BEB238162180072E5C6 /* NOR.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B90238162180072E5C6 /* NOR.json */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BEC238162180072E5C6 /* ENU.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B91238162180072E5C6 /* ENU.json */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BED238162180072E5C6 /* FIN.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B92238162180072E5C6 /* FIN.json */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BEE238162180072E5C6 /* CZE.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B93238162180072E5C6 /* CZE.json */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BEF238162180072E5C6 /* ITA.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B94238162180072E5C6 /* ITA.json */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BF0238162180072E5C6 /* ENG.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B95238162180072E5C6 /* ENG.json */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BF1238162180072E5C6 /* autoPlayWebPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B97238162180072E5C6 /* autoPlayWebPlay.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BF2238162180072E5C6 /* tooltip.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B98238162180072E5C6 /* tooltip.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BF3238162180072E5C6 /* autoPlayWebOpenPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B99238162180072E5C6 /* autoPlayWebOpenPlay.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BF4238162180072E5C6 /* autoplayWebPanelBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B9A238162180072E5C6 /* autoplayWebPanelBg.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BF5238162180072E5C6 /* autoPlayWebPause.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B9B238162180072E5C6 /* autoPlayWebPause.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BF6238162180072E5C6 /* autoPlayWebMinus.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B9C238162180072E5C6 /* autoPlayWebMinus.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BF7238162180072E5C6 /* autoPlayWebClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B9D238162180072E5C6 /* autoPlayWebClose.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BF8238162180072E5C6 /* autoPlayWebPlus.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21B9E238162180072E5C6 /* autoPlayWebPlus.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BF9238162180072E5C6 /* Settings_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BA0238162180072E5C6 /* Settings_Btn.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BFA238162180072E5C6 /* Info_Btn_Active.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BA1238162180072E5C6 /* Info_Btn_Active.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BFB238162180072E5C6 /* sound-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BA2238162180072E5C6 /* sound-off.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BFC238162180072E5C6 /* hamburger_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BA3238162180072E5C6 /* hamburger_btn.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BFD238162180072E5C6 /* TOOLBAR-SOUND-LOADING-stroke.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BA4238162180072E5C6 /* TOOLBAR-SOUND-LOADING-stroke.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BFE238162180072E5C6 /* SoundLoading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BA5238162180072E5C6 /* SoundLoading.gif */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21BFF238162180072E5C6 /* sound-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BA6238162180072E5C6 /* sound-on.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C00238162180072E5C6 /* Info_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BA7238162180072E5C6 /* Info_Btn.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C01238162180072E5C6 /* Home_Btn_Active.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BA8238162180072E5C6 /* Home_Btn_Active.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C02238162180072E5C6 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BA9238162180072E5C6 /* RobotoCondensed-Regular.ttf */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C03238162180072E5C6 /* Home_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BAA238162180072E5C6 /* Home_Btn.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C04238162180072E5C6 /* menuStyle.css in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BAB238162180072E5C6 /* menuStyle.css */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C05238162180072E5C6 /* hamburger-btn-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BAC238162180072E5C6 /* hamburger-btn-inactive.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C06238162180072E5C6 /* Settings_Btn_Active.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BAD238162180072E5C6 /* Settings_Btn_Active.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C07238162180072E5C6 /* CT.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BAE238162180072E5C6 /* CT.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C08238162180072E5C6 /* orientation.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BAF238162180072E5C6 /* orientation.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C09238162180072E5C6 /* spinner.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BB0238162180072E5C6 /* spinner.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C0A238162180072E5C6 /* gamesTopBarCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BB1238162180072E5C6 /* gamesTopBarCenter.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C0B238162180072E5C6 /* settingsButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BB2238162180072E5C6 /* settingsButtonImage.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C0C238162180072E5C6 /* cheatToolButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BB3238162180072E5C6 /* cheatToolButtonImage.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C0D238162180072E5C6 /* offButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BB4238162180072E5C6 /* offButton.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C0E238162180072E5C6 /* orientationExternalGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BB5238162180072E5C6 /* orientationExternalGame.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C0F238162180072E5C6 /* SogeyExit.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BB7238162180072E5C6 /* SogeyExit.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C10238162180072E5C6 /* Sound_Off.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BB8238162180072E5C6 /* Sound_Off.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C11238162180072E5C6 /* Sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BB9238162180072E5C6 /* Sound.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C12238162180072E5C6 /* SogeyDepositToGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BBA238162180072E5C6 /* SogeyDepositToGame.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C13238162180072E5C6 /* Help.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BBB238162180072E5C6 /* Help.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C14238162180072E5C6 /* SogeyDepositApproval.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BBC238162180072E5C6 /* SogeyDepositApproval.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C15238162180072E5C6 /* Separator.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BBD238162180072E5C6 /* Separator.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C16238162180072E5C6 /* X_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BBE238162180072E5C6 /* X_Button.png */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C17238162180072E5C6 /* FRABK.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BC0238162180072E5C6 /* FRABK.TTF */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C18238162180072E5C6 /* verdanab.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BC1238162180072E5C6 /* verdanab.ttf */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C19238162180072E5C6 /* impact_F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BC2238162180072E5C6 /* impact_F.ttf */; settings = {ASSET_TAGS = (1121, ); }; };
-		08A21C1A238162180072E5C6 /* coreFonts.css in Resources */ = {isa = PBXBuildFile; fileRef = 08A21BC3238162180072E5C6 /* coreFonts.css */; settings = {ASSET_TAGS = (1121, ); }; };
+		082C93BF239F707D00DB5754 /* WarBonusbattleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C931D239F707D00DB5754 /* WarBonusbattleButton.png */; };
+		082C93C0239F707D00DB5754 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C931E239F707D00DB5754 /* info.png */; };
+		082C93C1239F707D00DB5754 /* AutoStop.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C931F239F707D00DB5754 /* AutoStop.png */; };
+		082C93C2239F707D00DB5754 /* i_btn_joker_bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9320239F707D00DB5754 /* i_btn_joker_bonus.png */; };
+		082C93C3239F707D00DB5754 /* Lobby.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9321239F707D00DB5754 /* Lobby.png */; };
+		082C93C4239F707D00DB5754 /* Info_Content_Joker.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9322239F707D00DB5754 /* Info_Content_Joker.png */; };
+		082C93C5239F707D00DB5754 /* LoadImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9324239F707D00DB5754 /* LoadImage.png */; };
+		082C93C6239F707D00DB5754 /* Joker_Coin.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9325239F707D00DB5754 /* Joker_Coin.xml */; };
+		082C93C7239F707D00DB5754 /* Cards_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9326239F707D00DB5754 /* Cards_01.png */; };
+		082C93C8239F707D00DB5754 /* Joker_Coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9327239F707D00DB5754 /* Joker_Coin.png */; };
+		082C93C9239F707D00DB5754 /* Cards_01.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9328239F707D00DB5754 /* Cards_01.xml */; };
+		082C93CA239F707D00DB5754 /* LoadImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9329239F707D00DB5754 /* LoadImage.png */; settings = {ASSET_TAGS = (431, ); }; };
+		082C93CB239F707D00DB5754 /* Joker_Bonus_Win_Frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C932A239F707D00DB5754 /* Joker_Bonus_Win_Frame.png */; };
+		082C93CC239F707D00DB5754 /* Joker_Bonus_Win_Frame.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C932B239F707D00DB5754 /* Joker_Bonus_Win_Frame.xml */; };
+		082C93CD239F707D00DB5754 /* Joker_Win.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C932C239F707D00DB5754 /* Joker_Win.png */; };
+		082C93CE239F707D00DB5754 /* Joker_legend.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C932D239F707D00DB5754 /* Joker_legend.png */; };
+		082C93CF239F707D00DB5754 /* warSummeryPopUpText.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C932E239F707D00DB5754 /* warSummeryPopUpText.png */; };
+		082C93D0239F707D00DB5754 /* Queen_Card_Win.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C932F239F707D00DB5754 /* Queen_Card_Win.xml */; };
+		082C93D1239F707D00DB5754 /* Joker_legend.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9330239F707D00DB5754 /* Joker_legend.xml */; };
+		082C93D2239F707D00DB5754 /* Queen_Card_Win.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9331239F707D00DB5754 /* Queen_Card_Win.png */; };
+		082C93D3239F707D00DB5754 /* warBonusRedFront1.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9332239F707D00DB5754 /* warBonusRedFront1.xml */; };
+		082C93D4239F707D00DB5754 /* jokerSummeryPopUpText.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9333239F707D00DB5754 /* jokerSummeryPopUpText.png */; };
+		082C93D5239F707D00DB5754 /* warBonusRedFront1.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9334239F707D00DB5754 /* warBonusRedFront1.png */; };
+		082C93D6239F707D00DB5754 /* warPopupText.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9335239F707D00DB5754 /* warPopupText.png */; };
+		082C93D7239F707D00DB5754 /* warBonusblueAll.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9336239F707D00DB5754 /* warBonusblueAll.xml */; };
+		082C93D8239F707D00DB5754 /* warBonusblueAll.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9337239F707D00DB5754 /* warBonusblueAll.png */; };
+		082C93D9239F707D00DB5754 /* gameSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 082C9338239F707D00DB5754 /* gameSound.mp3 */; };
+		082C93DA239F707D00DB5754 /* Continue_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9339239F707D00DB5754 /* Continue_Btn.png */; };
+		082C93DB239F707D00DB5754 /* winDiamond.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C933A239F707D00DB5754 /* winDiamond.png */; };
+		082C93DC239F707D00DB5754 /* War_Popup_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C933B239F707D00DB5754 /* War_Popup_Btn.png */; };
+		082C93DD239F707D00DB5754 /* winDiamond.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C933C239F707D00DB5754 /* winDiamond.xml */; };
+		082C93DE239F707D00DB5754 /* Big_Win_Amount.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C933D239F707D00DB5754 /* Big_Win_Amount.png */; };
+		082C93DF239F707D00DB5754 /* Legend_Prize.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C933E239F707D00DB5754 /* Legend_Prize.xml */; };
+		082C93E0239F707D00DB5754 /* warBonusFlag.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C933F239F707D00DB5754 /* warBonusFlag.xml */; };
+		082C93E1239F707D00DB5754 /* Legend_Prize.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9340239F707D00DB5754 /* Legend_Prize.png */; };
+		082C93E2239F707D00DB5754 /* warBonusFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9341239F707D00DB5754 /* warBonusFlag.png */; };
+		082C93E3239F707D00DB5754 /* War_legend.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9342239F707D00DB5754 /* War_legend.xml */; };
+		082C93E4239F707D00DB5754 /* War_legend.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9343239F707D00DB5754 /* War_legend.png */; };
+		082C93E5239F707D00DB5754 /* jokePopupText2.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9344239F707D00DB5754 /* jokePopupText2.png */; };
+		082C93E6239F707D00DB5754 /* Logo_Alltime.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9345239F707D00DB5754 /* Logo_Alltime.png */; };
+		082C93E7239F707D00DB5754 /* Win_Frame.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9346239F707D00DB5754 /* Win_Frame.xml */; };
+		082C93E8239F707D00DB5754 /* cashier.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9347239F707D00DB5754 /* cashier.png */; };
+		082C93E9239F707D00DB5754 /* Win_Frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9348239F707D00DB5754 /* Win_Frame.png */; };
+		082C93EA239F707D00DB5754 /* Logo_Alltime.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9349239F707D00DB5754 /* Logo_Alltime.xml */; };
+		082C93EB239F707D00DB5754 /* locations.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C934A239F707D00DB5754 /* locations.xml */; };
+		082C93EC239F707D00DB5754 /* bg_Horz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 082C934B239F707D00DB5754 /* bg_Horz.jpg */; };
+		082C93ED239F707D00DB5754 /* Dont_Show_Marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C934C239F707D00DB5754 /* Dont_Show_Marker.png */; };
+		082C93EE239F707D00DB5754 /* ItsAwinner.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C934D239F707D00DB5754 /* ItsAwinner.png */; };
+		082C93EF239F707D00DB5754 /* battleBtnAnim.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C934E239F707D00DB5754 /* battleBtnAnim.xml */; };
+		082C93F0239F707D00DB5754 /* WarBonusBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 082C934F239F707D00DB5754 /* WarBonusBg.jpg */; };
+		082C93F1239F707D00DB5754 /* battleBtnAnim.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9350239F707D00DB5754 /* battleBtnAnim.png */; };
+		082C93F2239F707D00DB5754 /* tooltip.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9351239F707D00DB5754 /* tooltip.png */; };
+		082C93F3239F707D00DB5754 /* warBonusswords.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9352239F707D00DB5754 /* warBonusswords.xml */; };
+		082C93F4239F707D00DB5754 /* warBonusswords.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9353239F707D00DB5754 /* warBonusswords.png */; };
+		082C93F5239F707D00DB5754 /* shortcut.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9354239F707D00DB5754 /* shortcut.png */; };
+		082C93F6239F707D00DB5754 /* Gold_Card_Flip.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9356239F707D00DB5754 /* Gold_Card_Flip.png */; };
+		082C93F7239F707D00DB5754 /* Gold_Card_Flip.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9357239F707D00DB5754 /* Gold_Card_Flip.xml */; };
+		082C93F8239F707D00DB5754 /* Joker_Bonus_Card.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9358239F707D00DB5754 /* Joker_Bonus_Card.png */; };
+		082C93F9239F707D00DB5754 /* Joker_Bonus_Card_X.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9359239F707D00DB5754 /* Joker_Bonus_Card_X.xml */; };
+		082C93FA239F707D00DB5754 /* Joker_Bonus_Card_X.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C935A239F707D00DB5754 /* Joker_Bonus_Card_X.png */; };
+		082C93FB239F707D00DB5754 /* Joker_Bonus_Card.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C935B239F707D00DB5754 /* Joker_Bonus_Card.xml */; };
+		082C93FC239F707D00DB5754 /* Queen_Card.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C935C239F707D00DB5754 /* Queen_Card.png */; };
+		082C93FD239F707D00DB5754 /* Queen_Card.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C935D239F707D00DB5754 /* Queen_Card.xml */; };
+		082C93FE239F707D00DB5754 /* Card_Flip.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C935E239F707D00DB5754 /* Card_Flip.png */; };
+		082C93FF239F707D00DB5754 /* Card_Flip.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C935F239F707D00DB5754 /* Card_Flip.xml */; };
+		082C9400239F707D00DB5754 /* reveal_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9360239F707D00DB5754 /* reveal_btn.png */; };
+		082C9401239F707D00DB5754 /* Joker_Card.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9361239F707D00DB5754 /* Joker_Card.png */; };
+		082C9402239F707D00DB5754 /* Joker_Card.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9362239F707D00DB5754 /* Joker_Card.xml */; };
+		082C9403239F707D00DB5754 /* stick.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9363239F707D00DB5754 /* stick.png */; };
+		082C9404239F707D00DB5754 /* Info_X_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9364239F707D00DB5754 /* Info_X_Btn.png */; };
+		082C9405239F707D00DB5754 /* game.css in Resources */ = {isa = PBXBuildFile; fileRef = 082C9365239F707D00DB5754 /* game.css */; };
+		082C9413239F707D00DB5754 /* Dark_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9374239F707D00DB5754 /* Dark_BG.png */; };
+		082C9414239F707D00DB5754 /* XXX.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9375239F707D00DB5754 /* XXX.xml */; };
+		082C9415239F707D00DB5754 /* War_Bonus.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9376239F707D00DB5754 /* War_Bonus.xml */; };
+		082C9416239F707D00DB5754 /* War_Bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9377239F707D00DB5754 /* War_Bonus.png */; };
+		082C9417239F707D00DB5754 /* XXX.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9378239F707D00DB5754 /* XXX.png */; };
+		082C9418239F707D00DB5754 /* MenuLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9379239F707D00DB5754 /* MenuLogo.png */; };
+		082C9419239F707D00DB5754 /* warBonusWinFrameQueen.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C937A239F707D00DB5754 /* warBonusWinFrameQueen.png */; };
+		082C941A239F707D00DB5754 /* ENG_431.json in Resources */ = {isa = PBXBuildFile; fileRef = 082C937D239F707D00DB5754 /* ENG_431.json */; };
+		082C941B239F707D00DB5754 /* ENU_431.json in Resources */ = {isa = PBXBuildFile; fileRef = 082C937E239F707D00DB5754 /* ENU_431.json */; };
+		082C941C239F707D00DB5754 /* ENG_431.json in Resources */ = {isa = PBXBuildFile; fileRef = 082C937F239F707D00DB5754 /* ENG_431.json */; };
+		082C941D239F707D00DB5754 /* ENG_431.json in Resources */ = {isa = PBXBuildFile; fileRef = 082C9381239F707D00DB5754 /* ENG_431.json */; };
+		082C941E239F707D00DB5754 /* Cards.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9382239F707D00DB5754 /* Cards.png */; };
+		082C941F239F707D00DB5754 /* warBonusWinFrameQueen.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9383239F707D00DB5754 /* warBonusWinFrameQueen.xml */; };
+		082C9420239F707D00DB5754 /* Cards.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9384239F707D00DB5754 /* Cards.xml */; };
+		082C9421239F707D00DB5754 /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 082C9385239F707D00DB5754 /* splash.jpg */; };
+		082C9422239F707D00DB5754 /* freeGamesRibbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9386239F707D00DB5754 /* freeGamesRibbon.png */; };
+		082C9423239F707D00DB5754 /* War_Popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9387239F707D00DB5754 /* War_Popup.png */; };
+		082C9424239F707D00DB5754 /* Trumpet_rotate.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9388239F707D00DB5754 /* Trumpet_rotate.png */; };
+		082C9425239F707D00DB5754 /* Info_Content_War.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9389239F707D00DB5754 /* Info_Content_War.png */; };
+		082C9426239F707D00DB5754 /* Trumpet_rotate.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C938A239F707D00DB5754 /* Trumpet_rotate.xml */; };
+		082C9427239F707D00DB5754 /* warBonusWinFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C938B239F707D00DB5754 /* warBonusWinFrame.png */; };
+		082C9428239F707D00DB5754 /* Dark_BG_Joker_Bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C938C239F707D00DB5754 /* Dark_BG_Joker_Bonus.png */; };
+		082C9429239F707D00DB5754 /* warBonusWinFrame.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C938D239F707D00DB5754 /* warBonusWinFrame.xml */; };
+		082C942A239F707D00DB5754 /* Card_Select.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C938E239F707D00DB5754 /* Card_Select.xml */; };
+		082C942B239F707D00DB5754 /* Card_Select.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C938F239F707D00DB5754 /* Card_Select.png */; };
+		082C942C239F707D00DB5754 /* BigWin_Diamond_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9390239F707D00DB5754 /* BigWin_Diamond_03.png */; };
+		082C942D239F707D00DB5754 /* door.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9391239F707D00DB5754 /* door.xml */; };
+		082C942E239F707D00DB5754 /* BigWin_Diamond_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9392239F707D00DB5754 /* BigWin_Diamond_02.png */; };
+		082C942F239F707D00DB5754 /* door.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9393239F707D00DB5754 /* door.png */; };
+		082C9430239F707D00DB5754 /* warBonusBlueFront.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9394239F707D00DB5754 /* warBonusBlueFront.png */; };
+		082C9431239F707D00DB5754 /* warBonusBlueFront.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9395239F707D00DB5754 /* warBonusBlueFront.xml */; };
+		082C9432239F707D00DB5754 /* poof.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9396239F707D00DB5754 /* poof.png */; };
+		082C9433239F707D00DB5754 /* Play_AllTime.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C9397239F707D00DB5754 /* Play_AllTime.xml */; };
+		082C9434239F707D00DB5754 /* play_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9398239F707D00DB5754 /* play_btn.png */; };
+		082C9435239F707D00DB5754 /* Joker_Popup_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C9399239F707D00DB5754 /* Joker_Popup_Btn.png */; };
+		082C9436239F707D00DB5754 /* Play_AllTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C939A239F707D00DB5754 /* Play_AllTime.png */; };
+		082C9437239F707D00DB5754 /* poof.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C939B239F707D00DB5754 /* poof.xml */; };
+		082C9438239F707D00DB5754 /* options.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C939C239F707D00DB5754 /* options.png */; };
+		082C9439239F707D00DB5754 /* warBonusBlueFrontFall.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C939D239F707D00DB5754 /* warBonusBlueFrontFall.png */; };
+		082C943A239F707D00DB5754 /* warBonusBlueFrontFall.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C939E239F707D00DB5754 /* warBonusBlueFrontFall.xml */; };
+		082C943B239F707D00DB5754 /* BigWin_Diamond_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C939F239F707D00DB5754 /* BigWin_Diamond_01.png */; };
+		082C943C239F707D00DB5754 /* Big_Win_title.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93A0239F707D00DB5754 /* Big_Win_title.png */; };
+		082C943D239F707D00DB5754 /* WarBonusInfoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93A1239F707D00DB5754 /* WarBonusInfoButton.png */; };
+		082C943E239F707D00DB5754 /* progressiveWarBonusblueAll.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93A2239F707D00DB5754 /* progressiveWarBonusblueAll.png */; };
+		082C943F239F707D00DB5754 /* warBonusredAll.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93A3239F707D00DB5754 /* warBonusredAll.png */; };
+		082C9440239F707D00DB5754 /* warBonusredAll.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C93A4239F707D00DB5754 /* warBonusredAll.xml */; };
+		082C9441239F707D00DB5754 /* progressiveWarBonusblueAll.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C93A5239F707D00DB5754 /* progressiveWarBonusblueAll.xml */; };
+		082C9442239F707D00DB5754 /* Joker_Popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93A6239F707D00DB5754 /* Joker_Popup.png */; };
+		082C9443239F707D00DB5754 /* Joker_Bonus_Card_Flip.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C93A7239F707D00DB5754 /* Joker_Bonus_Card_Flip.xml */; };
+		082C9444239F707D00DB5754 /* Joker_Bonus_Card_Flip.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93A8239F707D00DB5754 /* Joker_Bonus_Card_Flip.png */; };
+		082C9445239F707D00DB5754 /* warBonusRedFrontFall.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C93A9239F707D00DB5754 /* warBonusRedFrontFall.xml */; };
+		082C9446239F707D00DB5754 /* warBonusRedFrontFall.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93AA239F707D00DB5754 /* warBonusRedFrontFall.png */; };
+		082C9447239F707D00DB5754 /* warBonusRedFront.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C93AB239F707D00DB5754 /* warBonusRedFront.xml */; };
+		082C9448239F707D00DB5754 /* navigator_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93AC239F707D00DB5754 /* navigator_ON.png */; };
+		082C9449239F707D00DB5754 /* warBonusRedFront.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93AD239F707D00DB5754 /* warBonusRedFront.png */; };
+		082C944A239F707D00DB5754 /* grenadiernf-webfont.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 082C93AF239F707D00DB5754 /* grenadiernf-webfont.woff2 */; };
+		082C944B239F707D00DB5754 /* grenadiernf-webfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = 082C93B0239F707D00DB5754 /* grenadiernf-webfont.eot */; };
+		082C944C239F707D00DB5754 /* grenadiernf-webfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = 082C93B1239F707D00DB5754 /* grenadiernf-webfont.woff */; };
+		082C944D239F707D00DB5754 /* grenadiernf-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 082C93B2239F707D00DB5754 /* grenadiernf-webfont.ttf */; };
+		082C944E239F707D00DB5754 /* Cards_Joker_Bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93B3239F707D00DB5754 /* Cards_Joker_Bonus.png */; };
+		082C944F239F707D00DB5754 /* info_stick.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93B4239F707D00DB5754 /* info_stick.png */; };
+		082C9450239F707D00DB5754 /* warBonusBlueFront1.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C93B5239F707D00DB5754 /* warBonusBlueFront1.xml */; };
+		082C9451239F707D00DB5754 /* progressiveWarBonusredAll.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C93B6239F707D00DB5754 /* progressiveWarBonusredAll.xml */; };
+		082C9452239F707D00DB5754 /* Trumpet.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C93B7239F707D00DB5754 /* Trumpet.xml */; };
+		082C9453239F707D00DB5754 /* Joker_bg_Horz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 082C93B8239F707D00DB5754 /* Joker_bg_Horz.jpg */; };
+		082C9454239F707D00DB5754 /* gameSound.xml in Resources */ = {isa = PBXBuildFile; fileRef = 082C93B9239F707D00DB5754 /* gameSound.xml */; };
+		082C9455239F707D00DB5754 /* Trumpet.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93BA239F707D00DB5754 /* Trumpet.png */; };
+		082C9456239F707D00DB5754 /* progressiveWarBonusredAll.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93BB239F707D00DB5754 /* progressiveWarBonusredAll.png */; };
+		082C9457239F707D00DB5754 /* warBonusBlueFront1.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93BC239F707D00DB5754 /* warBonusBlueFront1.png */; };
+		082C9458239F707D00DB5754 /* jokePopupText.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93BD239F707D00DB5754 /* jokePopupText.png */; };
+		082C9459239F707D00DB5754 /* AutoPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C93BE239F707D00DB5754 /* AutoPlay.png */; };
+		082C945C239F733900DB5754 /* GWTHTML5ScriptsLauncher.js in Resources */ = {isa = PBXBuildFile; fileRef = 082C945A239F733800DB5754 /* GWTHTML5ScriptsLauncher.js */; };
+		082C945D239F733900DB5754 /* PixiHTML5ScriptsLauncher.js in Resources */ = {isa = PBXBuildFile; fileRef = 082C945B239F733900DB5754 /* PixiHTML5ScriptsLauncher.js */; };
+		082C945F23A0CA3D00DB5754 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C945E23A0CA3D00DB5754 /* MainViewController.swift */; };
 		08A64F0F23706B7300932286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A64F0E23706B7300932286 /* AppDelegate.swift */; };
 		08A64F1123706B7300932286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A64F1023706B7300932286 /* ViewController.swift */; };
 		08A64F1423706B7300932286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1223706B7300932286 /* Main.storyboard */; };
@@ -105,7 +163,6 @@
 		08A64F1923706B7500932286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1723706B7500932286 /* LaunchScreen.storyboard */; };
 		08CB5851237814D5000501B6 /* GamesCoreLauncher.js in Resources */ = {isa = PBXBuildFile; fileRef = 08CB57DA237814D4000501B6 /* GamesCoreLauncher.js */; };
 		08CB58B7237814D5000501B6 /* HTML5ScriptsLauncher.js in Resources */ = {isa = PBXBuildFile; fileRef = 08CB5850237814D4000501B6 /* HTML5ScriptsLauncher.js */; };
-		08CB58B923781A6E000501B6 /* index-launch.js in Resources */ = {isa = PBXBuildFile; fileRef = 08CB58B823781A6E000501B6 /* index-launch.js */; };
 		08EA83C7237D3A0000425698 /* web.config in Resources */ = {isa = PBXBuildFile; fileRef = 08EA83C6237D39FF00425698 /* web.config */; };
 		08F1E1B4238160B100DCFF6C /* secure in Resources */ = {isa = PBXBuildFile; fileRef = 08F1E1B3238160B100DCFF6C /* secure */; };
 		08F1E238238160E400DCFF6C /* AutoStop.png in Resources */ = {isa = PBXBuildFile; fileRef = 08F1E1B8238160E400DCFF6C /* AutoStop.png */; settings = {ASSET_TAGS = (test, ); }; };
@@ -210,93 +267,151 @@
 		08057AE823741FE10086DED6 /* initial.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = initial.js; sourceTree = "<group>"; };
 		0824296423856D0F00A64860 /* LoadImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoadImage.png; sourceTree = "<group>"; };
 		082C930F239E3AE800DB5754 /* callback.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = callback.js; sourceTree = "<group>"; };
-		08A21B60238162180072E5C6 /* Arial.ttf.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf.woff; sourceTree = "<group>"; };
-		08A21B66238162180072E5C6 /* web.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = web.config; sourceTree = "<group>"; };
-		08A21B67238162180072E5C6 /* Arial.ttf.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf.eot; sourceTree = "<group>"; };
-		08A21B68238162180072E5C6 /* common.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = common.css; sourceTree = "<group>"; };
-		08A21B69238162180072E5C6 /* Arial.ttf.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Arial.ttf.svg; sourceTree = "<group>"; };
-		08A21B6A238162180072E5C6 /* arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = arial.ttf; sourceTree = "<group>"; };
-		08A21B6D238162180072E5C6 /* selftest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selftest.png; sourceTree = "<group>"; };
-		08A21B6E238162180072E5C6 /* playlimit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playlimit.png; sourceTree = "<group>"; };
-		08A21B6F238162180072E5C6 /* pausegame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausegame.png; sourceTree = "<group>"; };
-		08A21B70238162180072E5C6 /* backButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButtonImage.png; sourceTree = "<group>"; };
-		08A21B71238162180072E5C6 /* onButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onButton.png; sourceTree = "<group>"; };
-		08A21B72238162180072E5C6 /* gamesTopBarBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamesTopBarBG.png; sourceTree = "<group>"; };
-		08A21B73238162180072E5C6 /* ScrollUpPanelHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScrollUpPanelHand.png; sourceTree = "<group>"; };
-		08A21B74238162180072E5C6 /* rightButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightButton.png; sourceTree = "<group>"; };
-		08A21B75238162180072E5C6 /* soundButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundButtonImage.png; sourceTree = "<group>"; };
-		08A21B76238162180072E5C6 /* ShortImg_iOS6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShortImg_iOS6.png; sourceTree = "<group>"; };
-		08A21B77238162180072E5C6 /* infoButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoButtonImage.png; sourceTree = "<group>"; };
-		08A21B78238162180072E5C6 /* ShortImg_iOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShortImg_iOS7.png; sourceTree = "<group>"; };
-		08A21B79238162180072E5C6 /* ScrollUpPanelArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScrollUpPanelArrow.png; sourceTree = "<group>"; };
-		08A21B7A238162180072E5C6 /* leftButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftButton.png; sourceTree = "<group>"; };
-		08A21B7C238162180072E5C6 /* autoPlayExtendedDisabledCheckBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoPlayExtendedDisabledCheckBox.png; sourceTree = "<group>"; };
-		08A21B7D238162180072E5C6 /* autoPlayExtendedSelectedCheckBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoPlayExtendedSelectedCheckBox.png; sourceTree = "<group>"; };
-		08A21B7E238162180072E5C6 /* autoplayExtendedHorz.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = autoplayExtendedHorz.xml; sourceTree = "<group>"; };
-		08A21B7F238162180072E5C6 /* autoPlayExtendedBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoPlayExtendedBox.png; sourceTree = "<group>"; };
-		08A21B80238162180072E5C6 /* autoPlayExtendedDisabledUncheckedCheckBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoPlayExtendedDisabledUncheckedCheckBox.png; sourceTree = "<group>"; };
-		08A21B81238162180072E5C6 /* autoPlayExtendedButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoPlayExtendedButton.png; sourceTree = "<group>"; };
-		08A21B82238162180072E5C6 /* autoPlayExtendedUnSelectedCheckBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoPlayExtendedUnSelectedCheckBox.png; sourceTree = "<group>"; };
-		08A21B83238162180072E5C6 /* locations.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = locations.xml; sourceTree = "<group>"; };
-		08A21B84238162180072E5C6 /* pBar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pBar.gif; sourceTree = "<group>"; };
-		08A21B85238162180072E5C6 /* nextBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextBtn.png; sourceTree = "<group>"; };
-		08A21B86238162180072E5C6 /* helpButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helpButtonImage.png; sourceTree = "<group>"; };
-		08A21B87238162180072E5C6 /* carouselBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carouselBack.png; sourceTree = "<group>"; };
-		08A21B88238162180072E5C6 /* test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
-		08A21B8A238162180072E5C6 /* SWE.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SWE.json; sourceTree = "<group>"; };
-		08A21B8B238162180072E5C6 /* LIT.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LIT.json; sourceTree = "<group>"; };
-		08A21B8C238162180072E5C6 /* POR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = POR.json; sourceTree = "<group>"; };
-		08A21B8D238162180072E5C6 /* GER.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GER.json; sourceTree = "<group>"; };
-		08A21B8E238162180072E5C6 /* BUL.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BUL.json; sourceTree = "<group>"; };
-		08A21B8F238162180072E5C6 /* DAN.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DAN.json; sourceTree = "<group>"; };
-		08A21B90238162180072E5C6 /* NOR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NOR.json; sourceTree = "<group>"; };
-		08A21B91238162180072E5C6 /* ENU.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ENU.json; sourceTree = "<group>"; };
-		08A21B92238162180072E5C6 /* FIN.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FIN.json; sourceTree = "<group>"; };
-		08A21B93238162180072E5C6 /* CZE.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CZE.json; sourceTree = "<group>"; };
-		08A21B94238162180072E5C6 /* ITA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ITA.json; sourceTree = "<group>"; };
-		08A21B95238162180072E5C6 /* ENG.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ENG.json; sourceTree = "<group>"; };
-		08A21B97238162180072E5C6 /* autoPlayWebPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoPlayWebPlay.png; sourceTree = "<group>"; };
-		08A21B98238162180072E5C6 /* tooltip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tooltip.png; sourceTree = "<group>"; };
-		08A21B99238162180072E5C6 /* autoPlayWebOpenPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoPlayWebOpenPlay.png; sourceTree = "<group>"; };
-		08A21B9A238162180072E5C6 /* autoplayWebPanelBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoplayWebPanelBg.png; sourceTree = "<group>"; };
-		08A21B9B238162180072E5C6 /* autoPlayWebPause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoPlayWebPause.png; sourceTree = "<group>"; };
-		08A21B9C238162180072E5C6 /* autoPlayWebMinus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoPlayWebMinus.png; sourceTree = "<group>"; };
-		08A21B9D238162180072E5C6 /* autoPlayWebClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoPlayWebClose.png; sourceTree = "<group>"; };
-		08A21B9E238162180072E5C6 /* autoPlayWebPlus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoPlayWebPlus.png; sourceTree = "<group>"; };
-		08A21BA0238162180072E5C6 /* Settings_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings_Btn.png; sourceTree = "<group>"; };
-		08A21BA1238162180072E5C6 /* Info_Btn_Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Info_Btn_Active.png; sourceTree = "<group>"; };
-		08A21BA2238162180072E5C6 /* sound-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sound-off.png"; sourceTree = "<group>"; };
-		08A21BA3238162180072E5C6 /* hamburger_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburger_btn.png; sourceTree = "<group>"; };
-		08A21BA4238162180072E5C6 /* TOOLBAR-SOUND-LOADING-stroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TOOLBAR-SOUND-LOADING-stroke.png"; sourceTree = "<group>"; };
-		08A21BA5238162180072E5C6 /* SoundLoading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SoundLoading.gif; sourceTree = "<group>"; };
-		08A21BA6238162180072E5C6 /* sound-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sound-on.png"; sourceTree = "<group>"; };
-		08A21BA7238162180072E5C6 /* Info_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Info_Btn.png; sourceTree = "<group>"; };
-		08A21BA8238162180072E5C6 /* Home_Btn_Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home_Btn_Active.png; sourceTree = "<group>"; };
-		08A21BA9238162180072E5C6 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
-		08A21BAA238162180072E5C6 /* Home_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home_Btn.png; sourceTree = "<group>"; };
-		08A21BAB238162180072E5C6 /* menuStyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = menuStyle.css; sourceTree = "<group>"; };
-		08A21BAC238162180072E5C6 /* hamburger-btn-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hamburger-btn-inactive.png"; sourceTree = "<group>"; };
-		08A21BAD238162180072E5C6 /* Settings_Btn_Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings_Btn_Active.png; sourceTree = "<group>"; };
-		08A21BAE238162180072E5C6 /* CT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CT.png; sourceTree = "<group>"; };
-		08A21BAF238162180072E5C6 /* orientation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orientation.png; sourceTree = "<group>"; };
-		08A21BB0238162180072E5C6 /* spinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spinner.png; sourceTree = "<group>"; };
-		08A21BB1238162180072E5C6 /* gamesTopBarCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamesTopBarCenter.png; sourceTree = "<group>"; };
-		08A21BB2238162180072E5C6 /* settingsButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsButtonImage.png; sourceTree = "<group>"; };
-		08A21BB3238162180072E5C6 /* cheatToolButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheatToolButtonImage.png; sourceTree = "<group>"; };
-		08A21BB4238162180072E5C6 /* offButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offButton.png; sourceTree = "<group>"; };
-		08A21BB5238162180072E5C6 /* orientationExternalGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orientationExternalGame.png; sourceTree = "<group>"; };
-		08A21BB7238162180072E5C6 /* SogeyExit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SogeyExit.png; sourceTree = "<group>"; };
-		08A21BB8238162180072E5C6 /* Sound_Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sound_Off.png; sourceTree = "<group>"; };
-		08A21BB9238162180072E5C6 /* Sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sound.png; sourceTree = "<group>"; };
-		08A21BBA238162180072E5C6 /* SogeyDepositToGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SogeyDepositToGame.png; sourceTree = "<group>"; };
-		08A21BBB238162180072E5C6 /* Help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Help.png; sourceTree = "<group>"; };
-		08A21BBC238162180072E5C6 /* SogeyDepositApproval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SogeyDepositApproval.png; sourceTree = "<group>"; };
-		08A21BBD238162180072E5C6 /* Separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Separator.png; sourceTree = "<group>"; };
-		08A21BBE238162180072E5C6 /* X_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X_Button.png; sourceTree = "<group>"; };
-		08A21BC0238162180072E5C6 /* FRABK.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FRABK.TTF; sourceTree = "<group>"; };
-		08A21BC1238162180072E5C6 /* verdanab.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdanab.ttf; sourceTree = "<group>"; };
-		08A21BC2238162180072E5C6 /* impact_F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = impact_F.ttf; sourceTree = "<group>"; };
-		08A21BC3238162180072E5C6 /* coreFonts.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = coreFonts.css; sourceTree = "<group>"; };
+		082C931D239F707D00DB5754 /* WarBonusbattleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WarBonusbattleButton.png; sourceTree = "<group>"; };
+		082C931E239F707D00DB5754 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		082C931F239F707D00DB5754 /* AutoStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AutoStop.png; sourceTree = "<group>"; };
+		082C9320239F707D00DB5754 /* i_btn_joker_bonus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i_btn_joker_bonus.png; sourceTree = "<group>"; };
+		082C9321239F707D00DB5754 /* Lobby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lobby.png; sourceTree = "<group>"; };
+		082C9322239F707D00DB5754 /* Info_Content_Joker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Info_Content_Joker.png; sourceTree = "<group>"; };
+		082C9324239F707D00DB5754 /* LoadImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoadImage.png; sourceTree = "<group>"; };
+		082C9325239F707D00DB5754 /* Joker_Coin.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Joker_Coin.xml; sourceTree = "<group>"; };
+		082C9326239F707D00DB5754 /* Cards_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cards_01.png; sourceTree = "<group>"; };
+		082C9327239F707D00DB5754 /* Joker_Coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Joker_Coin.png; sourceTree = "<group>"; };
+		082C9328239F707D00DB5754 /* Cards_01.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Cards_01.xml; sourceTree = "<group>"; };
+		082C9329239F707D00DB5754 /* LoadImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoadImage.png; sourceTree = "<group>"; };
+		082C932A239F707D00DB5754 /* Joker_Bonus_Win_Frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Joker_Bonus_Win_Frame.png; sourceTree = "<group>"; };
+		082C932B239F707D00DB5754 /* Joker_Bonus_Win_Frame.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Joker_Bonus_Win_Frame.xml; sourceTree = "<group>"; };
+		082C932C239F707D00DB5754 /* Joker_Win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Joker_Win.png; sourceTree = "<group>"; };
+		082C932D239F707D00DB5754 /* Joker_legend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Joker_legend.png; sourceTree = "<group>"; };
+		082C932E239F707D00DB5754 /* warSummeryPopUpText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warSummeryPopUpText.png; sourceTree = "<group>"; };
+		082C932F239F707D00DB5754 /* Queen_Card_Win.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Queen_Card_Win.xml; sourceTree = "<group>"; };
+		082C9330239F707D00DB5754 /* Joker_legend.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Joker_legend.xml; sourceTree = "<group>"; };
+		082C9331239F707D00DB5754 /* Queen_Card_Win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Queen_Card_Win.png; sourceTree = "<group>"; };
+		082C9332239F707D00DB5754 /* warBonusRedFront1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = warBonusRedFront1.xml; sourceTree = "<group>"; };
+		082C9333239F707D00DB5754 /* jokerSummeryPopUpText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jokerSummeryPopUpText.png; sourceTree = "<group>"; };
+		082C9334239F707D00DB5754 /* warBonusRedFront1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warBonusRedFront1.png; sourceTree = "<group>"; };
+		082C9335239F707D00DB5754 /* warPopupText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warPopupText.png; sourceTree = "<group>"; };
+		082C9336239F707D00DB5754 /* warBonusblueAll.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = warBonusblueAll.xml; sourceTree = "<group>"; };
+		082C9337239F707D00DB5754 /* warBonusblueAll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warBonusblueAll.png; sourceTree = "<group>"; };
+		082C9338239F707D00DB5754 /* gameSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameSound.mp3; sourceTree = "<group>"; };
+		082C9339239F707D00DB5754 /* Continue_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Continue_Btn.png; sourceTree = "<group>"; };
+		082C933A239F707D00DB5754 /* winDiamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winDiamond.png; sourceTree = "<group>"; };
+		082C933B239F707D00DB5754 /* War_Popup_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = War_Popup_Btn.png; sourceTree = "<group>"; };
+		082C933C239F707D00DB5754 /* winDiamond.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = winDiamond.xml; sourceTree = "<group>"; };
+		082C933D239F707D00DB5754 /* Big_Win_Amount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Big_Win_Amount.png; sourceTree = "<group>"; };
+		082C933E239F707D00DB5754 /* Legend_Prize.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Legend_Prize.xml; sourceTree = "<group>"; };
+		082C933F239F707D00DB5754 /* warBonusFlag.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = warBonusFlag.xml; sourceTree = "<group>"; };
+		082C9340239F707D00DB5754 /* Legend_Prize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Legend_Prize.png; sourceTree = "<group>"; };
+		082C9341239F707D00DB5754 /* warBonusFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warBonusFlag.png; sourceTree = "<group>"; };
+		082C9342239F707D00DB5754 /* War_legend.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = War_legend.xml; sourceTree = "<group>"; };
+		082C9343239F707D00DB5754 /* War_legend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = War_legend.png; sourceTree = "<group>"; };
+		082C9344239F707D00DB5754 /* jokePopupText2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jokePopupText2.png; sourceTree = "<group>"; };
+		082C9345239F707D00DB5754 /* Logo_Alltime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_Alltime.png; sourceTree = "<group>"; };
+		082C9346239F707D00DB5754 /* Win_Frame.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Win_Frame.xml; sourceTree = "<group>"; };
+		082C9347239F707D00DB5754 /* cashier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cashier.png; sourceTree = "<group>"; };
+		082C9348239F707D00DB5754 /* Win_Frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Win_Frame.png; sourceTree = "<group>"; };
+		082C9349239F707D00DB5754 /* Logo_Alltime.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Logo_Alltime.xml; sourceTree = "<group>"; };
+		082C934A239F707D00DB5754 /* locations.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = locations.xml; sourceTree = "<group>"; };
+		082C934B239F707D00DB5754 /* bg_Horz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_Horz.jpg; sourceTree = "<group>"; };
+		082C934C239F707D00DB5754 /* Dont_Show_Marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dont_Show_Marker.png; sourceTree = "<group>"; };
+		082C934D239F707D00DB5754 /* ItsAwinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItsAwinner.png; sourceTree = "<group>"; };
+		082C934E239F707D00DB5754 /* battleBtnAnim.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = battleBtnAnim.xml; sourceTree = "<group>"; };
+		082C934F239F707D00DB5754 /* WarBonusBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WarBonusBg.jpg; sourceTree = "<group>"; };
+		082C9350239F707D00DB5754 /* battleBtnAnim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleBtnAnim.png; sourceTree = "<group>"; };
+		082C9351239F707D00DB5754 /* tooltip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tooltip.png; sourceTree = "<group>"; };
+		082C9352239F707D00DB5754 /* warBonusswords.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = warBonusswords.xml; sourceTree = "<group>"; };
+		082C9353239F707D00DB5754 /* warBonusswords.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warBonusswords.png; sourceTree = "<group>"; };
+		082C9354239F707D00DB5754 /* shortcut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shortcut.png; sourceTree = "<group>"; };
+		082C9356239F707D00DB5754 /* Gold_Card_Flip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gold_Card_Flip.png; sourceTree = "<group>"; };
+		082C9357239F707D00DB5754 /* Gold_Card_Flip.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Gold_Card_Flip.xml; sourceTree = "<group>"; };
+		082C9358239F707D00DB5754 /* Joker_Bonus_Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Joker_Bonus_Card.png; sourceTree = "<group>"; };
+		082C9359239F707D00DB5754 /* Joker_Bonus_Card_X.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Joker_Bonus_Card_X.xml; sourceTree = "<group>"; };
+		082C935A239F707D00DB5754 /* Joker_Bonus_Card_X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Joker_Bonus_Card_X.png; sourceTree = "<group>"; };
+		082C935B239F707D00DB5754 /* Joker_Bonus_Card.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Joker_Bonus_Card.xml; sourceTree = "<group>"; };
+		082C935C239F707D00DB5754 /* Queen_Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Queen_Card.png; sourceTree = "<group>"; };
+		082C935D239F707D00DB5754 /* Queen_Card.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Queen_Card.xml; sourceTree = "<group>"; };
+		082C935E239F707D00DB5754 /* Card_Flip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Card_Flip.png; sourceTree = "<group>"; };
+		082C935F239F707D00DB5754 /* Card_Flip.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Card_Flip.xml; sourceTree = "<group>"; };
+		082C9360239F707D00DB5754 /* reveal_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reveal_btn.png; sourceTree = "<group>"; };
+		082C9361239F707D00DB5754 /* Joker_Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Joker_Card.png; sourceTree = "<group>"; };
+		082C9362239F707D00DB5754 /* Joker_Card.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Joker_Card.xml; sourceTree = "<group>"; };
+		082C9363239F707D00DB5754 /* stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stick.png; sourceTree = "<group>"; };
+		082C9364239F707D00DB5754 /* Info_X_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Info_X_Btn.png; sourceTree = "<group>"; };
+		082C9365239F707D00DB5754 /* game.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = game.css; sourceTree = "<group>"; };
+		082C9374239F707D00DB5754 /* Dark_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dark_BG.png; sourceTree = "<group>"; };
+		082C9375239F707D00DB5754 /* XXX.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = XXX.xml; sourceTree = "<group>"; };
+		082C9376239F707D00DB5754 /* War_Bonus.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = War_Bonus.xml; sourceTree = "<group>"; };
+		082C9377239F707D00DB5754 /* War_Bonus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = War_Bonus.png; sourceTree = "<group>"; };
+		082C9378239F707D00DB5754 /* XXX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XXX.png; sourceTree = "<group>"; };
+		082C9379239F707D00DB5754 /* MenuLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuLogo.png; sourceTree = "<group>"; };
+		082C937A239F707D00DB5754 /* warBonusWinFrameQueen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warBonusWinFrameQueen.png; sourceTree = "<group>"; };
+		082C937D239F707D00DB5754 /* ENG_431.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ENG_431.json; sourceTree = "<group>"; };
+		082C937E239F707D00DB5754 /* ENU_431.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ENU_431.json; sourceTree = "<group>"; };
+		082C937F239F707D00DB5754 /* ENG_431.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ENG_431.json; sourceTree = "<group>"; };
+		082C9381239F707D00DB5754 /* ENG_431.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ENG_431.json; sourceTree = "<group>"; };
+		082C9382239F707D00DB5754 /* Cards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cards.png; sourceTree = "<group>"; };
+		082C9383239F707D00DB5754 /* warBonusWinFrameQueen.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = warBonusWinFrameQueen.xml; sourceTree = "<group>"; };
+		082C9384239F707D00DB5754 /* Cards.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Cards.xml; sourceTree = "<group>"; };
+		082C9385239F707D00DB5754 /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash.jpg; sourceTree = "<group>"; };
+		082C9386239F707D00DB5754 /* freeGamesRibbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = freeGamesRibbon.png; sourceTree = "<group>"; };
+		082C9387239F707D00DB5754 /* War_Popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = War_Popup.png; sourceTree = "<group>"; };
+		082C9388239F707D00DB5754 /* Trumpet_rotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trumpet_rotate.png; sourceTree = "<group>"; };
+		082C9389239F707D00DB5754 /* Info_Content_War.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Info_Content_War.png; sourceTree = "<group>"; };
+		082C938A239F707D00DB5754 /* Trumpet_rotate.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Trumpet_rotate.xml; sourceTree = "<group>"; };
+		082C938B239F707D00DB5754 /* warBonusWinFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warBonusWinFrame.png; sourceTree = "<group>"; };
+		082C938C239F707D00DB5754 /* Dark_BG_Joker_Bonus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dark_BG_Joker_Bonus.png; sourceTree = "<group>"; };
+		082C938D239F707D00DB5754 /* warBonusWinFrame.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = warBonusWinFrame.xml; sourceTree = "<group>"; };
+		082C938E239F707D00DB5754 /* Card_Select.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Card_Select.xml; sourceTree = "<group>"; };
+		082C938F239F707D00DB5754 /* Card_Select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Card_Select.png; sourceTree = "<group>"; };
+		082C9390239F707D00DB5754 /* BigWin_Diamond_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BigWin_Diamond_03.png; sourceTree = "<group>"; };
+		082C9391239F707D00DB5754 /* door.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = door.xml; sourceTree = "<group>"; };
+		082C9392239F707D00DB5754 /* BigWin_Diamond_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BigWin_Diamond_02.png; sourceTree = "<group>"; };
+		082C9393239F707D00DB5754 /* door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door.png; sourceTree = "<group>"; };
+		082C9394239F707D00DB5754 /* warBonusBlueFront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warBonusBlueFront.png; sourceTree = "<group>"; };
+		082C9395239F707D00DB5754 /* warBonusBlueFront.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = warBonusBlueFront.xml; sourceTree = "<group>"; };
+		082C9396239F707D00DB5754 /* poof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poof.png; sourceTree = "<group>"; };
+		082C9397239F707D00DB5754 /* Play_AllTime.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Play_AllTime.xml; sourceTree = "<group>"; };
+		082C9398239F707D00DB5754 /* play_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_btn.png; sourceTree = "<group>"; };
+		082C9399239F707D00DB5754 /* Joker_Popup_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Joker_Popup_Btn.png; sourceTree = "<group>"; };
+		082C939A239F707D00DB5754 /* Play_AllTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play_AllTime.png; sourceTree = "<group>"; };
+		082C939B239F707D00DB5754 /* poof.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = poof.xml; sourceTree = "<group>"; };
+		082C939C239F707D00DB5754 /* options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = options.png; sourceTree = "<group>"; };
+		082C939D239F707D00DB5754 /* warBonusBlueFrontFall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warBonusBlueFrontFall.png; sourceTree = "<group>"; };
+		082C939E239F707D00DB5754 /* warBonusBlueFrontFall.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = warBonusBlueFrontFall.xml; sourceTree = "<group>"; };
+		082C939F239F707D00DB5754 /* BigWin_Diamond_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BigWin_Diamond_01.png; sourceTree = "<group>"; };
+		082C93A0239F707D00DB5754 /* Big_Win_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Big_Win_title.png; sourceTree = "<group>"; };
+		082C93A1239F707D00DB5754 /* WarBonusInfoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WarBonusInfoButton.png; sourceTree = "<group>"; };
+		082C93A2239F707D00DB5754 /* progressiveWarBonusblueAll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progressiveWarBonusblueAll.png; sourceTree = "<group>"; };
+		082C93A3239F707D00DB5754 /* warBonusredAll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warBonusredAll.png; sourceTree = "<group>"; };
+		082C93A4239F707D00DB5754 /* warBonusredAll.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = warBonusredAll.xml; sourceTree = "<group>"; };
+		082C93A5239F707D00DB5754 /* progressiveWarBonusblueAll.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = progressiveWarBonusblueAll.xml; sourceTree = "<group>"; };
+		082C93A6239F707D00DB5754 /* Joker_Popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Joker_Popup.png; sourceTree = "<group>"; };
+		082C93A7239F707D00DB5754 /* Joker_Bonus_Card_Flip.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Joker_Bonus_Card_Flip.xml; sourceTree = "<group>"; };
+		082C93A8239F707D00DB5754 /* Joker_Bonus_Card_Flip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Joker_Bonus_Card_Flip.png; sourceTree = "<group>"; };
+		082C93A9239F707D00DB5754 /* warBonusRedFrontFall.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = warBonusRedFrontFall.xml; sourceTree = "<group>"; };
+		082C93AA239F707D00DB5754 /* warBonusRedFrontFall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warBonusRedFrontFall.png; sourceTree = "<group>"; };
+		082C93AB239F707D00DB5754 /* warBonusRedFront.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = warBonusRedFront.xml; sourceTree = "<group>"; };
+		082C93AC239F707D00DB5754 /* navigator_ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigator_ON.png; sourceTree = "<group>"; };
+		082C93AD239F707D00DB5754 /* warBonusRedFront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warBonusRedFront.png; sourceTree = "<group>"; };
+		082C93AF239F707D00DB5754 /* grenadiernf-webfont.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "grenadiernf-webfont.woff2"; sourceTree = "<group>"; };
+		082C93B0239F707D00DB5754 /* grenadiernf-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "grenadiernf-webfont.eot"; sourceTree = "<group>"; };
+		082C93B1239F707D00DB5754 /* grenadiernf-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "grenadiernf-webfont.woff"; sourceTree = "<group>"; };
+		082C93B2239F707D00DB5754 /* grenadiernf-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "grenadiernf-webfont.ttf"; sourceTree = "<group>"; };
+		082C93B3239F707D00DB5754 /* Cards_Joker_Bonus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cards_Joker_Bonus.png; sourceTree = "<group>"; };
+		082C93B4239F707D00DB5754 /* info_stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_stick.png; sourceTree = "<group>"; };
+		082C93B5239F707D00DB5754 /* warBonusBlueFront1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = warBonusBlueFront1.xml; sourceTree = "<group>"; };
+		082C93B6239F707D00DB5754 /* progressiveWarBonusredAll.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = progressiveWarBonusredAll.xml; sourceTree = "<group>"; };
+		082C93B7239F707D00DB5754 /* Trumpet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Trumpet.xml; sourceTree = "<group>"; };
+		082C93B8239F707D00DB5754 /* Joker_bg_Horz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Joker_bg_Horz.jpg; sourceTree = "<group>"; };
+		082C93B9239F707D00DB5754 /* gameSound.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gameSound.xml; sourceTree = "<group>"; };
+		082C93BA239F707D00DB5754 /* Trumpet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trumpet.png; sourceTree = "<group>"; };
+		082C93BB239F707D00DB5754 /* progressiveWarBonusredAll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progressiveWarBonusredAll.png; sourceTree = "<group>"; };
+		082C93BC239F707D00DB5754 /* warBonusBlueFront1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warBonusBlueFront1.png; sourceTree = "<group>"; };
+		082C93BD239F707D00DB5754 /* jokePopupText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jokePopupText.png; sourceTree = "<group>"; };
+		082C93BE239F707D00DB5754 /* AutoPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AutoPlay.png; sourceTree = "<group>"; };
+		082C945A239F733800DB5754 /* GWTHTML5ScriptsLauncher.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GWTHTML5ScriptsLauncher.js; sourceTree = "<group>"; };
+		082C945B239F733900DB5754 /* PixiHTML5ScriptsLauncher.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = PixiHTML5ScriptsLauncher.js; sourceTree = "<group>"; };
+		082C945E23A0CA3D00DB5754 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		08A64F0B23706B7300932286 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A64F0E23706B7300932286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08A64F1023706B7300932286 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -306,7 +421,6 @@
 		08A64F1A23706B7500932286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08CB57DA237814D4000501B6 /* GamesCoreLauncher.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GamesCoreLauncher.js; sourceTree = "<group>"; };
 		08CB5850237814D4000501B6 /* HTML5ScriptsLauncher.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = HTML5ScriptsLauncher.js; sourceTree = "<group>"; };
-		08CB58B823781A6E000501B6 /* index-launch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "index-launch.js"; sourceTree = "<group>"; };
 		08EA83C6237D39FF00425698 /* web.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = web.config; sourceTree = "<group>"; };
 		08F1E1B3238160B100DCFF6C /* secure */ = {isa = PBXFileReference; lastKnownFileType = folder; path = secure; sourceTree = "<group>"; };
 		08F1E1B8238160E400DCFF6C /* AutoStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AutoStop.png; sourceTree = "<group>"; };
@@ -417,228 +531,267 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08A21B5F238162180072E5C6 /* common */ = {
+		082C9315239F707D00DB5754 /* OP */ = {
 			isa = PBXGroup;
 			children = (
-				08A21B60238162180072E5C6 /* Arial.ttf.woff */,
-				08A21B61238162180072E5C6 /* 1280X755 */,
-				08A21B66238162180072E5C6 /* web.config */,
-				08A21B67238162180072E5C6 /* Arial.ttf.eot */,
-				08A21B68238162180072E5C6 /* common.css */,
-				08A21B69238162180072E5C6 /* Arial.ttf.svg */,
-				08A21B6A238162180072E5C6 /* arial.ttf */,
-				08A21B6B238162180072E5C6 /* 1280x720 */,
-				08A21BBF238162180072E5C6 /* fonts */,
+				082C9316239F707D00DB5754 /* version */,
 			);
-			path = common;
+			path = OP;
 			sourceTree = "<group>";
 		};
-		08A21B61238162180072E5C6 /* 1280X755 */ = {
+		082C9316239F707D00DB5754 /* version */ = {
 			isa = PBXGroup;
 			children = (
-				08A21B62238162180072E5C6 /* ExtendedAutoplay */,
-				08A21B63238162180072E5C6 /* Lang */,
-				08A21B64238162180072E5C6 /* AutoPlay */,
-				08A21B65238162180072E5C6 /* BottomBar */,
+				082C9317239F707D00DB5754 /* Resources */,
 			);
-			path = 1280X755;
+			path = version;
 			sourceTree = "<group>";
 		};
-		08A21B62238162180072E5C6 /* ExtendedAutoplay */ = {
+		082C9317239F707D00DB5754 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				082C9318239F707D00DB5754 /* 640x834 */,
 			);
-			path = ExtendedAutoplay;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		08A21B63238162180072E5C6 /* Lang */ = {
+		082C9318239F707D00DB5754 /* 640x834 */ = {
 			isa = PBXGroup;
 			children = (
+				082C9319239F707D00DB5754 /* Brands */,
+			);
+			path = 640x834;
+			sourceTree = "<group>";
+		};
+		082C9319239F707D00DB5754 /* Brands */ = {
+			isa = PBXGroup;
+			children = (
+				082C931A239F707D00DB5754 /* General */,
+			);
+			path = Brands;
+			sourceTree = "<group>";
+		};
+		082C931A239F707D00DB5754 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				082C931B239F707D00DB5754 /* games */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		082C931B239F707D00DB5754 /* games */ = {
+			isa = PBXGroup;
+			children = (
+				082C931C239F707D00DB5754 /* 431 */,
+			);
+			path = games;
+			sourceTree = "<group>";
+		};
+		082C931C239F707D00DB5754 /* 431 */ = {
+			isa = PBXGroup;
+			children = (
+				082C931D239F707D00DB5754 /* WarBonusbattleButton.png */,
+				082C931E239F707D00DB5754 /* info.png */,
+				082C931F239F707D00DB5754 /* AutoStop.png */,
+				082C9320239F707D00DB5754 /* i_btn_joker_bonus.png */,
+				082C9321239F707D00DB5754 /* Lobby.png */,
+				082C9322239F707D00DB5754 /* Info_Content_Joker.png */,
+				082C9323239F707D00DB5754 /* ENU */,
+				082C9325239F707D00DB5754 /* Joker_Coin.xml */,
+				082C9326239F707D00DB5754 /* Cards_01.png */,
+				082C9327239F707D00DB5754 /* Joker_Coin.png */,
+				082C9328239F707D00DB5754 /* Cards_01.xml */,
+				082C9329239F707D00DB5754 /* LoadImage.png */,
+				082C932A239F707D00DB5754 /* Joker_Bonus_Win_Frame.png */,
+				082C932B239F707D00DB5754 /* Joker_Bonus_Win_Frame.xml */,
+				082C932C239F707D00DB5754 /* Joker_Win.png */,
+				082C932D239F707D00DB5754 /* Joker_legend.png */,
+				082C932E239F707D00DB5754 /* warSummeryPopUpText.png */,
+				082C932F239F707D00DB5754 /* Queen_Card_Win.xml */,
+				082C9330239F707D00DB5754 /* Joker_legend.xml */,
+				082C9331239F707D00DB5754 /* Queen_Card_Win.png */,
+				082C9332239F707D00DB5754 /* warBonusRedFront1.xml */,
+				082C9333239F707D00DB5754 /* jokerSummeryPopUpText.png */,
+				082C9334239F707D00DB5754 /* warBonusRedFront1.png */,
+				082C9335239F707D00DB5754 /* warPopupText.png */,
+				082C9336239F707D00DB5754 /* warBonusblueAll.xml */,
+				082C9337239F707D00DB5754 /* warBonusblueAll.png */,
+				082C9338239F707D00DB5754 /* gameSound.mp3 */,
+				082C9339239F707D00DB5754 /* Continue_Btn.png */,
+				082C933A239F707D00DB5754 /* winDiamond.png */,
+				082C933B239F707D00DB5754 /* War_Popup_Btn.png */,
+				082C933C239F707D00DB5754 /* winDiamond.xml */,
+				082C933D239F707D00DB5754 /* Big_Win_Amount.png */,
+				082C933E239F707D00DB5754 /* Legend_Prize.xml */,
+				082C933F239F707D00DB5754 /* warBonusFlag.xml */,
+				082C9340239F707D00DB5754 /* Legend_Prize.png */,
+				082C9341239F707D00DB5754 /* warBonusFlag.png */,
+				082C9342239F707D00DB5754 /* War_legend.xml */,
+				082C9343239F707D00DB5754 /* War_legend.png */,
+				082C9344239F707D00DB5754 /* jokePopupText2.png */,
+				082C9345239F707D00DB5754 /* Logo_Alltime.png */,
+				082C9346239F707D00DB5754 /* Win_Frame.xml */,
+				082C9347239F707D00DB5754 /* cashier.png */,
+				082C9348239F707D00DB5754 /* Win_Frame.png */,
+				082C9349239F707D00DB5754 /* Logo_Alltime.xml */,
+				082C934A239F707D00DB5754 /* locations.xml */,
+				082C934B239F707D00DB5754 /* bg_Horz.jpg */,
+				082C934C239F707D00DB5754 /* Dont_Show_Marker.png */,
+				082C934D239F707D00DB5754 /* ItsAwinner.png */,
+				082C934E239F707D00DB5754 /* battleBtnAnim.xml */,
+				082C934F239F707D00DB5754 /* WarBonusBg.jpg */,
+				082C9350239F707D00DB5754 /* battleBtnAnim.png */,
+				082C9351239F707D00DB5754 /* tooltip.png */,
+				082C9352239F707D00DB5754 /* warBonusswords.xml */,
+				082C9353239F707D00DB5754 /* warBonusswords.png */,
+				082C9354239F707D00DB5754 /* shortcut.png */,
+				082C9355239F707D00DB5754 /* I */,
+				082C9363239F707D00DB5754 /* stick.png */,
+				082C9364239F707D00DB5754 /* Info_X_Btn.png */,
+				082C9365239F707D00DB5754 /* game.css */,
+				082C9374239F707D00DB5754 /* Dark_BG.png */,
+				082C9375239F707D00DB5754 /* XXX.xml */,
+				082C9376239F707D00DB5754 /* War_Bonus.xml */,
+				082C9377239F707D00DB5754 /* War_Bonus.png */,
+				082C9378239F707D00DB5754 /* XXX.png */,
+				082C9379239F707D00DB5754 /* MenuLogo.png */,
+				082C937A239F707D00DB5754 /* warBonusWinFrameQueen.png */,
+				082C937B239F707D00DB5754 /* Lang */,
+				082C9382239F707D00DB5754 /* Cards.png */,
+				082C9383239F707D00DB5754 /* warBonusWinFrameQueen.xml */,
+				082C9384239F707D00DB5754 /* Cards.xml */,
+				082C9385239F707D00DB5754 /* splash.jpg */,
+				082C9386239F707D00DB5754 /* freeGamesRibbon.png */,
+				082C9387239F707D00DB5754 /* War_Popup.png */,
+				082C9388239F707D00DB5754 /* Trumpet_rotate.png */,
+				082C9389239F707D00DB5754 /* Info_Content_War.png */,
+				082C938A239F707D00DB5754 /* Trumpet_rotate.xml */,
+				082C938B239F707D00DB5754 /* warBonusWinFrame.png */,
+				082C938C239F707D00DB5754 /* Dark_BG_Joker_Bonus.png */,
+				082C938D239F707D00DB5754 /* warBonusWinFrame.xml */,
+				082C938E239F707D00DB5754 /* Card_Select.xml */,
+				082C938F239F707D00DB5754 /* Card_Select.png */,
+				082C9390239F707D00DB5754 /* BigWin_Diamond_03.png */,
+				082C9391239F707D00DB5754 /* door.xml */,
+				082C9392239F707D00DB5754 /* BigWin_Diamond_02.png */,
+				082C9393239F707D00DB5754 /* door.png */,
+				082C9394239F707D00DB5754 /* warBonusBlueFront.png */,
+				082C9395239F707D00DB5754 /* warBonusBlueFront.xml */,
+				082C9396239F707D00DB5754 /* poof.png */,
+				082C9397239F707D00DB5754 /* Play_AllTime.xml */,
+				082C9398239F707D00DB5754 /* play_btn.png */,
+				082C9399239F707D00DB5754 /* Joker_Popup_Btn.png */,
+				082C939A239F707D00DB5754 /* Play_AllTime.png */,
+				082C939B239F707D00DB5754 /* poof.xml */,
+				082C939C239F707D00DB5754 /* options.png */,
+				082C939D239F707D00DB5754 /* warBonusBlueFrontFall.png */,
+				082C939E239F707D00DB5754 /* warBonusBlueFrontFall.xml */,
+				082C939F239F707D00DB5754 /* BigWin_Diamond_01.png */,
+				082C93A0239F707D00DB5754 /* Big_Win_title.png */,
+				082C93A1239F707D00DB5754 /* WarBonusInfoButton.png */,
+				082C93A2239F707D00DB5754 /* progressiveWarBonusblueAll.png */,
+				082C93A3239F707D00DB5754 /* warBonusredAll.png */,
+				082C93A4239F707D00DB5754 /* warBonusredAll.xml */,
+				082C93A5239F707D00DB5754 /* progressiveWarBonusblueAll.xml */,
+				082C93A6239F707D00DB5754 /* Joker_Popup.png */,
+				082C93A7239F707D00DB5754 /* Joker_Bonus_Card_Flip.xml */,
+				082C93A8239F707D00DB5754 /* Joker_Bonus_Card_Flip.png */,
+				082C93A9239F707D00DB5754 /* warBonusRedFrontFall.xml */,
+				082C93AA239F707D00DB5754 /* warBonusRedFrontFall.png */,
+				082C93AB239F707D00DB5754 /* warBonusRedFront.xml */,
+				082C93AC239F707D00DB5754 /* navigator_ON.png */,
+				082C93AD239F707D00DB5754 /* warBonusRedFront.png */,
+				082C93AE239F707D00DB5754 /* Fonts */,
+				082C93B3239F707D00DB5754 /* Cards_Joker_Bonus.png */,
+				082C93B4239F707D00DB5754 /* info_stick.png */,
+				082C93B5239F707D00DB5754 /* warBonusBlueFront1.xml */,
+				082C93B6239F707D00DB5754 /* progressiveWarBonusredAll.xml */,
+				082C93B7239F707D00DB5754 /* Trumpet.xml */,
+				082C93B8239F707D00DB5754 /* Joker_bg_Horz.jpg */,
+				082C93B9239F707D00DB5754 /* gameSound.xml */,
+				082C93BA239F707D00DB5754 /* Trumpet.png */,
+				082C93BB239F707D00DB5754 /* progressiveWarBonusredAll.png */,
+				082C93BC239F707D00DB5754 /* warBonusBlueFront1.png */,
+				082C93BD239F707D00DB5754 /* jokePopupText.png */,
+				082C93BE239F707D00DB5754 /* AutoPlay.png */,
+			);
+			path = 431;
+			sourceTree = "<group>";
+		};
+		082C9323239F707D00DB5754 /* ENU */ = {
+			isa = PBXGroup;
+			children = (
+				082C9324239F707D00DB5754 /* LoadImage.png */,
+			);
+			path = ENU;
+			sourceTree = "<group>";
+		};
+		082C9355239F707D00DB5754 /* I */ = {
+			isa = PBXGroup;
+			children = (
+				082C9356239F707D00DB5754 /* Gold_Card_Flip.png */,
+				082C9357239F707D00DB5754 /* Gold_Card_Flip.xml */,
+				082C9358239F707D00DB5754 /* Joker_Bonus_Card.png */,
+				082C9359239F707D00DB5754 /* Joker_Bonus_Card_X.xml */,
+				082C935A239F707D00DB5754 /* Joker_Bonus_Card_X.png */,
+				082C935B239F707D00DB5754 /* Joker_Bonus_Card.xml */,
+				082C935C239F707D00DB5754 /* Queen_Card.png */,
+				082C935D239F707D00DB5754 /* Queen_Card.xml */,
+				082C935E239F707D00DB5754 /* Card_Flip.png */,
+				082C935F239F707D00DB5754 /* Card_Flip.xml */,
+				082C9360239F707D00DB5754 /* reveal_btn.png */,
+				082C9361239F707D00DB5754 /* Joker_Card.png */,
+				082C9362239F707D00DB5754 /* Joker_Card.xml */,
+			);
+			path = I;
+			sourceTree = "<group>";
+		};
+		082C937B239F707D00DB5754 /* Lang */ = {
+			isa = PBXGroup;
+			children = (
+				082C937C239F707D00DB5754 /* 192 */,
+				082C937E239F707D00DB5754 /* ENU_431.json */,
+				082C937F239F707D00DB5754 /* ENG_431.json */,
+				082C9380239F707D00DB5754 /* 172 */,
 			);
 			path = Lang;
 			sourceTree = "<group>";
 		};
-		08A21B64238162180072E5C6 /* AutoPlay */ = {
+		082C937C239F707D00DB5754 /* 192 */ = {
 			isa = PBXGroup;
 			children = (
+				082C937D239F707D00DB5754 /* ENG_431.json */,
 			);
-			path = AutoPlay;
+			path = 192;
 			sourceTree = "<group>";
 		};
-		08A21B65238162180072E5C6 /* BottomBar */ = {
+		082C9380239F707D00DB5754 /* 172 */ = {
 			isa = PBXGroup;
 			children = (
+				082C9381239F707D00DB5754 /* ENG_431.json */,
 			);
-			path = BottomBar;
+			path = 172;
 			sourceTree = "<group>";
 		};
-		08A21B6B238162180072E5C6 /* 1280x720 */ = {
+		082C93AE239F707D00DB5754 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				08A21B6C238162180072E5C6 /* SwedishRegulation */,
-				08A21B70238162180072E5C6 /* backButtonImage.png */,
-				08A21B71238162180072E5C6 /* onButton.png */,
-				08A21B72238162180072E5C6 /* gamesTopBarBG.png */,
-				08A21B73238162180072E5C6 /* ScrollUpPanelHand.png */,
-				08A21B74238162180072E5C6 /* rightButton.png */,
-				08A21B75238162180072E5C6 /* soundButtonImage.png */,
-				08A21B76238162180072E5C6 /* ShortImg_iOS6.png */,
-				08A21B77238162180072E5C6 /* infoButtonImage.png */,
-				08A21B78238162180072E5C6 /* ShortImg_iOS7.png */,
-				08A21B79238162180072E5C6 /* ScrollUpPanelArrow.png */,
-				08A21B7A238162180072E5C6 /* leftButton.png */,
-				08A21B7B238162180072E5C6 /* ExtendedAutoplay */,
-				08A21B83238162180072E5C6 /* locations.xml */,
-				08A21B84238162180072E5C6 /* pBar.gif */,
-				08A21B85238162180072E5C6 /* nextBtn.png */,
-				08A21B86238162180072E5C6 /* helpButtonImage.png */,
-				08A21B87238162180072E5C6 /* carouselBack.png */,
-				08A21B88238162180072E5C6 /* test.xml */,
-				08A21B89238162180072E5C6 /* Lang */,
-				08A21B96238162180072E5C6 /* AutoPlay */,
-				08A21B9F238162180072E5C6 /* Menu */,
-				08A21BAF238162180072E5C6 /* orientation.png */,
-				08A21BB0238162180072E5C6 /* spinner.png */,
-				08A21BB1238162180072E5C6 /* gamesTopBarCenter.png */,
-				08A21BB2238162180072E5C6 /* settingsButtonImage.png */,
-				08A21BB3238162180072E5C6 /* cheatToolButtonImage.png */,
-				08A21BB4238162180072E5C6 /* offButton.png */,
-				08A21BB5238162180072E5C6 /* orientationExternalGame.png */,
-				08A21BB6238162180072E5C6 /* BottomBar */,
-				08A21BBE238162180072E5C6 /* X_Button.png */,
+				082C93AF239F707D00DB5754 /* grenadiernf-webfont.woff2 */,
+				082C93B0239F707D00DB5754 /* grenadiernf-webfont.eot */,
+				082C93B1239F707D00DB5754 /* grenadiernf-webfont.woff */,
+				082C93B2239F707D00DB5754 /* grenadiernf-webfont.ttf */,
 			);
-			path = 1280x720;
-			sourceTree = "<group>";
-		};
-		08A21B6C238162180072E5C6 /* SwedishRegulation */ = {
-			isa = PBXGroup;
-			children = (
-				08A21B6D238162180072E5C6 /* selftest.png */,
-				08A21B6E238162180072E5C6 /* playlimit.png */,
-				08A21B6F238162180072E5C6 /* pausegame.png */,
-			);
-			path = SwedishRegulation;
-			sourceTree = "<group>";
-		};
-		08A21B7B238162180072E5C6 /* ExtendedAutoplay */ = {
-			isa = PBXGroup;
-			children = (
-				08A21B7C238162180072E5C6 /* autoPlayExtendedDisabledCheckBox.png */,
-				08A21B7D238162180072E5C6 /* autoPlayExtendedSelectedCheckBox.png */,
-				08A21B7E238162180072E5C6 /* autoplayExtendedHorz.xml */,
-				08A21B7F238162180072E5C6 /* autoPlayExtendedBox.png */,
-				08A21B80238162180072E5C6 /* autoPlayExtendedDisabledUncheckedCheckBox.png */,
-				08A21B81238162180072E5C6 /* autoPlayExtendedButton.png */,
-				08A21B82238162180072E5C6 /* autoPlayExtendedUnSelectedCheckBox.png */,
-			);
-			path = ExtendedAutoplay;
-			sourceTree = "<group>";
-		};
-		08A21B89238162180072E5C6 /* Lang */ = {
-			isa = PBXGroup;
-			children = (
-				08A21B8A238162180072E5C6 /* SWE.json */,
-				08A21B8B238162180072E5C6 /* LIT.json */,
-				08A21B8C238162180072E5C6 /* POR.json */,
-				08A21B8D238162180072E5C6 /* GER.json */,
-				08A21B8E238162180072E5C6 /* BUL.json */,
-				08A21B8F238162180072E5C6 /* DAN.json */,
-				08A21B90238162180072E5C6 /* NOR.json */,
-				08A21B91238162180072E5C6 /* ENU.json */,
-				08A21B92238162180072E5C6 /* FIN.json */,
-				08A21B93238162180072E5C6 /* CZE.json */,
-				08A21B94238162180072E5C6 /* ITA.json */,
-				08A21B95238162180072E5C6 /* ENG.json */,
-			);
-			path = Lang;
-			sourceTree = "<group>";
-		};
-		08A21B96238162180072E5C6 /* AutoPlay */ = {
-			isa = PBXGroup;
-			children = (
-				08A21B97238162180072E5C6 /* autoPlayWebPlay.png */,
-				08A21B98238162180072E5C6 /* tooltip.png */,
-				08A21B99238162180072E5C6 /* autoPlayWebOpenPlay.png */,
-				08A21B9A238162180072E5C6 /* autoplayWebPanelBg.png */,
-				08A21B9B238162180072E5C6 /* autoPlayWebPause.png */,
-				08A21B9C238162180072E5C6 /* autoPlayWebMinus.png */,
-				08A21B9D238162180072E5C6 /* autoPlayWebClose.png */,
-				08A21B9E238162180072E5C6 /* autoPlayWebPlus.png */,
-			);
-			path = AutoPlay;
-			sourceTree = "<group>";
-		};
-		08A21B9F238162180072E5C6 /* Menu */ = {
-			isa = PBXGroup;
-			children = (
-				08A21BA0238162180072E5C6 /* Settings_Btn.png */,
-				08A21BA1238162180072E5C6 /* Info_Btn_Active.png */,
-				08A21BA2238162180072E5C6 /* sound-off.png */,
-				08A21BA3238162180072E5C6 /* hamburger_btn.png */,
-				08A21BA4238162180072E5C6 /* TOOLBAR-SOUND-LOADING-stroke.png */,
-				08A21BA5238162180072E5C6 /* SoundLoading.gif */,
-				08A21BA6238162180072E5C6 /* sound-on.png */,
-				08A21BA7238162180072E5C6 /* Info_Btn.png */,
-				08A21BA8238162180072E5C6 /* Home_Btn_Active.png */,
-				08A21BA9238162180072E5C6 /* RobotoCondensed-Regular.ttf */,
-				08A21BAA238162180072E5C6 /* Home_Btn.png */,
-				08A21BAB238162180072E5C6 /* menuStyle.css */,
-				08A21BAC238162180072E5C6 /* hamburger-btn-inactive.png */,
-				08A21BAD238162180072E5C6 /* Settings_Btn_Active.png */,
-				08A21BAE238162180072E5C6 /* CT.png */,
-			);
-			path = Menu;
-			sourceTree = "<group>";
-		};
-		08A21BB6238162180072E5C6 /* BottomBar */ = {
-			isa = PBXGroup;
-			children = (
-				08A21BB7238162180072E5C6 /* SogeyExit.png */,
-				08A21BB8238162180072E5C6 /* Sound_Off.png */,
-				08A21BB9238162180072E5C6 /* Sound.png */,
-				08A21BBA238162180072E5C6 /* SogeyDepositToGame.png */,
-				08A21BBB238162180072E5C6 /* Help.png */,
-				08A21BBC238162180072E5C6 /* SogeyDepositApproval.png */,
-				08A21BBD238162180072E5C6 /* Separator.png */,
-			);
-			path = BottomBar;
-			sourceTree = "<group>";
-		};
-		08A21BBF238162180072E5C6 /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-				08A21BC0238162180072E5C6 /* FRABK.TTF */,
-				08A21BC1238162180072E5C6 /* verdanab.ttf */,
-				08A21BC2238162180072E5C6 /* impact_F.ttf */,
-				08A21BC3238162180072E5C6 /* coreFonts.css */,
-			);
-			path = fonts;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		08A21C1C238167860072E5C6 /* secure */ = {
 			isa = PBXGroup;
 			children = (
+				082C9315239F707D00DB5754 /* OP */,
 				08A21C20238167BE0072E5C6 /* HTML5Games */,
-				08A21C1D238167930072E5C6 /* GamesCore */,
 			);
 			name = secure;
 			path = "New Group";
-			sourceTree = "<group>";
-		};
-		08A21C1D238167930072E5C6 /* GamesCore */ = {
-			isa = PBXGroup;
-			children = (
-				08A21C1E2381679E0072E5C6 /* 1_0 */,
-			);
-			path = GamesCore;
-			sourceTree = "<group>";
-		};
-		08A21C1E2381679E0072E5C6 /* 1_0 */ = {
-			isa = PBXGroup;
-			children = (
-				08A21B5F238162180072E5C6 /* common */,
-			);
-			path = 1_0;
 			sourceTree = "<group>";
 		};
 		08A21C20238167BE0072E5C6 /* HTML5Games */ = {
@@ -685,15 +838,17 @@
 		08A64F0D23706B7300932286 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				082C945A239F733800DB5754 /* GWTHTML5ScriptsLauncher.js */,
+				082C945B239F733900DB5754 /* PixiHTML5ScriptsLauncher.js */,
 				08A21C1C238167860072E5C6 /* secure */,
 				08F1E1B3238160B100DCFF6C /* secure */,
 				08EA83C6237D39FF00425698 /* web.config */,
-				08CB58B823781A6E000501B6 /* index-launch.js */,
 				08CB57DA237814D4000501B6 /* GamesCoreLauncher.js */,
 				08CB5850237814D4000501B6 /* HTML5ScriptsLauncher.js */,
 				08057AE32374000F0086DED6 /* BaseGame.html */,
 				08A64F0E23706B7300932286 /* AppDelegate.swift */,
 				08A64F1023706B7300932286 /* ViewController.swift */,
+				082C945E23A0CA3D00DB5754 /* MainViewController.swift */,
 				08A64F1223706B7300932286 /* Main.storyboard */,
 				08A64F1523706B7500932286 /* Assets.xcassets */,
 				08A64F1723706B7500932286 /* LaunchScreen.storyboard */,
@@ -707,7 +862,6 @@
 			isa = PBXGroup;
 			children = (
 				0824296423856D0F00A64860 /* LoadImage.png */,
-				08F1E1B6238160E400DCFF6C /* ENG */,
 				08F1E1B8238160E400DCFF6C /* AutoStop.png */,
 				08F1E1B9238160E400DCFF6C /* ENU */,
 				08F1E1C6238160E400DCFF6C /* gameLocations.xml */,
@@ -718,25 +872,9 @@
 				08F1E1D2238160E400DCFF6C /* freeGamesRibbon.png */,
 				08F1E1D3238160E400DCFF6C /* locations */,
 				08F1E1D6238160E400DCFF6C /* Assets */,
-				08F1E230238160E400DCFF6C /* 113 */,
 				08F1E237238160E400DCFF6C /* AutoPlay.png */,
 			);
 			path = 1280x720;
-			sourceTree = "<group>";
-		};
-		08F1E1B6238160E400DCFF6C /* ENG */ = {
-			isa = PBXGroup;
-			children = (
-				08F1E1B7238160E400DCFF6C /* fonts */,
-			);
-			path = ENG;
-			sourceTree = "<group>";
-		};
-		08F1E1B7238160E400DCFF6C /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = fonts;
 			sourceTree = "<group>";
 		};
 		08F1E1B9238160E400DCFF6C /* ENU */ = {
@@ -1023,61 +1161,6 @@
 			path = images;
 			sourceTree = "<group>";
 		};
-		08F1E230238160E400DCFF6C /* 113 */ = {
-			isa = PBXGroup;
-			children = (
-				08F1E231238160E400DCFF6C /* ENG */,
-				08F1E234238160E400DCFF6C /* ENU */,
-			);
-			path = 113;
-			sourceTree = "<group>";
-		};
-		08F1E231238160E400DCFF6C /* ENG */ = {
-			isa = PBXGroup;
-			children = (
-				08F1E232238160E400DCFF6C /* bitmapFonts */,
-				08F1E233238160E400DCFF6C /* fonts */,
-			);
-			path = ENG;
-			sourceTree = "<group>";
-		};
-		08F1E232238160E400DCFF6C /* bitmapFonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = bitmapFonts;
-			sourceTree = "<group>";
-		};
-		08F1E233238160E400DCFF6C /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = fonts;
-			sourceTree = "<group>";
-		};
-		08F1E234238160E400DCFF6C /* ENU */ = {
-			isa = PBXGroup;
-			children = (
-				08F1E235238160E400DCFF6C /* bitmapFonts */,
-				08F1E236238160E400DCFF6C /* fonts */,
-			);
-			path = ENU;
-			sourceTree = "<group>";
-		};
-		08F1E235238160E400DCFF6C /* bitmapFonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = bitmapFonts;
-			sourceTree = "<group>";
-		};
-		08F1E236238160E400DCFF6C /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = fonts;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1106,6 +1189,7 @@
 			attributes = {
 				KnownAssetTags = (
 					1121,
+					431,
 					test,
 				);
 				LastSwiftUpdateCheck = 1010;
@@ -1142,198 +1226,254 @@
 			files = (
 				08F1E28B238160E400DCFF6C /* BigWinPopupParticle.png in Resources */,
 				08F1E246238160E400DCFF6C /* soundConfig.json in Resources */,
-				08A21BCF238162180072E5C6 /* gamesTopBarBG.png in Resources */,
-				08A21C03238162180072E5C6 /* Home_Btn.png in Resources */,
+				082C93FE239F707D00DB5754 /* Card_Flip.png in Resources */,
+				082C93D5239F707D00DB5754 /* warBonusRedFront1.png in Resources */,
+				082C93D1239F707D00DB5754 /* Joker_legend.xml in Resources */,
+				082C93E1239F707D00DB5754 /* Legend_Prize.png in Resources */,
 				08F1E26D238160E400DCFF6C /* res_Toolbar_atlas_2.json in Resources */,
-				08A21C15238162180072E5C6 /* Separator.png in Resources */,
+				082C9453239F707D00DB5754 /* Joker_bg_Horz.jpg in Resources */,
 				08F1E278238160E400DCFF6C /* res_Toolbar_Autoplay_Loc.js in Resources */,
+				082C9401239F707D00DB5754 /* Joker_Card.png in Resources */,
+				082C93DB239F707D00DB5754 /* winDiamond.png in Resources */,
+				082C9457239F707D00DB5754 /* warBonusBlueFront1.png in Resources */,
 				08F1E249238160E400DCFF6C /* ENU_1121.json in Resources */,
-				08A21BD7238162180072E5C6 /* leftButton.png in Resources */,
+				082C941B239F707D00DB5754 /* ENU_431.json in Resources */,
 				08F1E23E238160E400DCFF6C /* RobotoCondensed-Light.ttf in Resources */,
 				08F1E254238160E400DCFF6C /* AlltimeParticle1.png in Resources */,
 				08A64F1923706B7500932286 /* LaunchScreen.storyboard in Resources */,
-				08A21BC5238162180072E5C6 /* web.config in Resources */,
+				082C943E239F707D00DB5754 /* progressiveWarBonusblueAll.png in Resources */,
 				08F1E252238160E400DCFF6C /* res_MainGame_Loc.js in Resources */,
 				08F1E23F238160E400DCFF6C /* AsapCondensed-Regular.ttf in Resources */,
-				08A21BDD238162180072E5C6 /* autoPlayExtendedButton.png in Resources */,
+				082C93CC239F707D00DB5754 /* Joker_Bonus_Win_Frame.xml in Resources */,
 				08F1E28F238160E400DCFF6C /* res_YouWonPopup_atlas_1.json in Resources */,
+				082C943A239F707D00DB5754 /* warBonusBlueFrontFall.xml in Resources */,
+				082C93E3239F707D00DB5754 /* War_legend.xml in Resources */,
+				082C93C4239F707D00DB5754 /* Info_Content_Joker.png in Resources */,
 				08F1E28E238160E400DCFF6C /* res_YouWonPopup.js in Resources */,
 				08F1E284238160E400DCFF6C /* res_BigWinPopup_atlas_5.png in Resources */,
-				08A21BF8238162180072E5C6 /* autoPlayWebPlus.png in Resources */,
-				08A21BF3238162180072E5C6 /* autoPlayWebOpenPlay.png in Resources */,
-				08A21C04238162180072E5C6 /* menuStyle.css in Resources */,
-				08A21BF5238162180072E5C6 /* autoPlayWebPause.png in Resources */,
-				08A21BDA238162180072E5C6 /* autoplayExtendedHorz.xml in Resources */,
-				08A21BDF238162180072E5C6 /* locations.xml in Resources */,
-				08A21BD3238162180072E5C6 /* ShortImg_iOS6.png in Resources */,
+				082C9400239F707D00DB5754 /* reveal_btn.png in Resources */,
+				082C93F9239F707D00DB5754 /* Joker_Bonus_Card_X.xml in Resources */,
+				082C9431239F707D00DB5754 /* warBonusBlueFront.xml in Resources */,
+				082C943C239F707D00DB5754 /* Big_Win_title.png in Resources */,
 				08F1E287238160E400DCFF6C /* res_BigWinPopup_atlas_4.json in Resources */,
-				08A21C02238162180072E5C6 /* RobotoCondensed-Regular.ttf in Resources */,
-				08A21BED238162180072E5C6 /* FIN.json in Resources */,
 				08057AE923741FE10086DED6 /* initial.js in Resources */,
-				08A21C00238162180072E5C6 /* Info_Btn.png in Resources */,
+				082C9448239F707D00DB5754 /* navigator_ON.png in Resources */,
 				08F1E24D238160E400DCFF6C /* locationsM.xml in Resources */,
+				082C93EB239F707D00DB5754 /* locations.xml in Resources */,
 				08CB58B7237814D5000501B6 /* HTML5ScriptsLauncher.js in Resources */,
-				08A21C01238162180072E5C6 /* Home_Btn_Active.png in Resources */,
-				08A21BFD238162180072E5C6 /* TOOLBAR-SOUND-LOADING-stroke.png in Resources */,
-				08A21BEC238162180072E5C6 /* ENU.json in Resources */,
+				082C9426239F707D00DB5754 /* Trumpet_rotate.xml in Resources */,
+				082C9423239F707D00DB5754 /* War_Popup.png in Resources */,
+				082C9449239F707D00DB5754 /* warBonusRedFront.png in Resources */,
+				082C9444239F707D00DB5754 /* Joker_Bonus_Card_Flip.png in Resources */,
+				082C93F6239F707D00DB5754 /* Gold_Card_Flip.png in Resources */,
 				08F1E26A238160E400DCFF6C /* res_GameArea_atlas_3.json in Resources */,
+				082C9435239F707D00DB5754 /* Joker_Popup_Btn.png in Resources */,
 				08F1E293238160E400DCFF6C /* res_YouWonPopup_atlas_2.png in Resources */,
 				08F1E275238160E400DCFF6C /* res_Toolbar.js in Resources */,
 				08F1E276238160E400DCFF6C /* res_Toolbar_Autoplay_atlas_1.png in Resources */,
 				08A64F1623706B7500932286 /* Assets.xcassets in Resources */,
 				08F1E241238160E400DCFF6C /* fonts.css in Resources */,
-				08A21C06238162180072E5C6 /* Settings_Btn_Active.png in Resources */,
 				08F1E277238160E400DCFF6C /* res_Toolbar_Autoplay_atlas_1.json in Resources */,
 				08F1E265238160E400DCFF6C /* res_GameArea_atlas_5.json in Resources */,
 				08F1E27E238160E400DCFF6C /* res_Logo.js in Resources */,
-				08A21BF0238162180072E5C6 /* ENG.json in Resources */,
+				082C9430239F707D00DB5754 /* warBonusBlueFront.png in Resources */,
+				082C941A239F707D00DB5754 /* ENG_431.json in Resources */,
 				08F1E292238160E400DCFF6C /* res_YouWonPopup_atlas_1.png in Resources */,
+				082C93FA239F707D00DB5754 /* Joker_Bonus_Card_X.png in Resources */,
+				082C9446239F707D00DB5754 /* warBonusRedFrontFall.png in Resources */,
 				08F1E281238160E400DCFF6C /* res_BigWinPopup_atlas_3.png in Resources */,
 				08F1E26E238160E400DCFF6C /* res_Toolbar_Layer 648.png in Resources */,
 				08F1E27D238160E400DCFF6C /* res_Logo_atlas_1.png in Resources */,
+				082C942A239F707D00DB5754 /* Card_Select.xml in Resources */,
+				082C93C8239F707D00DB5754 /* Joker_Coin.png in Resources */,
+				082C93D8239F707D00DB5754 /* warBonusblueAll.png in Resources */,
 				08F1E282238160E400DCFF6C /* res_BigWinPopup_atlas_4.png in Resources */,
 				08F1E259238160E400DCFF6C /* res_GameArea_atlas_1.json in Resources */,
-				08A21BC7238162180072E5C6 /* common.css in Resources */,
 				08F1E250238160E400DCFF6C /* res_MainGame_wildtime_BG.jpg in Resources */,
+				082C9413239F707D00DB5754 /* Dark_BG.png in Resources */,
+				082C9402239F707D00DB5754 /* Joker_Card.xml in Resources */,
 				08F1E289238160E400DCFF6C /* res_BigWinPopup_DarkMask.png in Resources */,
 				08F1E296238160E400DCFF6C /* res_YouWonPopup_Loc.js in Resources */,
-				08A21C18238162180072E5C6 /* verdanab.ttf in Resources */,
+				082C93FF239F707D00DB5754 /* Card_Flip.xml in Resources */,
+				082C9427239F707D00DB5754 /* warBonusWinFrame.png in Resources */,
+				082C9441239F707D00DB5754 /* progressiveWarBonusblueAll.xml in Resources */,
+				082C93F7239F707D00DB5754 /* Gold_Card_Flip.xml in Resources */,
 				08F1E283238160E400DCFF6C /* res_BigWinPopup_atlas_1.json in Resources */,
 				08F1E291238160E400DCFF6C /* res_YouWonPopup_DarkMask.png in Resources */,
 				08F1E270238160E400DCFF6C /* res_Toolbar_atlas_2.png in Resources */,
 				08F1E27B238160E400DCFF6C /* res_Logo_atlas_2.png in Resources */,
+				082C9436239F707D00DB5754 /* Play_AllTime.png in Resources */,
 				08F1E297238160E400DCFF6C /* AutoPlay.png in Resources */,
-				08A21BEA238162180072E5C6 /* DAN.json in Resources */,
-				08A21C0D238162180072E5C6 /* offButton.png in Resources */,
-				08A21C12238162180072E5C6 /* SogeyDepositToGame.png in Resources */,
-				08A21BE1238162180072E5C6 /* nextBtn.png in Resources */,
+				082C93D2239F707D00DB5754 /* Queen_Card_Win.png in Resources */,
+				082C93CE239F707D00DB5754 /* Joker_legend.png in Resources */,
+				082C944C239F707D00DB5754 /* grenadiernf-webfont.woff in Resources */,
+				082C93C1239F707D00DB5754 /* AutoStop.png in Resources */,
+				082C93CF239F707D00DB5754 /* warSummeryPopUpText.png in Resources */,
 				08F1E23C238160E400DCFF6C /* YouWonAmountFont.png in Resources */,
-				08A21BEF238162180072E5C6 /* ITA.json in Resources */,
+				082C9447239F707D00DB5754 /* warBonusRedFront.xml in Resources */,
+				082C93EE239F707D00DB5754 /* ItsAwinner.png in Resources */,
+				082C93FC239F707D00DB5754 /* Queen_Card.png in Resources */,
 				08F1E256238160E400DCFF6C /* res_MainGame.js in Resources */,
+				082C945D239F733900DB5754 /* PixiHTML5ScriptsLauncher.js in Resources */,
+				082C9437239F707D00DB5754 /* poof.xml in Resources */,
+				082C93FD239F707D00DB5754 /* Queen_Card.xml in Resources */,
 				08F1E24B238160E400DCFF6C /* freeGamesRibbon.png in Resources */,
 				082C9310239E3AE800DB5754 /* callback.js in Resources */,
 				08A64F1423706B7300932286 /* Main.storyboard in Resources */,
 				08F1E24E238160E400DCFF6C /* LegendTextStyle.json in Resources */,
 				08F1E25C238160E400DCFF6C /* res_GameArea_atlas_9.png in Resources */,
-				08A21BC6238162180072E5C6 /* Arial.ttf.eot in Resources */,
+				082C93E6239F707D00DB5754 /* Logo_Alltime.png in Resources */,
+				082C93E2239F707D00DB5754 /* warBonusFlag.png in Resources */,
 				08F1E273238160E400DCFF6C /* res_Toolbar_atlas_1.json in Resources */,
 				08F1E269238160E400DCFF6C /* res_GameArea_atlas_2.json in Resources */,
-				08A21BD9238162180072E5C6 /* autoPlayExtendedSelectedCheckBox.png in Resources */,
-				08A21BD0238162180072E5C6 /* ScrollUpPanelHand.png in Resources */,
-				08A21C13238162180072E5C6 /* Help.png in Resources */,
+				082C944F239F707D00DB5754 /* info_stick.png in Resources */,
+				082C944A239F707D00DB5754 /* grenadiernf-webfont.woff2 in Resources */,
+				082C93EF239F707D00DB5754 /* battleBtnAnim.xml in Resources */,
+				082C93CD239F707D00DB5754 /* Joker_Win.png in Resources */,
+				082C944B239F707D00DB5754 /* grenadiernf-webfont.eot in Resources */,
+				082C93D4239F707D00DB5754 /* jokerSummeryPopUpText.png in Resources */,
 				08F1E243238160E400DCFF6C /* gameLocations.xml in Resources */,
-				08A21C09238162180072E5C6 /* spinner.png in Resources */,
-				08A21BC4238162180072E5C6 /* Arial.ttf.woff in Resources */,
-				08A21C17238162180072E5C6 /* FRABK.TTF in Resources */,
+				082C9420239F707D00DB5754 /* Cards.xml in Resources */,
+				082C9422239F707D00DB5754 /* freeGamesRibbon.png in Resources */,
 				08F1E253238160E400DCFF6C /* AllTimeParticles.json in Resources */,
-				08A21C0F238162180072E5C6 /* SogeyExit.png in Resources */,
+				082C945C239F733900DB5754 /* GWTHTML5ScriptsLauncher.js in Resources */,
+				082C93C7239F707D00DB5754 /* Cards_01.png in Resources */,
 				08F1E280238160E400DCFF6C /* res_BigWinPopup_atlas_2.png in Resources */,
 				08F1E25E238160E400DCFF6C /* res_GameArea_atlas_5.png in Resources */,
-				08A21BD4238162180072E5C6 /* infoButtonImage.png in Resources */,
+				082C93F2239F707D00DB5754 /* tooltip.png in Resources */,
+				082C9458239F707D00DB5754 /* jokePopupText.png in Resources */,
 				08F1E26B238160E400DCFF6C /* res_GameArea_Loc.js in Resources */,
-				08A21BFC238162180072E5C6 /* hamburger_btn.png in Resources */,
+				082C93E8239F707D00DB5754 /* cashier.png in Resources */,
+				082C9403239F707D00DB5754 /* stick.png in Resources */,
 				08F1E274238160E400DCFF6C /* res_Toolbar_Loc.js in Resources */,
 				08F1E271238160E400DCFF6C /* res_Toolbar_blicks back 3.png in Resources */,
 				08F1E251238160E400DCFF6C /* res_MainGame_atlas_1.json in Resources */,
 				08F1E263238160E400DCFF6C /* res_GameArea_atlas_7.png in Resources */,
-				08A21C16238162180072E5C6 /* X_Button.png in Resources */,
-				08A21BCD238162180072E5C6 /* backButtonImage.png in Resources */,
-				08A21BC9238162180072E5C6 /* arial.ttf in Resources */,
-				08A21BEE238162180072E5C6 /* CZE.json in Resources */,
-				08A21BD8238162180072E5C6 /* autoPlayExtendedDisabledCheckBox.png in Resources */,
-				08A21BF1238162180072E5C6 /* autoPlayWebPlay.png in Resources */,
+				082C93ED239F707D00DB5754 /* Dont_Show_Marker.png in Resources */,
+				082C9428239F707D00DB5754 /* Dark_BG_Joker_Bonus.png in Resources */,
+				082C93FB239F707D00DB5754 /* Joker_Bonus_Card.xml in Resources */,
 				08F1E255238160E400DCFF6C /* AlltimeParticle2.png in Resources */,
+				082C93C2239F707D00DB5754 /* i_btn_joker_bonus.png in Resources */,
+				082C93E4239F707D00DB5754 /* War_legend.png in Resources */,
 				08F1E23D238160E400DCFF6C /* AsapCondensed-Regular.eot in Resources */,
-				08A21BFA238162180072E5C6 /* Info_Btn_Active.png in Resources */,
+				082C93D0239F707D00DB5754 /* Queen_Card_Win.xml in Resources */,
+				082C9415239F707D00DB5754 /* War_Bonus.xml in Resources */,
 				08F1E247238160E400DCFF6C /* soundConfigIE.json in Resources */,
-				08A21BF4238162180072E5C6 /* autoplayWebPanelBg.png in Resources */,
-				08A21C19238162180072E5C6 /* impact_F.ttf in Resources */,
-				08A21BE8238162180072E5C6 /* GER.json in Resources */,
-				08A21BE3238162180072E5C6 /* carouselBack.png in Resources */,
-				08A21BF6238162180072E5C6 /* autoPlayWebMinus.png in Resources */,
-				08A21BE5238162180072E5C6 /* SWE.json in Resources */,
+				082C942C239F707D00DB5754 /* BigWin_Diamond_03.png in Resources */,
+				082C9440239F707D00DB5754 /* warBonusredAll.xml in Resources */,
+				082C93C5239F707D00DB5754 /* LoadImage.png in Resources */,
+				082C9443239F707D00DB5754 /* Joker_Bonus_Card_Flip.xml in Resources */,
+				082C9438239F707D00DB5754 /* options.png in Resources */,
+				082C93F8239F707D00DB5754 /* Joker_Bonus_Card.png in Resources */,
+				082C944D239F707D00DB5754 /* grenadiernf-webfont.ttf in Resources */,
+				082C941C239F707D00DB5754 /* ENG_431.json in Resources */,
+				082C9456239F707D00DB5754 /* progressiveWarBonusredAll.png in Resources */,
 				08F1E257238160E400DCFF6C /* Shortcut.png in Resources */,
 				08F1E25B238160E400DCFF6C /* res_GameArea_atlas_7.json in Resources */,
+				082C9451239F707D00DB5754 /* progressiveWarBonusredAll.xml in Resources */,
+				082C93E9239F707D00DB5754 /* Win_Frame.png in Resources */,
 				08F1E272238160E400DCFF6C /* res_Toolbar_BOTTOM_BAR_BG.png in Resources */,
-				08A21BE7238162180072E5C6 /* POR.json in Resources */,
-				08A21BFF238162180072E5C6 /* sound-on.png in Resources */,
 				08F1E24C238160E400DCFF6C /* locationsW.xml in Resources */,
-				08A21BDB238162180072E5C6 /* autoPlayExtendedBox.png in Resources */,
-				08A21C1A238162180072E5C6 /* coreFonts.css in Resources */,
+				082C93BF239F707D00DB5754 /* WarBonusbattleButton.png in Resources */,
+				082C93DE239F707D00DB5754 /* Big_Win_Amount.png in Resources */,
+				082C9442239F707D00DB5754 /* Joker_Popup.png in Resources */,
 				08F1E290238160E400DCFF6C /* res_YouWonPopup_atlas_2.json in Resources */,
-				08A21BFE238162180072E5C6 /* SoundLoading.gif in Resources */,
-				08A21BCC238162180072E5C6 /* pausegame.png in Resources */,
+				082C942D239F707D00DB5754 /* door.xml in Resources */,
 				08F1E24A238160E400DCFF6C /* ENG_1121.json in Resources */,
-				08A21BD5238162180072E5C6 /* ShortImg_iOS7.png in Resources */,
-				08A21C0E238162180072E5C6 /* orientationExternalGame.png in Resources */,
-				08A21C08238162180072E5C6 /* orientation.png in Resources */,
-				08A21BD1238162180072E5C6 /* rightButton.png in Resources */,
+				082C93DF239F707D00DB5754 /* Legend_Prize.xml in Resources */,
+				082C93F0239F707D00DB5754 /* WarBonusBg.jpg in Resources */,
+				082C9433239F707D00DB5754 /* Play_AllTime.xml in Resources */,
+				082C9459239F707D00DB5754 /* AutoPlay.png in Resources */,
+				082C93EA239F707D00DB5754 /* Logo_Alltime.xml in Resources */,
+				082C93F4239F707D00DB5754 /* warBonusswords.png in Resources */,
+				082C93C0239F707D00DB5754 /* info.png in Resources */,
+				082C9414239F707D00DB5754 /* XXX.xml in Resources */,
 				08F1E244238160E400DCFF6C /* shortcut.png in Resources */,
 				08F1E28D238160E400DCFF6C /* BigWinPopupParticles.json in Resources */,
 				08F1E295238160E400DCFF6C /* YouWonPopupParticle.png in Resources */,
 				08F1E267238160E400DCFF6C /* res_GameArea_atlas_9.json in Resources */,
-				08A21BD6238162180072E5C6 /* ScrollUpPanelArrow.png in Resources */,
 				08F1E240238160E400DCFF6C /* GameRobotoCondensed-Regular.ttf in Resources */,
 				08F1E28A238160E400DCFF6C /* res_BigWinPopup_Loc.js in Resources */,
-				08A21BE9238162180072E5C6 /* BUL.json in Resources */,
 				08F1E1B4238160B100DCFF6C /* secure in Resources */,
 				08F1E27F238160E400DCFF6C /* res_BigWinPopup_atlas_1.png in Resources */,
 				08F1E294238160E400DCFF6C /* YouWonPopupParticles.json in Resources */,
-				08A21BE0238162180072E5C6 /* pBar.gif in Resources */,
 				08F1E25D238160E400DCFF6C /* res_GameArea_atlas_8.png in Resources */,
-				08A21C05238162180072E5C6 /* hamburger-btn-inactive.png in Resources */,
+				082C9418239F707D00DB5754 /* MenuLogo.png in Resources */,
 				08F1E248238160E400DCFF6C /* sprite.mp3 in Resources */,
-				08A21BCB238162180072E5C6 /* playlimit.png in Resources */,
 				08F1E288238160E400DCFF6C /* res_BigWinPopup_atlas_5.json in Resources */,
+				082C941E239F707D00DB5754 /* Cards.png in Resources */,
+				082C93F3239F707D00DB5754 /* warBonusswords.xml in Resources */,
 				08F1E262238160E400DCFF6C /* res_GameArea_atlas_4.json in Resources */,
+				082C93DD239F707D00DB5754 /* winDiamond.xml in Resources */,
 				08EA83C7237D3A0000425698 /* web.config in Resources */,
-				08A21C0B238162180072E5C6 /* settingsButtonImage.png in Resources */,
+				082C93D6239F707D00DB5754 /* warPopupText.png in Resources */,
+				082C9432239F707D00DB5754 /* poof.png in Resources */,
 				08F1E28C238160E400DCFF6C /* res_BigWinPopup.js in Resources */,
-				08A21C11238162180072E5C6 /* Sound.png in Resources */,
-				08CB58B923781A6E000501B6 /* index-launch.js in Resources */,
-				08A21BD2238162180072E5C6 /* soundButtonImage.png in Resources */,
-				08A21BF2238162180072E5C6 /* tooltip.png in Resources */,
+				082C93D3239F707D00DB5754 /* warBonusRedFront1.xml in Resources */,
+				082C93E7239F707D00DB5754 /* Win_Frame.xml in Resources */,
+				082C942E239F707D00DB5754 /* BigWin_Diamond_02.png in Resources */,
+				082C9416239F707D00DB5754 /* War_Bonus.png in Resources */,
 				08F1E245238160E400DCFF6C /* game.css in Resources */,
+				082C9419239F707D00DB5754 /* warBonusWinFrameQueen.png in Resources */,
 				08F1E258238160E400DCFF6C /* res_GameArea.js in Resources */,
 				08F1E25A238160E400DCFF6C /* res_GameArea_atlas_6.json in Resources */,
-				08A21BEB238162180072E5C6 /* NOR.json in Resources */,
+				082C9425239F707D00DB5754 /* Info_Content_War.png in Resources */,
+				082C93D9239F707D00DB5754 /* gameSound.mp3 in Resources */,
+				082C9429239F707D00DB5754 /* warBonusWinFrame.xml in Resources */,
+				082C93E0239F707D00DB5754 /* warBonusFlag.xml in Resources */,
+				082C942F239F707D00DB5754 /* door.png in Resources */,
 				08F1E279238160E400DCFF6C /* res_Toolbar_Autoplay.js in Resources */,
 				08F1E27A238160E400DCFF6C /* res_Logo_atlas_2.json in Resources */,
-				08A21C10238162180072E5C6 /* Sound_Off.png in Resources */,
-				08A21BDC238162180072E5C6 /* autoPlayExtendedDisabledUncheckedCheckBox.png in Resources */,
-				08A21BF7238162180072E5C6 /* autoPlayWebClose.png in Resources */,
-				08A21C07238162180072E5C6 /* CT.png in Resources */,
-				08A21BFB238162180072E5C6 /* sound-off.png in Resources */,
-				08A21BC8238162180072E5C6 /* Arial.ttf.svg in Resources */,
-				08A21C0A238162180072E5C6 /* gamesTopBarCenter.png in Resources */,
+				082C9434239F707D00DB5754 /* play_btn.png in Resources */,
+				082C93CA239F707D00DB5754 /* LoadImage.png in Resources */,
+				082C93F5239F707D00DB5754 /* shortcut.png in Resources */,
+				082C93DA239F707D00DB5754 /* Continue_Btn.png in Resources */,
 				08057AE42374000F0086DED6 /* BaseGame.html in Resources */,
+				082C9450239F707D00DB5754 /* warBonusBlueFront1.xml in Resources */,
 				08F1E264238160E400DCFF6C /* res_GameArea_atlas_3.png in Resources */,
 				08F1E23A238160E400DCFF6C /* WordsMatchedFont.xml in Resources */,
 				08CB5851237814D5000501B6 /* GamesCoreLauncher.js in Resources */,
-				08A21C14238162180072E5C6 /* SogeyDepositApproval.png in Resources */,
+				082C941D239F707D00DB5754 /* ENG_431.json in Resources */,
 				08F1E23B238160E400DCFF6C /* YouWonAmountFont.xml in Resources */,
+				082C9455239F707D00DB5754 /* Trumpet.png in Resources */,
+				082C9439239F707D00DB5754 /* warBonusBlueFrontFall.png in Resources */,
+				082C93DC239F707D00DB5754 /* War_Popup_Btn.png in Resources */,
+				082C93D7239F707D00DB5754 /* warBonusblueAll.xml in Resources */,
+				082C93F1239F707D00DB5754 /* battleBtnAnim.png in Resources */,
 				08F1E25F238160E400DCFF6C /* res_GameArea_atlas_8.json in Resources */,
+				082C93C9239F707D00DB5754 /* Cards_01.xml in Resources */,
+				082C9454239F707D00DB5754 /* gameSound.xml in Resources */,
+				082C943D239F707D00DB5754 /* WarBonusInfoButton.png in Resources */,
 				08F1E24F238160E400DCFF6C /* res_MainGame_atlas_1.png in Resources */,
 				08F1E266238160E400DCFF6C /* res_GameArea_atlas_2.png in Resources */,
 				08F1E261238160E400DCFF6C /* res_GameArea_atlas_6.png in Resources */,
-				08A21BE4238162180072E5C6 /* test.xml in Resources */,
+				082C9405239F707D00DB5754 /* game.css in Resources */,
+				082C9445239F707D00DB5754 /* warBonusRedFrontFall.xml in Resources */,
+				082C9452239F707D00DB5754 /* Trumpet.xml in Resources */,
 				08F1E238238160E400DCFF6C /* AutoStop.png in Resources */,
+				082C93CB239F707D00DB5754 /* Joker_Bonus_Win_Frame.png in Resources */,
 				08F1E260238160E400DCFF6C /* res_GameArea_atlas_4.png in Resources */,
-				08A21BCA238162180072E5C6 /* selftest.png in Resources */,
 				08F1E239238160E400DCFF6C /* WordsMatchedFont.png in Resources */,
-				08A21BCE238162180072E5C6 /* onButton.png in Resources */,
-				08A21BDE238162180072E5C6 /* autoPlayExtendedUnSelectedCheckBox.png in Resources */,
-				08A21BF9238162180072E5C6 /* Settings_Btn.png in Resources */,
+				082C942B239F707D00DB5754 /* Card_Select.png in Resources */,
+				082C944E239F707D00DB5754 /* Cards_Joker_Bonus.png in Resources */,
+				082C9424239F707D00DB5754 /* Trumpet_rotate.png in Resources */,
+				082C9421239F707D00DB5754 /* splash.jpg in Resources */,
+				082C93C6239F707D00DB5754 /* Joker_Coin.xml in Resources */,
 				08F1E26C238160E400DCFF6C /* res.js in Resources */,
-				08A21C0C238162180072E5C6 /* cheatToolButtonImage.png in Resources */,
+				082C943B239F707D00DB5754 /* BigWin_Diamond_01.png in Resources */,
+				082C93EC239F707D00DB5754 /* bg_Horz.jpg in Resources */,
+				082C9417239F707D00DB5754 /* XXX.png in Resources */,
 				08F1E27C238160E400DCFF6C /* res_Logo_atlas_1.json in Resources */,
-				08A21BE6238162180072E5C6 /* LIT.json in Resources */,
+				082C93C3239F707D00DB5754 /* Lobby.png in Resources */,
 				08F1E286238160E400DCFF6C /* res_BigWinPopup_atlas_3.json in Resources */,
 				0824296523856D0F00A64860 /* LoadImage.png in Resources */,
 				08F1E26F238160E400DCFF6C /* res_Toolbar_atlas_1.png in Resources */,
 				08F1E285238160E400DCFF6C /* res_BigWinPopup_atlas_2.json in Resources */,
-				08A21BE2238162180072E5C6 /* helpButtonImage.png in Resources */,
+				082C93E5239F707D00DB5754 /* jokePopupText2.png in Resources */,
+				082C941F239F707D00DB5754 /* warBonusWinFrameQueen.xml in Resources */,
+				082C943F239F707D00DB5754 /* warBonusredAll.png in Resources */,
 				08F1E268238160E400DCFF6C /* res_GameArea_atlas_1.png in Resources */,
+				082C9404239F707D00DB5754 /* Info_X_Btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1344,6 +1484,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				082C945F23A0CA3D00DB5754 /* MainViewController.swift in Sources */,
 				08A64F1123706B7300932286 /* ViewController.swift in Sources */,
 				08A64F0F23706B7300932286 /* AppDelegate.swift in Sources */,
 			);
@@ -1491,7 +1632,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSET_PACK_MANIFEST_URL_PREFIX = "https://www.qa.gameserver1-mt.com/OP/ODR";
+				ASSET_PACK_MANIFEST_URL_PREFIX = "https://download.qa.gamesrv1.com/secure/ODR/";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K4QJM63FW8;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
@@ -1512,7 +1653,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSET_PACK_MANIFEST_URL_PREFIX = "https://www.qa.gameserver1-mt.com/OP/ODR";
+				ASSET_PACK_MANIFEST_URL_PREFIX = "https://download.qa.gamesrv1.com/secure/ODR/";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K4QJM63FW8;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;

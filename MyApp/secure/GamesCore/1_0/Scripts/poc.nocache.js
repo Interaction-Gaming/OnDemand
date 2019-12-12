@@ -44,8 +44,6 @@ function poc(){
       if (frameDoc) {
         return;
       }
-        try{
-            
       var scriptFrame = $doc_0.createElement('iframe');
       scriptFrame.src = 'javascript:""';
       scriptFrame.id = 'poc';
@@ -65,11 +63,6 @@ function poc(){
       var temp = 'var $wnd = window.parent;';
       script.text = temp;
       frameDocbody.appendChild(script);
-        }
-        catch(e)
-        {
-            console.log(e);
-        }
     }
 
     function setupWaitForBodyLoad(callback){
@@ -367,9 +360,9 @@ function poc(){
     }
     var strongName;
     try {
-      unflattenKeylistIntoAnswers(['ie9'], '87385072525067447B86AF0E86E74EEA');
-      unflattenKeylistIntoAnswers(['safari'], 'CD595DEB9EA22749CC78F457B17182B0');
-      unflattenKeylistIntoAnswers(['gecko1_8'], 'E71A4F4609EE2FBB1D9B2B3E2CD644EF');
+      unflattenKeylistIntoAnswers(['safari'], '6679B412D40316FB1C7263E5A782D0E3');
+      unflattenKeylistIntoAnswers(['gecko1_8'], '6CDBFD477577E9DC8A965BA29C9BF353');
+      unflattenKeylistIntoAnswers(['ie9'], '9228178E726F78A7CD8E5723488B17B1');
       strongName = answers[computePropValue('user.agent')];
       var idx = strongName.indexOf(':');
       if (idx != -1) {
