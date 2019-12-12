@@ -15,4 +15,4 @@ The second screen holds a UIWebView that load one of the 2 games according to te
 The folder structure in this project is the correct folder structure and should be kept in MI application
 
 ### application sequence
-![Image of sequence](images\flowChart.png)
+![](images/flowChart.png)
