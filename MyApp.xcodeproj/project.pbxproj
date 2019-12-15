@@ -821,7 +821,6 @@
 		08A64F0223706B7300932286 = {
 			isa = PBXGroup;
 			children = (
-				082C930F239E3AE800DB5754 /* callback.js */,
 				08A64F0D23706B7300932286 /* MyApp */,
 				08A64F0C23706B7300932286 /* Products */,
 			);
@@ -838,6 +837,7 @@
 		08A64F0D23706B7300932286 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				082C930F239E3AE800DB5754 /* callback.js */,
 				082C945A239F733800DB5754 /* GWTHTML5ScriptsLauncher.js */,
 				082C945B239F733900DB5754 /* PixiHTML5ScriptsLauncher.js */,
 				08A21C1C238167860072E5C6 /* secure */,

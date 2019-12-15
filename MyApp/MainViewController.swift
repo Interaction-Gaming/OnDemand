@@ -14,18 +14,25 @@ class MainViewController: UIViewController {
     var gameType = ""
     var request: NSBundleResourceRequest!
     var libraryPath = try! FileManager.default.url(for: .libraryDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+    var shouldCopyGameScripts = false
+    
+    override func loadView() {
+        super.loadView()
+        copyCommonFolder()
+    }
     
     @IBAction func openQueenGame(_ sender: Any){
+        shouldCopyGameScripts = false
         self.gameID = "431"
         
-        performSegue(withIdentifier: "gameID", sender: self)
         startGameProcess()
     }
     
     @IBAction func openWildTimeGame(_ sender: Any){
+        shouldCopyGameScripts = false
         self.gameID = "1121"
         self.gameType = "H_PIXI"
-        performSegue(withIdentifier: "gameID", sender: self)
+        
         startGameProcess()
     }
     
@@ -38,6 +45,7 @@ class MainViewController: UIViewController {
     func startGameProcess(){
         if(isResourcesDownloadRequired())
         {
+            shouldCopyGameScripts = true
             downloadGameResources(gameID)
         }
         else{
@@ -48,8 +56,9 @@ class MainViewController: UIViewController {
     
     func continueLoading(){
         copyGameResources()
-        copyCommonFolder()
         copyGameFolder()
+        
+        performSegue(withIdentifier: "gameID", sender: self)
     }
     
     func downloadGameResources(_ gameID: String)
@@ -75,19 +84,18 @@ class MainViewController: UIViewController {
         let resourcesDestination = libraryPath.appendingPathComponent(gameFolder)
        
         //don't copy if already exsits
-        return !FileManager.default.fileExists(atPath: resourcesDestination.path)
+     //   return !FileManager.default.fileExists(atPath: resourcesDestination.path)
+        return true
     
     }
     
-    func copyFolderToLibrary(_ folderName: String)
+    func copyLocalFolderToLibrary(_ folderName: String)
     {
-        
-        
         let scripsLocation = Bundle.main.url(forResource: folderName, withExtension: "")!
         let scriptsDestination = libraryPath.appendingPathComponent(folderName)
         //don't copy if already exsits
         
-        if(!FileManager.default.fileExists(atPath: scriptsDestination.path))
+        if(!FileManager.default.fileExists(atPath: scriptsDestination.path) || self.shouldCopyGameScripts)
         {
             let parentPath = scriptsDestination.deletingLastPathComponent()
             if (!FileManager.default.fileExists(atPath: parentPath.path))
@@ -113,12 +121,20 @@ class MainViewController: UIViewController {
     
     func copyCommonFolder()
     {
-        copyFolderToLibrary("secure/GamesCore")
-        copyFolderToLibrary("secure/OP/version/Scripts/games/Callback.js")
-        copyFolderToLibrary("secure/OP/version/Scripts/games/POC.css")
-        copyFolderToLibrary("secure/OP/version/Scripts/games/soundjs-0.5.1.min.js")
-        copyFolderToLibrary("secure/OP/version/Scripts/games/Tween.min.js")
-        copyFolderToLibrary("secure/OP/version/Scripts/games/TweenMax.min.js")
+        //copy the common files only once
+        var userDefaults = UserDefaults()
+        if(userDefaults.value(forKey: "OnDemandApp") == nil)
+        {
+            userDefaults.setValue("Yes", forKeyPath: "OnDemandApp")
+            copyLocalFolderToLibrary("secure/GamesCore")
+            copyLocalFolderToLibrary("secure/OP/version/Scripts/games/Callback.js")
+            copyLocalFolderToLibrary("secure/OP/version/Scripts/games/POC.css")
+            copyLocalFolderToLibrary("secure/OP/version/Scripts/games/soundjs-0.5.1.min.js")
+            copyLocalFolderToLibrary("secure/OP/version/Scripts/games/Tween.min.js")
+            copyLocalFolderToLibrary("secure/OP/version/Scripts/games/TweenMax.min.js")
+        }
+        
+        
         
     }
     
@@ -126,7 +142,7 @@ class MainViewController: UIViewController {
     func copyGameFolder()
     {
         let folderName = getGameScriptFolder()
-        copyFolderToLibrary(folderName)
+        copyLocalFolderToLibrary(folderName)
     }
     
     func getGameScriptFolder() -> String{
