@@ -3,29 +3,6 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "ViewController.webViewDidFinishLoad(_:):ViewController.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "gameID">
-            </PersistentString>
-            <PersistentString
-               value = "data">
-            </PersistentString>
-            <PersistentString
-               value = "gameType">
-            </PersistentString>
-            <PersistentString
-               value = "myWebView">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "MainViewController.copyFolderToLibrary(_:):MainViewController.swift">
-      </ContextState>
-      <ContextState
-         contextName = "closure #1 in ViewController.getResource():ViewController.swift">
-      </ContextState>
-      <ContextState
          contextName = "closure #1 in ViewController.viewDidAppear(_:):ViewController.swift">
          <PersistentStrings>
             <PersistentString
@@ -34,13 +11,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "closure #1 in ViewController.accessResources():ViewController.swift">
-      </ContextState>
-      <ContextState
-         contextName = "ViewController.loadView():ViewController.swift">
+         contextName = "MainViewController.copyCommonFolder():MainViewController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "gameId">
+               value = "userDefaults.value(forKey: &quot;OnDemandApp&quot;) as? String">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -51,6 +25,96 @@
                value = "request">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.downloadGameResources(_:):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "request.tags.contains(&quot;1121&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "request.bundle.bundlePath">
+            </PersistentString>
+            <PersistentString
+               value = "request.tags.count&#10;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MainViewController.accessResources():MainViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MainViewController.downloadGameResources(_:):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.request.tags.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ViewController.getResource():ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.copyLocalFolderToLibrary(_:):MainViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.accessResources():MainViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.copyOnDemandToLocal():MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Bundle.main.bundleURL.absoluteString">
+            </PersistentString>
+            <PersistentString
+               value = "Bundle.main.resourcePath">
+            </PersistentString>
+            <PersistentString
+               value = "Bundle.main.bundlePath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.webViewDidFinishLoad(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "gameID">
+            </PersistentString>
+            <PersistentString
+               value = "gameType">
+            </PersistentString>
+            <PersistentString
+               value = "data">
+            </PersistentString>
+            <PersistentString
+               value = "myWebView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.loadView():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "gameId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.loadGameConfigurations():MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "gameConfigurationsJson.object(forKey: &quot;games&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = " gameConfigurationsJson[&quot;games&quot;] as? [String:Any]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.copyFolderToLibrary(_:):MainViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ViewController.accessResources():ViewController.swift">
       </ContextState>
    </ContextStates>
 </VariablesViewState>
