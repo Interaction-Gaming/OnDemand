@@ -1,0 +1,16 @@
+{
+  "GAME_ADJUSTMENTS": "Настройки На Играта",
+  "TOTAL_COST": "Крайна Цена",
+  "TICKET_COST": "Цена На Билет",
+  "SELECT_TICKETS": "Брой Билети",
+  "WIN_UP_TO": "Спечелете До",
+  "DISCLAIMER": "",
+  "AUTOPLAY_AUTOPLAY":" Авто Игра",
+  "AUTOPLAY_NUM_PLAYS": " Брой игра",
+  "AUTOPLAY_STOP_DECREASED": "Спрете, когато парите намаляват с",
+  "AUTOPLAY_STOP_SINGLE_WIN": " Спрете, когато спечелите повече от ",
+  "AUTOPLAY_JACKPOT": " джакпотът се печели",
+  "AUTOPLAY_SELECT_START": " Изберете номер за започване",
+  "AUTOPLAY_ENTER_AMOUNT": " Моля, въведете сумата"
+  
+}

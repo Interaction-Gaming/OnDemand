@@ -1,0 +1,19 @@
+{
+   
+   "431":{
+       "Type": "GWT",
+       "ResourceSubFolder":""
+   },
+   "1121":{
+       "Type": "H_PIXI",
+       "ResourceSubFolder":"1280x720"
+   },
+    "libraryScriptsPath":{
+        "GWT":"secure/OP/version/Scripts/games/",
+        "H_PIXI":"secure/HTML5Games/"
+    },
+    "libraryResourcesPath":{
+        "GWT":"secure/OP/version/Resources/640x834/Brands/General/games/[GAME_ID]",
+        "H_PIXI":"secure/HTML5Games/[GAME_ID]/game"
+    }
+}

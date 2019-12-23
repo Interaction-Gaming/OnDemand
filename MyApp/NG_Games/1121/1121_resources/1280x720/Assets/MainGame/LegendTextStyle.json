@@ -1,0 +1,13 @@
+﻿{
+    "dropShadow": true,
+    "dropShadowAlpha": 0.5,
+    "dropShadowAngle": 0.7,
+    "dropShadowBlur": 4,
+    "dropShadowDistance": 1,
+    "fill": "#e6edf0",
+    "fontSize": 18,
+    "fontWeight": "bold",
+    "lineHeight": 30,
+    "lineJoin": "round",
+    "stroke": "white"
+}

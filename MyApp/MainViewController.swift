@@ -14,24 +14,41 @@ class MainViewController: UIViewController {
     var gameType = ""
     var request: NSBundleResourceRequest!
     var libraryPath = try! FileManager.default.url(for: .libraryDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-    var shouldCopyGameScripts = false
+    var gameConfigurationsJson : NSDictionary!
     
     override func loadView() {
         super.loadView()
+        loadGameConfigurations()
         copyCommonFolder()
     }
     
+    func loadGameConfigurations()
+    {
+        do
+        {
+            guard let jsonPath = Bundle.main.path(forResource: "GameConfigurations", ofType: "json")
+                else{
+                    return
+            }
+             let url = URL(fileURLWithPath: jsonPath)
+            let jsonData = try Data(contentsOf: url)
+           
+            gameConfigurationsJson = try JSONSerialization.jsonObject(with: jsonData, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary
+        }
+        catch{
+            
+        }
+       
+    }
+    
     @IBAction func openQueenGame(_ sender: Any){
-        shouldCopyGameScripts = false
         self.gameID = "431"
         
         startGameProcess()
     }
     
     @IBAction func openWildTimeGame(_ sender: Any){
-        shouldCopyGameScripts = false
         self.gameID = "1121"
-        self.gameType = "H_PIXI"
         
         startGameProcess()
     }
@@ -43,195 +60,96 @@ class MainViewController: UIViewController {
      }
     
     func startGameProcess(){
-        if(isResourcesDownloadRequired())
-        {
-            shouldCopyGameScripts = true
-            downloadGameResources(gameID)
-        }
-        else{
-           continueLoading()
-        }
-      
+       let gameConfig = (gameConfigurationsJson[self.gameID] as? [String:String])!
+        self.gameType = (gameConfig["Type"])!
+        performSegue(withIdentifier: "gameID", sender: self)
+        downloadGameResources(gameID)
     }
     
-    func continueLoading(){
+    func copyGameToLibraryFolder(){
+        copyGameScriptFolder()
         copyGameResources()
-        copyGameFolder()
-        
-        performSegue(withIdentifier: "gameID", sender: self)
     }
     
     func downloadGameResources(_ gameID: String)
     {
-        //DOWNLOAD FROM A SERVER
-        //  downloadZipResource()
         //DOWNLOAD ON DEMAND
         request = NSBundleResourceRequest(tags:[gameID])
         request.conditionallyBeginAccessingResources { (available) in
-            if available{
-                self.continueLoading()
-                
+            if !available{
+                 self.accessResources()
             }
             else{
-                self.accessResources()
+                self.copyGameToLibraryFolder()
             }
         }
     }
     
-    func isResourcesDownloadRequired() -> Bool
-    {
-        let gameFolder = getGameResourceFolder()
-        let resourcesDestination = libraryPath.appendingPathComponent(gameFolder)
-       
-        //don't copy if already exsits
-     //   return !FileManager.default.fileExists(atPath: resourcesDestination.path)
-        return true
-    
+    func accessResources(){
+        self.request.beginAccessingResources { (error:Error!) in
+            if error == nil{
+               self.copyGameToLibraryFolder()
+            }
+            self.request.endAccessingResources()
+        }
     }
     
-    func copyLocalFolderToLibrary(_ folderName: String)
+   
+    
+    func copyLocalFolderToLibrary(_ folderName: String, _ destinationFolderName: String)
     {
-        let scripsLocation = Bundle.main.url(forResource: folderName, withExtension: "")!
-        let scriptsDestination = libraryPath.appendingPathComponent(folderName)
-        //don't copy if already exsits
+        guard let bundlePath = Bundle.main.url(forResource: folderName, withExtension: "") else {
+            return
+        }
+        let destinationPath = self.libraryPath.appendingPathComponent(destinationFolderName)
         
-        if(!FileManager.default.fileExists(atPath: scriptsDestination.path) || self.shouldCopyGameScripts)
-        {
-            let parentPath = scriptsDestination.deletingLastPathComponent()
-            if (!FileManager.default.fileExists(atPath: parentPath.path))
-            {
-                do {
-                    try FileManager.default.createDirectory(at: parentPath, withIntermediateDirectories: true, attributes: nil)
-                }
-                catch
-                {
-                    
-                }
-            }
+       
+        let parentPath = destinationPath.deletingLastPathComponent()
+        if (!FileManager.default.fileExists(atPath: parentPath.path)){
             do {
-                
-                try FileManager.default.moveItem(at: scripsLocation, to: scriptsDestination)
+                try FileManager.default.createDirectory(at: parentPath, withIntermediateDirectories: true, attributes: nil)
             }
-            catch
-            {
-                
+            catch{
             }
         }
+        do {
+            //TODO: need to find correct way
+            try FileManager.default.copyItem(at: bundlePath, to: destinationPath)
+        }
+        catch
+        {
+        }
+        
     }
     
     func copyCommonFolder()
     {
-        //copy the common files only once
-        var userDefaults = UserDefaults()
-        if(userDefaults.value(forKey: "OnDemandApp") == nil)
-        {
-            userDefaults.setValue("Yes", forKeyPath: "OnDemandApp")
-            copyLocalFolderToLibrary("secure/GamesCore")
-            copyLocalFolderToLibrary("secure/OP/version/Scripts/games/Callback.js")
-            copyLocalFolderToLibrary("secure/OP/version/Scripts/games/POC.css")
-            copyLocalFolderToLibrary("secure/OP/version/Scripts/games/soundjs-0.5.1.min.js")
-            copyLocalFolderToLibrary("secure/OP/version/Scripts/games/Tween.min.js")
-            copyLocalFolderToLibrary("secure/OP/version/Scripts/games/TweenMax.min.js")
-        }
-        
-        
-        
+        copyLocalFolderToLibrary("GamesCore", "secure/GamesCore")
+        copyLocalFolderToLibrary("GWTCommon/common", "secure/OP/version/Resources/640x834/Brands/General/games/common")
+        copyLocalFolderToLibrary("GWTCommon/games", "secure/OP/version/Scripts/games")
     }
     
     
-    func copyGameFolder()
+    func copyGameScriptFolder()
     {
-        let folderName = getGameScriptFolder()
-        copyLocalFolderToLibrary(folderName)
-    }
-    
-    func getGameScriptFolder() -> String{
-        var folderName = ""
-        if(gameType == "H_PIXI")
-        {
-            folderName = "secure/HTML5Games/" + gameID
-        }
-        else{
-            folderName = "secure/OP/version/Scripts/games/" + gameID
-        }
-        return folderName
-    }
-    
-    func getGameResourceFolder() -> String{
-        var folderName = ""
-        if(gameType == "H_PIXI")
-        {
-            folderName = "secure/HTML5Games/" + gameID
-        }
-        else{
-            folderName = "secure/OP/version/Resources/640x834/Brands/General/games/" + gameID
-        }
-        return folderName
+        let scriptsPathDic = gameConfigurationsJson["libraryScriptsPath"] as?[String:String]
+        let destinationFolderPath = scriptsPathDic![self.gameType]! + "/" + self.gameID
+        //let folderName = getGameScriptDestinationFolder()
+        let localFolderPath = self.gameID + "_scripts";
+        copyLocalFolderToLibrary(localFolderPath, destinationFolderPath)
     }
     
     func copyGameResources()
     {
+        let scriptsPathDic = gameConfigurationsJson["libraryResourcesPath"] as?[String:String]
+        var destinationFolderPath = scriptsPathDic![self.gameType]!
+        destinationFolderPath = destinationFolderPath.replacingOccurrences(of: "[GAME_ID]", with: self.gameID)
         
+        let gameConfig = (gameConfigurationsJson[self.gameID] as? [String:String])!
+       let subFolder = (gameConfig["ResourceSubFolder"])!
+        //let folderName = getGameScriptDestinationFolder()
+        let localFolderPath = self.gameID + "_resources/" + subFolder;
+        destinationFolderPath += "/" + subFolder
+        copyLocalFolderToLibrary(localFolderPath, destinationFolderPath)
     }
-    
-    
-    func downloadZipResource()
-    {
-        let zipUrl = URL(string: "https://www.googleapis.com/drive/v3/files/1wLQRvwVfDTg_EDdb6JCdfnRzLZnShiQJ?alt=media&key=AIzaSyDLCBjTx5J6Zy5n7ia38JAXO09u5-xdW0A")!
-        // create your document folder url
-        let libraryPath = try! FileManager.default.url(for: .libraryDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-        // your destination file url
-        let destination = libraryPath
-            .appendingPathComponent("secure/HTML5Games/1121/game")
-            .appendingPathComponent(zipUrl.lastPathComponent).appendingPathExtension("zip")
-        
-        var urlRequest = URLRequest.init(url: zipUrl)
-        urlRequest.httpMethod = "get"
-        urlRequest.setValue("application/zip", forHTTPHeaderField: "content-Type")
-        
-        // check if it exists before downloading it
-        
-        //  if the file doesn't exist just download the data from your url
-        URLSession.shared.downloadTask(with: urlRequest, completionHandler: { (location, response, error) in
-            // after downloading your data you need to save it to your destination url
-            guard
-                let httpURLResponse = response as? HTTPURLResponse, httpURLResponse.statusCode == 200,
-                let mimeType = response?.mimeType,
-                let location = location, error == nil
-                else { return }
-            do {
-                print(destination)
-                print(location)
-                
-                try FileManager.default.moveItem(at: location, to: destination)
-                print("file saved")
-                print("Mime Type:- \(mimeType)")
-                
-            } catch {
-                print(error.localizedDescription)
-            }
-        }).resume()
-        
-        
-    }
-    
-    
-    func accessResources(){
-        
-        
-        self.request.beginAccessingResources { (error:Error!) in
-            if error == nil{
-                self.continueLoading()
-                
-            }
-            else{
-                print(error)
-                
-            }
-            self.request.endAccessingResources()
-            self.continueLoading()
-        }
-    }
-    
-
 }

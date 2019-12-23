@@ -1,0 +1,15 @@
+{
+  "GAME_ADJUSTMENTS": "Game Adjustments",
+  "TOTAL_COST": "Total Cost",
+  "TICKET_COST": "Ticket Cost",
+  "SELECT_TICKETS": "Select Tickets",
+  "WIN_UP_TO": "Win up to",
+  "DISCLAIMER": "Knowing your limits is always the best bet. Call 1-800-270-7117 for help.",
+  "AUTOPLAY_AUTOPLAY":"Auto Play",
+  "AUTOPLAY_NUM_PLAYS": "Number of Plays",
+  "AUTOPLAY_STOP_DECREASED": "Stop when cash decreased by",
+  "AUTOPLAY_STOP_SINGLE_WIN": "Stop when single win more than",
+  "AUTOPLAY_JACKPOT": "Jackpot is won",
+  "AUTOPLAY_SELECT_START": "Select to start",
+  "AUTOPLAY_ENTER_AMOUNT": "Please enter amount"
+}
