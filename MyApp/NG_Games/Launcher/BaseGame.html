@@ -20,19 +20,22 @@
                }
                </script>
     </head>
-    <body>
+    <body onLoad="startGame()">
         <script>
             var myConsoleLog = console.log;
-            function startGame(gid, gameType)
+           function startGame()
             
             {
-                if(gameType === "")
-                {
-                    gameType = null
-                }
+               
                 var ENV_NOT_WORK = false;
 
                 var queryParams = parseQueryString(location.search);
+                var gameType = queryParams.gameType;
+                 //IMPROTANT
+                if(gameType === "GWT")
+                {
+                    gameType = null
+                }
                 var languageCode = queryParams && queryParams.LanguageCode ? queryParams.LanguageCode : 'ENG';
                 window.EnvData = {
                     "BAL":50,
@@ -88,7 +91,7 @@
                     "BETD": "0.25,0.50,1.00,2.00,5.00,10.00,20.00",
                     "BType": 220,
                     "DEFD": 0.5,
-                    "GID": gid,
+                    "GID": queryParams.gid,
                     "GMN": "King",
                     "GMT": "XOX",
                     "ISDR": 0,
@@ -104,7 +107,7 @@
                 };
                 
             
-            var ngtGID = gid;
+            var ngtGID = queryParams.gid;
                 var ngtENV = 'M';//queryParams && queryParams.env ? queryParams.env : 'W';
                 
             
@@ -121,7 +124,7 @@
                     width: '100%',
                     height: '100%',
                     playMode: 'D',
-                    username: 'neomaster2@ng.com',
+                    username: 'neomaster4@ng.com',
                     password: '123456ng',
                     AllowQuickRound: 'true'
                 };
@@ -153,11 +156,11 @@
                     var username = queryParams && queryParams.username ? queryParams.username : 'neomaster2@ng.com';
                     var password = queryParams && queryParams.password ? queryParams.password : '123456ng';
                     var _playMode = queryParams && queryParams.PlayMode ? queryParams.PlayMode : 'D';
-                    var _csi = queryParams && queryParams.CSI ? queryParams.CSI : 4;
+                    var _csi = queryParams && queryParams.CSI ? queryParams.CSI : 113;
                     var _languageCode = queryParams && queryParams.LanguageCode ? queryParams.LanguageCode : 'ENG';
                     
                     
-                    var loginData = secureURL + '?AFI=0&CSI=' + _csi + '&IUA=neos&KA=1&LNG=' + _languageCode + '&LPR=Minisite&MMI=0&PlayMode=' + _playMode + '&cm=LOGN&rst=j';
+                    var loginData = secureURL + '?AFI=0&CSI=' + _csi + '&IUA=neoc&KA=1&LNG=' + _languageCode + '&LPR=Minisite&MMI=0&PlayMode=' + _playMode + '&cm=LOGN&rst=j';
                     
                     var req = new XMLHttpRequest();
                     req.open('POST', loginData, true);

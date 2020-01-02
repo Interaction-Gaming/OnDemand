@@ -15,6 +15,8 @@ class MainViewController: UIViewController {
     var request: NSBundleResourceRequest!
     var libraryPath = try! FileManager.default.url(for: .libraryDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
     var gameConfigurationsJson : NSDictionary!
+    var vSpinner : UIView?
+    
     
     override func loadView() {
         super.loadView()
@@ -62,13 +64,18 @@ class MainViewController: UIViewController {
     func startGameProcess(){
        let gameConfig = (gameConfigurationsJson[self.gameID] as? [String:String])!
         self.gameType = (gameConfig["Type"])!
-        performSegue(withIdentifier: "gameID", sender: self)
+        self.showSpinner(onView: self.view)
         downloadGameResources(gameID)
+        
     }
     
     func copyGameToLibraryFolder(){
         copyGameScriptFolder()
         copyGameResources()
+        DispatchQueue.main.async {
+            self.performSegue(withIdentifier: "gameID", sender: self)
+        }
+        self.removeSpinner()
     }
     
     func downloadGameResources(_ gameID: String)
@@ -127,6 +134,12 @@ class MainViewController: UIViewController {
         copyLocalFolderToLibrary("GamesCore", "secure/GamesCore")
         copyLocalFolderToLibrary("GWTCommon/common", "secure/OP/version/Resources/640x834/Brands/General/games/common")
         copyLocalFolderToLibrary("GWTCommon/games", "secure/OP/version/Scripts/games")
+         copyLocalFolderToLibrary("Launcher/BaseGame.html", "/BaseGame.html")
+        copyLocalFolderToLibrary("Launcher/callback.js", "/callback.js")
+        copyLocalFolderToLibrary("Launcher/GamesCoreLauncher.js", "/GamesCoreLauncher.js")
+        copyLocalFolderToLibrary("Launcher/GWTHTML5ScriptsLauncher.js", "/GWTHTML5ScriptsLauncher.js")
+        copyLocalFolderToLibrary("Launcher/PixiHTML5ScriptsLauncher.js", "/PixiHTML5ScriptsLauncher.js")
+       
     }
     
     
@@ -148,8 +161,32 @@ class MainViewController: UIViewController {
         let gameConfig = (gameConfigurationsJson[self.gameID] as? [String:String])!
        let subFolder = (gameConfig["ResourceSubFolder"])!
         //let folderName = getGameScriptDestinationFolder()
-        let localFolderPath = self.gameID + "_resources/" + subFolder;
+        let localFolderPath = self.gameID + "_resources" + subFolder;
         destinationFolderPath += "/" + subFolder
         copyLocalFolderToLibrary(localFolderPath, destinationFolderPath)
     }
+    
+  
+    func showSpinner(onView : UIView) {
+        let spinnerView = UIView.init(frame: onView.bounds)
+        spinnerView.backgroundColor = UIColor.init(red: 0.5, green: 0.5, blue: 0.5, alpha: 0.5)
+        let ai = UIActivityIndicatorView.init(style: .whiteLarge)
+        ai.startAnimating()
+        ai.center = spinnerView.center
+        
+        DispatchQueue.main.async {
+            spinnerView.addSubview(ai)
+            onView.addSubview(spinnerView)
+        }
+        
+        self.vSpinner = spinnerView
+    }
+    
+    func removeSpinner() {
+        DispatchQueue.main.async {
+            self.vSpinner?.removeFromSuperview()
+            self.vSpinner = nil
+        }
+    }
+    
 }

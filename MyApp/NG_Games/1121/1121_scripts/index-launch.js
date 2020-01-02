@@ -1,9 +1,8 @@
 function getURLS() {
     var urls = {};
     
-    urls.gameLauncherURL =  './1121_scripts/game/gameLauncher.bundle.js';
-    urls.specificGameCoreScriptURL =  './GamesCoreLauncher.js';
-    
+    urls.gameLauncherURL =  window.EnvData.MDSURL + '/secure/HTML5Games/1121/game/gameLauncher.bundle.js';
+    urls.specificGameCoreScriptURL =  window.EnvData.MDSURL + '/GamesCoreLauncher.js';
     return urls;
 }
 

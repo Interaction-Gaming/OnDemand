@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08057AE923741FE10086DED6 /* initial.js in Resources */ = {isa = PBXBuildFile; fileRef = 08057AE823741FE10086DED6 /* initial.js */; };
 		082C945F23A0CA3D00DB5754 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C945E23A0CA3D00DB5754 /* MainViewController.swift */; };
 		083C34EC23AF83F100CBFACA /* GamesCore in Resources */ = {isa = PBXBuildFile; fileRef = 083C34EB23AF83F100CBFACA /* GamesCore */; };
 		083C34EE23AF841700CBFACA /* 431_resources in Resources */ = {isa = PBXBuildFile; fileRef = 083C34ED23AF841700CBFACA /* 431_resources */; settings = {ASSET_TAGS = (431, ); }; };
@@ -15,12 +14,8 @@
 		083C34F523AF846F00CBFACA /* 1121_resources in Resources */ = {isa = PBXBuildFile; fileRef = 083C34F323AF846F00CBFACA /* 1121_resources */; settings = {ASSET_TAGS = (1121, ); }; };
 		083C34F623AF846F00CBFACA /* 1121_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 083C34F423AF846F00CBFACA /* 1121_scripts */; };
 		083C34F823AF9A8800CBFACA /* GWTCommon in Resources */ = {isa = PBXBuildFile; fileRef = 083C34F723AF9A8800CBFACA /* GWTCommon */; };
-		083C350023AF9AE700CBFACA /* GWTHTML5ScriptsLauncher.js in Resources */ = {isa = PBXBuildFile; fileRef = 083C34F923AF9AE700CBFACA /* GWTHTML5ScriptsLauncher.js */; };
-		083C350223AF9AE700CBFACA /* PixiHTML5ScriptsLauncher.js in Resources */ = {isa = PBXBuildFile; fileRef = 083C34FB23AF9AE700CBFACA /* PixiHTML5ScriptsLauncher.js */; };
-		083C350323AF9AE700CBFACA /* GamesCoreLauncher.js in Resources */ = {isa = PBXBuildFile; fileRef = 083C34FC23AF9AE700CBFACA /* GamesCoreLauncher.js */; };
 		083C350423AF9AE700CBFACA /* GameConfigurations.json in Resources */ = {isa = PBXBuildFile; fileRef = 083C34FD23AF9AE700CBFACA /* GameConfigurations.json */; };
-		083C350523AF9AE700CBFACA /* BaseGame.html in Resources */ = {isa = PBXBuildFile; fileRef = 083C34FE23AF9AE700CBFACA /* BaseGame.html */; };
-		083C350623AF9AE700CBFACA /* callback.js in Resources */ = {isa = PBXBuildFile; fileRef = 083C34FF23AF9AE700CBFACA /* callback.js */; };
+		087E324D23BDCCBA00DFEB1A /* Launcher in Resources */ = {isa = PBXBuildFile; fileRef = 087E324C23BDCCBA00DFEB1A /* Launcher */; };
 		08A64F0F23706B7300932286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A64F0E23706B7300932286 /* AppDelegate.swift */; };
 		08A64F1123706B7300932286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A64F1023706B7300932286 /* ViewController.swift */; };
 		08A64F1423706B7300932286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1223706B7300932286 /* Main.storyboard */; };
@@ -30,7 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		08057AE823741FE10086DED6 /* initial.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = initial.js; sourceTree = "<group>"; };
 		082C945E23A0CA3D00DB5754 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		083C34EB23AF83F100CBFACA /* GamesCore */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GamesCore; sourceTree = "<group>"; };
 		083C34ED23AF841700CBFACA /* 431_resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 431_resources; sourceTree = "<group>"; };
@@ -38,12 +32,8 @@
 		083C34F323AF846F00CBFACA /* 1121_resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1121_resources; sourceTree = "<group>"; };
 		083C34F423AF846F00CBFACA /* 1121_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1121_scripts; sourceTree = "<group>"; };
 		083C34F723AF9A8800CBFACA /* GWTCommon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GWTCommon; sourceTree = "<group>"; };
-		083C34F923AF9AE700CBFACA /* GWTHTML5ScriptsLauncher.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GWTHTML5ScriptsLauncher.js; sourceTree = "<group>"; };
-		083C34FB23AF9AE700CBFACA /* PixiHTML5ScriptsLauncher.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = PixiHTML5ScriptsLauncher.js; sourceTree = "<group>"; };
-		083C34FC23AF9AE700CBFACA /* GamesCoreLauncher.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GamesCoreLauncher.js; sourceTree = "<group>"; };
 		083C34FD23AF9AE700CBFACA /* GameConfigurations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GameConfigurations.json; sourceTree = "<group>"; };
-		083C34FE23AF9AE700CBFACA /* BaseGame.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BaseGame.html; sourceTree = "<group>"; };
-		083C34FF23AF9AE700CBFACA /* callback.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = callback.js; sourceTree = "<group>"; };
+		087E324C23BDCCBA00DFEB1A /* Launcher */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Launcher; sourceTree = "<group>"; };
 		08A64F0B23706B7300932286 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A64F0E23706B7300932286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08A64F1023706B7300932286 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,12 +58,8 @@
 		083C317623AF83DA00CBFACA /* NG_Games */ = {
 			isa = PBXGroup;
 			children = (
-				083C34FE23AF9AE700CBFACA /* BaseGame.html */,
-				083C34FF23AF9AE700CBFACA /* callback.js */,
+				087E324C23BDCCBA00DFEB1A /* Launcher */,
 				083C34FD23AF9AE700CBFACA /* GameConfigurations.json */,
-				083C34FC23AF9AE700CBFACA /* GamesCoreLauncher.js */,
-				083C34F923AF9AE700CBFACA /* GWTHTML5ScriptsLauncher.js */,
-				083C34FB23AF9AE700CBFACA /* PixiHTML5ScriptsLauncher.js */,
 				083C34F723AF9A8800CBFACA /* GWTCommon */,
 				083C34EB23AF83F100CBFACA /* GamesCore */,
 				083C31F523AF83DA00CBFACA /* 431 */,
@@ -128,7 +114,6 @@
 				08A64F1523706B7500932286 /* Assets.xcassets */,
 				08A64F1723706B7500932286 /* LaunchScreen.storyboard */,
 				08A64F1A23706B7500932286 /* Info.plist */,
-				08057AE823741FE10086DED6 /* initial.js */,
 			);
 			path = MyApp;
 			sourceTree = "<group>";
@@ -199,19 +184,14 @@
 				083C34F623AF846F00CBFACA /* 1121_scripts in Resources */,
 				083C34F523AF846F00CBFACA /* 1121_resources in Resources */,
 				083C34EE23AF841700CBFACA /* 431_resources in Resources */,
-				083C350223AF9AE700CBFACA /* PixiHTML5ScriptsLauncher.js in Resources */,
 				083C34F023AF842100CBFACA /* 431_scripts in Resources */,
-				08057AE923741FE10086DED6 /* initial.js in Resources */,
 				08A64F1623706B7500932286 /* Assets.xcassets in Resources */,
 				08A64F1423706B7300932286 /* Main.storyboard in Resources */,
-				083C350323AF9AE700CBFACA /* GamesCoreLauncher.js in Resources */,
 				083C34EC23AF83F100CBFACA /* GamesCore in Resources */,
 				08EA83C7237D3A0000425698 /* web.config in Resources */,
-				083C350523AF9AE700CBFACA /* BaseGame.html in Resources */,
-				083C350623AF9AE700CBFACA /* callback.js in Resources */,
+				087E324D23BDCCBA00DFEB1A /* Launcher in Resources */,
 				083C34F823AF9A8800CBFACA /* GWTCommon in Resources */,
 				083C350423AF9AE700CBFACA /* GameConfigurations.json in Resources */,
-				083C350023AF9AE700CBFACA /* GWTHTML5ScriptsLauncher.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
