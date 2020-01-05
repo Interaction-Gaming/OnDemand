@@ -12,10 +12,10 @@ the first screen has 3 buttons:
 The second screen holds a UIWebView that load one of the 2 games according to te user's selection
 
 # Folder structure
-The folder structure in this project is the correct folder structure and should be kept in MI application
+The folder structure as presented in this project is the correct structure and should be kept in MI application
 
 # application sequence
-![](FlowChart2.png)
+![](FlowChart3.png)
 
 # Loading on demand
 Code example, the ``gameID`` is the tag of the resources that you wish to download
@@ -48,39 +48,50 @@ func downloadGameResources(_ gameID: String)
     }
 }
 ````
+# Copy Game resources
+Before opening the game all resources should be copied to the 'Libray' folder
+This is done by calling ``copyCommonFolder()``, `copyGameScriptFolder()` and `copyGameResources()` functions
 
 # Open Game
 Opening the game is done inside the web view
+First open NG widget's page
+```
+override func viewDidLoad() {
+        super.viewDidLoad()
+   
+        //open widget page
+        let baseUrl = URL(string: "https://qa.gameserver1-mt.com/OP/widgetTest.html?gid=" + gameID + "&gameType=" + gameType)
+        webView.loadRequest(URLRequest(url: baseUrl!)   
+    }
+```
+Then catch the web view redirect to BaseGame and load the local BaseGam.html page
 
 ```
- override func viewDidLoad() {
-    super.viewDidLoad()
-    
-    do{
-        guard let htmlPath = Bundle.main.path(forResource: "BaseGame", ofType: "html")
-            else{
-                return
+func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebView.NavigationType) -> Bool {
+     
+        if(request.url != nil && (request.url?.absoluteString.contains("nggamedomain"))!){
+            self.openEmbeddedHTMLPage(request.url?.query ?? "")
+            return false
         }
-        let url = URL(fileURLWithPath: htmlPath)
-        let content = try String(contentsOfFile: htmlPath)
-        myWebView.loadHTMLString(content as String, baseURL: url)
+        return true
+    }
+    
+     func openEmbeddedHTMLPage(_ queryStr: String){
         
+        do{
+            let libraryPath = try! FileManager.default.url(for: .libraryDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+           let url = libraryPath.appendingPathComponent("BaseGame").appendingPathExtension("html")
+           let urlWithQuery = URL(string: url.absoluteString + "?" + queryStr)
+           // let url = URL(fileURLWithPath: htmlPath)
+            let content = try String(contentsOf: url)
+            webView.loadHTMLString(content, baseURL: urlWithQuery)
+        }
+        catch{
+            print(error)
+        }
     }
-    catch{
-        print("FileError")
-    }
-}
 ```
 
-# Forward library path
-Pass the library path to the game so it will know the path to resources + scripts
 
-```
-func webViewDidFinishLoad(_ webView: UIWebView) {
-
-   let libraryPath = try! FileManager.default.url(for: .libraryDirectory, in: .userDomainMask, appropriateFor: nil, create: true)   
-    myWebView.stringByEvaluatingJavaScript(from: "updateLibraryPath('\(libraryPath.absoluteString)')")  
-}
-```
 
 
