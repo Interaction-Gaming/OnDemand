@@ -26,6 +26,14 @@ class MainViewController: UIViewController {
         copyCommonFolder()
     }
     
+    @IBAction func clearCache(_ sender: Any)
+    {
+        let destinationPath = self.libraryPath.appendingPathComponent("NG_Games")
+        try? FileManager.default.removeItem(at: destinationPath)
+        //the common data must be there
+        copyCommonFolder()
+    }
+ 
     func loadGameConfigurations()
     {
         do
@@ -56,6 +64,7 @@ class MainViewController: UIViewController {
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //update the web view controller with the data
         let vc = segue.destination as! ViewController
         vc.gameID = self.gameID
         vc.gameType = self.gameType
@@ -134,7 +143,10 @@ class MainViewController: UIViewController {
     {
         copyLocalFolderToLibrary("GamesCore", "NG_Games/secure/GamesCore")
         copyLocalFolderToLibrary("GWTCommon/common", "NG_Games/secure/OP/version/Resources/640x834/Brands/General/games/common")
-        copyLocalFolderToLibrary("GWTCommon/games", "NG_Games/secure/OP/version/Scripts/games")
+        copyLocalFolderToLibrary("GWTCommon/games/POC.css", "NG_Games/secure/OP/version/Scripts/games/POC.css")
+         copyLocalFolderToLibrary("GWTCommon/games/soundjs-0.5.1.min.js", "NG_Games/secure/OP/version/Scripts/games/soundjs-0.5.1.min.js")
+         copyLocalFolderToLibrary("GWTCommon/games/Tween.min.js", "NG_Games/secure/OP/version/Scripts/games/Tween.min.js")
+         copyLocalFolderToLibrary("GWTCommon/games/TweenMax.min.js", "NG_Games/secure/OP/version/Scripts/games/TweenMax.min.js")
          copyLocalFolderToLibrary("Launcher/BaseGame.html", "NG_Games//BaseGame.html")
         copyLocalFolderToLibrary("Launcher/callback.js", "NG_Games/callback.js")
         copyLocalFolderToLibrary("Launcher/GamesCoreLauncher.js", "NG_Games/GamesCoreLauncher.js")

@@ -45,10 +45,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfI-Bw-LWk">
-                                <rect key="frame" x="23" y="38" width="142" height="32"/>
+                                <rect key="frame" x="23" y="38" width="142" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Clean App Cache"/>
+                                <connections>
+                                    <action selector="clearCache:" destination="CgX-0i-bbQ" eventType="touchUpInside" id="9aO-2d-qiq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hy7-Yf-s6g">
                                 <rect key="frame" x="23" y="121" width="179" height="44"/>

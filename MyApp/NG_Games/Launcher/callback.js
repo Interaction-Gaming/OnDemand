@@ -9,3 +9,6 @@ function NotifyGameInitError(errorCode, errorMsg, gameID){
 function NotifyGameLoadFailed(errorCode, errorMsg, gameID){
     alert('NotifyGameLoadFailederrorCode: ' + errorCode + ' ' + errorMsg);
 }
+function Lobby(){
+    window.location.href="http://backtoloby/Lobby.aspx";
+}

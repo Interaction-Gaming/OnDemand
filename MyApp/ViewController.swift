@@ -49,6 +49,11 @@ class ViewController: UIViewController, WKUIDelegate, UIWebViewDelegate{
             self.openEmbeddedHTMLPage(request.url?.query ?? "")
             return false
         }
+        else if(request.url != nil && (request.url?.absoluteString.contains("Lobby.aspx"))!){
+           self.navigationController?.popViewController(animated: true)
+            self.dismiss(animated: true, completion: nil)
+            return false
+        }
         return true
     }
     
