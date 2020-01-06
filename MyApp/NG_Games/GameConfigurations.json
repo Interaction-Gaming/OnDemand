@@ -9,11 +9,11 @@
        "ResourceSubFolder":"/1280x720"
    },
     "libraryScriptsPath":{
-        "GWT":"secure/OP/version/Scripts/games/",
-        "H_PIXI":"secure/HTML5Games/"
+        "GWT":"NG_Games/secure/OP/version/Scripts/games/",
+        "H_PIXI":"NG_Games/secure/HTML5Games/"
     },
     "libraryResourcesPath":{
-        "GWT":"secure/OP/version/Resources/640x834/Brands/General/games/[GAME_ID]",
-        "H_PIXI":"secure/HTML5Games/[GAME_ID]/game"
+        "GWT":"NG_Games/secure/OP/version/Resources/640x834/Brands/General/games/[GAME_ID]",
+        "H_PIXI":"NG_Games/secure/HTML5Games/[GAME_ID]/game"
     }
 }

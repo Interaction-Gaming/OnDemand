@@ -9,9 +9,11 @@
 import UIKit
 
 class MainViewController: UIViewController {
+   
     
     var gameID = ""
     var gameType = ""
+    var gameMode = ""
     var request: NSBundleResourceRequest!
     var libraryPath = try! FileManager.default.url(for: .libraryDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
     var gameConfigurationsJson : NSDictionary!
@@ -42,23 +44,22 @@ class MainViewController: UIViewController {
         }
        
     }
-    
-    @IBAction func openQueenGame(_ sender: Any){
+    @IBAction func openQODDemo(_ sender: Any) {
         self.gameID = "431"
-        
+        self.gameMode = "D"
         startGameProcess()
     }
-    
-    @IBAction func openWildTimeGame(_ sender: Any){
-        self.gameID = "1121"
-        
+    @IBAction func openQODMoney(_ sender: Any) {
+        self.gameID = "431"
+        self.gameMode = "M"
         startGameProcess()
     }
-    
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! ViewController
         vc.gameID = self.gameID
         vc.gameType = self.gameType
+        vc.gameMode = self.gameMode
      }
     
     func startGameProcess(){
@@ -73,7 +74,7 @@ class MainViewController: UIViewController {
         copyGameScriptFolder()
         copyGameResources()
         DispatchQueue.main.async {
-            self.performSegue(withIdentifier: "gameID", sender: self)
+            self.performSegue(withIdentifier: "WebViewController", sender: self)
         }
         self.removeSpinner()
     }
@@ -131,14 +132,14 @@ class MainViewController: UIViewController {
     
     func copyCommonFolder()
     {
-        copyLocalFolderToLibrary("GamesCore", "secure/GamesCore")
-        copyLocalFolderToLibrary("GWTCommon/common", "secure/OP/version/Resources/640x834/Brands/General/games/common")
-        copyLocalFolderToLibrary("GWTCommon/games", "secure/OP/version/Scripts/games")
-         copyLocalFolderToLibrary("Launcher/BaseGame.html", "/BaseGame.html")
-        copyLocalFolderToLibrary("Launcher/callback.js", "/callback.js")
-        copyLocalFolderToLibrary("Launcher/GamesCoreLauncher.js", "/GamesCoreLauncher.js")
-        copyLocalFolderToLibrary("Launcher/GWTHTML5ScriptsLauncher.js", "/GWTHTML5ScriptsLauncher.js")
-        copyLocalFolderToLibrary("Launcher/PixiHTML5ScriptsLauncher.js", "/PixiHTML5ScriptsLauncher.js")
+        copyLocalFolderToLibrary("GamesCore", "NG_Games/secure/GamesCore")
+        copyLocalFolderToLibrary("GWTCommon/common", "NG_Games/secure/OP/version/Resources/640x834/Brands/General/games/common")
+        copyLocalFolderToLibrary("GWTCommon/games", "NG_Games/secure/OP/version/Scripts/games")
+         copyLocalFolderToLibrary("Launcher/BaseGame.html", "NG_Games//BaseGame.html")
+        copyLocalFolderToLibrary("Launcher/callback.js", "NG_Games/callback.js")
+        copyLocalFolderToLibrary("Launcher/GamesCoreLauncher.js", "NG_Games/GamesCoreLauncher.js")
+        copyLocalFolderToLibrary("Launcher/GWTHTML5ScriptsLauncher.js", "NG_Games/GWTHTML5ScriptsLauncher.js")
+        copyLocalFolderToLibrary("Launcher/PixiHTML5ScriptsLauncher.js", "NG_Games/PixiHTML5ScriptsLauncher.js")
        
     }
     

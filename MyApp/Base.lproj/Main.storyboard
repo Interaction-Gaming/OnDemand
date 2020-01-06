@@ -27,13 +27,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eF7-sk-ZFp">
-                                <rect key="frame" x="23" y="173" width="165" height="42"/>
+                                <rect key="frame" x="23" y="173" width="173" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
-                                <state key="normal" title="Wild Time Extra Pixi"/>
+                                <state key="normal" title="Queen of Diamond Demo"/>
                                 <connections>
-                                    <action selector="openWildTimeGame:" destination="CgX-0i-bbQ" eventType="touchUpInside" id="7kG-FV-Ge4"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="gameID" id="06c-Vl-RFR"/>
+                                    <action selector="openQODDemo:" destination="CgX-0i-bbQ" eventType="touchUpInside" id="mFJ-Th-Mvf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfI-Bw-LWk">
@@ -43,25 +42,24 @@
                                 <state key="normal" title="Clean App Cache"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hy7-Yf-s6g">
-                                <rect key="frame" x="23" y="121" width="175" height="44"/>
+                                <rect key="frame" x="23" y="121" width="179" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Queen of Diamond GWT"/>
+                                <state key="normal" title="Queen of Diamond Money"/>
                                 <connections>
-                                    <action selector="openQueenGame:" destination="CgX-0i-bbQ" eventType="touchUpInside" id="mIx-eg-jm2"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="gameID" id="GER-UD-OlD"/>
+                                    <action selector="openQODMoney:" destination="CgX-0i-bbQ" eventType="touchUpInside" id="S3p-3o-Yo9"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="gMb-GR-M2z"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="showDetail" identifier="WebViewController" id="xfG-aT-tHK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="76M-R8-iRP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="274.39999999999998" y="132.68365817091455"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="06c-Vl-RFR"/>
-    </inferredMetricsTieBreakers>
 </document>

@@ -27,7 +27,7 @@
             
             {
                
-                var ENV_NOT_WORK = false;
+                var ENV_NOT_WORK = true;
 
                 var queryParams = parseQueryString(location.search);
                 var gameType = queryParams.gameType;
@@ -149,13 +149,17 @@
                
                 window.EnvData.SECUREURL = 'https://qa.gameserver1-mt.com';
                 
+                
                 if (ENV_NOT_WORK) {
+                    PlayerData.ISID = queryParams.ISID;
+                    PlayerData.GenericUsername = "Orit";
+                    PlayerData.PlayMode = queryParams.PlayMode;
                     document.getElementsByTagName('head')[0].appendChild(game);
                 } else {
                     
-                    var username = queryParams && queryParams.username ? queryParams.username : 'neomaster2@ng.com';
+                    var username = queryParams && queryParams.username ? queryParams.username : 'neomaster4@ng.com';
                     var password = queryParams && queryParams.password ? queryParams.password : '123456ng';
-                    var _playMode = queryParams && queryParams.PlayMode ? queryParams.PlayMode : 'D';
+                    var _playMode = queryParams && queryParams.PlayMode ? queryParams.PlayMode : 'M';
                     var _csi = queryParams && queryParams.CSI ? queryParams.CSI : 113;
                     var _languageCode = queryParams && queryParams.LanguageCode ? queryParams.LanguageCode : 'ENG';
                     
