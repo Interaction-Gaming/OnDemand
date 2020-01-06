@@ -21,7 +21,6 @@
 		08A64F1423706B7300932286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1223706B7300932286 /* Main.storyboard */; };
 		08A64F1623706B7500932286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1523706B7500932286 /* Assets.xcassets */; };
 		08A64F1923706B7500932286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1723706B7500932286 /* LaunchScreen.storyboard */; };
-		08EA83C7237D3A0000425698 /* web.config in Resources */ = {isa = PBXBuildFile; fileRef = 08EA83C6237D39FF00425698 /* web.config */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +40,6 @@
 		08A64F1523706B7500932286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08A64F1823706B7500932286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08A64F1A23706B7500932286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08EA83C6237D39FF00425698 /* web.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = web.config; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				083C317623AF83DA00CBFACA /* NG_Games */,
-				08EA83C6237D39FF00425698 /* web.config */,
 				08A64F0E23706B7300932286 /* AppDelegate.swift */,
 				08A64F1023706B7300932286 /* ViewController.swift */,
 				082C945E23A0CA3D00DB5754 /* MainViewController.swift */,
@@ -188,7 +185,6 @@
 				08A64F1623706B7500932286 /* Assets.xcassets in Resources */,
 				08A64F1423706B7300932286 /* Main.storyboard in Resources */,
 				083C34EC23AF83F100CBFACA /* GamesCore in Resources */,
-				08EA83C7237D3A0000425698 /* web.config in Resources */,
 				087E324D23BDCCBA00DFEB1A /* Launcher in Resources */,
 				083C34F823AF9A8800CBFACA /* GWTCommon in Resources */,
 				083C350423AF9AE700CBFACA /* GameConfigurations.json in Resources */,
