@@ -11,24 +11,22 @@ import WebKit
 
 
 class ViewController: UIViewController, WKUIDelegate, UIWebViewDelegate{
-    
-   var webView: UIWebView!
+
    
     var gameID = ""
+    @IBOutlet var webView: UIWebView!
     var gameType = ""
     var gameMode = ""
     var isGameStarted = false
     
     override func loadView() {
         super.loadView()
-        webView = UIWebView()
         webView.delegate = self
-        HTTPCookieStorage.shared.cookieAcceptPolicy = .always
-        view = webView
-       
+    HTTPCookieStorage.shared.cookieAcceptPolicy = .always
+        
     }
     
-    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,10 +34,13 @@ class ViewController: UIViewController, WKUIDelegate, UIWebViewDelegate{
         //TODO: open widget page
         
        // let baseUrl = URL(string: "https://qa.gameserver1-mt.com/OP/widgetTest.html?gid=" + gameID + "&gameType=" + gameType)
+        
          let baseUrl = URL(string: "https://qa.gameserver1-mt.com/MWCwidgets/m.html?NeoDL=Game&GameID=" + gameID + "&PlayMode=" + gameMode + "&CSI=113&platformType=A&gid=" + gameID + "&gameType=" + gameType)
-    
-        webView.loadRequest(URLRequest(url: baseUrl!))
+             webView.loadRequest(URLRequest(url: baseUrl!))
     }
+    
+    
+   
     
     
     func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebView.NavigationType) -> Bool {
@@ -50,6 +51,8 @@ class ViewController: UIViewController, WKUIDelegate, UIWebViewDelegate{
         }
         return true
     }
+    
+   
     
     func openEmbeddedHTMLPage(_ queryStr: String){
         
@@ -62,7 +65,6 @@ class ViewController: UIViewController, WKUIDelegate, UIWebViewDelegate{
            let urlWithQuery = URL(string: url.absoluteString + "?" + queryStr2)
            // let url = URL(fileURLWithPath: htmlPath)
             let content = try String(contentsOf: url)
-          
             webView.loadHTMLString(content, baseURL: urlWithQuery)
         }
         catch{
@@ -70,3 +72,8 @@ class ViewController: UIViewController, WKUIDelegate, UIWebViewDelegate{
         }
     }
 }
+
+    
+
+
+
