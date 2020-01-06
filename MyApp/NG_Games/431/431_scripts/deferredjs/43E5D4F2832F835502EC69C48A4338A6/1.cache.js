@@ -578,7 +578,7 @@ function NumberFormat(){
 }
 
 _ = NumberFormat_1.prototype = NumberFormat.prototype = new Object_0;
-_.getClass$ = function getClass_137(){
+_.getClass$ = function getClass_134(){
   return Lcom_google_gwt_i18n_client_NumberFormat_2_classLit;
 }
 ;
@@ -609,7 +609,7 @@ function NumberConstantsImpl_(){
 }
 
 _ = NumberConstantsImpl__0.prototype = NumberConstantsImpl_.prototype = new Object_0;
-_.getClass$ = function getClass_139(){
+_.getClass$ = function getClass_136(){
   return Lcom_google_gwt_i18n_client_constants_NumberConstantsImpl_1_2_classLit;
 }
 ;
@@ -653,7 +653,7 @@ _.equals$ = function equals_12(o){
   return instanceOf(o, Q$Float) && dynamicCast(o, Q$Float).value_0 == this.value_0;
 }
 ;
-_.getClass$ = function getClass_291(){
+_.getClass$ = function getClass_290(){
   return Ljava_lang_Float_2_classLit;
 }
 ;
@@ -712,7 +712,7 @@ function StringBuilder(){
 }
 
 _ = StringBuilder_0.prototype = StringBuilder.prototype = new Object_0;
-_.getClass$ = function getClass_301(){
+_.getClass$ = function getClass_300(){
   return Ljava_lang_StringBuilder_2_classLit;
 }
 ;
@@ -723,7 +723,7 @@ _.toString$ = function toString_31(){
 _.castableTypeMap$ = makeCastMap([Q$CharSequence]);
 function $poll(this$static){
   var node;
-  return this$static.size_0 == 0?null:($throwEmptyException(this$static) , --this$static.size_0 , node = this$static.header.next , $remove_14(node) , node.value_0);
+  return this$static.size_0 == 0?null:($throwEmptyException(this$static) , --this$static.size_0 , node = this$static.header.next , $remove_15(node) , node.value_0);
 }
 
 function $throwEmptyException(this$static){
@@ -772,7 +772,7 @@ function Color(){
 }
 
 _ = Color_0.prototype = Color.prototype = new Object_0;
-_.getClass$ = function getClass_352(){
+_.getClass$ = function getClass_351(){
   return Lwebgl_client_com_google_gwt_widgetideas_graphics_client_Color_2_classLit;
 }
 ;
@@ -815,7 +815,7 @@ _.fire = function fire_5(){
   $updateFrame(this.this$0);
 }
 ;
-_.getClass$ = function getClass_357(){
+_.getClass$ = function getClass_356(){
   return Lwebgl_client_gamesFramework_OPTimer_2_classLit;
 }
 ;
@@ -847,13 +847,13 @@ function $setCurrentButtonParams(this$static){
     $setSize(this$static.textPanel, buttonWidth + 'px', buttonHeight + 'px');
     $setCellHorizontalAlignment(this$static.textPanel, this$static.textLable, ($clinit_HasHorizontalAlignment() , ALIGN_CENTER));
     $setCellVerticalAlignment(this$static.textPanel, this$static.textLable, ($clinit_HasVerticalAlignment() , ALIGN_MIDDLE));
-    $remove_3(this$static.panel, this$static.textPanel);
+    $remove_4(this$static.panel, this$static.textPanel);
     $add_2(this$static.panel, this$static.textPanel, this$static.currentLocationX, this$static.currentLocationY);
     $setSize(this$static.upMouseEventsListener, this$static.up.buttonWidth + 'px', this$static.up.buttonHeight + 'px');
-    $getWidgetIndex(this$static.panel, this$static.upMouseEventsListener) != -1 && $remove_3(this$static.panel, this$static.upMouseEventsListener);
+    $getWidgetIndex(this$static.panel, this$static.upMouseEventsListener) != -1 && $remove_4(this$static.panel, this$static.upMouseEventsListener);
     $add_2(this$static.panel, this$static.upMouseEventsListener, this$static.up.currentLocationX, this$static.up.currentLocationY);
     $setSize(this$static.downMouseEventsListener, this$static.down.buttonWidth + 'px', this$static.down.buttonHeight + 'px');
-    $getWidgetIndex(this$static.panel, this$static.downMouseEventsListener) != -1 && $remove_3(this$static.panel, this$static.downMouseEventsListener);
+    $getWidgetIndex(this$static.panel, this$static.downMouseEventsListener) != -1 && $remove_4(this$static.panel, this$static.downMouseEventsListener);
     $add_2(this$static.panel, this$static.downMouseEventsListener, this$static.down.currentLocationX, this$static.down.currentLocationY);
   }
 }
@@ -871,7 +871,7 @@ function CanvasButtonUpDown(){
 }
 
 _ = CanvasButtonUpDown.prototype = new Object_0;
-_.getClass$ = function getClass_360(){
+_.getClass$ = function getClass_359(){
   return Lwebgl_client_nf_menus_gamebuttons_CanvasButtonUpDown_2_classLit;
 }
 ;
@@ -897,8 +897,8 @@ function $updateButtonStyle(this$static, isEnabled, panel){
     this$static.down.isEnabled && $getWidgetIndex(panel, this$static.downMouseEventsListener) == -1 && $add_2(panel, this$static.downMouseEventsListener, this$static.down.currentLocationX, this$static.down.currentLocationY);
   }
    else {
-    $getWidgetIndex(panel, this$static.upMouseEventsListener) != -1 && $remove_3(panel, this$static.upMouseEventsListener);
-    $getWidgetIndex(panel, this$static.downMouseEventsListener) != -1 && $remove_3(panel, this$static.downMouseEventsListener);
+    $getWidgetIndex(panel, this$static.upMouseEventsListener) != -1 && $remove_4(panel, this$static.upMouseEventsListener);
+    $getWidgetIndex(panel, this$static.downMouseEventsListener) != -1 && $remove_4(panel, this$static.downMouseEventsListener);
   }
 }
 
@@ -906,7 +906,7 @@ function CanvasButtonUpDownStandard(){
 }
 
 _ = CanvasButtonUpDownStandard.prototype = new CanvasButtonUpDown;
-_.getClass$ = function getClass_361(){
+_.getClass$ = function getClass_360(){
   return Lwebgl_client_nf_menus_gamebuttons_CanvasButtonUpDownStandard_2_classLit;
 }
 ;
@@ -992,7 +992,7 @@ function AutoPlayButton(){
 }
 
 _ = AutoPlayButton_0.prototype = AutoPlayButton.prototype = new CanvasButtonUpDownStandard;
-_.getClass$ = function getClass_362(){
+_.getClass$ = function getClass_361(){
   return Lwebgl_client_gamesFramework_autoplay_AutoPlayButton_2_classLit;
 }
 ;
@@ -1058,8 +1058,8 @@ function $init_3(this$static, controller, animBanks, autoPlayLocations){
   this$static.animBanks = animBanks;
   this$static.autoPlayLocations = autoPlayLocations;
   this$static.showHideAnimation = new ViewMoveAnimation_0(this$static);
-  this$static.hidedPos = (hidePos = new Point_3 , bgAnim = new AnimationController_1(this$static.animBanks.autoplayBG) , bgWidth = $getSourceFrameWidth(bgAnim) , bgHeight = $getSourceFrameHeight(bgAnim) , autoPlayCenterLocationX = this$static.autoPlayBarLocation.x_0 - (~~bgWidth >> 1) , autoPlayCenterLocationY = this$static.autoPlayBarLocation.y_0 - (~~bgHeight >> 1) , hidePos.x_0 = autoPlayCenterLocationX + bgWidth , hidePos.y_0 = autoPlayCenterLocationY , hidePos);
-  this$static.shownPos = (shownPos = new Point_3 , bgAnim_0 = new AnimationController_1(this$static.animBanks.autoplayBG) , bgWidth_0 = $getSourceFrameWidth(bgAnim_0) , bgHeight_0 = $getSourceFrameHeight(bgAnim_0) , autoPlayCenterLocationX_0 = this$static.autoPlayBarLocation.x_0 - (~~bgWidth_0 >> 1) , autoPlayCenterLocationY_0 = this$static.autoPlayBarLocation.y_0 - (~~bgHeight_0 >> 1) , shownPos.x_0 = autoPlayCenterLocationX_0 , shownPos.y_0 = autoPlayCenterLocationY_0 , shownPos);
+  this$static.hidedPos = (hidePos = new Point_3 , bgAnim = new AnimationController_1(this$static.animBanks.autoplayBG) , bgWidth = $getSourceFrameWidth(bgAnim) , bgHeight = $getSourceFrameHeight(bgAnim) , autoPlayCenterLocationX = this$static.autoPlayBarLocation.x_0 - (bgWidth >> 1) , autoPlayCenterLocationY = this$static.autoPlayBarLocation.y_0 - (bgHeight >> 1) , hidePos.x_0 = autoPlayCenterLocationX + bgWidth , hidePos.y_0 = autoPlayCenterLocationY , hidePos);
+  this$static.shownPos = (shownPos = new Point_3 , bgAnim_0 = new AnimationController_1(this$static.animBanks.autoplayBG) , bgWidth_0 = $getSourceFrameWidth(bgAnim_0) , bgHeight_0 = $getSourceFrameHeight(bgAnim_0) , autoPlayCenterLocationX_0 = this$static.autoPlayBarLocation.x_0 - (bgWidth_0 >> 1) , autoPlayCenterLocationY_0 = this$static.autoPlayBarLocation.y_0 - (bgHeight_0 >> 1) , shownPos.x_0 = autoPlayCenterLocationX_0 , shownPos.y_0 = autoPlayCenterLocationY_0 , shownPos);
   this$static.bgCanvas = createIfSupported();
   this$static.bgAnim = new AnimationController_1(this$static.animBanks.autoplayBG);
   $doAnim(this$static.bgAnim, 'stage1');
@@ -1072,8 +1072,8 @@ function $init_3(this$static, controller, animBanks, autoPlayLocations){
   setStyleAttribute(this$static.element, 'width', bgWidth_1 + 'px');
   setStyleAttribute(this$static.element, 'height', bgHeight_1 + 'px');
   bgLocation = $getLocation(this$static.autoPlayLocations, ($clinit_AutoPlayLocations$AutoPlayLocPos() , BACKGROUND));
-  xLocation = bgLocation.x_0 - (~~bgWidth_1 >> 1);
-  yLocation = bgLocation.y_0 - (~~bgHeight_1 >> 1);
+  xLocation = bgLocation.x_0 - (bgWidth_1 >> 1);
+  yLocation = bgLocation.y_0 - (bgHeight_1 >> 1);
   $add_2(this$static, this$static.bgCanvas, xLocation, yLocation);
   $paint_0(this$static.bgAnim, this$static.bgCanvas.element.getContext('2d'));
   this$static.btnPlay = createSingleButton(($clinit_AutoPlayView$AutoPlayButtonEnum() , PLAY_BUTTON), get_9('INGAME.PLAY'), new AutoPlayView$1_0(this$static), this$static.animBanks.autoplayButton, $getLocation(this$static.autoPlayLocations, SPIN_BUTTON), this$static);
@@ -1102,7 +1102,7 @@ function AutoPlayView$1(){
 }
 
 _ = AutoPlayView$1_0.prototype = AutoPlayView$1.prototype = new Object_0;
-_.getClass$ = function getClass_368(){
+_.getClass$ = function getClass_367(){
   return Lwebgl_client_gamesFramework_autoplay_AutoPlayView$1_2_classLit;
 }
 ;
@@ -1120,7 +1120,7 @@ function AutoPlayView$2(){
 }
 
 _ = AutoPlayView$2_0.prototype = AutoPlayView$2.prototype = new Object_0;
-_.getClass$ = function getClass_369(){
+_.getClass$ = function getClass_368(){
   return Lwebgl_client_gamesFramework_autoplay_AutoPlayView$2_2_classLit;
 }
 ;
@@ -1138,7 +1138,7 @@ function AutoPlayView$3(){
 }
 
 _ = AutoPlayView$3_0.prototype = AutoPlayView$3.prototype = new Object_0;
-_.getClass$ = function getClass_370(){
+_.getClass$ = function getClass_369(){
   return Lwebgl_client_gamesFramework_autoplay_AutoPlayView$3_2_classLit;
 }
 ;
@@ -1172,7 +1172,7 @@ function AutoPlayView$AutoPlayButtonEnum(){
 }
 
 _ = AutoPlayView$AutoPlayButtonEnum_0.prototype = AutoPlayView$AutoPlayButtonEnum.prototype = new Enum;
-_.getClass$ = function getClass_371(){
+_.getClass$ = function getClass_370(){
   return Lwebgl_client_gamesFramework_autoplay_AutoPlayView$AutoPlayButtonEnum_2_classLit;
 }
 ;
@@ -1528,7 +1528,7 @@ function AnimationController(){
 }
 
 _ = AnimationController_1.prototype = AnimationController_0.prototype = AnimationController.prototype = new Object_0;
-_.getClass$ = function getClass_430(){
+_.getClass$ = function getClass_429(){
   return Lwebgl_client_nf_animator_AnimationController_2_classLit;
 }
 ;
@@ -1554,8 +1554,8 @@ function $drawImage_2(this$static, g){
 
 function $setLocation(this$static, location_0){
   this$static.imageLocation = location_0;
-  $setX(location_0, location_0.x_0 - (~~this$static.image.width >> 1));
-  $setY(location_0, location_0.y_0 - (~~this$static.image.height >> 1));
+  $setX(location_0, location_0.x_0 - (this$static.image.width >> 1));
+  $setY(location_0, location_0.y_0 - (this$static.image.height >> 1));
 }
 
 function $sendResumeGameCommamd(this$static, listener){
@@ -1604,7 +1604,7 @@ function NewApplication$10(){
 }
 
 _ = NewApplication$10_0.prototype = NewApplication$10.prototype = new Object_0;
-_.getClass$ = function getClass_435(){
+_.getClass$ = function getClass_434(){
   return Lwebgl_client_nf_application_NewApplication$10_2_classLit;
 }
 ;
@@ -1621,7 +1621,7 @@ _.val$listener = null;
 function $getResultData_5(response){
   var balanceResultElement, child, customElement, customList, doc, e, elementName, i, list, playerElement, playerElementName, playerList, resumeResult, rootElement;
   resumeResult = new GameResumeDO_0;
-  doc = ($clinit_XMLParser() , $parse_1(impl_4, response));
+  doc = ($clinit_XMLParser() , $parse_1(impl_3, response));
   rootElement = dynamicCast(build(getDocumentElement(doc.jsObject)), Q$Element);
   balanceResultElement = $equals(getNodeName(rootElement.jsObject), 'S2C')?rootElement:getElementChildByName(rootElement, 'S2C');
   list = new NodeListImpl_0(getChildNodes(balanceResultElement.jsObject));
@@ -1662,7 +1662,7 @@ function RGRCommand(){
 }
 
 _ = RGRCommand_0.prototype = RGRCommand.prototype = new BilateralNetworkCommand;
-_.getClass$ = function getClass_476(){
+_.getClass$ = function getClass_475(){
   return Lwebgl_client_nf_application_network_commands_RGRCommand_2_classLit;
 }
 ;
@@ -1670,6 +1670,7 @@ _.getResultData = function getResultData_7(response){
   return $getResultData_5(response);
 }
 ;
+_.castableTypeMap$ = makeCastMap([Q$Command]);
 function $setFontColor(this$static, fontColor){
   this$static.fontColor = fontColor;
 }
@@ -1686,7 +1687,7 @@ function $setHorizontalAlignment_2(this$static, horizontalAlignment){
   this$static.horizontalAlignment = horizontalAlignment;
 }
 
-function $toString_3(this$static){
+function $toString_4(this$static){
   var builder;
   builder = new StringBuilder_0;
   $append_7(builder, this$static.fontWeight.getCssName());
@@ -1709,12 +1710,12 @@ function FontDefinition(){
 }
 
 _ = FontDefinition_0.prototype = FontDefinition.prototype = new Object_0;
-_.getClass$ = function getClass_493(){
+_.getClass$ = function getClass_492(){
   return Lwebgl_client_nf_core_FontDefinition_2_classLit;
 }
 ;
 _.toString$ = function toString_37(){
-  return $toString_3(this);
+  return $toString_4(this);
 }
 ;
 _.fontColor = null;
@@ -1732,7 +1733,7 @@ function $relativeTo(this$static, loc){
   locY = loc.y_0;
   locW = loc.width_0;
   locH = loc.height_0;
-  return new Location_1(x + locX - (~~locW >> 1), y + locY - (~~locH >> 1), w, h_0);
+  return new Location_1(x + locX - (locW >> 1), y + locY - (locH >> 1), w, h_0);
 }
 
 function Location_2(p){
@@ -1744,8 +1745,8 @@ function $removeLastPanel(this$static){
   var panel;
   if (this$static.panels.size_0 > 1) {
     panel = $getTopPanel(this$static);
-    $getWidgetIndex(this$static.basePanel, panel) != -1 && $remove_3(this$static.basePanel, panel);
-    $remove_9(this$static.panels, this$static.panels.size_0 - 1);
+    $getWidgetIndex(this$static.basePanel, panel) != -1 && $remove_4(this$static.basePanel, panel);
+    $remove_10(this$static.panels, this$static.panels.size_0 - 1);
   }
 }
 
@@ -1753,7 +1754,7 @@ function AbstractQueenOfDiamondsCardConfiguration(){
 }
 
 _ = AbstractQueenOfDiamondsCardConfiguration.prototype = new Object_0;
-_.getClass$ = function getClass_497(){
+_.getClass$ = function getClass_496(){
   return Lwebgl_client_nf_games_g431_Card_AbstractQueenOfDiamondsCardConfiguration_2_classLit;
 }
 ;
@@ -1781,7 +1782,7 @@ function AbstractQueenOfDiamondsCardConfiguration$CardsState(){
 }
 
 _ = AbstractQueenOfDiamondsCardConfiguration$CardsState_0.prototype = AbstractQueenOfDiamondsCardConfiguration$CardsState.prototype = new Enum;
-_.getClass$ = function getClass_498(){
+_.getClass$ = function getClass_497(){
   return Lwebgl_client_nf_games_g431_Card_AbstractQueenOfDiamondsCardConfiguration$CardsState_2_classLit;
 }
 ;
@@ -1798,7 +1799,7 @@ function AbstractGameItem(){
 }
 
 _ = AbstractGameItem.prototype = new Object_0;
-_.getClass$ = function getClass_499(){
+_.getClass$ = function getClass_498(){
   return Lwebgl_client_nf_gamesFramework_gameItem_item_AbstractGameItem_2_classLit;
 }
 ;
@@ -1863,11 +1864,11 @@ function $updateTouchableDivLocation(this$static){
         }
         $setPixelSize(this$static.touchableDiv, divWidth, divHeight);
         this$static.touchableDiv.element.style['zIndex'] = '65';
-        $add_2(this$static.touchableDivPanel, this$static.touchableDiv, centerX - (~~divWidth >> 1), centerY - (~~divHeight >> 1));
+        $add_2(this$static.touchableDivPanel, this$static.touchableDiv, centerX - (divWidth >> 1), centerY - (divHeight >> 1));
       }
     }
      else {
-      !!this$static.touchableDiv && this$static.touchableDiv.attached && $remove_3(this$static.touchableDivPanel, this$static.touchableDiv);
+      !!this$static.touchableDiv && this$static.touchableDiv.attached && $remove_4(this$static.touchableDivPanel, this$static.touchableDiv);
     }
   }
 }
@@ -1876,7 +1877,7 @@ function AbstractInteractiveGameItem(){
 }
 
 _ = AbstractInteractiveGameItem.prototype = new AbstractGameItem;
-_.getClass$ = function getClass_500(){
+_.getClass$ = function getClass_499(){
   return Lwebgl_client_nf_gamesFramework_gameItem_item_AbstractInteractiveGameItem_2_classLit;
 }
 ;
@@ -2173,7 +2174,7 @@ _.completeCover = function completeCover(){
   this.isGoldCard?$triggerItemAction(this.goldCardFlipAnimation, this.configuration.getFlipBackAnimStagePart2()):$triggerItemAction(this.flipAnimation, this.configuration.getFlipBackAnimStagePart2());
 }
 ;
-_.getClass$ = function getClass_501(){
+_.getClass$ = function getClass_500(){
   return Lwebgl_client_nf_games_g431_Card_QueenOfDiamondsCard_2_classLit;
 }
 ;
@@ -2385,7 +2386,7 @@ _.completeCover = function completeCover_0(){
   $triggerItemAction(this.finalFallAnim, this.configuration.getFlipBackAnimStagePart2());
 }
 ;
-_.getClass$ = function getClass_502(){
+_.getClass$ = function getClass_501(){
   return Lwebgl_client_nf_games_g431_Card_QueenOfDiamondsWarCard_2_classLit;
 }
 ;
@@ -2485,7 +2486,7 @@ _.getCardStage = function getCardStage(cardId){
   return dynamicCast(this.cardsStagesMap.get(cardId), Q$String);
 }
 ;
-_.getClass$ = function getClass_503(){
+_.getClass$ = function getClass_502(){
   return Lwebgl_client_nf_games_g431_Card_jokerBonusCardConfig_QueenOfDiamondsJokerBonusCardConfigurationMobile_2_classLit;
 }
 ;
@@ -2677,7 +2678,7 @@ _.getCardStage = function getCardStage_0(cardId){
   return dynamicCast(this.cardsStagesMap.get(cardId), Q$String);
 }
 ;
-_.getClass$ = function getClass_504(){
+_.getClass$ = function getClass_503(){
   return Lwebgl_client_nf_games_g431_Card_jokerBonusCardConfig_QueenOfDiamondsJokerBonusCardConfigurationWeb_2_classLit;
 }
 ;
@@ -2861,7 +2862,7 @@ _.getCardStage = function getCardStage_1(cardId){
   return CARD_IDS[valueOf_0(__parseAndValidateInt(cardId)).value_0 - 1];
 }
 ;
-_.getClass$ = function getClass_505(){
+_.getClass$ = function getClass_504(){
   return Lwebgl_client_nf_games_g431_Card_mainGameCardConfig_QueenOfDiamondsMainGameCardConfigurationMobile_2_classLit;
 }
 ;
@@ -3045,7 +3046,7 @@ _.getCardStage = function getCardStage_2(cardId){
   return CARD_IDS_0[valueOf_0(__parseAndValidateInt(cardId)).value_0 - 1];
 }
 ;
-_.getClass$ = function getClass_506(){
+_.getClass$ = function getClass_505(){
   return Lwebgl_client_nf_games_g431_Card_mainGameCardConfig_QueenOfDiamondsMainGameCardConfigurationWeb_2_classLit;
 }
 ;
@@ -3209,7 +3210,7 @@ function QueenOfDiamondsCardsConfigurationsService(){
 }
 
 _ = QueenOfDiamondsCardsConfigurationsService_0.prototype = QueenOfDiamondsCardsConfigurationsService.prototype = new Object_0;
-_.getClass$ = function getClass_507(){
+_.getClass$ = function getClass_506(){
   return Lwebgl_client_nf_games_g431_Card_service_QueenOfDiamondsCardsConfigurationsService_2_classLit;
 }
 ;
@@ -3273,7 +3274,7 @@ _.getCardStage = function getCardStage_3(cardId){
   return dynamicCast($get_5(this.cardsStagesMap, __parseAndValidateInt(cardId) - 1), Q$String);
 }
 ;
-_.getClass$ = function getClass_508(){
+_.getClass$ = function getClass_507(){
   return Lwebgl_client_nf_games_g431_Card_warBonusCardConfig_AbstractQueenOfDiamondsWarCardConfiguration_2_classLit;
 }
 ;
@@ -3311,7 +3312,7 @@ _.getCardItemLocation = function getCardItemLocation_3(locations, cardPrefix, nu
   return dynamicCast(locations.locationsMap.get(cardPrefix), Q$Location);
 }
 ;
-_.getClass$ = function getClass_509(){
+_.getClass$ = function getClass_508(){
   return Lwebgl_client_nf_games_g431_Card_warBonusCardConfig_QueenOfDiamondsWarBonusCardConfigurationMobile_2_classLit;
 }
 ;
@@ -3476,7 +3477,7 @@ _.getCardItemLocation = function getCardItemLocation_4(locations, cardPrefix, nu
   return dynamicCast(locations.locationsMap.get(cardPrefix), Q$Location);
 }
 ;
-_.getClass$ = function getClass_510(){
+_.getClass$ = function getClass_509(){
   return Lwebgl_client_nf_games_g431_Card_warBonusCardConfig_QueenOfDiamondsWarBonusCardConfigurationWeb_2_classLit;
 }
 ;
@@ -3819,7 +3820,7 @@ _.getBgWidth_0 = function getBgWidth(){
   return $getWidth(this.gameBackground);
 }
 ;
-_.getClass$ = function getClass_511(){
+_.getClass$ = function getClass_510(){
   return Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame_2_classLit;
 }
 ;
@@ -4369,7 +4370,7 @@ _.gamePreferredNonMandatoryResourcesLoadCompleteHandler_0 = function gamePreferr
   this.gameCustomization.gamePreferredNonMandatoryResourcesLoadCompleteHandler_1(loadedResources, this.panelManager.basePanel);
 }
 ;
-_.getClass$ = function getClass_512(){
+_.getClass$ = function getClass_511(){
   return Lwebgl_client_nf_games_g431_Game431_2_classLit;
 }
 ;
@@ -4544,11 +4545,11 @@ function Game431$1(){
 }
 
 _ = Game431$1_0.prototype = Game431$1.prototype = new Timer;
-_.getClass$ = function getClass_513(){
+_.getClass$ = function getClass_512(){
   return Lwebgl_client_nf_games_g431_Game431$1_2_classLit;
 }
 ;
-_.run = function run_6(){
+_.run = function run_8(){
   $show_2(this.this$0.tooltip);
 }
 ;
@@ -4563,11 +4564,11 @@ function Game431$2(){
 }
 
 _ = Game431$2_0.prototype = Game431$2.prototype = new Timer;
-_.getClass$ = function getClass_514(){
+_.getClass$ = function getClass_513(){
   return Lwebgl_client_nf_games_g431_Game431$2_2_classLit;
 }
 ;
-_.run = function run_7(){
+_.run = function run_9(){
   $playGame(this.this$0);
 }
 ;
@@ -4582,11 +4583,11 @@ function Game431$3(){
 }
 
 _ = Game431$3_0.prototype = Game431$3.prototype = new Timer;
-_.getClass$ = function getClass_515(){
+_.getClass$ = function getClass_514(){
   return Lwebgl_client_nf_games_g431_Game431$3_2_classLit;
 }
 ;
-_.run = function run_8(){
+_.run = function run_10(){
   $roundEndedHandler(this.this$0.gameContainer);
 }
 ;
@@ -4601,11 +4602,11 @@ function Game431$4(){
 }
 
 _ = Game431$4_0.prototype = Game431$4.prototype = new Timer;
-_.getClass$ = function getClass_516(){
+_.getClass$ = function getClass_515(){
   return Lwebgl_client_nf_games_g431_Game431$4_2_classLit;
 }
 ;
-_.run = function run_9(){
+_.run = function run_11(){
   $setCurrentPanel(this.this$0.panelManager, this.this$0.gamePanel, false);
   $schedule(this.this$0.toolTipTimer, 7000);
   $addSpaceBarKeyHandler(this.this$0.gamePanel);
@@ -4634,7 +4635,7 @@ function Game431$5(){
 }
 
 _ = Game431$5_0.prototype = Game431$5.prototype = new Object_0;
-_.getClass$ = function getClass_517(){
+_.getClass$ = function getClass_516(){
   return Lwebgl_client_nf_games_g431_Game431$5_2_classLit;
 }
 ;
@@ -4648,7 +4649,7 @@ function Game431$6(){
 }
 
 _ = Game431$6_0.prototype = Game431$6.prototype = new Object_0;
-_.getClass$ = function getClass_518(){
+_.getClass$ = function getClass_517(){
   return Lwebgl_client_nf_games_g431_Game431$6_2_classLit;
 }
 ;
@@ -4661,7 +4662,7 @@ function Game431$7(){
 }
 
 _ = Game431$7_0.prototype = Game431$7.prototype = new Object_0;
-_.getClass$ = function getClass_519(){
+_.getClass$ = function getClass_518(){
   return Lwebgl_client_nf_games_g431_Game431$7_2_classLit;
 }
 ;
@@ -4855,7 +4856,7 @@ function QueenOfDiamondsModel(){
 }
 
 _ = QueenOfDiamondsModel_0.prototype = QueenOfDiamondsModel.prototype = new Object_0;
-_.getClass$ = function getClass_520(){
+_.getClass$ = function getClass_519(){
   return Lwebgl_client_nf_games_g431_QueenOfDiamondsModel_2_classLit;
 }
 ;
@@ -5016,7 +5017,7 @@ function QueenOfDiamondsResources(){
 }
 
 _ = QueenOfDiamondsResources_0.prototype = QueenOfDiamondsResources.prototype = new Enum;
-_.getClass$ = function getClass_521(){
+_.getClass$ = function getClass_520(){
   return Lwebgl_client_nf_games_g431_QueenOfDiamondsResources_2_classLit;
 }
 ;
@@ -5040,7 +5041,7 @@ function $hide_1(this$static){
 function $show_2(this$static){
   if (!(this$static.element.style.display != 'none')) {
     $add_2(this$static.container, this$static, 0, 0);
-    $setWidgetPosition(this$static.container, this$static, this$static.panelLocation.x_0 - (~~this$static.panelLocation.width_0 >> 1), this$static.panelLocation.y_0 - (~~this$static.panelLocation.height_0 >> 1));
+    $setWidgetPosition(this$static.container, this$static, this$static.panelLocation.x_0 - (this$static.panelLocation.width_0 >> 1), this$static.panelLocation.y_0 - (this$static.panelLocation.height_0 >> 1));
     this$static.popupPanel.element.style.opacity = 0;
     setVisible(this$static.element, true);
     $setStyleName_0(this$static.popupPanel, 'tooltipFadeIn');
@@ -5065,7 +5066,7 @@ function QueenOfDiamondsTooltip(){
 }
 
 _ = QueenOfDiamondsTooltip_0.prototype = QueenOfDiamondsTooltip.prototype = new Composite;
-_.getClass$ = function getClass_522(){
+_.getClass$ = function getClass_521(){
   return Lwebgl_client_nf_games_g431_QueenOfDiamondsTooltip_2_classLit;
 }
 ;
@@ -5149,7 +5150,7 @@ function QueenOfDiamondsAllTimeAnimationController(){
 }
 
 _ = QueenOfDiamondsAllTimeAnimationController_0.prototype = QueenOfDiamondsAllTimeAnimationController.prototype = new Object_0;
-_.getClass$ = function getClass_523(){
+_.getClass$ = function getClass_522(){
   return Lwebgl_client_nf_games_g431_allTime_QueenOfDiamondsAllTimeAnimationController_2_classLit;
 }
 ;
@@ -5176,11 +5177,11 @@ function QueenOfDiamondsAllTimeAnimationController$1(){
 }
 
 _ = QueenOfDiamondsAllTimeAnimationController$1_0.prototype = QueenOfDiamondsAllTimeAnimationController$1.prototype = new Timer;
-_.getClass$ = function getClass_524(){
+_.getClass$ = function getClass_523(){
   return Lwebgl_client_nf_games_g431_allTime_QueenOfDiamondsAllTimeAnimationController$1_2_classLit;
 }
 ;
-_.run = function run_10(){
+_.run = function run_12(){
   $showLogoAnimation(this.this$0);
 }
 ;
@@ -5195,11 +5196,11 @@ function QueenOfDiamondsAllTimeAnimationController$2(){
 }
 
 _ = QueenOfDiamondsAllTimeAnimationController$2_0.prototype = QueenOfDiamondsAllTimeAnimationController$2.prototype = new Timer;
-_.getClass$ = function getClass_525(){
+_.getClass$ = function getClass_524(){
   return Lwebgl_client_nf_games_g431_allTime_QueenOfDiamondsAllTimeAnimationController$2_2_classLit;
 }
 ;
-_.run = function run_11(){
+_.run = function run_13(){
   $showJokerAnimation(this.this$0);
 }
 ;
@@ -5213,7 +5214,7 @@ function QueenOfDiamondsAllTimeAnimationController$3(){
 }
 
 _ = QueenOfDiamondsAllTimeAnimationController$3_0.prototype = QueenOfDiamondsAllTimeAnimationController$3.prototype = new Object_0;
-_.getClass$ = function getClass_526(){
+_.getClass$ = function getClass_525(){
   return Lwebgl_client_nf_games_g431_allTime_QueenOfDiamondsAllTimeAnimationController$3_2_classLit;
 }
 ;
@@ -5312,7 +5313,7 @@ function QueenOfDiamondsBonusesManager(){
 }
 
 _ = QueenOfDiamondsBonusesManager_0.prototype = QueenOfDiamondsBonusesManager.prototype = new Object_0;
-_.getClass$ = function getClass_527(){
+_.getClass$ = function getClass_526(){
   return Lwebgl_client_nf_games_g431_bonuses_QueenOfDiamondsBonusesManager_2_classLit;
 }
 ;
@@ -5345,7 +5346,7 @@ function QueenOfDiamondsBonusesManager$BonusGamesState(){
 }
 
 _ = QueenOfDiamondsBonusesManager$BonusGamesState_0.prototype = QueenOfDiamondsBonusesManager$BonusGamesState.prototype = new Enum;
-_.getClass$ = function getClass_528(){
+_.getClass$ = function getClass_527(){
   return Lwebgl_client_nf_games_g431_bonuses_QueenOfDiamondsBonusesManager$BonusGamesState_2_classLit;
 }
 ;
@@ -5355,7 +5356,7 @@ function $flipCard(this$static, card){
   if (this$static.stepsDOs.size_0 > 0) {
     if (card.cardState == ($clinit_AbstractQueenOfDiamondsCardConfiguration$CardsState() , COVERED)) {
       this$static.currentStepDO = dynamicCast($get_5(this$static.stepsDOs, 0), Q$QueenOfDiamondsJokerBonusStepDO);
-      $remove_9(this$static.stepsDOs, 0);
+      $remove_10(this$static.stepsDOs, 0);
       this$static.stepsDOs.size_0 == 0 && $setCardsClickable(this$static, false);
       if (this$static.currentStepDO.bonusItemID.indexOf('W') != -1) {
         card.isJoker = true;
@@ -5458,7 +5459,7 @@ function QueenOfDiamondsJokerBonusBoard(){
 }
 
 _ = QueenOfDiamondsJokerBonusBoard_0.prototype = QueenOfDiamondsJokerBonusBoard.prototype = new Object_0;
-_.getClass$ = function getClass_529(){
+_.getClass$ = function getClass_528(){
   return Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusBoard_2_classLit;
 }
 ;
@@ -5493,7 +5494,7 @@ function QueenOfDiamondsJokerBonusBoard$1(){
 }
 
 _ = QueenOfDiamondsJokerBonusBoard$1_0.prototype = QueenOfDiamondsJokerBonusBoard$1.prototype = new Object_0;
-_.getClass$ = function getClass_530(){
+_.getClass$ = function getClass_529(){
   return Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusBoard$1_2_classLit;
 }
 ;
@@ -5511,11 +5512,11 @@ function QueenOfDiamondsJokerBonusBoard$2(){
 }
 
 _ = QueenOfDiamondsJokerBonusBoard$2_0.prototype = QueenOfDiamondsJokerBonusBoard$2.prototype = new Timer;
-_.getClass$ = function getClass_531(){
+_.getClass$ = function getClass_530(){
   return Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusBoard$2_2_classLit;
 }
 ;
-_.run = function run_12(){
+_.run = function run_14(){
   var cardId;
   cardId = valueOf_0(__parseAndValidateInt(this.this$0.historyPls[this.this$0.historyStep])).value_0 - 1;
   ++this.this$0.historyStep;
@@ -5584,7 +5585,7 @@ _.getBonusPanel = function getBonusPanel(){
   return this.panel;
 }
 ;
-_.getClass$ = function getClass_532(){
+_.getClass$ = function getClass_531(){
   return Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusManager_2_classLit;
 }
 ;
@@ -5632,7 +5633,7 @@ function QueenOfDiamondsJokerBonusManager$1(){
 }
 
 _ = QueenOfDiamondsJokerBonusManager$1_0.prototype = QueenOfDiamondsJokerBonusManager$1.prototype = new Object_0;
-_.getClass$ = function getClass_533(){
+_.getClass$ = function getClass_532(){
   return Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusManager$1_2_classLit;
 }
 ;
@@ -5652,11 +5653,11 @@ function QueenOfDiamondsJokerBonusManager$2(){
 }
 
 _ = QueenOfDiamondsJokerBonusManager$2_0.prototype = QueenOfDiamondsJokerBonusManager$2.prototype = new Timer;
-_.getClass$ = function getClass_534(){
+_.getClass$ = function getClass_533(){
   return Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusManager$2_2_classLit;
 }
 ;
-_.run = function run_13(){
+_.run = function run_15(){
   $showPopup(this.this$0.jokerSummaryPopup, this.this$0.panel, ($clinit_Boolean() , $clinit_Boolean() , TRUE_0));
   this.this$0.isReplay && $schedule(this.this$0.autoDismissSummaryPopup, 3000);
 }
@@ -5672,13 +5673,13 @@ function QueenOfDiamondsJokerBonusManager$3(){
 }
 
 _ = QueenOfDiamondsJokerBonusManager$3_0.prototype = QueenOfDiamondsJokerBonusManager$3.prototype = new Timer;
-_.getClass$ = function getClass_535(){
+_.getClass$ = function getClass_534(){
   return Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusManager$3_2_classLit;
 }
 ;
-_.run = function run_14(){
+_.run = function run_16(){
   this.isRepeating?clearInterval_0(this.timerId):clearTimeout_0(this.timerId);
-  $remove_10(timers, this);
+  $remove_11(timers, this);
   $hidePopup(this.this$0.jokerSummaryPopup, ($clinit_Boolean() , $clinit_Boolean() , FALSE_0));
   $onFinishBonusGame_0(this.this$0);
 }
@@ -5736,7 +5737,7 @@ function QueenOfDiamondsJokerBonusPanel_0(panelWidth, panelHeight, gameLocations
   this.infoPopup = new QueenOfDiamondsInfoPopup_0(this, this.loadedResources, this.locations, ($clinit_QueenOfDiamondsInfoPopup$InfoPopupType() , JOKER));
   buttonLocation = $getLocation_0(this.locations, 'JOKER_BONUS_IBTN');
   buttonImg = dynamicCast(this.loadedResources.get(($clinit_QueenOfDiamondsResources() , JOKER_BONUS_INFO_BUTTON).path), Q$TransformableImage);
-  this.infoButton = new MenuCommonButton_0('lobby-btn', '', buttonImg.image.src, ~~$getWidth(buttonImg) >> 1, ~~$getHeight(buttonImg) >> 1);
+  this.infoButton = new MenuCommonButton_0('lobby-btn', '', buttonImg.image.src, $getWidth(buttonImg) >> 1, $getHeight(buttonImg) >> 1);
   this.infoButton.element.style['zIndex'] = '70';
   $addClickHandler_0(this.infoButton, new QueenOfDiamondsJokerBonusPanel$1_0(this));
   $add_15(this, this.infoButton, buttonLocation);
@@ -5752,7 +5753,7 @@ function QueenOfDiamondsJokerBonusPanel(){
 }
 
 _ = QueenOfDiamondsJokerBonusPanel_0.prototype = QueenOfDiamondsJokerBonusPanel.prototype = new AbsoluteNeoPanel;
-_.getClass$ = function getClass_537(){
+_.getClass$ = function getClass_536(){
   return Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusPanel_2_classLit;
 }
 ;
@@ -5775,13 +5776,13 @@ function QueenOfDiamondsJokerBonusPanel$1(){
 }
 
 _ = QueenOfDiamondsJokerBonusPanel$1_0.prototype = QueenOfDiamondsJokerBonusPanel$1.prototype = new Object_0;
-_.getClass$ = function getClass_538(){
+_.getClass$ = function getClass_537(){
   return Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusPanel$1_2_classLit;
 }
 ;
 _.onClick = function onClick_9(event_0){
   getSoundManager().play_2(($clinit_Game431() , SOUND_FILE_URL), 'Info', 37);
-  $setFocus(this.this$0.infoButton.button);
+  this.this$0.infoButton.button_0.element.blur();
   $isShowing(this.this$0.infoPopup)?$hidePopupWithFadeOut_0(this.this$0.infoPopup):$showInfoPopup(this.this$0);
 }
 ;
@@ -5850,7 +5851,7 @@ function TextCounterView(){
 }
 
 _ = TextCounterView.prototype = new Object_0;
-_.getClass$ = function getClass_539(){
+_.getClass$ = function getClass_538(){
   return Lwebgl_client_nf_gamesFramework_ui_textCounterView_TextCounterView_2_classLit;
 }
 ;
@@ -5890,7 +5891,7 @@ function QueenOfDiamondsJokerBonusPanel$2(){
 }
 
 _ = QueenOfDiamondsJokerBonusPanel$2_0.prototype = QueenOfDiamondsJokerBonusPanel$2.prototype = new TextCounterView;
-_.getClass$ = function getClass_540(){
+_.getClass$ = function getClass_539(){
   return Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusPanel$2_2_classLit;
 }
 ;
@@ -5954,8 +5955,8 @@ function $setPrizes_0(this$static, paytableData){
 function $updateNavigatorLocation(this$static){
   var duration, tweenProperties;
   tweenProperties = new ArrayList_0;
-  $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , X), valueOf_0(this$static.navigatorLocations[this$static.currentLevel].x_0 - (~~this$static.navigatorLocations[this$static.currentLevel].width_0 >> 1))));
-  $add_10(tweenProperties, new TweenProperty_0(Y, valueOf_0(this$static.navigatorLocations[this$static.currentLevel].y_0 - (~~this$static.navigatorLocations[this$static.currentLevel].height_0 >> 1))));
+  $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , X), valueOf_0(this$static.navigatorLocations[this$static.currentLevel].x_0 - (this$static.navigatorLocations[this$static.currentLevel].width_0 >> 1))));
+  $add_10(tweenProperties, new TweenProperty_0(Y, valueOf_0(this$static.navigatorLocations[this$static.currentLevel].y_0 - (this$static.navigatorLocations[this$static.currentLevel].height_0 >> 1))));
   duration = 0;
   if (this$static.currentLevel > 0) {
     getSoundManager().play_2(($clinit_Game431() , SOUND_FILE_URL), 'Bar_Moving', 18);
@@ -5999,7 +6000,7 @@ function QueenOfDiamondsJokerPaytable(){
 }
 
 _ = QueenOfDiamondsJokerPaytable_0.prototype = QueenOfDiamondsJokerPaytable.prototype = new AbsoluteNeoPanel;
-_.getClass$ = function getClass_541(){
+_.getClass$ = function getClass_540(){
   return Lwebgl_client_nf_games_g431_bonuses_joker_paytable_QueenOfDiamondsJokerPaytable_2_classLit;
 }
 ;
@@ -6017,7 +6018,7 @@ function QueenOfDiamondsJokerPaytable$1(){
 }
 
 _ = QueenOfDiamondsJokerPaytable$1_0.prototype = QueenOfDiamondsJokerPaytable$1.prototype = new Object_0;
-_.getClass$ = function getClass_542(){
+_.getClass$ = function getClass_541(){
   return Lwebgl_client_nf_games_g431_bonuses_joker_paytable_QueenOfDiamondsJokerPaytable$1_2_classLit;
 }
 ;
@@ -6186,7 +6187,7 @@ function QueenOfDiamondsWarBonusBoard_0(resources, locations, cardConfiguration,
   location_0 = dynamicCast(locations.locationsMap.get('WAR_BONUS_RED_SIDE'), Q$Location);
   animFrameWidth = playerCardsSideAnimBank.sourceFrameWidth;
   animFrameHeight = playerCardsSideAnimBank.sourceFrameHeight;
-  this.playerCardsSideAnimLightPoint = new Point_0(location_0.x_0 - (~~animFrameWidth >> 1), location_0.y_0 - (~~animFrameHeight >> 1));
+  this.playerCardsSideAnimLightPoint = new Point_0(location_0.x_0 - (animFrameWidth >> 1), location_0.y_0 - (animFrameHeight >> 1));
   this.playerCardsSideImageLightVisible = true;
   queenCardsSideAnimBank = dynamicCast(resources.get(WAR_BONUS_ALL_QUEEN_LIGHT_ANIM.path), Q$AnimationBank);
   this.queenCardsSideAnim = new AnimGameItem_0(0, new AnimationController_0(queenCardsSideAnimBank, 'idle'), false);
@@ -6196,7 +6197,7 @@ function QueenOfDiamondsWarBonusBoard_0(resources, locations, cardConfiguration,
   location_0 = dynamicCast(locations.locationsMap.get('WAR_BONUS_BLUE_SIDE'), Q$Location);
   animFrameWidth = queenCardsSideAnimBank.sourceFrameWidth;
   animFrameHeight = queenCardsSideAnimBank.sourceFrameHeight;
-  this.queenCardsSideAnimLightPoint = new Point_0(location_0.x_0 - (~~animFrameWidth >> 1), location_0.y_0 - (~~animFrameHeight >> 1));
+  this.queenCardsSideAnimLightPoint = new Point_0(location_0.x_0 - (animFrameWidth >> 1), location_0.y_0 - (animFrameHeight >> 1));
   this.queenCardsSideImageLightVisible = true;
   swordsAnimBank = dynamicCast(resources.get(WAR_BONUS_SWORDS.path), Q$AnimationBank);
   this.warWordsAnim = new AnimGameItem_0(0, new AnimationController_0(swordsAnimBank, 'idle'), false);
@@ -6228,7 +6229,7 @@ function QueenOfDiamondsWarBonusBoard(){
 }
 
 _ = QueenOfDiamondsWarBonusBoard_0.prototype = QueenOfDiamondsWarBonusBoard.prototype = new Object_0;
-_.getClass$ = function getClass_543(){
+_.getClass$ = function getClass_542(){
   return Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusBoard_2_classLit;
 }
 ;
@@ -6317,7 +6318,7 @@ function QueenOfDiamondsWarBonusBoard$1(){
 }
 
 _ = QueenOfDiamondsWarBonusBoard$1_0.prototype = QueenOfDiamondsWarBonusBoard$1.prototype = new Object_0;
-_.getClass$ = function getClass_544(){
+_.getClass$ = function getClass_543(){
   return Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusBoard$1_2_classLit;
 }
 ;
@@ -6336,11 +6337,11 @@ function QueenOfDiamondsWarBonusBoard$2(){
 }
 
 _ = QueenOfDiamondsWarBonusBoard$2_0.prototype = QueenOfDiamondsWarBonusBoard$2.prototype = new Timer;
-_.getClass$ = function getClass_545(){
+_.getClass$ = function getClass_544(){
   return Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusBoard$2_2_classLit;
 }
 ;
-_.run = function run_15(){
+_.run = function run_17(){
   $cancel_0(this.this$0.callToActionDelay);
   $triggerItemAction(this.this$0.battleBtnCallToAction, 'battleBtnAnim');
 }
@@ -6356,11 +6357,11 @@ function QueenOfDiamondsWarBonusBoard$3(){
 }
 
 _ = QueenOfDiamondsWarBonusBoard$3_0.prototype = QueenOfDiamondsWarBonusBoard$3.prototype = new Timer;
-_.getClass$ = function getClass_546(){
+_.getClass$ = function getClass_545(){
   return Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusBoard$3_2_classLit;
 }
 ;
-_.run = function run_16(){
+_.run = function run_18(){
   this.this$0.warWordsAnim.isVisible = false;
   $playCardsOutAnim(this.this$0);
 }
@@ -6376,11 +6377,11 @@ function QueenOfDiamondsWarBonusBoard$4(){
 }
 
 _ = QueenOfDiamondsWarBonusBoard$4_0.prototype = QueenOfDiamondsWarBonusBoard$4.prototype = new Timer;
-_.getClass$ = function getClass_547(){
+_.getClass$ = function getClass_546(){
   return Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusBoard$4_2_classLit;
 }
 ;
-_.run = function run_17(){
+_.run = function run_19(){
   $cancel_0(this.this$0.flipCardsDelay);
   $flipCards(this.this$0);
 }
@@ -6468,7 +6469,7 @@ _.getBonusPanel = function getBonusPanel_0(){
   return this.panel;
 }
 ;
-_.getClass$ = function getClass_548(){
+_.getClass$ = function getClass_547(){
   return Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusManager_2_classLit;
 }
 ;
@@ -6522,11 +6523,11 @@ function QueenOfDiamondsWarBonusManager$1(){
 }
 
 _ = QueenOfDiamondsWarBonusManager$1_0.prototype = QueenOfDiamondsWarBonusManager$1.prototype = new Timer;
-_.getClass$ = function getClass_549(){
+_.getClass$ = function getClass_548(){
   return Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusManager$1_2_classLit;
 }
 ;
-_.run = function run_18(){
+_.run = function run_20(){
   $showPopup(this.this$0.warSummaryPopup, this.this$0.panel, ($clinit_Boolean() , $clinit_Boolean() , TRUE_0));
   this.this$0.isReplay && $schedule(this.this$0.autoDismissSummaryPopup, 3000);
 }
@@ -6541,7 +6542,7 @@ function QueenOfDiamondsWarBonusManager$2(){
 }
 
 _ = QueenOfDiamondsWarBonusManager$2_0.prototype = QueenOfDiamondsWarBonusManager$2.prototype = new Object_0;
-_.getClass$ = function getClass_550(){
+_.getClass$ = function getClass_549(){
   return Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusManager$2_2_classLit;
 }
 ;
@@ -6561,13 +6562,13 @@ function QueenOfDiamondsWarBonusManager$3(){
 }
 
 _ = QueenOfDiamondsWarBonusManager$3_0.prototype = QueenOfDiamondsWarBonusManager$3.prototype = new Timer;
-_.getClass$ = function getClass_551(){
+_.getClass$ = function getClass_550(){
   return Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusManager$3_2_classLit;
 }
 ;
-_.run = function run_19(){
+_.run = function run_21(){
   this.isRepeating?clearInterval_0(this.timerId):clearTimeout_0(this.timerId);
-  $remove_10(timers, this);
+  $remove_11(timers, this);
   $playGame_1(this.this$0);
 }
 ;
@@ -6582,13 +6583,13 @@ function QueenOfDiamondsWarBonusManager$4(){
 }
 
 _ = QueenOfDiamondsWarBonusManager$4_0.prototype = QueenOfDiamondsWarBonusManager$4.prototype = new Timer;
-_.getClass$ = function getClass_552(){
+_.getClass$ = function getClass_551(){
   return Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusManager$4_2_classLit;
 }
 ;
-_.run = function run_20(){
+_.run = function run_22(){
   this.isRepeating?clearInterval_0(this.timerId):clearTimeout_0(this.timerId);
-  $remove_10(timers, this);
+  $remove_11(timers, this);
   $hidePopup(this.this$0.warSummaryPopup, ($clinit_Boolean() , $clinit_Boolean() , FALSE_0));
   $onFinishBonusGame_1(this.this$0);
 }
@@ -6663,14 +6664,14 @@ function QueenOfDiamondsWarBonusPanel_0(resources, locations, gameCustomization,
   this.infoPopup = new QueenOfDiamondsInfoPopup_0(this, this.resources, locations, ($clinit_QueenOfDiamondsInfoPopup$InfoPopupType() , WAR));
   battleBtnLocation = $getLocation_0(this.locations, 'WAR_BONUS_BATTLE_BUTTON');
   battleBtnImg = dynamicCast(resources.get(($clinit_QueenOfDiamondsResources() , WAR_BONUS_BATTLE_BUTTON).path), Q$TransformableImage);
-  this.battleBtn = new MenuCommonButton_0('lobby-btn', '', battleBtnImg.image.src, ~~$getWidth(battleBtnImg) >> 1, ~~$getHeight(battleBtnImg) >> 1);
+  this.battleBtn = new MenuCommonButton_0('lobby-btn', '', battleBtnImg.image.src, $getWidth(battleBtnImg) >> 1, $getHeight(battleBtnImg) >> 1);
   this.battleBtn.element.style['zIndex'] = '65';
   handler = new QueenOfDiamondsWarBonusPanel$1_0(this, listener);
   $addClickHandler_0(this.battleBtn, handler);
   $add_15(this, this.battleBtn, battleBtnLocation);
   infoBtnLocation = $getLocation_0(this.locations, 'WAR_BONUS_INFO');
   infoBtnImg = dynamicCast(resources.get(WAR_BONUS_INFO_BUTTON.path), Q$TransformableImage);
-  this.infoBtn = new MenuCommonButton_0('lobby-btn', '', infoBtnImg.image.src, ~~$getWidth(infoBtnImg) >> 1, ~~$getHeight(infoBtnImg) >> 1);
+  this.infoBtn = new MenuCommonButton_0('lobby-btn', '', infoBtnImg.image.src, $getWidth(infoBtnImg) >> 1, $getHeight(infoBtnImg) >> 1);
   this.infoBtn.element.style['zIndex'] = '65';
   handler = new QueenOfDiamondsWarBonusPanel$2_0(this);
   $addClickHandler_0(this.infoBtn, handler);
@@ -6701,7 +6702,7 @@ function QueenOfDiamondsWarBonusPanel(){
 }
 
 _ = QueenOfDiamondsWarBonusPanel_0.prototype = QueenOfDiamondsWarBonusPanel.prototype = new AbsoluteNeoPanel;
-_.getClass$ = function getClass_553(){
+_.getClass$ = function getClass_552(){
   return Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusPanel_2_classLit;
 }
 ;
@@ -6729,7 +6730,7 @@ function QueenOfDiamondsWarBonusPanel$1(){
 }
 
 _ = QueenOfDiamondsWarBonusPanel$1_0.prototype = QueenOfDiamondsWarBonusPanel$1.prototype = new Object_0;
-_.getClass$ = function getClass_554(){
+_.getClass$ = function getClass_553(){
   return Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusPanel$1_2_classLit;
 }
 ;
@@ -6750,7 +6751,7 @@ function QueenOfDiamondsWarBonusPanel$2(){
 }
 
 _ = QueenOfDiamondsWarBonusPanel$2_0.prototype = QueenOfDiamondsWarBonusPanel$2.prototype = new Object_0;
-_.getClass$ = function getClass_555(){
+_.getClass$ = function getClass_554(){
   return Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusPanel$2_2_classLit;
 }
 ;
@@ -6770,7 +6771,7 @@ function QueenOfDiamondsWarBonusPanel$3(){
 }
 
 _ = QueenOfDiamondsWarBonusPanel$3_0.prototype = QueenOfDiamondsWarBonusPanel$3.prototype = new TextCounterView;
-_.getClass$ = function getClass_556(){
+_.getClass$ = function getClass_555(){
   return Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusPanel$3_2_classLit;
 }
 ;
@@ -6792,12 +6793,12 @@ function QueenOfDiamondsWarBonusPanel$4(){
 }
 
 _ = QueenOfDiamondsWarBonusPanel$4_0.prototype = QueenOfDiamondsWarBonusPanel$4.prototype = new Object_0;
-_.getClass$ = function getClass_557(){
+_.getClass$ = function getClass_556(){
   return Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusPanel$4_2_classLit;
 }
 ;
 _.onKeyboardKeyPressed = function onKeyboardKeyPressed(keboardKey){
-  if (keboardKey == 0 && !this.this$0.battleBtn.button.element['disabled'] && this.this$0.attached) {
+  if (keboardKey == 0 && !this.this$0.battleBtn.button_0.element['disabled'] && this.this$0.attached) {
     $enableButtons(this.this$0, false);
     $isShowing(this.this$0.infoPopup) && $hidePopupWithFadeOut_0(this.this$0.infoPopup);
     $playGame_1(this.this$0.listener);
@@ -6837,7 +6838,7 @@ _.getCardsConfigurationService = function getCardsConfigurationService(){
   return cardsConfigurations;
 }
 ;
-_.getClass$ = function getClass_558(){
+_.getClass$ = function getClass_557(){
   return Lwebgl_client_nf_games_g431_customization_QueenOfDiamondsCustomizationMobile_2_classLit;
 }
 ;
@@ -7006,7 +7007,7 @@ _.getCardsConfigurationService = function getCardsConfigurationService_0(){
   return cardsConfigurations;
 }
 ;
-_.getClass$ = function getClass_559(){
+_.getClass$ = function getClass_558(){
   return Lwebgl_client_nf_games_g431_customization_QueenOfDiamondsCustomizationWeb_2_classLit;
 }
 ;
@@ -7203,7 +7204,7 @@ function $parseAndSaveNewFormatLocations(this$static, locations){
   locIndex = 0;
   for (i = 1; i < locations.jsArray.length; ++i) {
     obj = $get_0(locations, i).isObject();
-    key = dynamicCast($next_1(new AbstractList$IteratorImpl_0(new Arrays$ArrayList_0($keySet(obj).val$keys))), Q$String);
+    key = dynamicCast($next_2(new AbstractList$IteratorImpl_0(new Arrays$ArrayList_0($keySet(obj).val$keys))), Q$String);
     locationObj = $get_1(obj, key).isObject();
     location_0 = new Location_1(round_int($get_1(locationObj, 'x').isNumber().value_0), round_int($get_1(locationObj, 'y').isNumber().value_0), round_int($get_1(locationObj, 'w').isNumber().value_0), round_int($get_1(locationObj, 'h').isNumber().value_0));
     this$static.locations.put(null, location_0);
@@ -7216,7 +7217,7 @@ function AbstractGameLocations(){
 }
 
 _ = AbstractGameLocations.prototype = new Object_0;
-_.getClass$ = function getClass_560(){
+_.getClass$ = function getClass_559(){
   return Lwebgl_client_nf_games_location_AbstractGameLocations_2_classLit;
 }
 ;
@@ -7240,7 +7241,7 @@ function QueenOfDiamondsLocations(){
 }
 
 _ = QueenOfDiamondsLocations.prototype = new AbstractGameLocations;
-_.getClass$ = function getClass_561(){
+_.getClass$ = function getClass_560(){
   return Lwebgl_client_nf_games_g431_locations_QueenOfDiamondsLocations_2_classLit;
 }
 ;
@@ -7501,7 +7502,7 @@ function QueenOfDiamondsLocationsMobile(){
 }
 
 _ = QueenOfDiamondsLocationsMobile_0.prototype = QueenOfDiamondsLocationsMobile.prototype = new QueenOfDiamondsLocations;
-_.getClass$ = function getClass_562(){
+_.getClass$ = function getClass_561(){
   return Lwebgl_client_nf_games_g431_locations_QueenOfDiamondsLocationsMobile_2_classLit;
 }
 ;
@@ -7770,7 +7771,7 @@ function QueenOfDiamondsLocationsWeb(){
 }
 
 _ = QueenOfDiamondsLocationsWeb_0.prototype = QueenOfDiamondsLocationsWeb.prototype = new QueenOfDiamondsLocations;
-_.getClass$ = function getClass_563(){
+_.getClass$ = function getClass_562(){
   return Lwebgl_client_nf_games_g431_locations_QueenOfDiamondsLocationsWeb_2_classLit;
 }
 ;
@@ -8171,7 +8172,7 @@ function QueenOfDiamondsBoard(){
 }
 
 _ = QueenOfDiamondsBoard_0.prototype = QueenOfDiamondsBoard.prototype = new Object_0;
-_.getClass$ = function getClass_564(){
+_.getClass$ = function getClass_563(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard_2_classLit;
 }
 ;
@@ -8227,7 +8228,7 @@ function QueenOfDiamondsBoard$1(){
 }
 
 _ = QueenOfDiamondsBoard$1_0.prototype = QueenOfDiamondsBoard$1.prototype = new Object_0;
-_.getClass$ = function getClass_565(){
+_.getClass$ = function getClass_564(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$1_2_classLit;
 }
 ;
@@ -8248,13 +8249,13 @@ function QueenOfDiamondsBoard$10(){
 }
 
 _ = QueenOfDiamondsBoard$10_0.prototype = QueenOfDiamondsBoard$10.prototype = new Timer;
-_.getClass$ = function getClass_566(){
+_.getClass$ = function getClass_565(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$10_2_classLit;
 }
 ;
-_.run = function run_21(){
+_.run = function run_23(){
   this.isRepeating?clearInterval_0(this.timerId):clearTimeout_0(this.timerId);
-  $remove_10(timers, this);
+  $remove_11(timers, this);
   $onBonusPopupCloseButtonClicked(this.this$0, this.val$popupType);
 }
 ;
@@ -8270,11 +8271,11 @@ function QueenOfDiamondsBoard$2(){
 }
 
 _ = QueenOfDiamondsBoard$2_0.prototype = QueenOfDiamondsBoard$2.prototype = new Timer;
-_.getClass$ = function getClass_567(){
+_.getClass$ = function getClass_566(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$2_2_classLit;
 }
 ;
-_.run = function run_22(){
+_.run = function run_24(){
   $cancel_0(this.this$0.callToActionDelay);
   $triggerItemAction(this.this$0.callToActionAnimGameItem, 'Play');
 }
@@ -8288,7 +8289,7 @@ function QueenOfDiamondsBoard$3(){
 }
 
 _ = QueenOfDiamondsBoard$3_0.prototype = QueenOfDiamondsBoard$3.prototype = new Object_0;
-_.getClass$ = function getClass_568(){
+_.getClass$ = function getClass_567(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$3_2_classLit;
 }
 ;
@@ -8305,11 +8306,11 @@ function QueenOfDiamondsBoard$4(){
 }
 
 _ = QueenOfDiamondsBoard$4_0.prototype = QueenOfDiamondsBoard$4.prototype = new Timer;
-_.getClass$ = function getClass_569(){
+_.getClass$ = function getClass_568(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$4_2_classLit;
 }
 ;
-_.run = function run_23(){
+_.run = function run_25(){
   $startBonus(this.this$0);
 }
 ;
@@ -8324,11 +8325,11 @@ function QueenOfDiamondsBoard$5(){
 }
 
 _ = QueenOfDiamondsBoard$5_0.prototype = QueenOfDiamondsBoard$5.prototype = new Timer;
-_.getClass$ = function getClass_570(){
+_.getClass$ = function getClass_569(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$5_2_classLit;
 }
 ;
-_.run = function run_24(){
+_.run = function run_26(){
   $stopBottomBarWinAnimation(this.this$0);
 }
 ;
@@ -8343,11 +8344,11 @@ function QueenOfDiamondsBoard$6(){
 }
 
 _ = QueenOfDiamondsBoard$6_0.prototype = QueenOfDiamondsBoard$6.prototype = new Timer;
-_.getClass$ = function getClass_571(){
+_.getClass$ = function getClass_570(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$6_2_classLit;
 }
 ;
-_.run = function run_25(){
+_.run = function run_27(){
   $startBonusGame(this.this$0.bonusesManager, ($clinit_QueenOfDiamondsBonusesManager$BonusGamesState() , JOKER_BONUS_GAME), this.this$0.historyPls);
   this.this$0.isRenderOnlyBonus = true;
   $setStyleName(this.this$0.bonusFadePanel, 'bonusFadePanelFadeIn', false);
@@ -8364,11 +8365,11 @@ function QueenOfDiamondsBoard$7(){
 }
 
 _ = QueenOfDiamondsBoard$7_0.prototype = QueenOfDiamondsBoard$7.prototype = new Timer;
-_.getClass$ = function getClass_572(){
+_.getClass$ = function getClass_571(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$7_2_classLit;
 }
 ;
-_.run = function run_26(){
+_.run = function run_28(){
   this.this$0.isRenderOnlyBonus = true;
   $startBonusGame(this.this$0.bonusesManager, ($clinit_QueenOfDiamondsBonusesManager$BonusGamesState() , WAR_BONUS_GAME), this.this$0.historyPls);
   $setStyleName(this.this$0.bonusFadePanel, 'bonusFadePanelFadeIn', false);
@@ -8385,11 +8386,11 @@ function QueenOfDiamondsBoard$8(){
 }
 
 _ = QueenOfDiamondsBoard$8_0.prototype = QueenOfDiamondsBoard$8.prototype = new Timer;
-_.getClass$ = function getClass_573(){
+_.getClass$ = function getClass_572(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$8_2_classLit;
 }
 ;
-_.run = function run_27(){
+_.run = function run_29(){
   $setPostBonusJokerLegend(this.this$0);
   $onJokerBonusFinished(this.this$0);
   $setWinJokerLegend(this.this$0);
@@ -8409,11 +8410,11 @@ function QueenOfDiamondsBoard$9(){
 }
 
 _ = QueenOfDiamondsBoard$9_0.prototype = QueenOfDiamondsBoard$9.prototype = new Timer;
-_.getClass$ = function getClass_574(){
+_.getClass$ = function getClass_573(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$9_2_classLit;
 }
 ;
-_.run = function run_28(){
+_.run = function run_30(){
   $setPostBonusWarLegend(this.this$0);
   $onWarBonusFinished(this.this$0);
   $setWinWarLegend(this.this$0);
@@ -8445,7 +8446,7 @@ function QueenOfDiamondsBoard$BonusType(){
 }
 
 _ = QueenOfDiamondsBoard$BonusType_0.prototype = QueenOfDiamondsBoard$BonusType.prototype = new Enum;
-_.getClass$ = function getClass_575(){
+_.getClass$ = function getClass_574(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$BonusType_2_classLit;
 }
 ;
@@ -8473,7 +8474,7 @@ function QueenOfDiamondsBoard$PopupType(){
 }
 
 _ = QueenOfDiamondsBoard$PopupType_0.prototype = QueenOfDiamondsBoard$PopupType.prototype = new Enum;
-_.getClass$ = function getClass_576(){
+_.getClass$ = function getClass_575(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$PopupType_2_classLit;
 }
 ;
@@ -8527,13 +8528,13 @@ function QueenOfDiamondsBonusPopup_0(container, bgImage, btnImage, txtImage, bgL
   backgroundImage = new Image_2(bgImage.image.src);
   backgroundImage.element.style['zIndex'] = '51';
   $add_2(this.containerPanel, backgroundImage, 0, 0);
-  this.closeBtn = new MenuCommonButton_0(popupButtonStyle, btnTxt, btnImage.image.src, ~~$getWidth(btnImage) >> 1, ~~$getHeight(btnImage) >> 1);
+  this.closeBtn = new MenuCommonButton_0(popupButtonStyle, btnTxt, btnImage.image.src, $getWidth(btnImage) >> 1, $getHeight(btnImage) >> 1);
   this.closeBtn.element.style['zIndex'] = '5505';
   $addClickHandler_0(this.closeBtn, new QueenOfDiamondsBonusPopup$1_0(this, listener));
   $add_15(this.containerPanel, this.closeBtn, btnLocation);
   txtImg = new Image_2(txtImage.image.src);
   txtImg.element.style['zIndex'] = '51';
-  $add_2(this.containerPanel, txtImg, txtImgLocation.x_0 - (~~txtImgLocation.width_0 >> 1), txtImgLocation.y_0 - (~~txtImgLocation.height_0 >> 1));
+  $add_2(this.containerPanel, txtImg, txtImgLocation.x_0 - (txtImgLocation.width_0 >> 1), txtImgLocation.y_0 - (txtImgLocation.height_0 >> 1));
   if (subTxtLocation) {
     this.htmlSubTxt = new CentredHTML_0;
     $setWordWrap(this.htmlSubTxt, false);
@@ -8552,7 +8553,7 @@ function QueenOfDiamondsBonusPopup(){
 }
 
 _ = QueenOfDiamondsBonusPopup_0.prototype = QueenOfDiamondsBonusPopup.prototype = new PopupDialog;
-_.getClass$ = function getClass_578(){
+_.getClass$ = function getClass_577(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBonusPopup_2_classLit;
 }
 ;
@@ -8570,7 +8571,7 @@ function QueenOfDiamondsBonusPopup$1(){
 }
 
 _ = QueenOfDiamondsBonusPopup$1_0.prototype = QueenOfDiamondsBonusPopup$1.prototype = new Object_0;
-_.getClass$ = function getClass_579(){
+_.getClass$ = function getClass_578(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBonusPopup$1_2_classLit;
 }
 ;
@@ -8726,7 +8727,7 @@ function QueenOfDiamondsMainArea(){
 }
 
 _ = QueenOfDiamondsMainArea_0.prototype = QueenOfDiamondsMainArea.prototype = new Object_0;
-_.getClass$ = function getClass_580(){
+_.getClass$ = function getClass_579(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea_2_classLit;
 }
 ;
@@ -8801,7 +8802,7 @@ function QueenOfDiamondsMainArea$1(){
 }
 
 _ = QueenOfDiamondsMainArea$1_0.prototype = QueenOfDiamondsMainArea$1.prototype = new Object_0;
-_.getClass$ = function getClass_581(){
+_.getClass$ = function getClass_580(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$1_2_classLit;
 }
 ;
@@ -8827,11 +8828,11 @@ function QueenOfDiamondsMainArea$2(){
 }
 
 _ = QueenOfDiamondsMainArea$2_0.prototype = QueenOfDiamondsMainArea$2.prototype = new Timer;
-_.getClass$ = function getClass_582(){
+_.getClass$ = function getClass_581(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$2_2_classLit;
 }
 ;
-_.run = function run_29(){
+_.run = function run_31(){
   $revealNextCard(this.this$0);
 }
 ;
@@ -8862,7 +8863,7 @@ function QueenOfDiamondsMainArea$QueenOfDiamondsCardsSubTypes(){
 }
 
 _ = QueenOfDiamondsMainArea$QueenOfDiamondsCardsSubTypes_0.prototype = QueenOfDiamondsMainArea$QueenOfDiamondsCardsSubTypes.prototype = new Enum;
-_.getClass$ = function getClass_583(){
+_.getClass$ = function getClass_582(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$QueenOfDiamondsCardsSubTypes_2_classLit;
 }
 ;
@@ -8900,7 +8901,7 @@ function QueenOfDiamondsMainArea$QueenOfDiamondsCardsTypes(){
 }
 
 _ = QueenOfDiamondsMainArea$QueenOfDiamondsCardsTypes_0.prototype = QueenOfDiamondsMainArea$QueenOfDiamondsCardsTypes.prototype = new Enum;
-_.getClass$ = function getClass_584(){
+_.getClass$ = function getClass_583(){
   return Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$QueenOfDiamondsCardsTypes_2_classLit;
 }
 ;
@@ -8930,7 +8931,7 @@ function AbstractGamePanel(){
 }
 
 _ = AbstractGamePanel.prototype = new AbsoluteNeoPanel;
-_.getClass$ = function getClass_585(){
+_.getClass$ = function getClass_584(){
   return Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGamePanel_2_classLit;
 }
 ;
@@ -9004,12 +9005,12 @@ function $initLocations(this$static, locations){
 function $initiateMenu(this$static, resources){
   var handler, playButtonImg, revealButtonImg;
   playButtonImg = dynamicCast(resources.get(($clinit_QueenOfDiamondsResources() , BUTTON_PLAY).path), Q$TransformableImage);
-  this$static.playButton = new MenuCommonButton_0('lobby-btn Play-Button', '', playButtonImg.image.src, ~~$getWidth(playButtonImg) >> 1, ~~$getHeight(playButtonImg) >> 1);
+  this$static.playButton = new MenuCommonButton_0('lobby-btn Play-Button', '', playButtonImg.image.src, $getWidth(playButtonImg) >> 1, $getHeight(playButtonImg) >> 1);
   this$static.playButton.element.style['zIndex'] = '65';
   handler = new AbstractQueenOfDiamondsPanel$2_0(this$static);
   $addClickHandler_0(this$static.playButton, handler);
   revealButtonImg = dynamicCast(resources.get(BUTTON_REVEAL_ALL.path), Q$TransformableImage);
-  this$static.scratchAllaButton = new MenuCommonButton_0('lobby-btn Play-Button', '', revealButtonImg.image.src, ~~$getWidth(revealButtonImg) >> 1, ~~$getHeight(revealButtonImg) >> 1);
+  this$static.scratchAllaButton = new MenuCommonButton_0('lobby-btn Play-Button', '', revealButtonImg.image.src, $getWidth(revealButtonImg) >> 1, $getHeight(revealButtonImg) >> 1);
   $setVisible_4(this$static.scratchAllaButton, false);
   this$static.scratchAllaButton.element.style['zIndex'] = '65';
   handler = new AbstractQueenOfDiamondsPanel$3_0(this$static);
@@ -9116,7 +9117,7 @@ _.enableMenu = function enableMenu(isEnabled){
   $setEnabled_4(this.scratchAllaButton, isEnabled);
 }
 ;
-_.getClass$ = function getClass_586(){
+_.getClass$ = function getClass_585(){
   return Lwebgl_client_nf_games_g431_panel_AbstractQueenOfDiamondsPanel_2_classLit;
 }
 ;
@@ -9189,7 +9190,7 @@ function AbstractQueenOfDiamondsPanel$1(){
 }
 
 _ = AbstractQueenOfDiamondsPanel$1_0.prototype = AbstractQueenOfDiamondsPanel$1.prototype = new TextCounterView;
-_.getClass$ = function getClass_587(){
+_.getClass$ = function getClass_586(){
   return Lwebgl_client_nf_games_g431_panel_AbstractQueenOfDiamondsPanel$1_2_classLit;
 }
 ;
@@ -9211,7 +9212,7 @@ function AbstractQueenOfDiamondsPanel$2(){
 }
 
 _ = AbstractQueenOfDiamondsPanel$2_0.prototype = AbstractQueenOfDiamondsPanel$2.prototype = new Object_0;
-_.getClass$ = function getClass_588(){
+_.getClass$ = function getClass_587(){
   return Lwebgl_client_nf_games_g431_panel_AbstractQueenOfDiamondsPanel$2_2_classLit;
 }
 ;
@@ -9229,7 +9230,7 @@ function AbstractQueenOfDiamondsPanel$3(){
 }
 
 _ = AbstractQueenOfDiamondsPanel$3_0.prototype = AbstractQueenOfDiamondsPanel$3.prototype = new Object_0;
-_.getClass$ = function getClass_589(){
+_.getClass$ = function getClass_588(){
   return Lwebgl_client_nf_games_g431_panel_AbstractQueenOfDiamondsPanel$3_2_classLit;
 }
 ;
@@ -9247,12 +9248,12 @@ function AbstractQueenOfDiamondsPanel$4(){
 }
 
 _ = AbstractQueenOfDiamondsPanel$4_0.prototype = AbstractQueenOfDiamondsPanel$4.prototype = new Object_0;
-_.getClass$ = function getClass_590(){
+_.getClass$ = function getClass_589(){
   return Lwebgl_client_nf_games_g431_panel_AbstractQueenOfDiamondsPanel$4_2_classLit;
 }
 ;
 _.onKeyboardKeyPressed = function onKeyboardKeyPressed_0(keboardKey){
-  keboardKey == 0 && this.this$0.attached && (this.this$0.playButton.element.style.display != 'none' && !this.this$0.playButton.button.element['disabled']?$playRequestHandler(this.this$0.gamePanelListener):this.this$0.scratchAllaButton.element.style.display != 'none' && !this.this$0.scratchAllaButton.button.element['disabled'] && $scratchAllHandler(this.this$0.gamePanelListener));
+  keboardKey == 0 && this.this$0.attached && (this.this$0.playButton.element.style.display != 'none' && !this.this$0.playButton.button_0.element['disabled']?$playRequestHandler(this.this$0.gamePanelListener):this.this$0.scratchAllaButton.element.style.display != 'none' && !this.this$0.scratchAllaButton.button_0.element['disabled'] && $scratchAllHandler(this.this$0.gamePanelListener));
 }
 ;
 _.castableTypeMap$ = makeCastMap([Q$IKeyboardListener]);
@@ -9275,7 +9276,7 @@ _.displayValues = function displayValues_0(showVals){
   showVals?(this.htmlBalanceValue.element.style.opacity = 1 , undefined):(this.htmlBalanceValue.element.style.opacity = 0 , undefined);
 }
 ;
-_.getClass$ = function getClass_591(){
+_.getClass$ = function getClass_590(){
   return Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelMobile_2_classLit;
 }
 ;
@@ -9382,7 +9383,7 @@ _.enableMenu = function enableMenu_0(isEnabled){
   $setEnabled_4(this.infoButton, isEnabled);
 }
 ;
-_.getClass$ = function getClass_592(){
+_.getClass$ = function getClass_591(){
   return Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb_2_classLit;
 }
 ;
@@ -9444,7 +9445,7 @@ _.initiateMenu = function initiateMenu_1(resources){
   $add_15(this, this.bottomBarContainer, this.bottomBarLocation);
   buttonLocation = $getLocation_0(this.locations, 'BOARD_I_BTN');
   buttonImg = dynamicCast(resources.get(($clinit_QueenOfDiamondsResources() , I_BTN).path), Q$TransformableImage);
-  this.infoButton = new MenuCommonButton_0('lobby-btn Play-Button', '', buttonImg.image.src, ~~$getWidth(buttonImg) >> 1, ~~$getHeight(buttonImg) >> 1);
+  this.infoButton = new MenuCommonButton_0('lobby-btn Play-Button', '', buttonImg.image.src, $getWidth(buttonImg) >> 1, $getHeight(buttonImg) >> 1);
   this.infoButton.element.style['zIndex'] = '70';
   $addClickHandler_0(this.infoButton, new QueenOfDiamondsPanelWeb$1_0(this));
   $setMouseHoverListener(this.infoButton, this);
@@ -9455,13 +9456,13 @@ _.initiateMenu = function initiateMenu_1(resources){
   $add_15(this.bottomBarContainer, this.scratchAllaButton, $reverseRelativeTo(playButtonLocation, this.bottomBarLocation));
   buttonPlusLocation = $getLocation_0(this.locations, 'BOARD_TICKET_COST_PLUS');
   plusButtonImg = dynamicCast(resources.get(TICKET_COST_PLUS.path), Q$TransformableImage);
-  plusButton = new MenuCommonButton_0('lobby-btn', '', plusButtonImg.image.src, ~~$getWidth(plusButtonImg) >> 1, ~~$getHeight(plusButtonImg) >> 1);
+  plusButton = new MenuCommonButton_0('lobby-btn', '', plusButtonImg.image.src, $getWidth(plusButtonImg) >> 1, $getHeight(plusButtonImg) >> 1);
   plusButton.element.style['zIndex'] = '95';
   $addClickHandler_0(plusButton, new QueenOfDiamondsPanelWeb$3_0(this));
   $add_15(this.bottomBarContainer, plusButton, $reverseRelativeTo(buttonPlusLocation, this.bottomBarLocation));
   buttonMinusLocation = $getLocation_0(this.locations, 'BOARD_TICKET_COST_MINUS');
   minusButtonImg = dynamicCast(resources.get(TICKET_COST_MINUS.path), Q$TransformableImage);
-  minusButton = new MenuCommonButton_0('lobby-btn', '', minusButtonImg.image.src, ~~$getWidth(minusButtonImg) >> 1, ~~$getHeight(minusButtonImg) >> 1);
+  minusButton = new MenuCommonButton_0('lobby-btn', '', minusButtonImg.image.src, $getWidth(minusButtonImg) >> 1, $getHeight(minusButtonImg) >> 1);
   minusButton.element.style['zIndex'] = '95';
   $addClickHandler_0(minusButton, new QueenOfDiamondsPanelWeb$4_0(this));
   $add_15(this.bottomBarContainer, minusButton, $reverseRelativeTo(buttonMinusLocation, this.bottomBarLocation));
@@ -9469,13 +9470,13 @@ _.initiateMenu = function initiateMenu_1(resources){
   $init_35(this.ticketCostController, plusButton, minusButton, new QueenOfDiamondsPanelWeb$5_0(this), this.betDenominations, false, this.befDenominationIndex);
   buttonPlusTicketsNumLocation = $getLocation_0(this.locations, 'BOARD_TICKET_NUM_PLUS');
   plusTicketsNumButtonImg = dynamicCast(resources.get(TICKET_NUM_PLUS.path), Q$TransformableImage);
-  plusTicketsNumButton = new MenuCommonButton_0('lobby-btn', '', plusTicketsNumButtonImg.image.src, ~~$getWidth(plusTicketsNumButtonImg) >> 1, ~~$getHeight(plusTicketsNumButtonImg) >> 1);
+  plusTicketsNumButton = new MenuCommonButton_0('lobby-btn', '', plusTicketsNumButtonImg.image.src, $getWidth(plusTicketsNumButtonImg) >> 1, $getHeight(plusTicketsNumButtonImg) >> 1);
   plusTicketsNumButton.element.style['zIndex'] = '95';
   $addClickHandler_0(plusTicketsNumButton, new QueenOfDiamondsPanelWeb$6_0(this));
   $add_15(this.bottomBarContainer, plusTicketsNumButton, $reverseRelativeTo(buttonPlusTicketsNumLocation, this.bottomBarLocation));
   buttonMinusTicketsNumLocation = $getLocation_0(this.locations, 'BOARD_TICKET_NUM_MINUS');
   minusTicketsNumButtonImg = dynamicCast(resources.get(TICKET_NUM_MINUS.path), Q$TransformableImage);
-  minusTicketsNumButton = new MenuCommonButton_0('lobby-btn', '', minusTicketsNumButtonImg.image.src, ~~$getWidth(minusTicketsNumButtonImg) >> 1, ~~$getHeight(minusTicketsNumButtonImg) >> 1);
+  minusTicketsNumButton = new MenuCommonButton_0('lobby-btn', '', minusTicketsNumButtonImg.image.src, $getWidth(minusTicketsNumButtonImg) >> 1, $getHeight(minusTicketsNumButtonImg) >> 1);
   minusTicketsNumButton.element.style['zIndex'] = '95';
   $addClickHandler_0(minusTicketsNumButton, new QueenOfDiamondsPanelWeb$7_0(this));
   $add_15(this.bottomBarContainer, minusTicketsNumButton, $reverseRelativeTo(buttonMinusTicketsNumLocation, this.bottomBarLocation));
@@ -9570,7 +9571,7 @@ function QueenOfDiamondsPanelWeb$1(){
 }
 
 _ = QueenOfDiamondsPanelWeb$1_0.prototype = QueenOfDiamondsPanelWeb$1.prototype = new Object_0;
-_.getClass$ = function getClass_593(){
+_.getClass$ = function getClass_592(){
   return Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$1_2_classLit;
 }
 ;
@@ -9590,11 +9591,11 @@ function QueenOfDiamondsPanelWeb$2(){
 }
 
 _ = QueenOfDiamondsPanelWeb$2_0.prototype = QueenOfDiamondsPanelWeb$2.prototype = new Timer;
-_.getClass$ = function getClass_594(){
+_.getClass$ = function getClass_593(){
   return Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$2_2_classLit;
 }
 ;
-_.run = function run_30(){
+_.run = function run_32(){
   $onInfoHoverDelayComplete(this.this$0.gamePanelListener);
 }
 ;
@@ -9608,7 +9609,7 @@ function QueenOfDiamondsPanelWeb$3(){
 }
 
 _ = QueenOfDiamondsPanelWeb$3_0.prototype = QueenOfDiamondsPanelWeb$3.prototype = new Object_0;
-_.getClass$ = function getClass_595(){
+_.getClass$ = function getClass_594(){
   return Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$3_2_classLit;
 }
 ;
@@ -9627,7 +9628,7 @@ function QueenOfDiamondsPanelWeb$4(){
 }
 
 _ = QueenOfDiamondsPanelWeb$4_0.prototype = QueenOfDiamondsPanelWeb$4.prototype = new Object_0;
-_.getClass$ = function getClass_596(){
+_.getClass$ = function getClass_595(){
   return Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$4_2_classLit;
 }
 ;
@@ -9646,7 +9647,7 @@ function QueenOfDiamondsPanelWeb$5(){
 }
 
 _ = QueenOfDiamondsPanelWeb$5_0.prototype = QueenOfDiamondsPanelWeb$5.prototype = new Object_0;
-_.getClass$ = function getClass_597(){
+_.getClass$ = function getClass_596(){
   return Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$5_2_classLit;
 }
 ;
@@ -9663,7 +9664,7 @@ function QueenOfDiamondsPanelWeb$6(){
 }
 
 _ = QueenOfDiamondsPanelWeb$6_0.prototype = QueenOfDiamondsPanelWeb$6.prototype = new Object_0;
-_.getClass$ = function getClass_598(){
+_.getClass$ = function getClass_597(){
   return Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$6_2_classLit;
 }
 ;
@@ -9682,7 +9683,7 @@ function QueenOfDiamondsPanelWeb$7(){
 }
 
 _ = QueenOfDiamondsPanelWeb$7_0.prototype = QueenOfDiamondsPanelWeb$7.prototype = new Object_0;
-_.getClass$ = function getClass_599(){
+_.getClass$ = function getClass_598(){
   return Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$7_2_classLit;
 }
 ;
@@ -9701,7 +9702,7 @@ function QueenOfDiamondsPanelWeb$8(){
 }
 
 _ = QueenOfDiamondsPanelWeb$8_0.prototype = QueenOfDiamondsPanelWeb$8.prototype = new Object_0;
-_.getClass$ = function getClass_600(){
+_.getClass$ = function getClass_599(){
   return Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$8_2_classLit;
 }
 ;
@@ -9759,7 +9760,7 @@ function QueenOfDiamondsWinsArea_0(htmlTotalWins, winUpToAndWinsContainerLocatio
   winUpToAndWinsWidth >= 0 && setStyleAttribute(winUpToAndWinsContainer.element, 'width', winUpToAndWinsWidth + 'px');
   winUpToAndWinsHeight >= 0 && setStyleAttribute(winUpToAndWinsContainer.element, 'height', winUpToAndWinsHeight + 'px');
   winUpToAndWinsContainer.element.style['zIndex'] = '51';
-  $add_2(container, winUpToAndWinsContainer, winUpToAndWinsContainerLocation.x_0 - (~~winUpToAndWinsContainerLocation.width_0 >> 1), winUpToAndWinsContainerLocation.y_0 - (~~winUpToAndWinsContainerLocation.height_0 >> 1));
+  $add_2(container, winUpToAndWinsContainer, winUpToAndWinsContainerLocation.x_0 - (winUpToAndWinsContainerLocation.width_0 >> 1), winUpToAndWinsContainerLocation.y_0 - (winUpToAndWinsContainerLocation.height_0 >> 1));
   this.winUpToContainer = new AbsoluteNeoPanel_0;
   $setPixelSize(this.winUpToContainer, winUpToAndWinsWidth, winUpToAndWinsHeight);
   this.winUpToContainer.element.style['zIndex'] = '51';
@@ -9770,8 +9771,8 @@ function QueenOfDiamondsWinsArea_0(htmlTotalWins, winUpToAndWinsContainerLocatio
   this.winsContainer.element.style['zIndex'] = '51';
   $add_2(winUpToAndWinsContainer, this.winsContainer, 0, 0);
   $add_2(this.winsContainer, this.htmlTotalWins, 0, 0);
-  $setPosition_1(this.htmlGameWinUpTo, new Location_1(~~winUpToAndWinsWidth >> 1, ~~winUpToAndWinsHeight >> 1, winUpToAndWinsWidth, winUpToAndWinsHeight));
-  $setPosition_1(this.htmlTotalWins, new Location_1(~~winUpToAndWinsWidth >> 1, ~~winUpToAndWinsHeight >> 1, winUpToAndWinsWidth, winUpToAndWinsHeight));
+  $setPosition_1(this.htmlGameWinUpTo, new Location_1(winUpToAndWinsWidth >> 1, winUpToAndWinsHeight >> 1, winUpToAndWinsWidth, winUpToAndWinsHeight));
+  $setPosition_1(this.htmlTotalWins, new Location_1(winUpToAndWinsWidth >> 1, winUpToAndWinsHeight >> 1, winUpToAndWinsWidth, winUpToAndWinsHeight));
   this.switcherManager = new WinUpToAndWinsSwitcherManager_0(switcherListener);
   itemsToSwitch = new ArrayList_0;
   $add_10(itemsToSwitch, this.winUpToContainer);
@@ -9784,7 +9785,7 @@ function QueenOfDiamondsWinsArea(){
 }
 
 _ = QueenOfDiamondsWinsArea_0.prototype = QueenOfDiamondsWinsArea.prototype = new Object_0;
-_.getClass$ = function getClass_601(){
+_.getClass$ = function getClass_600(){
   return Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsWinsArea_2_classLit;
 }
 ;
@@ -9830,7 +9831,7 @@ function $reset_11(this$static){
 function $setItemsToSwitch(this$static, itemsToSwitch){
   var item, item$iterator, newTweenMaxElementWidget;
   for (item$iterator = new AbstractList$IteratorImpl_0(itemsToSwitch); item$iterator.i < item$iterator.this$0_0.size_1();) {
-    item = dynamicCast($next_1(item$iterator), Q$AbsoluteNeoPanel);
+    item = dynamicCast($next_2(item$iterator), Q$AbsoluteNeoPanel);
     newTweenMaxElementWidget = new WinUpToAndWinsSwitcherManager$QueenOfDiamondsSwitchingTweenMaxWidget_0(item);
     newTweenMaxElementWidget.widget.setVisible(false);
     $add_10(this$static.itemsToSwitch, newTweenMaxElementWidget);
@@ -9893,7 +9894,7 @@ function WinUpToAndWinsSwitcherManager(){
 }
 
 _ = WinUpToAndWinsSwitcherManager_0.prototype = WinUpToAndWinsSwitcherManager.prototype = new Object_0;
-_.getClass$ = function getClass_602(){
+_.getClass$ = function getClass_601(){
   return Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager_2_classLit;
 }
 ;
@@ -9912,11 +9913,11 @@ function WinUpToAndWinsSwitcherManager$1(){
 }
 
 _ = WinUpToAndWinsSwitcherManager$1_0.prototype = WinUpToAndWinsSwitcherManager$1.prototype = new Timer;
-_.getClass$ = function getClass_603(){
+_.getClass$ = function getClass_602(){
   return Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager$1_2_classLit;
 }
 ;
-_.run = function run_31(){
+_.run = function run_33(){
   this.this$0.isSwitching || $switchItemsInLoop(this.this$0);
 }
 ;
@@ -9931,11 +9932,11 @@ function WinUpToAndWinsSwitcherManager$2(){
 }
 
 _ = WinUpToAndWinsSwitcherManager$2_0.prototype = WinUpToAndWinsSwitcherManager$2.prototype = new Timer;
-_.getClass$ = function getClass_604(){
+_.getClass$ = function getClass_603(){
   return Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager$2_2_classLit;
 }
 ;
-_.run = function run_32(){
+_.run = function run_34(){
   $switchItems(this.this$0);
 }
 ;
@@ -9949,7 +9950,7 @@ function WinUpToAndWinsSwitcherManager$3(){
 }
 
 _ = WinUpToAndWinsSwitcherManager$3_0.prototype = WinUpToAndWinsSwitcherManager$3.prototype = new Object_0;
-_.getClass$ = function getClass_605(){
+_.getClass$ = function getClass_604(){
   return Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager$3_2_classLit;
 }
 ;
@@ -9976,7 +9977,7 @@ function WinUpToAndWinsSwitcherManager$4(){
 }
 
 _ = WinUpToAndWinsSwitcherManager$4_0.prototype = WinUpToAndWinsSwitcherManager$4.prototype = new Object_0;
-_.getClass$ = function getClass_606(){
+_.getClass$ = function getClass_605(){
   return Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager$4_2_classLit;
 }
 ;
@@ -10001,7 +10002,7 @@ function WinUpToAndWinsSwitcherManager$QueenOfDiamondsSwitchingTweenMaxWidget(){
 }
 
 _ = WinUpToAndWinsSwitcherManager$QueenOfDiamondsSwitchingTweenMaxWidget_0.prototype = WinUpToAndWinsSwitcherManager$QueenOfDiamondsSwitchingTweenMaxWidget.prototype = new TweenMaxElementWidget;
-_.getClass$ = function getClass_609(){
+_.getClass$ = function getClass_608(){
   return Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager$QueenOfDiamondsSwitchingTweenMaxWidget_2_classLit;
 }
 ;
@@ -10029,8 +10030,8 @@ function $getBigWinAmountSequence(this$static){
   steps = initDim(_3Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxGenericSequenceDO_2_classLit, makeCastMap([Q$Serializable, Q$Object_$1]), Q$TweenMaxGenericSequenceDO, this$static.amountLocations.length, 0);
   for (i = 0; i < this$static.amountLocations.length; ++i) {
     tweenProperties = new ArrayList_0;
-    $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , Y), valueOf_0(this$static.amountLocations[i].y_0 - (~~this$static.amountLocations[i].height_0 >> 1))));
-    $add_10(tweenProperties, new TweenProperty_0(X, valueOf_0(this$static.amountLocations[i].x_0 - (~~this$static.amountLocations[i].width_0 >> 1))));
+    $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , Y), valueOf_0(this$static.amountLocations[i].y_0 - (this$static.amountLocations[i].height_0 >> 1))));
+    $add_10(tweenProperties, new TweenProperty_0(X, valueOf_0(this$static.amountLocations[i].x_0 - (this$static.amountLocations[i].width_0 >> 1))));
     $add_10(tweenProperties, new TweenProperty_0(ROTATION, AMOUNT_ROTATE[i]));
     stepDo = new TweenMaxGenericSequenceDO_0(tweenProperties, AMOUNT_DURATIONS[i], AMOUNT_DELAIES[i]);
     steps[i] = stepDo;
@@ -10043,8 +10044,8 @@ function $getBigWinSequence(this$static){
   steps = initDim(_3Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxGenericSequenceDO_2_classLit, makeCastMap([Q$Serializable, Q$Object_$1]), Q$TweenMaxGenericSequenceDO, this$static.bigWinLocations.length, 0);
   for (i = 0; i < this$static.bigWinLocations.length; ++i) {
     tweenProperties = new ArrayList_0;
-    $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , Y), valueOf_0(this$static.bigWinLocations[i].y_0 - (~~this$static.bigWinLocations[i].height_0 >> 1))));
-    $add_10(tweenProperties, new TweenProperty_0(X, valueOf_0(this$static.bigWinLocations[i].x_0 - (~~this$static.bigWinLocations[i].width_0 >> 1))));
+    $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , Y), valueOf_0(this$static.bigWinLocations[i].y_0 - (this$static.bigWinLocations[i].height_0 >> 1))));
+    $add_10(tweenProperties, new TweenProperty_0(X, valueOf_0(this$static.bigWinLocations[i].x_0 - (this$static.bigWinLocations[i].width_0 >> 1))));
     $add_10(tweenProperties, new TweenProperty_0(ROTATION, BIG_WIN_ROTATE[i]));
     stepDo = new TweenMaxGenericSequenceDO_0(tweenProperties, BIG_WIN_DURATIONS[i], BIG_WIN_DELAIES[i]);
     steps[i] = stepDo;
@@ -10060,8 +10061,8 @@ function $getDiamondsSequence(this$static, i){
     scaledHeight = round_int(location_0.height_0 * (new Double_0(__parseAndValidateDouble(DIAMONDS_SCALE[j]))).value_0);
     scaledWidth = round_int(location_0.width_0 * (new Double_0(__parseAndValidateDouble(DIAMONDS_SCALE[j]))).value_0);
     tweenProperties = new ArrayList_0;
-    $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , Y), valueOf_0(location_0.y_0 - location_0.height_0 + (~~scaledHeight >> 1))));
-    $add_10(tweenProperties, new TweenProperty_0(X, valueOf_0(location_0.x_0 - location_0.width_0 + (~~scaledWidth >> 1))));
+    $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , Y), valueOf_0(location_0.y_0 - location_0.height_0 + (scaledHeight >> 1))));
+    $add_10(tweenProperties, new TweenProperty_0(X, valueOf_0(location_0.x_0 - location_0.width_0 + (scaledWidth >> 1))));
     $add_10(tweenProperties, new TweenProperty_0(SCALE_X, DIAMONDS_SCALE[j]));
     $add_10(tweenProperties, new TweenProperty_0(SCALE_Y, DIAMONDS_SCALE[j]));
     stepDo = new TweenMaxGenericSequenceDO_0(tweenProperties, DIAMONDS_DURATIONS[j], DIAMONDS_DELAIES[i][j]);
@@ -10225,7 +10226,7 @@ function QueenOfDiamondsBigWinPopup(){
 }
 
 _ = QueenOfDiamondsBigWinPopup_0.prototype = QueenOfDiamondsBigWinPopup.prototype = new AbsoluteNeoPanel;
-_.getClass$ = function getClass_610(){
+_.getClass$ = function getClass_609(){
   return Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsBigWinPopup_2_classLit;
 }
 ;
@@ -10261,11 +10262,11 @@ function QueenOfDiamondsBigWinPopup$1(){
 }
 
 _ = QueenOfDiamondsBigWinPopup$1_0.prototype = QueenOfDiamondsBigWinPopup$1.prototype = new Timer;
-_.getClass$ = function getClass_611(){
+_.getClass$ = function getClass_610(){
   return Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsBigWinPopup$1_2_classLit;
 }
 ;
-_.run = function run_33(){
+_.run = function run_35(){
   $hidePopupWithFadeOut(this.this$0);
   this.val$messagesListener.this$0.gamePanel.setLegendStyle(($clinit_Boolean() , $clinit_Boolean() , TRUE_0));
 }
@@ -10282,11 +10283,11 @@ function QueenOfDiamondsBigWinPopup$2(){
 }
 
 _ = QueenOfDiamondsBigWinPopup$2_0.prototype = QueenOfDiamondsBigWinPopup$2.prototype = new Timer;
-_.getClass$ = function getClass_612(){
+_.getClass$ = function getClass_611(){
   return Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsBigWinPopup$2_2_classLit;
 }
 ;
-_.run = function run_34(){
+_.run = function run_36(){
   $hide_3(this.this$0);
 }
 ;
@@ -10307,8 +10308,8 @@ function $getRollSequence(this$static){
   for (i = 0; i < this$static.royalRollLocations.length; ++i) {
     tweenProperties = new ArrayList_0;
     scaledHeight = round_int(this$static.royalRollLocations[i].height_0 * (new Double_0(__parseAndValidateDouble(ROLL_SCALE_Y[i]))).value_0);
-    $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , Y), valueOf_0(this$static.royalRollLocations[i].y_0 - this$static.royalRollLocations[i].height_0 + (~~scaledHeight >> 1))));
-    $add_10(tweenProperties, new TweenProperty_0(X, valueOf_0(this$static.royalRollLocations[i].x_0 - (~~this$static.royalRollLocations[i].width_0 >> 1))));
+    $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , Y), valueOf_0(this$static.royalRollLocations[i].y_0 - this$static.royalRollLocations[i].height_0 + (scaledHeight >> 1))));
+    $add_10(tweenProperties, new TweenProperty_0(X, valueOf_0(this$static.royalRollLocations[i].x_0 - (this$static.royalRollLocations[i].width_0 >> 1))));
     $add_10(tweenProperties, new TweenProperty_0(SCALE_Y, ROLL_SCALE_Y[i]));
     stepDo = new TweenMaxGenericSequenceDO_0(tweenProperties, ROLL_DURATIONS[i], ROLL_DELAIES[i]);
     steps[i] = stepDo;
@@ -10321,8 +10322,8 @@ function $getStickSequence(this$static){
   steps = initDim(_3Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxGenericSequenceDO_2_classLit, makeCastMap([Q$Serializable, Q$Object_$1]), Q$TweenMaxGenericSequenceDO, this$static.stickLocations.length, 0);
   for (i = 0; i < this$static.stickLocations.length; ++i) {
     tweenProperties = new ArrayList_0;
-    $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , Y), valueOf_0(this$static.stickLocations[i].y_0 - (~~this$static.stickLocations[i].height_0 >> 1))));
-    $add_10(tweenProperties, new TweenProperty_0(X, valueOf_0(this$static.stickLocations[i].x_0 - (~~this$static.stickLocations[i].width_0 >> 1))));
+    $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , Y), valueOf_0(this$static.stickLocations[i].y_0 - (this$static.stickLocations[i].height_0 >> 1))));
+    $add_10(tweenProperties, new TweenProperty_0(X, valueOf_0(this$static.stickLocations[i].x_0 - (this$static.stickLocations[i].width_0 >> 1))));
     stepDo = new TweenMaxGenericSequenceDO_0(tweenProperties, STICK_DURATIONS[i], STICK_DELAIES[i]);
     steps[i] = stepDo;
   }
@@ -10411,7 +10412,7 @@ function QueenOfDiamondsInfoPopup_0(container, resources, locations, type){
   imageLoc = $getLocation_0(locations, 'INFO_CONTENT_' + (type.ordinal + 1));
   $add_15(royalRollContainerPanel, this.contentImage, $reverseRelativeTo(imageLoc, royalRollFinalFrameLocation));
   buttonImg = dynamicCast(resources.get(INFO_X_BTN.path), Q$TransformableImage);
-  closeBtn = new MenuCommonButton_0('lobby-btn', '', buttonImg.image.src, ~~$getWidth(buttonImg) >> 1, ~~$getHeight(buttonImg) >> 1);
+  closeBtn = new MenuCommonButton_0('lobby-btn', '', buttonImg.image.src, $getWidth(buttonImg) >> 1, $getHeight(buttonImg) >> 1);
   $addClickHandler_0(closeBtn, new QueenOfDiamondsInfoPopup$2_0(this));
   this.htmlTitle = new CentredHTML_0;
   this.htmlQueenTitle = new CentredHTML_0;
@@ -10480,7 +10481,7 @@ function QueenOfDiamondsInfoPopup(){
 }
 
 _ = QueenOfDiamondsInfoPopup_0.prototype = QueenOfDiamondsInfoPopup.prototype = new PopupDialog;
-_.getClass$ = function getClass_613(){
+_.getClass$ = function getClass_612(){
   return Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup_2_classLit;
 }
 ;
@@ -10517,7 +10518,7 @@ function QueenOfDiamondsInfoPopup$1(){
 }
 
 _ = QueenOfDiamondsInfoPopup$1_0.prototype = QueenOfDiamondsInfoPopup$1.prototype = new Object_0;
-_.getClass$ = function getClass_614(){
+_.getClass$ = function getClass_613(){
   return Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup$1_2_classLit;
 }
 ;
@@ -10535,7 +10536,7 @@ function QueenOfDiamondsInfoPopup$2(){
 }
 
 _ = QueenOfDiamondsInfoPopup$2_0.prototype = QueenOfDiamondsInfoPopup$2.prototype = new Object_0;
-_.getClass$ = function getClass_615(){
+_.getClass$ = function getClass_614(){
   return Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup$2_2_classLit;
 }
 ;
@@ -10554,11 +10555,11 @@ function QueenOfDiamondsInfoPopup$3(){
 }
 
 _ = QueenOfDiamondsInfoPopup$3_0.prototype = QueenOfDiamondsInfoPopup$3.prototype = new Timer;
-_.getClass$ = function getClass_616(){
+_.getClass$ = function getClass_615(){
   return Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup$3_2_classLit;
 }
 ;
-_.run = function run_35(){
+_.run = function run_37(){
   $hide_4(this.this$0);
 }
 ;
@@ -10585,7 +10586,7 @@ function QueenOfDiamondsInfoPopup$InfoPopupType(){
 }
 
 _ = QueenOfDiamondsInfoPopup$InfoPopupType_0.prototype = QueenOfDiamondsInfoPopup$InfoPopupType.prototype = new Enum;
-_.getClass$ = function getClass_617(){
+_.getClass$ = function getClass_616(){
   return Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup$InfoPopupType_2_classLit;
 }
 ;
@@ -10611,8 +10612,8 @@ function $getRollSequence_0(this$static){
   for (i = 0; i < this$static.royalRollLocations.length; ++i) {
     tweenProperties = new ArrayList_0;
     scaledHeight = round_int(this$static.royalRollLocations[i].height_0 * (new Double_0(__parseAndValidateDouble(ROLL_SCALE_Y_0[i]))).value_0);
-    $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , Y), valueOf_0(this$static.royalRollLocations[i].y_0 - this$static.royalRollLocations[i].height_0 + (~~scaledHeight >> 1))));
-    $add_10(tweenProperties, new TweenProperty_0(X, valueOf_0(this$static.royalRollLocations[i].x_0 - (~~this$static.royalRollLocations[i].width_0 >> 1))));
+    $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , Y), valueOf_0(this$static.royalRollLocations[i].y_0 - this$static.royalRollLocations[i].height_0 + (scaledHeight >> 1))));
+    $add_10(tweenProperties, new TweenProperty_0(X, valueOf_0(this$static.royalRollLocations[i].x_0 - (this$static.royalRollLocations[i].width_0 >> 1))));
     $add_10(tweenProperties, new TweenProperty_0(SCALE_Y, ROLL_SCALE_Y_0[i]));
     stepDo = new TweenMaxGenericSequenceDO_0(tweenProperties, ROLL_DURATIONS_0[i], ROLL_DELAIES_0[i]);
     steps[i] = stepDo;
@@ -10625,8 +10626,8 @@ function $getStickSequence_0(this$static){
   steps = initDim(_3Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxGenericSequenceDO_2_classLit, makeCastMap([Q$Serializable, Q$Object_$1]), Q$TweenMaxGenericSequenceDO, this$static.stickLocations.length, 0);
   for (i = 0; i < this$static.stickLocations.length; ++i) {
     tweenProperties = new ArrayList_0;
-    $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , Y), valueOf_0(this$static.stickLocations[i].y_0 - (~~this$static.stickLocations[i].height_0 >> 1))));
-    $add_10(tweenProperties, new TweenProperty_0(X, valueOf_0(this$static.stickLocations[i].x_0 - (~~this$static.stickLocations[i].width_0 >> 1))));
+    $add_10(tweenProperties, new TweenProperty_0(($clinit_TweenProperty$TWEEN_POPERTY_TYPE() , Y), valueOf_0(this$static.stickLocations[i].y_0 - (this$static.stickLocations[i].height_0 >> 1))));
+    $add_10(tweenProperties, new TweenProperty_0(X, valueOf_0(this$static.stickLocations[i].x_0 - (this$static.stickLocations[i].width_0 >> 1))));
     stepDo = new TweenMaxGenericSequenceDO_0(tweenProperties, STICK_DURATIONS_0[i], STICK_DELAIES_0[i]);
     steps[i] = stepDo;
   }
@@ -10789,7 +10790,7 @@ function QueenOfDiamondsItsAWinnerPopup(){
 }
 
 _ = QueenOfDiamondsItsAWinnerPopup_0.prototype = QueenOfDiamondsItsAWinnerPopup.prototype = new AbsoluteNeoPanel;
-_.getClass$ = function getClass_618(){
+_.getClass$ = function getClass_617(){
   return Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsItsAWinnerPopup_2_classLit;
 }
 ;
@@ -10824,11 +10825,11 @@ function QueenOfDiamondsItsAWinnerPopup$1(){
 }
 
 _ = QueenOfDiamondsItsAWinnerPopup$1_0.prototype = QueenOfDiamondsItsAWinnerPopup$1.prototype = new Timer;
-_.getClass$ = function getClass_619(){
+_.getClass$ = function getClass_618(){
   return Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsItsAWinnerPopup$1_2_classLit;
 }
 ;
-_.run = function run_36(){
+_.run = function run_38(){
   $hidePopupWithFadeOut_1(this.this$0);
   this.val$messagesListener.this$0.gamePanel.setLegendStyle(($clinit_Boolean() , $clinit_Boolean() , TRUE_0));
 }
@@ -10845,11 +10846,11 @@ function QueenOfDiamondsItsAWinnerPopup$2(){
 }
 
 _ = QueenOfDiamondsItsAWinnerPopup$2_0.prototype = QueenOfDiamondsItsAWinnerPopup$2.prototype = new Timer;
-_.getClass$ = function getClass_620(){
+_.getClass$ = function getClass_619(){
   return Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsItsAWinnerPopup$2_2_classLit;
 }
 ;
-_.run = function run_37(){
+_.run = function run_39(){
   $hide_5(this.this$0);
 }
 ;
@@ -10863,7 +10864,7 @@ function AbstractSplashScreen(){
 }
 
 _ = AbstractSplashScreen.prototype = new AbsoluteNeoPanel;
-_.getClass$ = function getClass_621(){
+_.getClass$ = function getClass_620(){
   return Lwebgl_client_nf_ui_AbstractSplashScreen_AbstractSplashScreen_2_classLit;
 }
 ;
@@ -10910,7 +10911,7 @@ function QueenOfDiamondsSplash_0(locations, resources){
   this.element.style['zIndex'] = '5000';
   buttonLocation = $getLocation_0(this.locations, 'SPLASH_BTN');
   buttonImg = dynamicCast(this.resources.get(CONTINUE_BTN.path), Q$TransformableImage);
-  this.continueButton = new MenuCommonButton_0('splash-continue-button lobby-btn', '', buttonImg.image.src, ~~$getWidth(buttonImg) >> 1, ~~$getHeight(buttonImg) >> 1);
+  this.continueButton = new MenuCommonButton_0('splash-continue-button lobby-btn', '', buttonImg.image.src, $getWidth(buttonImg) >> 1, $getHeight(buttonImg) >> 1);
   $setSize(this.continueButton, buttonLocation.width_0 + 'px', buttonLocation.height_0 + 'px');
   $addClickHandler_0(this.continueButton, new QueenOfDiamondsSplash$1_0(this));
   $add_15(this, this.continueButton, buttonLocation);
@@ -10933,7 +10934,7 @@ function QueenOfDiamondsSplash(){
 }
 
 _ = QueenOfDiamondsSplash_0.prototype = QueenOfDiamondsSplash.prototype = new AbstractSplashScreen;
-_.getClass$ = function getClass_622(){
+_.getClass$ = function getClass_621(){
   return Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsSplash_2_classLit;
 }
 ;
@@ -10948,7 +10949,7 @@ function QueenOfDiamondsSplash$1(){
 }
 
 _ = QueenOfDiamondsSplash$1_0.prototype = QueenOfDiamondsSplash$1.prototype = new Object_0;
-_.getClass$ = function getClass_623(){
+_.getClass$ = function getClass_622(){
   return Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsSplash$1_2_classLit;
 }
 ;
@@ -10967,7 +10968,7 @@ function QueenOfDiamondsSplash$2(){
 }
 
 _ = QueenOfDiamondsSplash$2_0.prototype = QueenOfDiamondsSplash$2.prototype = new Object_0;
-_.getClass$ = function getClass_624(){
+_.getClass$ = function getClass_623(){
   return Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsSplash$2_2_classLit;
 }
 ;
@@ -11000,7 +11001,7 @@ function QueenOfDiamondsJokerBonusDO(){
 }
 
 _ = QueenOfDiamondsJokerBonusDO_0.prototype = QueenOfDiamondsJokerBonusDO.prototype = new Object_0;
-_.getClass$ = function getClass_625(){
+_.getClass$ = function getClass_624(){
   return Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsJokerBonusDO_2_classLit;
 }
 ;
@@ -11018,7 +11019,7 @@ function QueenOfDiamondsJokerBonusStepDO(){
 }
 
 _ = QueenOfDiamondsJokerBonusStepDO_0.prototype = QueenOfDiamondsJokerBonusStepDO.prototype = new Object_0;
-_.getClass$ = function getClass_626(){
+_.getClass$ = function getClass_625(){
   return Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsJokerBonusStepDO_2_classLit;
 }
 ;
@@ -11045,7 +11046,7 @@ function QueenOfDiamondsMainGameSymbolDO(){
 }
 
 _ = QueenOfDiamondsMainGameSymbolDO_1.prototype = QueenOfDiamondsMainGameSymbolDO_0.prototype = QueenOfDiamondsMainGameSymbolDO.prototype = new Object_0;
-_.getClass$ = function getClass_627(){
+_.getClass$ = function getClass_626(){
   return Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsMainGameSymbolDO_2_classLit;
 }
 ;
@@ -11064,7 +11065,7 @@ function QueenOfDiamondsPrizeType(){
 }
 
 _ = QueenOfDiamondsPrizeType_0.prototype = QueenOfDiamondsPrizeType.prototype = new Object_0;
-_.getClass$ = function getClass_628(){
+_.getClass$ = function getClass_627(){
   return Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsPrizeType_2_classLit;
 }
 ;
@@ -11090,7 +11091,7 @@ function QueenOfDiamondsWarBonusDO(){
 }
 
 _ = QueenOfDiamondsWarBonusDO_0.prototype = QueenOfDiamondsWarBonusDO.prototype = new Object_0;
-_.getClass$ = function getClass_629(){
+_.getClass$ = function getClass_628(){
   return Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsWarBonusDO_2_classLit;
 }
 ;
@@ -11110,7 +11111,7 @@ function QueenOfDiamondsWarBonusStepDO(){
 }
 
 _ = QueenOfDiamondsWarBonusStepDO_0.prototype = QueenOfDiamondsWarBonusStepDO.prototype = new Object_0;
-_.getClass$ = function getClass_630(){
+_.getClass$ = function getClass_629(){
   return Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsWarBonusStepDO_2_classLit;
 }
 ;
@@ -11138,7 +11139,7 @@ function ViewMoveAnimation(){
 }
 
 _ = ViewMoveAnimation_0.prototype = ViewMoveAnimation.prototype = new Animation;
-_.getClass$ = function getClass_633(){
+_.getClass$ = function getClass_632(){
   return Lwebgl_client_nf_gamesFramework_Util_animation_ViewMoveAnimation_2_classLit;
 }
 ;
@@ -11173,11 +11174,11 @@ function AbstractGame$10(){
 }
 
 _ = AbstractGame$10_0.prototype = AbstractGame$10.prototype = new Object_0;
-_.execute_3 = function execute_42(params){
+_.execute_3 = function execute_43(params){
   $handleRoundEndedCompleteInterrupt(this.this$0);
 }
 ;
-_.getClass$ = function getClass_635(){
+_.getClass$ = function getClass_634(){
   return Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$10_2_classLit;
 }
 ;
@@ -11190,11 +11191,11 @@ function AbstractGame$11(){
 }
 
 _ = AbstractGame$11_0.prototype = AbstractGame$11.prototype = new Object_0;
-_.execute_3 = function execute_43(params){
+_.execute_3 = function execute_44(params){
   $handleRoundStartedCompleteInterrupt(this.this$0);
 }
 ;
-_.getClass$ = function getClass_636(){
+_.getClass$ = function getClass_635(){
   return Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$11_2_classLit;
 }
 ;
@@ -11207,14 +11208,14 @@ function AbstractGame$12(){
 }
 
 _ = AbstractGame$12_0.prototype = AbstractGame$12.prototype = new Object_0;
-_.execute_3 = function execute_44(params){
+_.execute_3 = function execute_45(params){
   $gameLoadCompletedHandler_0(this.this$0.gameContainer);
   $clinit_RootPanel();
   $setStyleName_0(get(), 'Game-BG');
   this.this$0.gameState = 1;
 }
 ;
-_.getClass$ = function getClass_637(){
+_.getClass$ = function getClass_636(){
   return Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$12_2_classLit;
 }
 ;
@@ -11227,11 +11228,11 @@ function AbstractGame$3(){
 }
 
 _ = AbstractGame$3_0.prototype = AbstractGame$3.prototype = new Object_0;
-_.execute_3 = function execute_45(params){
+_.execute_3 = function execute_46(params){
   this.this$0.isInAutoPlay = false;
 }
 ;
-_.getClass$ = function getClass_638(){
+_.getClass$ = function getClass_637(){
   return Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$3_2_classLit;
 }
 ;
@@ -11244,11 +11245,11 @@ function AbstractGame$4(){
 }
 
 _ = AbstractGame$4_0.prototype = AbstractGame$4.prototype = new Object_0;
-_.execute_3 = function execute_46(params){
+_.execute_3 = function execute_47(params){
   $handleAutoPlayStartedInterrupt(this.this$0);
 }
 ;
-_.getClass$ = function getClass_639(){
+_.getClass$ = function getClass_638(){
   return Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$4_2_classLit;
 }
 ;
@@ -11260,10 +11261,10 @@ function AbstractGame$5(){
 }
 
 _ = AbstractGame$5_0.prototype = AbstractGame$5.prototype = new Object_0;
-_.execute_3 = function execute_47(params){
+_.execute_3 = function execute_48(params){
 }
 ;
-_.getClass$ = function getClass_640(){
+_.getClass$ = function getClass_639(){
   return Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$5_2_classLit;
 }
 ;
@@ -11275,11 +11276,11 @@ function AbstractGame$6(){
 }
 
 _ = AbstractGame$6_0.prototype = AbstractGame$6.prototype = new Object_0;
-_.execute_3 = function execute_48(params){
+_.execute_3 = function execute_49(params){
   $handleAutoPlayToggleCloseInterrupt(this.this$0);
 }
 ;
-_.getClass$ = function getClass_641(){
+_.getClass$ = function getClass_640(){
   return Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$6_2_classLit;
 }
 ;
@@ -11292,7 +11293,7 @@ function AbstractGame$7(){
 }
 
 _ = AbstractGame$7_0.prototype = AbstractGame$7.prototype = new Object_0;
-_.execute_3 = function execute_49(params){
+_.execute_3 = function execute_50(params){
   var $e0, $e1, betDo, btr, e;
   try {
     $saveBetAndLineValuesToStorage(this.this$0);
@@ -11333,7 +11334,7 @@ _.execute_3 = function execute_49(params){
   }
 }
 ;
-_.getClass$ = function getClass_642(){
+_.getClass$ = function getClass_641(){
   return Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$7_2_classLit;
 }
 ;
@@ -11345,10 +11346,10 @@ function AbstractGame$8(){
 }
 
 _ = AbstractGame$8_0.prototype = AbstractGame$8.prototype = new Object_0;
-_.execute_3 = function execute_50(params){
+_.execute_3 = function execute_51(params){
 }
 ;
-_.getClass$ = function getClass_643(){
+_.getClass$ = function getClass_642(){
   return Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$8_2_classLit;
 }
 ;
@@ -11360,11 +11361,11 @@ function AbstractGame$9(){
 }
 
 _ = AbstractGame$9_0.prototype = AbstractGame$9.prototype = new Object_0;
-_.execute_3 = function execute_51(params){
+_.execute_3 = function execute_52(params){
   $handleGameStartedCompleteInterrupt(this.this$0);
 }
 ;
-_.getClass$ = function getClass_644(){
+_.getClass$ = function getClass_643(){
   return Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$9_2_classLit;
 }
 ;
@@ -11397,15 +11398,15 @@ function GameInterrupt(){
 }
 
 _ = GameInterrupt_0.prototype = GameInterrupt.prototype = new Object_0;
-_.execute_1 = function execute_52(){
+_.execute_1 = function execute_53(){
   $execute_10(this);
 }
 ;
-_.getClass$ = function getClass_645(){
+_.getClass$ = function getClass_644(){
   return Lwebgl_client_nf_gamesFramework_abstractGame_interrupts_GameInterrupt_2_classLit;
 }
 ;
-_.castableTypeMap$ = makeCastMap([Q$GameInterrupt]);
+_.castableTypeMap$ = makeCastMap([Q$Command, Q$GameInterrupt]);
 _.execCommand = null;
 _.params = null;
 function $add_16(this$static, interrupt){
@@ -11443,7 +11444,7 @@ function GameInterruptQueue(){
 }
 
 _ = GameInterruptQueue_0.prototype = GameInterruptQueue.prototype = new Object_0;
-_.getClass$ = function getClass_646(){
+_.getClass$ = function getClass_645(){
   return Lwebgl_client_nf_gamesFramework_abstractGame_interrupts_GameInterruptQueue_2_classLit;
 }
 ;
@@ -11530,7 +11531,7 @@ function FrameManager$1(){
 }
 
 _ = FrameManager$1_0.prototype = FrameManager$1.prototype = new OPTimer;
-_.getClass$ = function getClass_666(){
+_.getClass$ = function getClass_665(){
   return Lwebgl_client_nf_gamesFramework_frameManager_FrameManager$1_2_classLit;
 }
 ;
@@ -11543,7 +11544,7 @@ function AbstractInteractiveGameItem$1(){
 }
 
 _ = AbstractInteractiveGameItem$1_0.prototype = AbstractInteractiveGameItem$1.prototype = new Object_0;
-_.getClass$ = function getClass_667(){
+_.getClass$ = function getClass_666(){
   return Lwebgl_client_nf_gamesFramework_gameItem_item_AbstractInteractiveGameItem$1_2_classLit;
 }
 ;
@@ -11583,8 +11584,8 @@ function $render_9(this$static, g){
         animFrameWidth = bank.sourceFrameWidth;
         animFrameHeight = bank.sourceFrameHeight;
         loc = this$static.location_0;
-        centerX = loc.x_0 - (~~animFrameWidth >> 1);
-        centerY = loc.y_0 - (~~animFrameHeight >> 1);
+        centerX = loc.x_0 - (animFrameWidth >> 1);
+        centerY = loc.y_0 - (animFrameHeight >> 1);
         $paint_1(this$static.animation, g, centerX, centerY);
       }
     }
@@ -11648,7 +11649,7 @@ function AnimGameItem(){
 }
 
 _ = AnimGameItem_0.prototype = AnimGameItem.prototype = new AbstractGameItem;
-_.getClass$ = function getClass_668(){
+_.getClass$ = function getClass_667(){
   return Lwebgl_client_nf_gamesFramework_gameItem_item_AnimGameItem_2_classLit;
 }
 ;
@@ -11675,7 +11676,7 @@ function AnimGameItem$1(){
 }
 
 _ = AnimGameItem$1_0.prototype = AnimGameItem$1.prototype = new Object_0;
-_.getClass$ = function getClass_669(){
+_.getClass$ = function getClass_668(){
   return Lwebgl_client_nf_gamesFramework_gameItem_item_AnimGameItem$1_2_classLit;
 }
 ;
@@ -11688,7 +11689,7 @@ _.this$0 = null;
 function $render_10(this$static, g){
   var textWidth;
   if (this$static.text_0 != null && this$static.text_0.length > 0 && this$static.isVisible) {
-    $setFont(g, $toString_3(this$static.fontDefinition));
+    $setFont(g, $toString_4(this$static.fontDefinition));
     $setFillStyleWeb(g, this$static.fontDefinition.fontColor.colorStr);
     this$static.shouldSetAdjFontSize?$setFont(g, this$static.fontDefinition.fontWeight + ' ' + this$static.fontSize_0 + 'px ' + this$static.fontDefinition.fontName):(this$static.fontSize_0 = this$static.fontDefinition.fontSize_0);
     if (this$static.maxTextWidth > 0) {
@@ -11752,7 +11753,7 @@ function TextGameItem(){
 }
 
 _ = TextGameItem_0.prototype = TextGameItem.prototype = new AbstractGameItem;
-_.getClass$ = function getClass_670(){
+_.getClass$ = function getClass_669(){
   return Lwebgl_client_nf_gamesFramework_gameItem_item_TextGameItem_2_classLit;
 }
 ;
@@ -11801,7 +11802,7 @@ function $gameLoadCompletedHandler_0(this$static){
   else {
     if (this$static.gameDO.gameIsFinished) {
       $clinit_History();
-      !!impl_2 && fire_3(impl_2);
+      !!impl_1 && fire_3(impl_1);
     }
      else {
       !!this$static.autoPlayContoller && !this$static.isInAutoPlaySequence && this$static.autoPlayContoller.getView().setEnabled(false);
@@ -11857,7 +11858,7 @@ function GameManager$4(){
 }
 
 _ = GameManager$4_0.prototype = GameManager$4.prototype = new Object_0;
-_.getClass$ = function getClass_694(){
+_.getClass$ = function getClass_693(){
   return Lwebgl_client_nf_gamesFramework_gameManager_GameManager$4_2_classLit;
 }
 ;
@@ -11871,11 +11872,11 @@ function GameManager$5(){
 }
 
 _ = GameManager$5_0.prototype = GameManager$5.prototype = new Timer;
-_.getClass$ = function getClass_695(){
+_.getClass$ = function getClass_694(){
   return Lwebgl_client_nf_gamesFramework_gameManager_GameManager$5_2_classLit;
 }
 ;
-_.run = function run_40(){
+_.run = function run_42(){
   var btp;
   $autoPlayStartedHandler(this.this$0.game);
   btp = dynamicCast($get_5(this.this$0.historyDO.steps_0, this.this$0.currentHistoryStepIndex), Q$HistoryStepDO).btp_0;
@@ -11905,7 +11906,7 @@ function isFireFox(){
 function $notifyBalanceChanged(this$static, newBalance){
   var observer, observer$iterator;
   for (observer$iterator = new AbstractList$IteratorImpl_0(this$static.observers.arrayList); observer$iterator.i < observer$iterator.this$0_0.size_1();) {
-    observer = dynamicCast($next_1(observer$iterator), Q$IGameDataObserver);
+    observer = dynamicCast($next_2(observer$iterator), Q$IGameDataObserver);
     observer.setBalance_0(newBalance);
   }
 }
@@ -11913,7 +11914,7 @@ function $notifyBalanceChanged(this$static, newBalance){
 function $notifyBetChanged(this$static, newBet){
   var observer, observer$iterator;
   for (observer$iterator = new AbstractList$IteratorImpl_0(this$static.observers.arrayList); observer$iterator.i < observer$iterator.this$0_0.size_1();) {
-    observer = dynamicCast($next_1(observer$iterator), Q$IGameDataObserver);
+    observer = dynamicCast($next_2(observer$iterator), Q$IGameDataObserver);
     observer.setTotalBet(newBet);
   }
 }
@@ -11921,7 +11922,7 @@ function $notifyBetChanged(this$static, newBet){
 function $notifyBetPerLineChanged(this$static, newBet){
   var observer, observer$iterator;
   for (observer$iterator = new AbstractList$IteratorImpl_0(this$static.observers.arrayList); observer$iterator.i < observer$iterator.this$0_0.size_1();) {
-    observer = dynamicCast($next_1(observer$iterator), Q$IGameDataObserver);
+    observer = dynamicCast($next_2(observer$iterator), Q$IGameDataObserver);
     observer.setBetPerLine(newBet);
   }
 }
@@ -11929,7 +11930,7 @@ function $notifyBetPerLineChanged(this$static, newBet){
 function $notifyNumOfTicketChanged(this$static, newNumTicketsIndex){
   var observer, observer$iterator;
   for (observer$iterator = new AbstractList$IteratorImpl_0(this$static.observers.arrayList); observer$iterator.i < observer$iterator.this$0_0.size_1();) {
-    observer = dynamicCast($next_1(observer$iterator), Q$IGameDataObserver);
+    observer = dynamicCast($next_2(observer$iterator), Q$IGameDataObserver);
     instanceOf(observer, Q$IPlatformsGameDataObserver) && dynamicCast(observer, Q$IPlatformsGameDataObserver).setNumOfTickets(newNumTicketsIndex);
   }
 }
@@ -11937,7 +11938,7 @@ function $notifyNumOfTicketChanged(this$static, newNumTicketsIndex){
 function $notifyTotalWinsChanged(this$static, newTotalWin){
   var observer, observer$iterator;
   for (observer$iterator = new AbstractList$IteratorImpl_0(this$static.observers.arrayList); observer$iterator.i < observer$iterator.this$0_0.size_1();) {
-    observer = dynamicCast($next_1(observer$iterator), Q$IGameDataObserver);
+    observer = dynamicCast($next_2(observer$iterator), Q$IGameDataObserver);
     observer.setTotalWin(newTotalWin);
   }
 }
@@ -11945,7 +11946,7 @@ function $notifyTotalWinsChanged(this$static, newTotalWin){
 function $notifyWinUpToChanged(this$static, winUpTo){
   var observer, observer$iterator;
   for (observer$iterator = new AbstractList$IteratorImpl_0(this$static.observers.arrayList); observer$iterator.i < observer$iterator.this$0_0.size_1();) {
-    observer = dynamicCast($next_1(observer$iterator), Q$IGameDataObserver);
+    observer = dynamicCast($next_2(observer$iterator), Q$IGameDataObserver);
     observer.setWinUpTo(winUpTo);
   }
 }
@@ -11962,7 +11963,7 @@ function GameDataObserver(){
 }
 
 _ = GameDataObserver_0.prototype = GameDataObserver.prototype = new Object_0;
-_.getClass$ = function getClass_722(){
+_.getClass$ = function getClass_723(){
   return Lwebgl_client_nf_gamesFramework_observer_GameDataObserver_2_classLit;
 }
 ;
@@ -12051,7 +12052,7 @@ function AbstractTweenMaxGraphic(){
 }
 
 _ = AbstractTweenMaxGraphic.prototype = new AbstractTweenMaxElement;
-_.getClass$ = function getClass_723(){
+_.getClass$ = function getClass_724(){
   return Lwebgl_client_nf_gamesFramework_tweenMax_AbstractTweenMaxGraphic_2_classLit;
 }
 ;
@@ -12083,14 +12084,14 @@ function TweenMaxElementImage_0(image){
   this.opacity_0 = 1;
   this.isVisible = true;
   this.image = image;
-  !this.image.imageLocation && (width = $getWidth(this.image) , height = $getHeight(this.image) , x = ~~width >> 1 , y = ~~height >> 1 , animLocation = new Location_1(x, y, width, height) , $setLocation(this.image, animLocation) , undefined);
+  !this.image.imageLocation && (width = $getWidth(this.image) , height = $getHeight(this.image) , x = width >> 1 , y = height >> 1 , animLocation = new Location_1(x, y, width, height) , $setLocation(this.image, animLocation) , undefined);
 }
 
 function TweenMaxElementImage(){
 }
 
 _ = TweenMaxElementImage_0.prototype = TweenMaxElementImage.prototype = new AbstractTweenMaxGraphic;
-_.getClass$ = function getClass_724(){
+_.getClass$ = function getClass_725(){
   return Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxElementImage_2_classLit;
 }
 ;
@@ -12122,7 +12123,7 @@ function TweenMaxGenericSequenceDO(){
 }
 
 _ = TweenMaxGenericSequenceDO_0.prototype = TweenMaxGenericSequenceDO.prototype = new Object_0;
-_.getClass$ = function getClass_725(){
+_.getClass$ = function getClass_726(){
   return Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxGenericSequenceDO_2_classLit;
 }
 ;
@@ -12160,7 +12161,7 @@ function TweenMaxGenericSequenceManager(){
 }
 
 _ = TweenMaxGenericSequenceManager_0.prototype = TweenMaxGenericSequenceManager.prototype = new Object_0;
-_.getClass$ = function getClass_726(){
+_.getClass$ = function getClass_727(){
   return Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxGenericSequenceManager_2_classLit;
 }
 ;
@@ -12203,7 +12204,7 @@ function $clinit_TweenMaxUtils$EASE_TYPE(){
   BOUNCE_EASE_IN = new TweenMaxUtils$EASE_TYPE_0('BOUNCE_EASE_IN', 19, 'Bounce', 'easeIn');
   BOUNCE_EASE_IN_OUT = new TweenMaxUtils$EASE_TYPE_0('BOUNCE_EASE_IN_OUT', 20, 'Bounce', 'easeInOut');
   BOUNCE_EASE_OUT = new TweenMaxUtils$EASE_TYPE_0('BOUNCE_EASE_OUT', 21, 'Bounce', 'easeOut');
-  $VALUES_31 = initValues(_3Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxUtils$EASE_1TYPE_2_classLit, makeCastMap([Q$Serializable, Q$Serializable_$1, Q$Comparable_$1, Q$Object_$1]), Q$TweenMaxUtils$EASE_TYPE, [LINEAR_EASE_NONE, POWER_EASE_IN_LIN, POWER_EASE_IN_OUT_LIN, POWER_EASE_OUT_LIN, POWER1_EASE_IN, POWER1_EASE_IN_OUT, POWER1_EASE_OUT, POWER2_EASE_IN, POWER2_EASE_IN_OUT, POWER2_EASE_OUT, POWER3_EASE_IN, POWER3_EASE_IN_OUT, POWER3_EASE_OUT, POWER4_EASE_IN, POWER4_EASE_IN_OUT, POWER4_EASE_OUT, BACK_EASE_IN, BACK_EASE_IN_OUT, BACK_EASE_OUT, BOUNCE_EASE_IN, BOUNCE_EASE_IN_OUT, BOUNCE_EASE_OUT]);
+  $VALUES_32 = initValues(_3Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxUtils$EASE_1TYPE_2_classLit, makeCastMap([Q$Serializable, Q$Serializable_$1, Q$Comparable_$1, Q$Object_$1]), Q$TweenMaxUtils$EASE_TYPE, [LINEAR_EASE_NONE, POWER_EASE_IN_LIN, POWER_EASE_IN_OUT_LIN, POWER_EASE_OUT_LIN, POWER1_EASE_IN, POWER1_EASE_IN_OUT, POWER1_EASE_OUT, POWER2_EASE_IN, POWER2_EASE_IN_OUT, POWER2_EASE_OUT, POWER3_EASE_IN, POWER3_EASE_IN_OUT, POWER3_EASE_OUT, POWER4_EASE_IN, POWER4_EASE_IN_OUT, POWER4_EASE_OUT, BACK_EASE_IN, BACK_EASE_IN_OUT, BACK_EASE_OUT, BOUNCE_EASE_IN, BOUNCE_EASE_IN_OUT, BOUNCE_EASE_OUT]);
 }
 
 function TweenMaxUtils$EASE_TYPE_0(enum$name, enum$ordinal, functionClassStr, functionNameStr){
@@ -12212,16 +12213,16 @@ function TweenMaxUtils$EASE_TYPE_0(enum$name, enum$ordinal, functionClassStr, fu
   this.functionClass = functionClassStr;
 }
 
-function values_32(){
+function values_33(){
   $clinit_TweenMaxUtils$EASE_TYPE();
-  return $VALUES_31;
+  return $VALUES_32;
 }
 
 function TweenMaxUtils$EASE_TYPE(){
 }
 
 _ = TweenMaxUtils$EASE_TYPE_0.prototype = TweenMaxUtils$EASE_TYPE.prototype = new Enum;
-_.getClass$ = function getClass_727(){
+_.getClass$ = function getClass_728(){
   return Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxUtils$EASE_1TYPE_2_classLit;
 }
 ;
@@ -12236,7 +12237,7 @@ _.getFunctionName = function getFunctionName(){
 _.castableTypeMap$ = makeCastMap([Q$Serializable, Q$Comparable, Q$Enum, Q$TweenMaxUtils$EASE_TYPE]);
 _.functionClass = null;
 _.functionName = null;
-var $VALUES_31, BACK_EASE_IN, BACK_EASE_IN_OUT, BACK_EASE_OUT, BOUNCE_EASE_IN, BOUNCE_EASE_IN_OUT, BOUNCE_EASE_OUT, LINEAR_EASE_NONE, POWER1_EASE_IN, POWER1_EASE_IN_OUT, POWER1_EASE_OUT, POWER2_EASE_IN, POWER2_EASE_IN_OUT, POWER2_EASE_OUT, POWER3_EASE_IN, POWER3_EASE_IN_OUT, POWER3_EASE_OUT, POWER4_EASE_IN, POWER4_EASE_IN_OUT, POWER4_EASE_OUT, POWER_EASE_IN_LIN, POWER_EASE_IN_OUT_LIN, POWER_EASE_OUT_LIN;
+var $VALUES_32, BACK_EASE_IN, BACK_EASE_IN_OUT, BACK_EASE_OUT, BOUNCE_EASE_IN, BOUNCE_EASE_IN_OUT, BOUNCE_EASE_OUT, LINEAR_EASE_NONE, POWER1_EASE_IN, POWER1_EASE_IN_OUT, POWER1_EASE_OUT, POWER2_EASE_IN, POWER2_EASE_IN_OUT, POWER2_EASE_OUT, POWER3_EASE_IN, POWER3_EASE_IN_OUT, POWER3_EASE_OUT, POWER4_EASE_IN, POWER4_EASE_IN_OUT, POWER4_EASE_OUT, POWER_EASE_IN_LIN, POWER_EASE_IN_OUT_LIN, POWER_EASE_OUT_LIN;
 function $addText(this$static, text){
   var listItem;
   listItem = new List$ListTextItem_0;
@@ -12257,8 +12258,8 @@ function $onAttach_1(this$static, panel, loc){
     widthOffset = $getPropertyInt(this$static.uncheckedBtn.element, 'offsetWidth');
     heightOffset = $getPropertyInt(this$static.uncheckedBtn.element, 'offsetHeight');
   }
-  $setWidgetPosition(panel, this$static.checkedBtn, loc.x_0 - (~~widthOffset >> 1), loc.y_0 - (~~heightOffset >> 1));
-  $setWidgetPosition(panel, this$static.uncheckedBtn, loc.x_0 - (~~widthOffset >> 1), loc.y_0 - (~~heightOffset >> 1));
+  $setWidgetPosition(panel, this$static.checkedBtn, loc.x_0 - (widthOffset >> 1), loc.y_0 - (heightOffset >> 1));
+  $setWidgetPosition(panel, this$static.uncheckedBtn, loc.x_0 - (widthOffset >> 1), loc.y_0 - (heightOffset >> 1));
 }
 
 function TextCounterView$1_0(this$0){
@@ -12270,11 +12271,11 @@ function TextCounterView$1(){
 }
 
 _ = TextCounterView$1_0.prototype = TextCounterView$1.prototype = new Timer;
-_.getClass$ = function getClass_735(){
+_.getClass$ = function getClass_736(){
   return Lwebgl_client_nf_gamesFramework_ui_textCounterView_TextCounterView$1_2_classLit;
 }
 ;
-_.run = function run_48(){
+_.run = function run_51(){
   var fmt, result;
   this.this$0.currentValue = this.this$0.currentValue + this.this$0.stepValue;
   this.this$0.currentValue = toDouble(fromDouble(round0(this.this$0.currentValue * 100000))) / 100000;
@@ -12411,22 +12412,22 @@ function $initLocations_0(this$static){
   var textCurrentLocationX, textCurrentLocationY;
   this$static.buttonWidth = this$static.buttonAnimation.animBank.sourceFrameWidth;
   this$static.buttonHeight = this$static.buttonAnimation.animBank.sourceFrameHeight;
-  this$static.currentLocationX = this$static.initialLocations.x_0 - (~~this$static.buttonWidth >> 1);
-  this$static.currentLocationY = this$static.initialLocations.y_0 - (~~this$static.buttonHeight >> 1);
+  this$static.currentLocationX = this$static.initialLocations.x_0 - (this$static.buttonWidth >> 1);
+  this$static.currentLocationY = this$static.initialLocations.y_0 - (this$static.buttonHeight >> 1);
   $setCoordinateSpaceWidth(this$static.canvas, this$static.buttonWidth);
   $setCoordinateSpaceHeight(this$static.canvas, this$static.buttonHeight);
   $clearRect(this$static.canvas.element.getContext('2d'), 0, 0, this$static.buttonWidth, this$static.buttonHeight);
   $runAnimByState(this$static, this$static.isEnabled, this$static.buttonState);
-  $remove_3(this$static.panel, this$static.canvas);
+  $remove_4(this$static.panel, this$static.canvas);
   $add_2(this$static.panel, this$static.canvas, this$static.currentLocationX, this$static.currentLocationY);
   if (this$static.textPanel) {
     $addHandler(this$static.textPanel, new CanvasButton$2_0(this$static), (!TYPE_14 && (TYPE_14 = new GwtEvent$Type_0) , TYPE_14));
-    textCurrentLocationX = this$static.textLocation.x_0 - (~~this$static.buttonAnimation.animBank.sourceFrameWidth >> 1);
-    textCurrentLocationY = this$static.textLocation.y_0 - (~~this$static.buttonAnimation.animBank.sourceFrameHeight >> 1);
+    textCurrentLocationX = this$static.textLocation.x_0 - (this$static.buttonAnimation.animBank.sourceFrameWidth >> 1);
+    textCurrentLocationY = this$static.textLocation.y_0 - (this$static.buttonAnimation.animBank.sourceFrameHeight >> 1);
     $add_2(this$static.panel, this$static.textPanel, textCurrentLocationX, textCurrentLocationY);
   }
   if (this$static.eventHandler) {
-    $remove_3(this$static.panel, this$static.eventHandler);
+    $remove_4(this$static.panel, this$static.eventHandler);
     $add_2(this$static.panel, this$static.eventHandler, this$static.currentLocationX, this$static.currentLocationY);
     $setSize(this$static.eventHandler, this$static.buttonWidth + 'px', this$static.buttonHeight + 'px');
   }
@@ -12460,7 +12461,7 @@ function $setEnabled_2(this$static, isEnabled){
     $runAnimByState(this$static, isEnabled, this$static.buttonState);
     !!this$static.text_0 && this$static.text_0.setStyleName_0(isEnabled?this$static.styleStandard:this$static.styleDisabled);
     this$static.isEnabled = isEnabled;
-    isEnabled && !!this$static.eventHandler?$getWidgetIndex(this$static.panel, this$static.eventHandler) == -1 && $add_2(this$static.panel, this$static.eventHandler, this$static.currentLocationX, this$static.currentLocationY):$getWidgetIndex(this$static.panel, this$static.eventHandler) != -1 && $remove_3(this$static.panel, this$static.eventHandler);
+    isEnabled && !!this$static.eventHandler?$getWidgetIndex(this$static.panel, this$static.eventHandler) == -1 && $add_2(this$static.panel, this$static.eventHandler, this$static.currentLocationX, this$static.currentLocationY):$getWidgetIndex(this$static.panel, this$static.eventHandler) != -1 && $remove_4(this$static.panel, this$static.eventHandler);
   }
 }
 
@@ -12480,7 +12481,7 @@ function CanvasButton(){
 }
 
 _ = CanvasButton_0.prototype = CanvasButton.prototype = new Object_0;
-_.getClass$ = function getClass_795(){
+_.getClass$ = function getClass_796(){
   return Lwebgl_client_nf_menus_gamebuttons_CanvasButton_2_classLit;
 }
 ;
@@ -12537,7 +12538,7 @@ function CanvasButton$1(){
 }
 
 _ = CanvasButton$1_0.prototype = CanvasButton$1.prototype = new Object_0;
-_.getClass$ = function getClass_796(){
+_.getClass$ = function getClass_797(){
   return Lwebgl_client_nf_menus_gamebuttons_CanvasButton$1_2_classLit;
 }
 ;
@@ -12562,7 +12563,7 @@ function CanvasButton$2(){
 }
 
 _ = CanvasButton$2_0.prototype = CanvasButton$2.prototype = new Object_0;
-_.getClass$ = function getClass_797(){
+_.getClass$ = function getClass_798(){
   return Lwebgl_client_nf_menus_gamebuttons_CanvasButton$2_2_classLit;
 }
 ;
@@ -12572,8 +12573,8 @@ _.onAttachOrDetach = function onAttachOrDetach_8(event_0){
     textWidthHeight = $getTextWidthAndHieght(this.this$0);
     $setWidth(this.this$0.textPanel, textWidthHeight[0] + 'px');
     $setHeight(this.this$0.textPanel, textWidthHeight[1] + 'px');
-    textCurrentLocationX = this.this$0.textLocation.x_0 - (~~textWidthHeight[0] >> 1);
-    textCurrentLocationY = this.this$0.textLocation.y_0 - (~~textWidthHeight[1] >> 1);
+    textCurrentLocationX = this.this$0.textLocation.x_0 - (textWidthHeight[0] >> 1);
+    textCurrentLocationY = this.this$0.textLocation.y_0 - (textWidthHeight[1] >> 1);
     $setWidgetPosition(this.this$0.panel, this.this$0.textPanel, textCurrentLocationX, textCurrentLocationY);
   }
 }
@@ -12588,7 +12589,7 @@ function CanvasButtonUpDown$1(){
 }
 
 _ = CanvasButtonUpDown$1_0.prototype = CanvasButtonUpDown$1.prototype = new Object_0;
-_.getClass$ = function getClass_798(){
+_.getClass$ = function getClass_799(){
   return Lwebgl_client_nf_menus_gamebuttons_CanvasButtonUpDown$1_2_classLit;
 }
 ;
@@ -12606,7 +12607,7 @@ function CanvasButtonUpDown$2(){
 }
 
 _ = CanvasButtonUpDown$2_0.prototype = CanvasButtonUpDown$2.prototype = new Object_0;
-_.getClass$ = function getClass_799(){
+_.getClass$ = function getClass_800(){
   return Lwebgl_client_nf_menus_gamebuttons_CanvasButtonUpDown$2_2_classLit;
 }
 ;
@@ -12651,7 +12652,7 @@ function RotateResourceElement(){
 }
 
 _ = RotateResourceElement_0.prototype = RotateResourceElement.prototype = new Object_0;
-_.getClass$ = function getClass_825(){
+_.getClass$ = function getClass_826(){
   return Lwebgl_client_nf_resource_RotateResourceElement_2_classLit;
 }
 ;
@@ -12681,7 +12682,7 @@ function LoadingItemSound(){
 }
 
 _ = LoadingItemSound_0.prototype = LoadingItemSound.prototype = new LoadingItem;
-_.getClass$ = function getClass_831(){
+_.getClass$ = function getClass_832(){
   return Lwebgl_client_nf_resource_items_LoadingItemSound_2_classLit;
 }
 ;
@@ -12705,7 +12706,7 @@ function SoundDO(){
 }
 
 _ = SoundDO_0.prototype = SoundDO.prototype = new Object_0;
-_.getClass$ = function getClass_846(){
+_.getClass$ = function getClass_847(){
   return Lwebgl_client_nf_sounds_SoundDO_2_classLit;
 }
 ;
@@ -12746,7 +12747,7 @@ function SoundInstance(){
 }
 
 _ = SoundInstance.prototype = new Object_0;
-_.getClass$ = function getClass_847(){
+_.getClass$ = function getClass_848(){
   return Lwebgl_client_nf_sounds_soundInstance_SoundInstance_2_classLit;
 }
 ;
@@ -12807,7 +12808,7 @@ _.createNativeSoundInstance = function createNativeSoundInstance(){
   return $createNativeSoundInstance(this.soundFilePath);
 }
 ;
-_.getClass$ = function getClass_848(){
+_.getClass$ = function getClass_849(){
   return Lwebgl_client_nf_sounds_soundInstance_AndroidSoundInstance_2_classLit;
 }
 ;
@@ -12871,7 +12872,7 @@ _.createNativeSoundInstance = function createNativeSoundInstance_0(){
   return $createNativeSoundInstance_0(this.soundFilePath);
 }
 ;
-_.getClass$ = function getClass_849(){
+_.getClass$ = function getClass_850(){
   return Lwebgl_client_nf_sounds_soundInstance_ChromeSoundInstance_2_classLit;
 }
 ;
@@ -12933,7 +12934,7 @@ _.createNativeSoundInstance = function createNativeSoundInstance_1(){
   return $createNativeSoundInstance_1(this.soundFilePath);
 }
 ;
-_.getClass$ = function getClass_850(){
+_.getClass$ = function getClass_851(){
   return Lwebgl_client_nf_sounds_soundInstance_IESoundInstance_2_classLit;
 }
 ;
@@ -12997,7 +12998,7 @@ _.createNativeSoundInstance = function createNativeSoundInstance_2(){
   return $createNativeSoundInstance_2(this.soundFilePath);
 }
 ;
-_.getClass$ = function getClass_851(){
+_.getClass$ = function getClass_852(){
   return Lwebgl_client_nf_sounds_soundInstance_IOSSoundInstance_2_classLit;
 }
 ;
@@ -13041,7 +13042,7 @@ function $init_38(this$static, soundsList){
   }
   try {
     for (soundDO$iterator = new AbstractList$IteratorImpl_0(soundsList); soundDO$iterator.i < soundDO$iterator.this$0_0.size_1();) {
-      soundDO = dynamicCast($next_1(soundDO$iterator), Q$SoundDO);
+      soundDO = dynamicCast($next_2(soundDO$iterator), Q$SoundDO);
       soundUrl = soundDO.soundURL + '?' + cacheBusterURLParam;
       $put_2(this$static.sounds, soundUrl, $parse_2(this$static, soundUrl, soundDO.soundSprite));
     }
@@ -13068,13 +13069,13 @@ function $parse_2(this$static, fileURL, soundSprite){
   jsonObject = soundSprite.isObject();
   keysIterator = new AbstractList$IteratorImpl_0(new Arrays$ArrayList_0($keySet(jsonObject).val$keys));
   while (keysIterator.i < keysIterator.this$0_0.size_1()) {
-    key = dynamicCast($next_1(keysIterator), Q$String);
+    key = dynamicCast($next_2(keysIterator), Q$String);
     if ($equals('spritemap', key)) {
       valueText = $get_1(jsonObject, key);
       valueObject = valueText.isObject();
       valIterator = new AbstractList$IteratorImpl_0(new Arrays$ArrayList_0($keySet(valueObject).val$keys));
       while (valIterator.i < valIterator.this$0_0.size_1()) {
-        soundKey = dynamicCast($next_1(valIterator), Q$String);
+        soundKey = dynamicCast($next_2(valIterator), Q$String);
         soundData = $get_1(valueObject, soundKey).isObject();
         start = $get_1(soundData, 'start').toString$();
         end = $get_1(soundData, 'end').toString$();
@@ -13110,7 +13111,7 @@ _.stop_1 = function stop_4(fileName, soundId){
 ;
 _ = ParallelSoundManager.prototype;
 _.onSoundFinish_0 = function onSoundFinish_1(fileURL, id){
-  $remove_10(this.currentPlayedSoundId, id);
+  $remove_11(this.currentPlayedSoundId, id);
 }
 ;
 _.play_1 = function play_5(fileName, soundId, priority, startPlayingIfCurrentlyPlayed){
@@ -13123,7 +13124,7 @@ _.play_1 = function play_5(fileName, soundId, priority, startPlayingIfCurrentlyP
 _.stop_1 = function stop_5(fileName, soundId){
   if (this.isSoundEnabled && ($clinit_SoundManager$SoundManagerState() , AVAILABLE) == this.soundManagerState && this.isPlaySoundsDuringGame && !this.isErrorOccur) {
     $stop_1(this, fileName, soundId);
-    $remove_10(this.currentPlayedSoundId, soundId);
+    $remove_11(this.currentPlayedSoundId, soundId);
   }
 }
 ;
@@ -13166,7 +13167,6 @@ function $setMouseHoverListener_0(this$static, divHoverListener){
 }
 
 function EventsHandlerHoverDiv_0(){
-  $clinit_FocusWidget();
   EventsHandlerDiv_0.call(this);
   $addDomHandler(this, this, ($clinit_MouseOutEvent() , $clinit_MouseOutEvent() , TYPE_7));
   $addDomHandler(this, this, ($clinit_MouseOverEvent() , $clinit_MouseOverEvent() , TYPE_8));
@@ -13177,7 +13177,7 @@ function EventsHandlerHoverDiv(){
 }
 
 _ = EventsHandlerHoverDiv_0.prototype = EventsHandlerHoverDiv.prototype = new EventsHandlerDiv;
-_.getClass$ = function getClass_893(){
+_.getClass$ = function getClass_894(){
   return Lwebgl_client_nf_ui_hover_EventsHandlerHoverDiv_2_classLit;
 }
 ;
@@ -13212,10 +13212,10 @@ _.add_1 = function add_21(child){
   $add_17(this, child);
 }
 ;
-_.getClass$ = function getClass_925(){
+_.getClass$ = function getClass_926(){
   return Lwebgl_client_ui_TextPanel_2_classLit;
 }
 ;
 _.castableTypeMap$ = makeCastMap([Q$HasAttachHandlers, Q$HasHandlers, Q$EventListener, Q$ComplexPanel, Q$HasVisibility, Q$HasWidgets, Q$IsWidget, Q$Panel, Q$UIObject, Q$Widget]);
-var Lcom_google_gwt_canvas_dom_client_Context2d$TextAlign_2_classLit = createForEnum('com.google.gwt.canvas.dom.client.', 'Context2d$TextAlign', values_0), _3Lcom_google_gwt_canvas_dom_client_Context2d$TextAlign_2_classLit = createForArray('[Lcom.google.gwt.canvas.dom.client.', 'Context2d$TextAlign;'), Lcom_google_gwt_canvas_dom_client_Context2d$TextBaseline_2_classLit = createForEnum('com.google.gwt.canvas.dom.client.', 'Context2d$TextBaseline', values_1), _3Lcom_google_gwt_canvas_dom_client_Context2d$TextBaseline_2_classLit = createForArray('[Lcom.google.gwt.canvas.dom.client.', 'Context2d$TextBaseline;'), Lcom_google_gwt_i18n_client_NumberFormat_2_classLit = createForClass('com.google.gwt.i18n.client.', 'NumberFormat'), Lcom_google_gwt_i18n_client_constants_NumberConstantsImpl_1_2_classLit = createForClass('com.google.gwt.i18n.client.constants.', 'NumberConstantsImpl_'), Ljava_lang_Float_2_classLit = createForClass('java.lang.', 'Float'), Ljava_lang_StringBuilder_2_classLit = createForClass('java.lang.', 'StringBuilder'), Lwebgl_client_com_google_gwt_widgetideas_graphics_client_Color_2_classLit = createForClass('webgl.client.com.google.gwt.widgetideas.graphics.client.', 'Color'), Lwebgl_client_gamesFramework_OPTimer_2_classLit = createForClass('webgl.client.gamesFramework.', 'OPTimer'), Lwebgl_client_nf_menus_gamebuttons_CanvasButtonUpDown_2_classLit = createForClass('webgl.client.nf.menus.gamebuttons.', 'CanvasButtonUpDown'), Lwebgl_client_nf_menus_gamebuttons_CanvasButtonUpDownStandard_2_classLit = createForClass('webgl.client.nf.menus.gamebuttons.', 'CanvasButtonUpDownStandard'), Lwebgl_client_gamesFramework_autoplay_AutoPlayButton_2_classLit = createForClass('webgl.client.gamesFramework.autoplay.', 'AutoPlayButton'), Lwebgl_client_gamesFramework_autoplay_AutoPlayView$1_2_classLit = createForClass('webgl.client.gamesFramework.autoplay.', 'AutoPlayView$1'), Lwebgl_client_gamesFramework_autoplay_AutoPlayView$2_2_classLit = createForClass('webgl.client.gamesFramework.autoplay.', 'AutoPlayView$2'), Lwebgl_client_gamesFramework_autoplay_AutoPlayView$3_2_classLit = createForClass('webgl.client.gamesFramework.autoplay.', 'AutoPlayView$3'), Lwebgl_client_gamesFramework_autoplay_AutoPlayView$AutoPlayButtonEnum_2_classLit = createForEnum('webgl.client.gamesFramework.autoplay.', 'AutoPlayView$AutoPlayButtonEnum', values_17), _3Lwebgl_client_gamesFramework_autoplay_AutoPlayView$AutoPlayButtonEnum_2_classLit = createForArray('[Lwebgl.client.gamesFramework.autoplay.', 'AutoPlayView$AutoPlayButtonEnum;'), Lwebgl_client_nf_animator_AnimationController_2_classLit = createForClass('webgl.client.nf.animator.', 'AnimationController'), Lwebgl_client_nf_application_NewApplication$10_2_classLit = createForClass('webgl.client.nf.application.', 'NewApplication$10'), Lwebgl_client_nf_application_network_commands_RGRCommand_2_classLit = createForClass('webgl.client.nf.application.network.commands.', 'RGRCommand'), Lwebgl_client_nf_core_FontDefinition_2_classLit = createForClass('webgl.client.nf.core.', 'FontDefinition'), Lwebgl_client_nf_games_g431_Card_AbstractQueenOfDiamondsCardConfiguration_2_classLit = createForClass('webgl.client.nf.games.g431.Card.', 'AbstractQueenOfDiamondsCardConfiguration'), Lwebgl_client_nf_games_g431_Card_AbstractQueenOfDiamondsCardConfiguration$CardsState_2_classLit = createForEnum('webgl.client.nf.games.g431.Card.', 'AbstractQueenOfDiamondsCardConfiguration$CardsState', values_19), _3Lwebgl_client_nf_games_g431_Card_AbstractQueenOfDiamondsCardConfiguration$CardsState_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.Card.', 'AbstractQueenOfDiamondsCardConfiguration$CardsState;'), Lwebgl_client_nf_gamesFramework_gameItem_item_AbstractGameItem_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameItem.item.', 'AbstractGameItem'), Lwebgl_client_nf_gamesFramework_gameItem_item_AbstractInteractiveGameItem_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameItem.item.', 'AbstractInteractiveGameItem'), Lwebgl_client_nf_games_g431_Card_QueenOfDiamondsCard_2_classLit = createForClass('webgl.client.nf.games.g431.Card.', 'QueenOfDiamondsCard'), Lwebgl_client_nf_games_g431_Card_QueenOfDiamondsWarCard_2_classLit = createForClass('webgl.client.nf.games.g431.Card.', 'QueenOfDiamondsWarCard'), Lwebgl_client_nf_games_g431_Card_jokerBonusCardConfig_QueenOfDiamondsJokerBonusCardConfigurationMobile_2_classLit = createForClass('webgl.client.nf.games.g431.Card.jokerBonusCardConfig.', 'QueenOfDiamondsJokerBonusCardConfigurationMobile'), Lwebgl_client_nf_games_g431_Card_jokerBonusCardConfig_QueenOfDiamondsJokerBonusCardConfigurationWeb_2_classLit = createForClass('webgl.client.nf.games.g431.Card.jokerBonusCardConfig.', 'QueenOfDiamondsJokerBonusCardConfigurationWeb'), Lwebgl_client_nf_games_g431_Card_mainGameCardConfig_QueenOfDiamondsMainGameCardConfigurationMobile_2_classLit = createForClass('webgl.client.nf.games.g431.Card.mainGameCardConfig.', 'QueenOfDiamondsMainGameCardConfigurationMobile'), Lwebgl_client_nf_games_g431_Card_mainGameCardConfig_QueenOfDiamondsMainGameCardConfigurationWeb_2_classLit = createForClass('webgl.client.nf.games.g431.Card.mainGameCardConfig.', 'QueenOfDiamondsMainGameCardConfigurationWeb'), Lwebgl_client_nf_games_g431_Card_service_QueenOfDiamondsCardsConfigurationsService_2_classLit = createForClass('webgl.client.nf.games.g431.Card.service.', 'QueenOfDiamondsCardsConfigurationsService'), Lwebgl_client_nf_games_g431_Card_warBonusCardConfig_AbstractQueenOfDiamondsWarCardConfiguration_2_classLit = createForClass('webgl.client.nf.games.g431.Card.warBonusCardConfig.', 'AbstractQueenOfDiamondsWarCardConfiguration'), Lwebgl_client_nf_games_g431_Card_warBonusCardConfig_QueenOfDiamondsWarBonusCardConfigurationMobile_2_classLit = createForClass('webgl.client.nf.games.g431.Card.warBonusCardConfig.', 'QueenOfDiamondsWarBonusCardConfigurationMobile'), Lwebgl_client_nf_games_g431_Card_warBonusCardConfig_QueenOfDiamondsWarBonusCardConfigurationWeb_2_classLit = createForClass('webgl.client.nf.games.g431.Card.warBonusCardConfig.', 'QueenOfDiamondsWarBonusCardConfigurationWeb'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame'), Lwebgl_client_nf_games_g431_Game431_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431'), Lwebgl_client_nf_games_g431_Game431$1_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431$1'), Lwebgl_client_nf_games_g431_Game431$2_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431$2'), Lwebgl_client_nf_games_g431_Game431$3_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431$3'), Lwebgl_client_nf_games_g431_Game431$4_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431$4'), Lwebgl_client_nf_games_g431_Game431$5_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431$5'), Lwebgl_client_nf_games_g431_Game431$6_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431$6'), Lwebgl_client_nf_games_g431_Game431$7_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431$7'), Lwebgl_client_nf_games_g431_QueenOfDiamondsModel_2_classLit = createForClass('webgl.client.nf.games.g431.', 'QueenOfDiamondsModel'), Lwebgl_client_nf_games_g431_QueenOfDiamondsResources_2_classLit = createForEnum('webgl.client.nf.games.g431.', 'QueenOfDiamondsResources', values_20), _3Lwebgl_client_nf_games_g431_QueenOfDiamondsResources_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.', 'QueenOfDiamondsResources;'), Lwebgl_client_nf_games_g431_QueenOfDiamondsTooltip_2_classLit = createForClass('webgl.client.nf.games.g431.', 'QueenOfDiamondsTooltip'), Lwebgl_client_nf_games_g431_allTime_QueenOfDiamondsAllTimeAnimationController_2_classLit = createForClass('webgl.client.nf.games.g431.allTime.', 'QueenOfDiamondsAllTimeAnimationController'), Lwebgl_client_nf_games_g431_allTime_QueenOfDiamondsAllTimeAnimationController$1_2_classLit = createForClass('webgl.client.nf.games.g431.allTime.', 'QueenOfDiamondsAllTimeAnimationController$1'), Lwebgl_client_nf_games_g431_allTime_QueenOfDiamondsAllTimeAnimationController$2_2_classLit = createForClass('webgl.client.nf.games.g431.allTime.', 'QueenOfDiamondsAllTimeAnimationController$2'), Lwebgl_client_nf_games_g431_allTime_QueenOfDiamondsAllTimeAnimationController$3_2_classLit = createForClass('webgl.client.nf.games.g431.allTime.', 'QueenOfDiamondsAllTimeAnimationController$3'), Lwebgl_client_nf_games_g431_bonuses_QueenOfDiamondsBonusesManager_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.', 'QueenOfDiamondsBonusesManager'), Lwebgl_client_nf_games_g431_bonuses_QueenOfDiamondsBonusesManager$BonusGamesState_2_classLit = createForEnum('webgl.client.nf.games.g431.bonuses.', 'QueenOfDiamondsBonusesManager$BonusGamesState', values_21), _3Lwebgl_client_nf_games_g431_bonuses_QueenOfDiamondsBonusesManager$BonusGamesState_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.bonuses.', 'QueenOfDiamondsBonusesManager$BonusGamesState;'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusBoard_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusBoard'), _3Lwebgl_client_nf_games_g431_Card_QueenOfDiamondsCard_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.Card.', 'QueenOfDiamondsCard;'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusBoard$1_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusBoard$1'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusBoard$2_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusBoard$2'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusManager_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusManager'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusManager$1_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusManager$1'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusManager$2_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusManager$2'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusManager$3_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusManager$3'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusPanel_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusPanel'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusPanel$1_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusPanel$1'), Lwebgl_client_nf_gamesFramework_ui_textCounterView_TextCounterView_2_classLit = createForClass('webgl.client.nf.gamesFramework.ui.textCounterView.', 'TextCounterView'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusPanel$2_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusPanel$2'), Lwebgl_client_nf_games_g431_bonuses_joker_paytable_QueenOfDiamondsJokerPaytable_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.paytable.', 'QueenOfDiamondsJokerPaytable'), _3Lwebgl_client_nf_core_Location_2_classLit = createForArray('[Lwebgl.client.nf.core.', 'Location;'), Lwebgl_client_nf_games_g431_bonuses_joker_paytable_QueenOfDiamondsJokerPaytable$1_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.paytable.', 'QueenOfDiamondsJokerPaytable$1'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusBoard_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusBoard'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusBoard$1_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusBoard$1'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusBoard$2_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusBoard$2'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusBoard$3_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusBoard$3'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusBoard$4_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusBoard$4'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusManager_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusManager'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusManager$1_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusManager$1'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusManager$2_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusManager$2'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusManager$3_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusManager$3'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusManager$4_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusManager$4'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusPanel_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusPanel'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusPanel$1_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusPanel$1'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusPanel$2_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusPanel$2'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusPanel$3_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusPanel$3'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusPanel$4_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusPanel$4'), Lwebgl_client_nf_games_g431_customization_QueenOfDiamondsCustomizationMobile_2_classLit = createForClass('webgl.client.nf.games.g431.customization.', 'QueenOfDiamondsCustomizationMobile'), Lwebgl_client_nf_games_g431_customization_QueenOfDiamondsCustomizationWeb_2_classLit = createForClass('webgl.client.nf.games.g431.customization.', 'QueenOfDiamondsCustomizationWeb'), _3Lwebgl_client_nf_resource_RotateResourcesLoader$ROTATION_1TYPE_2_classLit = createForArray('[Lwebgl.client.nf.resource.', 'RotateResourcesLoader$ROTATION_TYPE;'), Lwebgl_client_nf_games_location_AbstractGameLocations_2_classLit = createForClass('webgl.client.nf.games.location.', 'AbstractGameLocations'), Lwebgl_client_nf_games_g431_locations_QueenOfDiamondsLocations_2_classLit = createForClass('webgl.client.nf.games.g431.locations.', 'QueenOfDiamondsLocations'), Lwebgl_client_nf_games_g431_locations_QueenOfDiamondsLocationsMobile_2_classLit = createForClass('webgl.client.nf.games.g431.locations.', 'QueenOfDiamondsLocationsMobile'), Lwebgl_client_nf_games_g431_locations_QueenOfDiamondsLocationsWeb_2_classLit = createForClass('webgl.client.nf.games.g431.locations.', 'QueenOfDiamondsLocationsWeb'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$1_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$1'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$10_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$10'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$2_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$2'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$3_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$3'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$4_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$4'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$5_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$5'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$6_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$6'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$7_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$7'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$8_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$8'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$9_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$9'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$BonusType_2_classLit = createForEnum('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$BonusType', values_22), _3Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$BonusType_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$BonusType;'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$PopupType_2_classLit = createForEnum('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$PopupType', values_23), _3Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$PopupType_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$PopupType;'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBonusPopup_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBonusPopup'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBonusPopup$1_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBonusPopup$1'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsMainArea'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$1_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsMainArea$1'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$2_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsMainArea$2'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$QueenOfDiamondsCardsSubTypes_2_classLit = createForEnum('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsMainArea$QueenOfDiamondsCardsSubTypes', values_24), _3Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$QueenOfDiamondsCardsSubTypes_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsMainArea$QueenOfDiamondsCardsSubTypes;'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$QueenOfDiamondsCardsTypes_2_classLit = createForEnum('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsMainArea$QueenOfDiamondsCardsTypes', values_25), _3Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$QueenOfDiamondsCardsTypes_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsMainArea$QueenOfDiamondsCardsTypes;'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGamePanel_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGamePanel'), Lwebgl_client_nf_games_g431_panel_AbstractQueenOfDiamondsPanel_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'AbstractQueenOfDiamondsPanel'), Lwebgl_client_nf_games_g431_panel_AbstractQueenOfDiamondsPanel$1_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'AbstractQueenOfDiamondsPanel$1'), Lwebgl_client_nf_games_g431_panel_AbstractQueenOfDiamondsPanel$2_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'AbstractQueenOfDiamondsPanel$2'), Lwebgl_client_nf_games_g431_panel_AbstractQueenOfDiamondsPanel$3_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'AbstractQueenOfDiamondsPanel$3'), Lwebgl_client_nf_games_g431_panel_AbstractQueenOfDiamondsPanel$4_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'AbstractQueenOfDiamondsPanel$4'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelMobile_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelMobile'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$1_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$1'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$2_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$2'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$3_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$3'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$4_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$4'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$5_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$5'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$6_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$6'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$7_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$7'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$8_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$8'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsWinsArea_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsWinsArea'), Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'WinUpToAndWinsSwitcherManager'), Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager$1_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'WinUpToAndWinsSwitcherManager$1'), Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager$2_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'WinUpToAndWinsSwitcherManager$2'), Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager$3_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'WinUpToAndWinsSwitcherManager$3'), Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager$4_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'WinUpToAndWinsSwitcherManager$4'), Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager$QueenOfDiamondsSwitchingTweenMaxWidget_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'WinUpToAndWinsSwitcherManager$QueenOfDiamondsSwitchingTweenMaxWidget'), _3_3D_classLit = createForArray('', '[[D'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsBigWinPopup_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsBigWinPopup'), _3_3Lwebgl_client_nf_core_Location_2_classLit = createForArray('[[Lwebgl.client.nf.core.', 'Location;'), _3Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxElementWidget_2_classLit = createForArray('[Lwebgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxElementWidget;'), Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxGenericSequenceManager_2_classLit = createForClass('webgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxGenericSequenceManager'), _3Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxGenericSequenceManager_2_classLit = createForArray('[Lwebgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxGenericSequenceManager;'), Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxGenericSequenceDO_2_classLit = createForClass('webgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxGenericSequenceDO'), _3Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxGenericSequenceDO_2_classLit = createForArray('[Lwebgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxGenericSequenceDO;'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsBigWinPopup$1_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsBigWinPopup$1'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsBigWinPopup$2_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsBigWinPopup$2'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsInfoPopup'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup$1_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsInfoPopup$1'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup$2_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsInfoPopup$2'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup$3_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsInfoPopup$3'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup$InfoPopupType_2_classLit = createForEnum('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsInfoPopup$InfoPopupType', values_26), _3Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup$InfoPopupType_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.popups.', 'QueenOfDiamondsInfoPopup$InfoPopupType;'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsItsAWinnerPopup_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsItsAWinnerPopup'), _3Lwebgl_client_nf_animator_AnimationBank_2_classLit = createForArray('[Lwebgl.client.nf.animator.', 'AnimationBank;'), Lwebgl_client_nf_gamesFramework_gameItem_item_AnimGameItem_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameItem.item.', 'AnimGameItem'), _3Lwebgl_client_nf_gamesFramework_gameItem_item_AnimGameItem_2_classLit = createForArray('[Lwebgl.client.nf.gamesFramework.gameItem.item.', 'AnimGameItem;'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsItsAWinnerPopup$1_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsItsAWinnerPopup$1'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsItsAWinnerPopup$2_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsItsAWinnerPopup$2'), Lwebgl_client_nf_ui_AbstractSplashScreen_AbstractSplashScreen_2_classLit = createForClass('webgl.client.nf.ui.AbstractSplashScreen.', 'AbstractSplashScreen'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsSplash_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsSplash'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsSplash$1_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsSplash$1'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsSplash$2_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsSplash$2'), Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsJokerBonusDO_2_classLit = createForClass('webgl.client.nf.games.g431.queenOfDiamondsDO.', 'QueenOfDiamondsJokerBonusDO'), Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsJokerBonusStepDO_2_classLit = createForClass('webgl.client.nf.games.g431.queenOfDiamondsDO.', 'QueenOfDiamondsJokerBonusStepDO'), Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsMainGameSymbolDO_2_classLit = createForClass('webgl.client.nf.games.g431.queenOfDiamondsDO.', 'QueenOfDiamondsMainGameSymbolDO'), Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsPrizeType_2_classLit = createForClass('webgl.client.nf.games.g431.queenOfDiamondsDO.', 'QueenOfDiamondsPrizeType'), Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsWarBonusDO_2_classLit = createForClass('webgl.client.nf.games.g431.queenOfDiamondsDO.', 'QueenOfDiamondsWarBonusDO'), Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsWarBonusStepDO_2_classLit = createForClass('webgl.client.nf.games.g431.queenOfDiamondsDO.', 'QueenOfDiamondsWarBonusStepDO'), Lwebgl_client_nf_gamesFramework_Util_animation_ViewMoveAnimation_2_classLit = createForClass('webgl.client.nf.gamesFramework.Util.animation.', 'ViewMoveAnimation'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$10_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$10'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$11_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$11'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$12_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$12'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$3_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$3'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$4_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$4'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$5_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$5'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$6_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$6'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$7_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$7'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$8_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$8'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$9_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$9'), Lwebgl_client_nf_gamesFramework_abstractGame_interrupts_GameInterrupt_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.interrupts.', 'GameInterrupt'), Lwebgl_client_nf_gamesFramework_abstractGame_interrupts_GameInterruptQueue_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.interrupts.', 'GameInterruptQueue'), Lwebgl_client_nf_gamesFramework_frameManager_FrameManager$1_2_classLit = createForClass('webgl.client.nf.gamesFramework.frameManager.', 'FrameManager$1'), Lwebgl_client_nf_gamesFramework_gameItem_item_AbstractInteractiveGameItem$1_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameItem.item.', 'AbstractInteractiveGameItem$1'), Lwebgl_client_nf_gamesFramework_gameItem_item_AnimGameItem$1_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameItem.item.', 'AnimGameItem$1'), Lwebgl_client_nf_gamesFramework_gameItem_item_TextGameItem_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameItem.item.', 'TextGameItem'), Lwebgl_client_nf_gamesFramework_gameManager_GameManager$4_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameManager.', 'GameManager$4'), Lwebgl_client_nf_gamesFramework_gameManager_GameManager$5_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameManager.', 'GameManager$5'), Lwebgl_client_nf_gamesFramework_observer_GameDataObserver_2_classLit = createForClass('webgl.client.nf.gamesFramework.observer.', 'GameDataObserver'), Lwebgl_client_nf_gamesFramework_tweenMax_AbstractTweenMaxGraphic_2_classLit = createForClass('webgl.client.nf.gamesFramework.tweenMax.', 'AbstractTweenMaxGraphic'), Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxElementImage_2_classLit = createForClass('webgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxElementImage'), Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxUtils$EASE_1TYPE_2_classLit = createForEnum('webgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxUtils$EASE_TYPE', values_32), _3Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxUtils$EASE_1TYPE_2_classLit = createForArray('[Lwebgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxUtils$EASE_TYPE;'), Lwebgl_client_nf_gamesFramework_ui_textCounterView_TextCounterView$1_2_classLit = createForClass('webgl.client.nf.gamesFramework.ui.textCounterView.', 'TextCounterView$1'), Lwebgl_client_nf_menus_gamebuttons_CanvasButton_2_classLit = createForClass('webgl.client.nf.menus.gamebuttons.', 'CanvasButton'), Lwebgl_client_nf_menus_gamebuttons_CanvasButton$1_2_classLit = createForClass('webgl.client.nf.menus.gamebuttons.', 'CanvasButton$1'), Lwebgl_client_nf_menus_gamebuttons_CanvasButton$2_2_classLit = createForClass('webgl.client.nf.menus.gamebuttons.', 'CanvasButton$2'), Lwebgl_client_nf_menus_gamebuttons_CanvasButtonUpDown$1_2_classLit = createForClass('webgl.client.nf.menus.gamebuttons.', 'CanvasButtonUpDown$1'), Lwebgl_client_nf_menus_gamebuttons_CanvasButtonUpDown$2_2_classLit = createForClass('webgl.client.nf.menus.gamebuttons.', 'CanvasButtonUpDown$2'), Lwebgl_client_nf_resource_RotateResourceElement_2_classLit = createForClass('webgl.client.nf.resource.', 'RotateResourceElement'), Lwebgl_client_nf_resource_items_LoadingItemSound_2_classLit = createForClass('webgl.client.nf.resource.items.', 'LoadingItemSound'), Lwebgl_client_nf_sounds_SoundDO_2_classLit = createForClass('webgl.client.nf.sounds.', 'SoundDO'), Lwebgl_client_nf_sounds_soundInstance_SoundInstance_2_classLit = createForClass('webgl.client.nf.sounds.soundInstance.', 'SoundInstance'), Lwebgl_client_nf_sounds_soundInstance_AndroidSoundInstance_2_classLit = createForClass('webgl.client.nf.sounds.soundInstance.', 'AndroidSoundInstance'), Lwebgl_client_nf_sounds_soundInstance_ChromeSoundInstance_2_classLit = createForClass('webgl.client.nf.sounds.soundInstance.', 'ChromeSoundInstance'), Lwebgl_client_nf_sounds_soundInstance_IESoundInstance_2_classLit = createForClass('webgl.client.nf.sounds.soundInstance.', 'IESoundInstance'), Lwebgl_client_nf_sounds_soundInstance_IOSSoundInstance_2_classLit = createForClass('webgl.client.nf.sounds.soundInstance.', 'IOSSoundInstance'), Lwebgl_client_nf_ui_hover_EventsHandlerHoverDiv_2_classLit = createForClass('webgl.client.nf.ui.hover.', 'EventsHandlerHoverDiv'), Lwebgl_client_ui_TextPanel_2_classLit = createForClass('webgl.client.ui.', 'TextPanel');
+var Lcom_google_gwt_canvas_dom_client_Context2d$TextAlign_2_classLit = createForEnum('com.google.gwt.canvas.dom.client.', 'Context2d$TextAlign', values_0), _3Lcom_google_gwt_canvas_dom_client_Context2d$TextAlign_2_classLit = createForArray('[Lcom.google.gwt.canvas.dom.client.', 'Context2d$TextAlign;'), Lcom_google_gwt_canvas_dom_client_Context2d$TextBaseline_2_classLit = createForEnum('com.google.gwt.canvas.dom.client.', 'Context2d$TextBaseline', values_1), _3Lcom_google_gwt_canvas_dom_client_Context2d$TextBaseline_2_classLit = createForArray('[Lcom.google.gwt.canvas.dom.client.', 'Context2d$TextBaseline;'), Lcom_google_gwt_i18n_client_NumberFormat_2_classLit = createForClass('com.google.gwt.i18n.client.', 'NumberFormat'), Lcom_google_gwt_i18n_client_constants_NumberConstantsImpl_1_2_classLit = createForClass('com.google.gwt.i18n.client.constants.', 'NumberConstantsImpl_'), Ljava_lang_Float_2_classLit = createForClass('java.lang.', 'Float'), Ljava_lang_StringBuilder_2_classLit = createForClass('java.lang.', 'StringBuilder'), Lwebgl_client_com_google_gwt_widgetideas_graphics_client_Color_2_classLit = createForClass('webgl.client.com.google.gwt.widgetideas.graphics.client.', 'Color'), Lwebgl_client_gamesFramework_OPTimer_2_classLit = createForClass('webgl.client.gamesFramework.', 'OPTimer'), Lwebgl_client_nf_menus_gamebuttons_CanvasButtonUpDown_2_classLit = createForClass('webgl.client.nf.menus.gamebuttons.', 'CanvasButtonUpDown'), Lwebgl_client_nf_menus_gamebuttons_CanvasButtonUpDownStandard_2_classLit = createForClass('webgl.client.nf.menus.gamebuttons.', 'CanvasButtonUpDownStandard'), Lwebgl_client_gamesFramework_autoplay_AutoPlayButton_2_classLit = createForClass('webgl.client.gamesFramework.autoplay.', 'AutoPlayButton'), Lwebgl_client_gamesFramework_autoplay_AutoPlayView$1_2_classLit = createForClass('webgl.client.gamesFramework.autoplay.', 'AutoPlayView$1'), Lwebgl_client_gamesFramework_autoplay_AutoPlayView$2_2_classLit = createForClass('webgl.client.gamesFramework.autoplay.', 'AutoPlayView$2'), Lwebgl_client_gamesFramework_autoplay_AutoPlayView$3_2_classLit = createForClass('webgl.client.gamesFramework.autoplay.', 'AutoPlayView$3'), Lwebgl_client_gamesFramework_autoplay_AutoPlayView$AutoPlayButtonEnum_2_classLit = createForEnum('webgl.client.gamesFramework.autoplay.', 'AutoPlayView$AutoPlayButtonEnum', values_17), _3Lwebgl_client_gamesFramework_autoplay_AutoPlayView$AutoPlayButtonEnum_2_classLit = createForArray('[Lwebgl.client.gamesFramework.autoplay.', 'AutoPlayView$AutoPlayButtonEnum;'), Lwebgl_client_nf_animator_AnimationController_2_classLit = createForClass('webgl.client.nf.animator.', 'AnimationController'), Lwebgl_client_nf_application_NewApplication$10_2_classLit = createForClass('webgl.client.nf.application.', 'NewApplication$10'), Lwebgl_client_nf_application_network_commands_RGRCommand_2_classLit = createForClass('webgl.client.nf.application.network.commands.', 'RGRCommand'), Lwebgl_client_nf_core_FontDefinition_2_classLit = createForClass('webgl.client.nf.core.', 'FontDefinition'), Lwebgl_client_nf_games_g431_Card_AbstractQueenOfDiamondsCardConfiguration_2_classLit = createForClass('webgl.client.nf.games.g431.Card.', 'AbstractQueenOfDiamondsCardConfiguration'), Lwebgl_client_nf_games_g431_Card_AbstractQueenOfDiamondsCardConfiguration$CardsState_2_classLit = createForEnum('webgl.client.nf.games.g431.Card.', 'AbstractQueenOfDiamondsCardConfiguration$CardsState', values_19), _3Lwebgl_client_nf_games_g431_Card_AbstractQueenOfDiamondsCardConfiguration$CardsState_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.Card.', 'AbstractQueenOfDiamondsCardConfiguration$CardsState;'), Lwebgl_client_nf_gamesFramework_gameItem_item_AbstractGameItem_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameItem.item.', 'AbstractGameItem'), Lwebgl_client_nf_gamesFramework_gameItem_item_AbstractInteractiveGameItem_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameItem.item.', 'AbstractInteractiveGameItem'), Lwebgl_client_nf_games_g431_Card_QueenOfDiamondsCard_2_classLit = createForClass('webgl.client.nf.games.g431.Card.', 'QueenOfDiamondsCard'), Lwebgl_client_nf_games_g431_Card_QueenOfDiamondsWarCard_2_classLit = createForClass('webgl.client.nf.games.g431.Card.', 'QueenOfDiamondsWarCard'), Lwebgl_client_nf_games_g431_Card_jokerBonusCardConfig_QueenOfDiamondsJokerBonusCardConfigurationMobile_2_classLit = createForClass('webgl.client.nf.games.g431.Card.jokerBonusCardConfig.', 'QueenOfDiamondsJokerBonusCardConfigurationMobile'), Lwebgl_client_nf_games_g431_Card_jokerBonusCardConfig_QueenOfDiamondsJokerBonusCardConfigurationWeb_2_classLit = createForClass('webgl.client.nf.games.g431.Card.jokerBonusCardConfig.', 'QueenOfDiamondsJokerBonusCardConfigurationWeb'), Lwebgl_client_nf_games_g431_Card_mainGameCardConfig_QueenOfDiamondsMainGameCardConfigurationMobile_2_classLit = createForClass('webgl.client.nf.games.g431.Card.mainGameCardConfig.', 'QueenOfDiamondsMainGameCardConfigurationMobile'), Lwebgl_client_nf_games_g431_Card_mainGameCardConfig_QueenOfDiamondsMainGameCardConfigurationWeb_2_classLit = createForClass('webgl.client.nf.games.g431.Card.mainGameCardConfig.', 'QueenOfDiamondsMainGameCardConfigurationWeb'), Lwebgl_client_nf_games_g431_Card_service_QueenOfDiamondsCardsConfigurationsService_2_classLit = createForClass('webgl.client.nf.games.g431.Card.service.', 'QueenOfDiamondsCardsConfigurationsService'), Lwebgl_client_nf_games_g431_Card_warBonusCardConfig_AbstractQueenOfDiamondsWarCardConfiguration_2_classLit = createForClass('webgl.client.nf.games.g431.Card.warBonusCardConfig.', 'AbstractQueenOfDiamondsWarCardConfiguration'), Lwebgl_client_nf_games_g431_Card_warBonusCardConfig_QueenOfDiamondsWarBonusCardConfigurationMobile_2_classLit = createForClass('webgl.client.nf.games.g431.Card.warBonusCardConfig.', 'QueenOfDiamondsWarBonusCardConfigurationMobile'), Lwebgl_client_nf_games_g431_Card_warBonusCardConfig_QueenOfDiamondsWarBonusCardConfigurationWeb_2_classLit = createForClass('webgl.client.nf.games.g431.Card.warBonusCardConfig.', 'QueenOfDiamondsWarBonusCardConfigurationWeb'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame'), Lwebgl_client_nf_games_g431_Game431_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431'), Lwebgl_client_nf_games_g431_Game431$1_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431$1'), Lwebgl_client_nf_games_g431_Game431$2_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431$2'), Lwebgl_client_nf_games_g431_Game431$3_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431$3'), Lwebgl_client_nf_games_g431_Game431$4_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431$4'), Lwebgl_client_nf_games_g431_Game431$5_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431$5'), Lwebgl_client_nf_games_g431_Game431$6_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431$6'), Lwebgl_client_nf_games_g431_Game431$7_2_classLit = createForClass('webgl.client.nf.games.g431.', 'Game431$7'), Lwebgl_client_nf_games_g431_QueenOfDiamondsModel_2_classLit = createForClass('webgl.client.nf.games.g431.', 'QueenOfDiamondsModel'), Lwebgl_client_nf_games_g431_QueenOfDiamondsResources_2_classLit = createForEnum('webgl.client.nf.games.g431.', 'QueenOfDiamondsResources', values_20), _3Lwebgl_client_nf_games_g431_QueenOfDiamondsResources_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.', 'QueenOfDiamondsResources;'), Lwebgl_client_nf_games_g431_QueenOfDiamondsTooltip_2_classLit = createForClass('webgl.client.nf.games.g431.', 'QueenOfDiamondsTooltip'), Lwebgl_client_nf_games_g431_allTime_QueenOfDiamondsAllTimeAnimationController_2_classLit = createForClass('webgl.client.nf.games.g431.allTime.', 'QueenOfDiamondsAllTimeAnimationController'), Lwebgl_client_nf_games_g431_allTime_QueenOfDiamondsAllTimeAnimationController$1_2_classLit = createForClass('webgl.client.nf.games.g431.allTime.', 'QueenOfDiamondsAllTimeAnimationController$1'), Lwebgl_client_nf_games_g431_allTime_QueenOfDiamondsAllTimeAnimationController$2_2_classLit = createForClass('webgl.client.nf.games.g431.allTime.', 'QueenOfDiamondsAllTimeAnimationController$2'), Lwebgl_client_nf_games_g431_allTime_QueenOfDiamondsAllTimeAnimationController$3_2_classLit = createForClass('webgl.client.nf.games.g431.allTime.', 'QueenOfDiamondsAllTimeAnimationController$3'), Lwebgl_client_nf_games_g431_bonuses_QueenOfDiamondsBonusesManager_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.', 'QueenOfDiamondsBonusesManager'), Lwebgl_client_nf_games_g431_bonuses_QueenOfDiamondsBonusesManager$BonusGamesState_2_classLit = createForEnum('webgl.client.nf.games.g431.bonuses.', 'QueenOfDiamondsBonusesManager$BonusGamesState', values_21), _3Lwebgl_client_nf_games_g431_bonuses_QueenOfDiamondsBonusesManager$BonusGamesState_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.bonuses.', 'QueenOfDiamondsBonusesManager$BonusGamesState;'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusBoard_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusBoard'), _3Lwebgl_client_nf_games_g431_Card_QueenOfDiamondsCard_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.Card.', 'QueenOfDiamondsCard;'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusBoard$1_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusBoard$1'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusBoard$2_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusBoard$2'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusManager_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusManager'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusManager$1_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusManager$1'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusManager$2_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusManager$2'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusManager$3_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusManager$3'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusPanel_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusPanel'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusPanel$1_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusPanel$1'), Lwebgl_client_nf_gamesFramework_ui_textCounterView_TextCounterView_2_classLit = createForClass('webgl.client.nf.gamesFramework.ui.textCounterView.', 'TextCounterView'), Lwebgl_client_nf_games_g431_bonuses_joker_QueenOfDiamondsJokerBonusPanel$2_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.', 'QueenOfDiamondsJokerBonusPanel$2'), Lwebgl_client_nf_games_g431_bonuses_joker_paytable_QueenOfDiamondsJokerPaytable_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.paytable.', 'QueenOfDiamondsJokerPaytable'), _3Lwebgl_client_nf_core_Location_2_classLit = createForArray('[Lwebgl.client.nf.core.', 'Location;'), Lwebgl_client_nf_games_g431_bonuses_joker_paytable_QueenOfDiamondsJokerPaytable$1_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.joker.paytable.', 'QueenOfDiamondsJokerPaytable$1'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusBoard_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusBoard'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusBoard$1_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusBoard$1'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusBoard$2_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusBoard$2'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusBoard$3_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusBoard$3'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusBoard$4_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusBoard$4'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusManager_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusManager'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusManager$1_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusManager$1'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusManager$2_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusManager$2'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusManager$3_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusManager$3'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusManager$4_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusManager$4'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusPanel_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusPanel'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusPanel$1_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusPanel$1'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusPanel$2_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusPanel$2'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusPanel$3_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusPanel$3'), Lwebgl_client_nf_games_g431_bonuses_war_QueenOfDiamondsWarBonusPanel$4_2_classLit = createForClass('webgl.client.nf.games.g431.bonuses.war.', 'QueenOfDiamondsWarBonusPanel$4'), Lwebgl_client_nf_games_g431_customization_QueenOfDiamondsCustomizationMobile_2_classLit = createForClass('webgl.client.nf.games.g431.customization.', 'QueenOfDiamondsCustomizationMobile'), Lwebgl_client_nf_games_g431_customization_QueenOfDiamondsCustomizationWeb_2_classLit = createForClass('webgl.client.nf.games.g431.customization.', 'QueenOfDiamondsCustomizationWeb'), _3Lwebgl_client_nf_resource_RotateResourcesLoader$ROTATION_1TYPE_2_classLit = createForArray('[Lwebgl.client.nf.resource.', 'RotateResourcesLoader$ROTATION_TYPE;'), Lwebgl_client_nf_games_location_AbstractGameLocations_2_classLit = createForClass('webgl.client.nf.games.location.', 'AbstractGameLocations'), Lwebgl_client_nf_games_g431_locations_QueenOfDiamondsLocations_2_classLit = createForClass('webgl.client.nf.games.g431.locations.', 'QueenOfDiamondsLocations'), Lwebgl_client_nf_games_g431_locations_QueenOfDiamondsLocationsMobile_2_classLit = createForClass('webgl.client.nf.games.g431.locations.', 'QueenOfDiamondsLocationsMobile'), Lwebgl_client_nf_games_g431_locations_QueenOfDiamondsLocationsWeb_2_classLit = createForClass('webgl.client.nf.games.g431.locations.', 'QueenOfDiamondsLocationsWeb'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$1_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$1'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$10_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$10'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$2_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$2'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$3_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$3'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$4_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$4'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$5_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$5'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$6_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$6'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$7_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$7'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$8_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$8'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$9_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$9'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$BonusType_2_classLit = createForEnum('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$BonusType', values_22), _3Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$BonusType_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$BonusType;'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$PopupType_2_classLit = createForEnum('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$PopupType', values_23), _3Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBoard$PopupType_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBoard$PopupType;'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBonusPopup_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBonusPopup'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsBonusPopup$1_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsBonusPopup$1'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsMainArea'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$1_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsMainArea$1'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$2_2_classLit = createForClass('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsMainArea$2'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$QueenOfDiamondsCardsSubTypes_2_classLit = createForEnum('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsMainArea$QueenOfDiamondsCardsSubTypes', values_24), _3Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$QueenOfDiamondsCardsSubTypes_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsMainArea$QueenOfDiamondsCardsSubTypes;'), Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$QueenOfDiamondsCardsTypes_2_classLit = createForEnum('webgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsMainArea$QueenOfDiamondsCardsTypes', values_25), _3Lwebgl_client_nf_games_g431_mainGame_QueenOfDiamondsMainArea$QueenOfDiamondsCardsTypes_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.mainGame.', 'QueenOfDiamondsMainArea$QueenOfDiamondsCardsTypes;'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGamePanel_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGamePanel'), Lwebgl_client_nf_games_g431_panel_AbstractQueenOfDiamondsPanel_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'AbstractQueenOfDiamondsPanel'), Lwebgl_client_nf_games_g431_panel_AbstractQueenOfDiamondsPanel$1_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'AbstractQueenOfDiamondsPanel$1'), Lwebgl_client_nf_games_g431_panel_AbstractQueenOfDiamondsPanel$2_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'AbstractQueenOfDiamondsPanel$2'), Lwebgl_client_nf_games_g431_panel_AbstractQueenOfDiamondsPanel$3_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'AbstractQueenOfDiamondsPanel$3'), Lwebgl_client_nf_games_g431_panel_AbstractQueenOfDiamondsPanel$4_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'AbstractQueenOfDiamondsPanel$4'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelMobile_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelMobile'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$1_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$1'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$2_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$2'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$3_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$3'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$4_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$4'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$5_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$5'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$6_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$6'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$7_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$7'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsPanelWeb$8_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsPanelWeb$8'), Lwebgl_client_nf_games_g431_panel_QueenOfDiamondsWinsArea_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'QueenOfDiamondsWinsArea'), Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'WinUpToAndWinsSwitcherManager'), Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager$1_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'WinUpToAndWinsSwitcherManager$1'), Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager$2_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'WinUpToAndWinsSwitcherManager$2'), Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager$3_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'WinUpToAndWinsSwitcherManager$3'), Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager$4_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'WinUpToAndWinsSwitcherManager$4'), Lwebgl_client_nf_games_g431_panel_WinUpToAndWinsSwitcherManager$QueenOfDiamondsSwitchingTweenMaxWidget_2_classLit = createForClass('webgl.client.nf.games.g431.panel.', 'WinUpToAndWinsSwitcherManager$QueenOfDiamondsSwitchingTweenMaxWidget'), _3_3D_classLit = createForArray('', '[[D'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsBigWinPopup_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsBigWinPopup'), _3_3Lwebgl_client_nf_core_Location_2_classLit = createForArray('[[Lwebgl.client.nf.core.', 'Location;'), _3Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxElementWidget_2_classLit = createForArray('[Lwebgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxElementWidget;'), Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxGenericSequenceManager_2_classLit = createForClass('webgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxGenericSequenceManager'), _3Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxGenericSequenceManager_2_classLit = createForArray('[Lwebgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxGenericSequenceManager;'), Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxGenericSequenceDO_2_classLit = createForClass('webgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxGenericSequenceDO'), _3Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxGenericSequenceDO_2_classLit = createForArray('[Lwebgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxGenericSequenceDO;'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsBigWinPopup$1_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsBigWinPopup$1'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsBigWinPopup$2_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsBigWinPopup$2'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsInfoPopup'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup$1_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsInfoPopup$1'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup$2_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsInfoPopup$2'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup$3_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsInfoPopup$3'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup$InfoPopupType_2_classLit = createForEnum('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsInfoPopup$InfoPopupType', values_26), _3Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsInfoPopup$InfoPopupType_2_classLit = createForArray('[Lwebgl.client.nf.games.g431.popups.', 'QueenOfDiamondsInfoPopup$InfoPopupType;'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsItsAWinnerPopup_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsItsAWinnerPopup'), _3Lwebgl_client_nf_animator_AnimationBank_2_classLit = createForArray('[Lwebgl.client.nf.animator.', 'AnimationBank;'), Lwebgl_client_nf_gamesFramework_gameItem_item_AnimGameItem_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameItem.item.', 'AnimGameItem'), _3Lwebgl_client_nf_gamesFramework_gameItem_item_AnimGameItem_2_classLit = createForArray('[Lwebgl.client.nf.gamesFramework.gameItem.item.', 'AnimGameItem;'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsItsAWinnerPopup$1_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsItsAWinnerPopup$1'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsItsAWinnerPopup$2_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsItsAWinnerPopup$2'), Lwebgl_client_nf_ui_AbstractSplashScreen_AbstractSplashScreen_2_classLit = createForClass('webgl.client.nf.ui.AbstractSplashScreen.', 'AbstractSplashScreen'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsSplash_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsSplash'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsSplash$1_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsSplash$1'), Lwebgl_client_nf_games_g431_popups_QueenOfDiamondsSplash$2_2_classLit = createForClass('webgl.client.nf.games.g431.popups.', 'QueenOfDiamondsSplash$2'), Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsJokerBonusDO_2_classLit = createForClass('webgl.client.nf.games.g431.queenOfDiamondsDO.', 'QueenOfDiamondsJokerBonusDO'), Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsJokerBonusStepDO_2_classLit = createForClass('webgl.client.nf.games.g431.queenOfDiamondsDO.', 'QueenOfDiamondsJokerBonusStepDO'), Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsMainGameSymbolDO_2_classLit = createForClass('webgl.client.nf.games.g431.queenOfDiamondsDO.', 'QueenOfDiamondsMainGameSymbolDO'), Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsPrizeType_2_classLit = createForClass('webgl.client.nf.games.g431.queenOfDiamondsDO.', 'QueenOfDiamondsPrizeType'), Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsWarBonusDO_2_classLit = createForClass('webgl.client.nf.games.g431.queenOfDiamondsDO.', 'QueenOfDiamondsWarBonusDO'), Lwebgl_client_nf_games_g431_queenOfDiamondsDO_QueenOfDiamondsWarBonusStepDO_2_classLit = createForClass('webgl.client.nf.games.g431.queenOfDiamondsDO.', 'QueenOfDiamondsWarBonusStepDO'), Lwebgl_client_nf_gamesFramework_Util_animation_ViewMoveAnimation_2_classLit = createForClass('webgl.client.nf.gamesFramework.Util.animation.', 'ViewMoveAnimation'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$10_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$10'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$11_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$11'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$12_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$12'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$3_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$3'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$4_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$4'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$5_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$5'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$6_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$6'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$7_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$7'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$8_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$8'), Lwebgl_client_nf_gamesFramework_abstractGame_AbstractGame$9_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.', 'AbstractGame$9'), Lwebgl_client_nf_gamesFramework_abstractGame_interrupts_GameInterrupt_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.interrupts.', 'GameInterrupt'), Lwebgl_client_nf_gamesFramework_abstractGame_interrupts_GameInterruptQueue_2_classLit = createForClass('webgl.client.nf.gamesFramework.abstractGame.interrupts.', 'GameInterruptQueue'), Lwebgl_client_nf_gamesFramework_frameManager_FrameManager$1_2_classLit = createForClass('webgl.client.nf.gamesFramework.frameManager.', 'FrameManager$1'), Lwebgl_client_nf_gamesFramework_gameItem_item_AbstractInteractiveGameItem$1_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameItem.item.', 'AbstractInteractiveGameItem$1'), Lwebgl_client_nf_gamesFramework_gameItem_item_AnimGameItem$1_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameItem.item.', 'AnimGameItem$1'), Lwebgl_client_nf_gamesFramework_gameItem_item_TextGameItem_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameItem.item.', 'TextGameItem'), Lwebgl_client_nf_gamesFramework_gameManager_GameManager$4_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameManager.', 'GameManager$4'), Lwebgl_client_nf_gamesFramework_gameManager_GameManager$5_2_classLit = createForClass('webgl.client.nf.gamesFramework.gameManager.', 'GameManager$5'), Lwebgl_client_nf_gamesFramework_observer_GameDataObserver_2_classLit = createForClass('webgl.client.nf.gamesFramework.observer.', 'GameDataObserver'), Lwebgl_client_nf_gamesFramework_tweenMax_AbstractTweenMaxGraphic_2_classLit = createForClass('webgl.client.nf.gamesFramework.tweenMax.', 'AbstractTweenMaxGraphic'), Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxElementImage_2_classLit = createForClass('webgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxElementImage'), Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxUtils$EASE_1TYPE_2_classLit = createForEnum('webgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxUtils$EASE_TYPE', values_33), _3Lwebgl_client_nf_gamesFramework_tweenMax_TweenMaxUtils$EASE_1TYPE_2_classLit = createForArray('[Lwebgl.client.nf.gamesFramework.tweenMax.', 'TweenMaxUtils$EASE_TYPE;'), Lwebgl_client_nf_gamesFramework_ui_textCounterView_TextCounterView$1_2_classLit = createForClass('webgl.client.nf.gamesFramework.ui.textCounterView.', 'TextCounterView$1'), Lwebgl_client_nf_menus_gamebuttons_CanvasButton_2_classLit = createForClass('webgl.client.nf.menus.gamebuttons.', 'CanvasButton'), Lwebgl_client_nf_menus_gamebuttons_CanvasButton$1_2_classLit = createForClass('webgl.client.nf.menus.gamebuttons.', 'CanvasButton$1'), Lwebgl_client_nf_menus_gamebuttons_CanvasButton$2_2_classLit = createForClass('webgl.client.nf.menus.gamebuttons.', 'CanvasButton$2'), Lwebgl_client_nf_menus_gamebuttons_CanvasButtonUpDown$1_2_classLit = createForClass('webgl.client.nf.menus.gamebuttons.', 'CanvasButtonUpDown$1'), Lwebgl_client_nf_menus_gamebuttons_CanvasButtonUpDown$2_2_classLit = createForClass('webgl.client.nf.menus.gamebuttons.', 'CanvasButtonUpDown$2'), Lwebgl_client_nf_resource_RotateResourceElement_2_classLit = createForClass('webgl.client.nf.resource.', 'RotateResourceElement'), Lwebgl_client_nf_resource_items_LoadingItemSound_2_classLit = createForClass('webgl.client.nf.resource.items.', 'LoadingItemSound'), Lwebgl_client_nf_sounds_SoundDO_2_classLit = createForClass('webgl.client.nf.sounds.', 'SoundDO'), Lwebgl_client_nf_sounds_soundInstance_SoundInstance_2_classLit = createForClass('webgl.client.nf.sounds.soundInstance.', 'SoundInstance'), Lwebgl_client_nf_sounds_soundInstance_AndroidSoundInstance_2_classLit = createForClass('webgl.client.nf.sounds.soundInstance.', 'AndroidSoundInstance'), Lwebgl_client_nf_sounds_soundInstance_ChromeSoundInstance_2_classLit = createForClass('webgl.client.nf.sounds.soundInstance.', 'ChromeSoundInstance'), Lwebgl_client_nf_sounds_soundInstance_IESoundInstance_2_classLit = createForClass('webgl.client.nf.sounds.soundInstance.', 'IESoundInstance'), Lwebgl_client_nf_sounds_soundInstance_IOSSoundInstance_2_classLit = createForClass('webgl.client.nf.sounds.soundInstance.', 'IOSSoundInstance'), Lwebgl_client_nf_ui_hover_EventsHandlerHoverDiv_2_classLit = createForClass('webgl.client.nf.ui.hover.', 'EventsHandlerHoverDiv'), Lwebgl_client_ui_TextPanel_2_classLit = createForClass('webgl.client.ui.', 'TextPanel');
 $entry(onLoad_0)(1);
