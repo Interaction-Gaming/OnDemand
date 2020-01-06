@@ -6,10 +6,9 @@ The application contains 2 screens
 1. Screen #1 MainViewController
 the first screen has 3 buttons:
     1. 'Clean App Cache' - pressing this button clean the application's library folder from all the games' resources
-    2. 'Queen of Diamond GWT' - pressing this button opens the Queen of Diamond game as a POC for opening a game in GWT technology
-    3. 'Wild Time Extra Pixi' - pressing this button opens the Wild Time Extra game as a POC for opening a game in Pixi technology
+    2. 'Queen of Diamond Money' - pressing this button opens the Queen of Diamond game in money mode
 2. Screen #2 ViewController - 
-The second screen holds a UIWebView that load one of the 2 games according to te user's selection
+The second screen holds a UIWebView that load the game
 
 # Folder structure
 The folder structure as presented in this project is the correct structure and should be kept in MI application
@@ -51,6 +50,7 @@ func downloadGameResources(_ gameID: String)
 # Copy Game resources
 Before opening the game all resources should be copied to the 'Libray' folder
 This is done by calling ``copyCommonFolder()``, `copyGameScriptFolder()` and `copyGameResources()` functions
+The app should use the `GameConfiguration.json` file inorder to detect the correct folders' path for the game's resources & scripts
 
 # Open Game
 Opening the game is done inside the web view
