@@ -360,9 +360,9 @@ function poc(){
     }
     var strongName;
     try {
-      unflattenKeylistIntoAnswers(['safari'], '41D06FD9E736529C500F06B18CABC4EB');
-      unflattenKeylistIntoAnswers(['gecko1_8'], '43E5D4F2832F835502EC69C48A4338A6');
-      unflattenKeylistIntoAnswers(['ie9'], '74C515F337395B5E94BFAD5EC3FDB6EA');
+      unflattenKeylistIntoAnswers(['gecko1_8'], '7F538BB3098FA6BC27003AAC1BF3346A');
+      unflattenKeylistIntoAnswers(['safari'], 'B0E3B236A1EF167B8C97B285410A4916');
+      unflattenKeylistIntoAnswers(['ie9'], 'DF0752271AC00D95612177034B589905');
       strongName = answers[computePropValue('user.agent')];
       var idx = strongName.indexOf(':');
       if (idx != -1) {
