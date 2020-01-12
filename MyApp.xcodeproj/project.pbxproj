@@ -11,8 +11,6 @@
 		083C34EC23AF83F100CBFACA /* GamesCore in Resources */ = {isa = PBXBuildFile; fileRef = 083C34EB23AF83F100CBFACA /* GamesCore */; };
 		083C34EE23AF841700CBFACA /* 431_resources in Resources */ = {isa = PBXBuildFile; fileRef = 083C34ED23AF841700CBFACA /* 431_resources */; settings = {ASSET_TAGS = (431, ); }; };
 		083C34F023AF842100CBFACA /* 431_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 083C34EF23AF842100CBFACA /* 431_scripts */; };
-		083C34F523AF846F00CBFACA /* 1121_resources in Resources */ = {isa = PBXBuildFile; fileRef = 083C34F323AF846F00CBFACA /* 1121_resources */; settings = {ASSET_TAGS = (1121, ); }; };
-		083C34F623AF846F00CBFACA /* 1121_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 083C34F423AF846F00CBFACA /* 1121_scripts */; };
 		083C34F823AF9A8800CBFACA /* GWTCommon in Resources */ = {isa = PBXBuildFile; fileRef = 083C34F723AF9A8800CBFACA /* GWTCommon */; };
 		083C350423AF9AE700CBFACA /* GameConfigurations.json in Resources */ = {isa = PBXBuildFile; fileRef = 083C34FD23AF9AE700CBFACA /* GameConfigurations.json */; };
 		087E324D23BDCCBA00DFEB1A /* Launcher in Resources */ = {isa = PBXBuildFile; fileRef = 087E324C23BDCCBA00DFEB1A /* Launcher */; };
@@ -21,6 +19,8 @@
 		08A64F1423706B7300932286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1223706B7300932286 /* Main.storyboard */; };
 		08A64F1623706B7500932286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1523706B7500932286 /* Assets.xcassets */; };
 		08A64F1923706B7500932286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1723706B7500932286 /* LaunchScreen.storyboard */; };
+		08F1A1E723CB1B11008B0C09 /* 1121_resources in Resources */ = {isa = PBXBuildFile; fileRef = 08F1A1E523CB1B11008B0C09 /* 1121_resources */; };
+		08F1A1E823CB1B11008B0C09 /* 1121_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 08F1A1E623CB1B11008B0C09 /* 1121_scripts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,6 @@
 		083C34EB23AF83F100CBFACA /* GamesCore */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GamesCore; sourceTree = "<group>"; };
 		083C34ED23AF841700CBFACA /* 431_resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 431_resources; sourceTree = "<group>"; };
 		083C34EF23AF842100CBFACA /* 431_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 431_scripts; sourceTree = "<group>"; };
-		083C34F323AF846F00CBFACA /* 1121_resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1121_resources; sourceTree = "<group>"; };
-		083C34F423AF846F00CBFACA /* 1121_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1121_scripts; sourceTree = "<group>"; };
 		083C34F723AF9A8800CBFACA /* GWTCommon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GWTCommon; sourceTree = "<group>"; };
 		083C34FD23AF9AE700CBFACA /* GameConfigurations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GameConfigurations.json; sourceTree = "<group>"; };
 		087E324C23BDCCBA00DFEB1A /* Launcher */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Launcher; sourceTree = "<group>"; };
@@ -40,6 +38,8 @@
 		08A64F1523706B7500932286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08A64F1823706B7500932286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08A64F1A23706B7500932286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F1A1E523CB1B11008B0C09 /* 1121_resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1121_resources; sourceTree = "<group>"; };
+		08F1A1E623CB1B11008B0C09 /* 1121_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1121_scripts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 				083C34FD23AF9AE700CBFACA /* GameConfigurations.json */,
 				083C34F723AF9A8800CBFACA /* GWTCommon */,
 				083C34EB23AF83F100CBFACA /* GamesCore */,
+				08F1A0FF23CB1AEA008B0C09 /* 1121 */,
 				083C31F523AF83DA00CBFACA /* 431 */,
-				083C32D123AF83DA00CBFACA /* 1121 */,
 			);
 			path = NG_Games;
 			sourceTree = "<group>";
@@ -73,15 +73,6 @@
 				083C34ED23AF841700CBFACA /* 431_resources */,
 			);
 			path = 431;
-			sourceTree = "<group>";
-		};
-		083C32D123AF83DA00CBFACA /* 1121 */ = {
-			isa = PBXGroup;
-			children = (
-				083C34F323AF846F00CBFACA /* 1121_resources */,
-				083C34F423AF846F00CBFACA /* 1121_scripts */,
-			);
-			path = 1121;
 			sourceTree = "<group>";
 		};
 		08A64F0223706B7300932286 = {
@@ -113,6 +104,15 @@
 				08A64F1A23706B7500932286 /* Info.plist */,
 			);
 			path = MyApp;
+			sourceTree = "<group>";
+		};
+		08F1A0FF23CB1AEA008B0C09 /* 1121 */ = {
+			isa = PBXGroup;
+			children = (
+				08F1A1E523CB1B11008B0C09 /* 1121_resources */,
+				08F1A1E623CB1B11008B0C09 /* 1121_scripts */,
+			);
+			path = 1121;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,11 +177,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F1A1E823CB1B11008B0C09 /* 1121_scripts in Resources */,
 				08A64F1923706B7500932286 /* LaunchScreen.storyboard in Resources */,
-				083C34F623AF846F00CBFACA /* 1121_scripts in Resources */,
-				083C34F523AF846F00CBFACA /* 1121_resources in Resources */,
 				083C34EE23AF841700CBFACA /* 431_resources in Resources */,
 				083C34F023AF842100CBFACA /* 431_scripts in Resources */,
+				08F1A1E723CB1B11008B0C09 /* 1121_resources in Resources */,
 				08A64F1623706B7500932286 /* Assets.xcassets in Resources */,
 				08A64F1423706B7300932286 /* Main.storyboard in Resources */,
 				083C34EC23AF83F100CBFACA /* GamesCore in Resources */,

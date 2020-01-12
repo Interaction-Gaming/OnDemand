@@ -52,6 +52,22 @@
                                     <action selector="openQODMoney:" destination="CgX-0i-bbQ" eventType="touchUpInside" id="S3p-3o-Yo9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7t-sl-Vw8">
+                                <rect key="frame" x="23" y="318" width="187" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Wild Time Money"/>
+                                <connections>
+                                    <action selector="openWildTimeMoney:" destination="CgX-0i-bbQ" eventType="touchUpInside" id="B2O-zw-cf6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esG-i1-Aql">
+                                <rect key="frame" x="16" y="192" width="126" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Queen Demo"/>
+                                <connections>
+                                    <action selector="openQODDemo:" destination="CgX-0i-bbQ" eventType="touchUpInside" id="veJ-UI-Wc5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="gMb-GR-M2z"/>

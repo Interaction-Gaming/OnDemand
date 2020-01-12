@@ -54,6 +54,18 @@ class MainViewController: UIViewController {
        
     }
 
+    @IBAction func openWildTimeMoney(_ sender: Any)
+    {
+        self.gameID = "1121"
+        self.gameMode = "M"
+        startGameProcess()
+    }
+    @IBAction func openQODDemo(_ sender: Any) {
+        self.gameID = "431"
+        self.gameMode = "D"
+        startGameProcess()
+    }
+    
     @IBAction func openQODMoney(_ sender: Any) {
         self.gameID = "431"
         self.gameMode = "M"

@@ -30,13 +30,11 @@ function loadScript(src, callback, onGameScriptsLoadError) {
 
 function onGameScriptsLoad()
 {
-    console.log = myConsoleLog;
     console.log('------>  GAME LAUNCHER SCRIPTS LOADED');
 }
 
 function onSpecificGameCoreScriptsLoad()
 {
-    console.log = myConsoleLog;
     console.log('------> CORE LAUNCHER SCRIPTS LOADED');
 }
 
