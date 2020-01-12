@@ -1,3 +1,5 @@
+
+//The version should be empty
 var HTML5GamesBuildNumber = HTML5GamesCacheBusterNumber = '';
 var CACHE_BUSTER_PARAM = "CBID=";
 
@@ -6,6 +8,7 @@ var ERROR_MSG_LAUNCHER = 'Error initiate the game';
 var failCallback = window.NotifyGameLoadFailed || function (){};
 
 (function () {
+ //Since pixi load the resources in the pixi's loader need to pass the basolute path and not relative
  var hrefPath = window.location.href;
  window.EnvData.MDSURL = hrefPath.substring(0, hrefPath.lastIndexOf('/'));
  var domain = window.EnvData.MDSURL + '/secure/HTML5Games/' + window.GameData.GID + '/' ;

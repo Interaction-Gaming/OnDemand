@@ -33,6 +33,9 @@ class MainViewController: UIViewController {
         try? FileManager.default.removeItem(at: destinationPath)
         //the common data must be there
         copyCommonFolder()
+        let alert = UIAlertController(title: "Clear Cashe", message: "Your application's cache was cleared", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
  
     func loadGameConfigurations()
@@ -72,6 +75,11 @@ class MainViewController: UIViewController {
         startGameProcess()
     }
 
+    @IBAction func openWildTimeDemo(_ sender: Any) {
+        self.gameID = "1121"
+        self.gameMode = "D"
+        startGameProcess()
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         //update the web view controller with the data
         let vc = segue.destination as! ViewController
@@ -118,6 +126,11 @@ class MainViewController: UIViewController {
             //seccsessfully downloaded the on demand resources
             if error == nil{
                self.copyGameToLibraryFolder()
+            }
+            else{
+                let alert = UIAlertController(title: "Error", message: "Error loading On-Demand resources", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
             }
             self.request.endAccessingResources()
         }
