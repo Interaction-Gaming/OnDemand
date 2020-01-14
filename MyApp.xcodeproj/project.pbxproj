@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		082C945F23A0CA3D00DB5754 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C945E23A0CA3D00DB5754 /* MainViewController.swift */; };
+		083A533923CC89D30078E787 /* 1107_resources in Resources */ = {isa = PBXBuildFile; fileRef = 083A533723CC89D30078E787 /* 1107_resources */; settings = {ASSET_TAGS = (1107, ); }; };
+		083A533A23CC89D30078E787 /* 1107_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 083A533823CC89D30078E787 /* 1107_scripts */; };
 		083C34EC23AF83F100CBFACA /* GamesCore in Resources */ = {isa = PBXBuildFile; fileRef = 083C34EB23AF83F100CBFACA /* GamesCore */; };
 		083C34EE23AF841700CBFACA /* 431_resources in Resources */ = {isa = PBXBuildFile; fileRef = 083C34ED23AF841700CBFACA /* 431_resources */; settings = {ASSET_TAGS = (431, ); }; };
 		083C34F023AF842100CBFACA /* 431_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 083C34EF23AF842100CBFACA /* 431_scripts */; };
@@ -19,12 +21,14 @@
 		08A64F1423706B7300932286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1223706B7300932286 /* Main.storyboard */; };
 		08A64F1623706B7500932286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1523706B7500932286 /* Assets.xcassets */; };
 		08A64F1923706B7500932286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1723706B7500932286 /* LaunchScreen.storyboard */; };
-		08F1A1E723CB1B11008B0C09 /* 1121_resources in Resources */ = {isa = PBXBuildFile; fileRef = 08F1A1E523CB1B11008B0C09 /* 1121_resources */; };
+		08F1A1E723CB1B11008B0C09 /* 1121_resources in Resources */ = {isa = PBXBuildFile; fileRef = 08F1A1E523CB1B11008B0C09 /* 1121_resources */; settings = {ASSET_TAGS = (1121, ); }; };
 		08F1A1E823CB1B11008B0C09 /* 1121_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 08F1A1E623CB1B11008B0C09 /* 1121_scripts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		082C945E23A0CA3D00DB5754 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		083A533723CC89D30078E787 /* 1107_resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1107_resources; sourceTree = "<group>"; };
+		083A533823CC89D30078E787 /* 1107_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1107_scripts; sourceTree = "<group>"; };
 		083C34EB23AF83F100CBFACA /* GamesCore */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GamesCore; sourceTree = "<group>"; };
 		083C34ED23AF841700CBFACA /* 431_resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 431_resources; sourceTree = "<group>"; };
 		083C34EF23AF842100CBFACA /* 431_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 431_scripts; sourceTree = "<group>"; };
@@ -53,9 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		083A51F023CC89B30078E787 /* 1107 */ = {
+			isa = PBXGroup;
+			children = (
+				083A533723CC89D30078E787 /* 1107_resources */,
+				083A533823CC89D30078E787 /* 1107_scripts */,
+			);
+			path = 1107;
+			sourceTree = "<group>";
+		};
 		083C317623AF83DA00CBFACA /* NG_Games */ = {
 			isa = PBXGroup;
 			children = (
+				083A51F023CC89B30078E787 /* 1107 */,
 				087E324C23BDCCBA00DFEB1A /* Launcher */,
 				083C34FD23AF9AE700CBFACA /* GameConfigurations.json */,
 				083C34F723AF9A8800CBFACA /* GWTCommon */,
@@ -142,6 +156,7 @@
 			isa = PBXProject;
 			attributes = {
 				KnownAssetTags = (
+					1107,
 					1121,
 					431,
 				);
@@ -186,8 +201,10 @@
 				08A64F1423706B7300932286 /* Main.storyboard in Resources */,
 				083C34EC23AF83F100CBFACA /* GamesCore in Resources */,
 				087E324D23BDCCBA00DFEB1A /* Launcher in Resources */,
+				083A533923CC89D30078E787 /* 1107_resources in Resources */,
 				083C34F823AF9A8800CBFACA /* GWTCommon in Resources */,
 				083C350423AF9AE700CBFACA /* GameConfigurations.json in Resources */,
+				083A533A23CC89D30078E787 /* 1107_scripts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

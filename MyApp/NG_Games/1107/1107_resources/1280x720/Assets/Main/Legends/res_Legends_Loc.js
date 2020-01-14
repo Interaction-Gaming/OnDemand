@@ -1,0 +1,2 @@
+var loc = loc || {}; 
+ loc.res_Legends_Loc={Legends_mc:{LegendsAnim_mc:{LegendAmountWin_mc:{LegendAmountWinAnim_mc:{tf:{w:139,h:44.25,x:-24,y:-6.25}},LegendPrizeLoop_mc:{}},LegendLevels_mc:{LegendLevel3_mc:{},LegendLevel2_mc:{},LegendLevel1_mc:{},LegendMarker1_mc:{},LegendMarker2_mc:{},LegendMarker3_mc:{},LegendMarker4_mc:{},LegendMarker5_mc:{}},LegendWin_mc:{Coin1Container_mc:{},LegendCoin5_mc:{},LegendCoin4_mc:{},LegendCoin3_mc:{},LegendCoin2_mc:{},LegendCoin1_mc:{},LegendBGWin_mc:{}}},LegendFreeSpinsText_mc:{tf:{w:147.05,h:33.95,x:80.5,y:-342.95}}}};

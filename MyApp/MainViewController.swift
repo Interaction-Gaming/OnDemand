@@ -59,7 +59,7 @@ class MainViewController: UIViewController {
 
     @IBAction func openWildTimeMoney(_ sender: Any)
     {
-        self.gameID = "1121"
+        self.gameID = "1107"
         self.gameMode = "M"
         startGameProcess()
     }
@@ -76,7 +76,7 @@ class MainViewController: UIViewController {
     }
 
     @IBAction func openWildTimeDemo(_ sender: Any) {
-        self.gameID = "1121"
+        self.gameID = "1107"
         self.gameMode = "D"
         startGameProcess()
     }
@@ -131,6 +131,7 @@ class MainViewController: UIViewController {
                 let alert = UIAlertController(title: "Error", message: "Error loading On-Demand resources", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                 self.present(alert, animated: true, completion: nil)
+                self.removeSpinner()
             }
             self.request.endAccessingResources()
         }

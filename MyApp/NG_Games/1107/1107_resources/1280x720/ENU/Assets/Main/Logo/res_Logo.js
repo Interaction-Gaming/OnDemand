@@ -1,0 +1,1 @@
+!function(a,e){var s=a.animate.MovieClip,i=a.Sprite,o=a.Texture.fromFrame;(e.res_Logo=s.e(function(){s.call(this,0,1,!0,24);var a=new i(o("LOGO-MAIN-(small)"));this.ac(a)})).assets={res_Logo_atlas_1:"images/res_Logo_atlas_1.json"}}(PIXI,lib=lib||{});var lib;
