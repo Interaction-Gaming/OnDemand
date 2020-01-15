@@ -33,9 +33,10 @@ class ViewController: UIViewController, WKUIDelegate, UIWebViewDelegate{
    
         //TODO: open widget page
         
-       // let baseUrl = URL(string: "https://qa.gameserver1-mt.com/OP/widgetTest.html?gid=" + gameID + "&gameType=" + gameType)
+        let baseUrl = URL(string: "https://qa.gameserver1-mt.com/OP/widgetTest.html?gid=" + gameID + "&gameType=" + gameType + "&platformType=A")
         
-         let baseUrl = URL(string: "https://qa.gameserver1-mt.com/MWCwidgets/m.html?NeoDL=Game&GameID=" + gameID + "&PlayMode=" + gameMode + "&CSI=113&platformType=A&gid=" + gameID + "&gameType=" + gameType)
+//         let baseUrl = URL(string: "https://qa.gameserver1-mt.com/MWCwidgets/m.html?NeoDL=Game&GameID=" + gameID + "&PlayMode=" + gameMode + "&CSI=113&platformType=A&gid=" + gameID + "&gameType=" + gameType)
+        
              webView.loadRequest(URLRequest(url: baseUrl!))
     }
     

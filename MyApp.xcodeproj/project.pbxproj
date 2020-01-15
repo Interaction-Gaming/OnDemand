@@ -11,7 +11,7 @@
 		083C34EC23AF83F100CBFACA /* GamesCore in Resources */ = {isa = PBXBuildFile; fileRef = 083C34EB23AF83F100CBFACA /* GamesCore */; };
 		083C34EE23AF841700CBFACA /* 431_resources in Resources */ = {isa = PBXBuildFile; fileRef = 083C34ED23AF841700CBFACA /* 431_resources */; settings = {ASSET_TAGS = (431, ); }; };
 		083C34F023AF842100CBFACA /* 431_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 083C34EF23AF842100CBFACA /* 431_scripts */; };
-		083C34F523AF846F00CBFACA /* 1121_resources in Resources */ = {isa = PBXBuildFile; fileRef = 083C34F323AF846F00CBFACA /* 1121_resources */; settings = {ASSET_TAGS = (1121, ); }; };
+		083C34F523AF846F00CBFACA /* 1121_resources in Resources */ = {isa = PBXBuildFile; fileRef = 083C34F323AF846F00CBFACA /* 1121_resources */; };
 		083C34F623AF846F00CBFACA /* 1121_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 083C34F423AF846F00CBFACA /* 1121_scripts */; };
 		083C34F823AF9A8800CBFACA /* GWTCommon in Resources */ = {isa = PBXBuildFile; fileRef = 083C34F723AF9A8800CBFACA /* GWTCommon */; };
 		083C350423AF9AE700CBFACA /* GameConfigurations.json in Resources */ = {isa = PBXBuildFile; fileRef = 083C34FD23AF9AE700CBFACA /* GameConfigurations.json */; };
@@ -142,7 +142,6 @@
 			isa = PBXProject;
 			attributes = {
 				KnownAssetTags = (
-					1121,
 					431,
 				);
 				LastSwiftUpdateCheck = 1010;
@@ -350,9 +349,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSET_PACK_MANIFEST_URL_PREFIX = "https://download.qa.gamesrv1.com/secure/ODR/";
+				ASSET_PACK_MANIFEST_URL_PREFIX = "";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K4QJM63FW8;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = V6NVC835L8;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = MyApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -360,7 +360,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "";
+				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = 431;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ngtsystems.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -372,9 +372,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSET_PACK_MANIFEST_URL_PREFIX = "https://download.qa.gamesrv1.com/secure/ODR/";
+				ASSET_PACK_MANIFEST_URL_PREFIX = "";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K4QJM63FW8;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = V6NVC835L8;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = MyApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -382,7 +383,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "";
+				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = 431;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ngtsystems.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
