@@ -1,0 +1,79 @@
+{"frames": {
+
+"dividerBrown3x3.psd":
+{
+	"frame": {"x":3,"y":3,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":480,"h":572}
+},
+"symbolBig0000.png":
+{
+	"frame": {"x":3,"y":3,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":480,"h":572}
+},
+"symbolBig0001.png":
+{
+	"frame": {"x":3,"y":3,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":480,"h":572}
+},
+"symbolBig0002.png":
+{
+	"frame": {"x":3,"y":3,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":480,"h":572}
+},
+"symbolBig0003.png":
+{
+	"frame": {"x":3,"y":3,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":480,"h":572}
+},
+"symbolBig0004.png":
+{
+	"frame": {"x":3,"y":3,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":480,"h":572}
+},
+"symbolBig0005.png":
+{
+	"frame": {"x":3,"y":3,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":480,"h":572}
+},
+"symbolBig0006.png":
+{
+	"frame": {"x":3,"y":3,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":480,"h":572}
+}},
+"animations": {
+	"symbolBig": ["symbolBig0000.png","symbolBig0001.png","symbolBig0002.png","symbolBig0003.png","symbolBig0004.png","symbolBig0005.png","symbolBig0006.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "symbolsBig-0.png",
+	"format": "RGBA5555",
+	"size": {"w":16,"h":16},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:3bc014712483446e05c857ba7d0af258:7fab2f4e29f6a0ad63067c256149c4c7:62720f8f6935af74978ea1cbb70c1986$"
+}
+}

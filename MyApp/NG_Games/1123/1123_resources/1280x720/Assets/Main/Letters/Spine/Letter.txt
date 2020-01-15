@@ -1,0 +1,1119 @@
+
+Letter.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cover_Disabled
+  rotate: false
+  xy: 1522, 127
+  size: 141, 139
+  orig: 141, 139
+  offset: 0, 0
+  index: -1
+Cover_LogoWheelOfFortune
+  rotate: false
+  xy: 131, 2
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+Cover_Over
+  rotate: false
+  xy: 1665, 127
+  size: 141, 139
+  orig: 141, 139
+  offset: 0, 0
+  index: -1
+Cover_Up
+  rotate: false
+  xy: 1808, 127
+  size: 141, 139
+  orig: 141, 139
+  offset: 0, 0
+  index: -1
+Envelope_1
+  rotate: false
+  xy: 2, 1789
+  size: 295, 257
+  orig: 295, 257
+  offset: 0, 0
+  index: -1
+Envelope_2
+  rotate: false
+  xy: 2, 1555
+  size: 275, 232
+  orig: 275, 232
+  offset: 0, 0
+  index: -1
+Envelope_3
+  rotate: false
+  xy: 299, 1838
+  size: 265, 208
+  orig: 265, 208
+  offset: 0, 0
+  index: -1
+Envelope_Glow
+  rotate: false
+  xy: 1713, 1129
+  size: 82, 72
+  orig: 82, 72
+  offset: 0, 0
+  index: -1
+Envelope_Opened
+  rotate: false
+  xy: 642, 982
+  size: 177, 152
+  orig: 177, 152
+  offset: 0, 0
+  index: -1
+Envelope_Ribbon
+  rotate: true
+  xy: 2, 2
+  size: 95, 127
+  orig: 95, 127
+  offset: 0, 0
+  index: -1
+Envelope_Shadow
+  rotate: false
+  xy: 927, 436
+  size: 107, 99
+  orig: 107, 99
+  offset: 0, 0
+  index: -1
+Envelope_YellowOutline
+  rotate: false
+  xy: 788, 431
+  size: 137, 104
+  orig: 137, 104
+  offset: 0, 0
+  index: -1
+Letter_Gold_Glow
+  rotate: false
+  xy: 1687, 1352
+  size: 146, 146
+  orig: 146, 146
+  offset: 0, 0
+  index: -1
+MotionBlur
+  rotate: false
+  xy: 461, 1535
+  size: 66, 209
+  orig: 66, 209
+  offset: 0, 0
+  index: -1
+Ribbon_Blue
+  rotate: true
+  xy: 1835, 1351
+  size: 147, 64
+  orig: 147, 64
+  offset: 0, 0
+  index: -1
+Ribbon_Gold
+  rotate: false
+  xy: 228, 34
+  size: 147, 65
+  orig: 147, 65
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail04
+  rotate: false
+  xy: 184, 1328
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail05
+  rotate: false
+  xy: 184, 1101
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail06
+  rotate: false
+  xy: 184, 874
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail07
+  rotate: false
+  xy: 184, 647
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail08
+  rotate: false
+  xy: 184, 420
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail09
+  rotate: false
+  xy: 184, 193
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail10
+  rotate: true
+  xy: 299, 1746
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail11
+  rotate: true
+  xy: 566, 1774
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail12
+  rotate: true
+  xy: 793, 1774
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail13
+  rotate: true
+  xy: 1020, 1774
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail14
+  rotate: true
+  xy: 1247, 1774
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail15
+  rotate: true
+  xy: 1474, 1774
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail16
+  rotate: true
+  xy: 1701, 1774
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail17
+  rotate: true
+  xy: 529, 1500
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail18
+  rotate: true
+  xy: 756, 1500
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail19
+  rotate: true
+  xy: 983, 1500
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail20
+  rotate: true
+  xy: 1210, 1500
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail21
+  rotate: true
+  xy: 1437, 1500
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail22
+  rotate: true
+  xy: 1664, 1500
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail23
+  rotate: false
+  xy: 276, 1328
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail24
+  rotate: false
+  xy: 276, 1101
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail25
+  rotate: false
+  xy: 276, 874
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail26
+  rotate: false
+  xy: 276, 647
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail27
+  rotate: false
+  xy: 276, 420
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail28
+  rotate: false
+  xy: 276, 193
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail29
+  rotate: false
+  xy: 368, 1337
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail30
+  rotate: false
+  xy: 368, 1110
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail31
+  rotate: false
+  xy: 368, 883
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail32
+  rotate: false
+  xy: 368, 656
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail33
+  rotate: false
+  xy: 368, 429
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail34
+  rotate: false
+  xy: 368, 202
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail35
+  rotate: true
+  xy: 1006, 1408
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail36
+  rotate: false
+  xy: 460, 545
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail37
+  rotate: true
+  xy: 1233, 1408
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail38
+  rotate: false
+  xy: 460, 318
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail39
+  rotate: true
+  xy: 1460, 1408
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail40
+  rotate: true
+  xy: 1006, 1316
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail41
+  rotate: true
+  xy: 1233, 1316
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail42
+  rotate: true
+  xy: 1460, 1316
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail43
+  rotate: false
+  xy: 552, 545
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail44
+  rotate: false
+  xy: 552, 318
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail45
+  rotate: true
+  xy: 971, 1224
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail46
+  rotate: true
+  xy: 1198, 1224
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail47
+  rotate: true
+  xy: 1425, 1224
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail48
+  rotate: true
+  xy: 971, 1132
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail49
+  rotate: true
+  xy: 1198, 1132
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail50
+  rotate: true
+  xy: 1425, 1132
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq EnvelopeTrail/EnvelopeTrail51
+  rotate: true
+  xy: 184, 101
+  size: 90, 225
+  orig: 90, 225
+  offset: 0, 0
+  index: -1
+Seq RibbonShine/Seq_RibbonShine0
+  rotate: false
+  xy: 821, 969
+  size: 147, 59
+  orig: 147, 59
+  offset: 0, 0
+  index: -1
+Seq RibbonShine/Seq_RibbonShine1
+  rotate: true
+  xy: 1652, 1167
+  size: 147, 59
+  orig: 147, 59
+  offset: 0, 0
+  index: -1
+Seq RibbonShine/Seq_RibbonShine2
+  rotate: true
+  xy: 1713, 1203
+  size: 147, 59
+  orig: 147, 59
+  offset: 0, 0
+  index: -1
+Seq RibbonShine/Seq_RibbonShine3
+  rotate: true
+  xy: 1774, 1203
+  size: 147, 59
+  orig: 147, 59
+  offset: 0, 0
+  index: -1
+Seq RibbonShine/Seq_RibbonShine4
+  rotate: true
+  xy: 1835, 1202
+  size: 147, 59
+  orig: 147, 59
+  offset: 0, 0
+  index: -1
+Seq RibbonShine/Seq_RibbonShine5
+  rotate: true
+  xy: 1985, 1641
+  size: 147, 59
+  orig: 147, 59
+  offset: 0, 0
+  index: -1
+Seq RibbonShine/Seq_RibbonShine6
+  rotate: false
+  xy: 1083, 783
+  size: 147, 59
+  orig: 147, 59
+  offset: 0, 0
+  index: -1
+Seq RibbonShine/Seq_RibbonShine7
+  rotate: false
+  xy: 1232, 783
+  size: 147, 59
+  orig: 147, 59
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX02
+  rotate: false
+  xy: 2, 1373
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX03
+  rotate: false
+  xy: 566, 1866
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX04
+  rotate: false
+  xy: 2, 1191
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX05
+  rotate: false
+  xy: 748, 1866
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX06
+  rotate: false
+  xy: 2, 1009
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX07
+  rotate: false
+  xy: 930, 1866
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX08
+  rotate: false
+  xy: 2, 827
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX09
+  rotate: false
+  xy: 1112, 1866
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX10
+  rotate: false
+  xy: 2, 645
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX11
+  rotate: false
+  xy: 1294, 1866
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX12
+  rotate: false
+  xy: 2, 463
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX13
+  rotate: false
+  xy: 1476, 1866
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX14
+  rotate: false
+  xy: 2, 281
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX15
+  rotate: false
+  xy: 1658, 1866
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX16
+  rotate: false
+  xy: 2, 99
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX17
+  rotate: false
+  xy: 1840, 1866
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX18
+  rotate: false
+  xy: 279, 1564
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX19
+  rotate: false
+  xy: 529, 1592
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX20
+  rotate: false
+  xy: 711, 1592
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX21
+  rotate: false
+  xy: 893, 1592
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX22
+  rotate: false
+  xy: 1075, 1592
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX23
+  rotate: false
+  xy: 1257, 1592
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX24
+  rotate: false
+  xy: 1439, 1592
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX25
+  rotate: false
+  xy: 1621, 1592
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX26
+  rotate: false
+  xy: 1803, 1592
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX27
+  rotate: false
+  xy: 460, 1318
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX28
+  rotate: false
+  xy: 460, 1136
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX29
+  rotate: false
+  xy: 642, 1318
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX30
+  rotate: false
+  xy: 460, 954
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX31
+  rotate: false
+  xy: 642, 1136
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX32
+  rotate: false
+  xy: 824, 1318
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Seq ToGoldVFX/ToGoldVFX33
+  rotate: false
+  xy: 460, 772
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Star_Yellow
+  rotate: false
+  xy: 1928, 1790
+  size: 98, 74
+  orig: 98, 74
+  offset: 0, 0
+  index: -1
+Surprise_Ribbon
+  rotate: false
+  xy: 1079, 290
+  size: 147, 59
+  orig: 147, 59
+  offset: 0, 0
+  index: -1
+TransparentPixel
+  rotate: false
+  xy: 821, 1133
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/A_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 642, 838
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/B_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 824, 1174
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/C_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 460, 174
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/D_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 824, 1030
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/E_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 971, 988
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/F_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 1118, 988
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/G_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 1265, 988
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/H_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 1412, 988
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/I_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 1559, 988
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/J_LETTER_REGULAR_YOURS
+  rotate: true
+  xy: 644, 691
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/K_LETTER_REGULAR_YOURS
+  rotate: true
+  xy: 644, 544
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/L_LETTER_REGULAR_YOURS
+  rotate: true
+  xy: 644, 397
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/M_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 644, 253
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/N_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 1901, 1448
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/O_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 1901, 1304
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/P_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 789, 825
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/Q_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 1230, 844
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/R_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 788, 681
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/S_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 788, 537
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/T_LETTER_REGULAR_YOURS
+  rotate: true
+  xy: 791, 284
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/U_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 607, 109
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/V_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 754, 109
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/W_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 936, 825
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/X_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 935, 681
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/Y_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 935, 537
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_REGULAR/Z_LETTER_REGULAR_YOURS
+  rotate: false
+  xy: 1083, 844
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/A_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1377, 844
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/B_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1375, 124
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/C_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1524, 844
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/D_LETTER_WIN_YOURS
+  rotate: true
+  xy: 935, 289
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/E_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1671, 844
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/F_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1896, 1160
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/G_LETTER_WIN_YOURS
+  rotate: false
+  xy: 411, 30
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/H_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1082, 639
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/I_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1082, 495
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/J_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1079, 351
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/K_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1229, 639
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/L_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1229, 495
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/M_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1226, 351
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/N_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1381, 700
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/O_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1528, 700
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/P_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1675, 700
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/Q_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1669, 268
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/R_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1376, 556
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/S_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1523, 556
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/T_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1670, 556
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/U_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1376, 412
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/V_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1523, 412
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/W_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1670, 412
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/X_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1228, 207
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/Y_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1375, 268
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+YOUR_TICKETS_WINNING/Z_LETTER_WIN_YOURS
+  rotate: false
+  xy: 1522, 268
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1

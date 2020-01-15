@@ -1,0 +1,20 @@
+
+Wheel_WinningFrame_WinBulb.png
+size: 64,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+WheelFrame_WinBulb
+  rotate: false
+  xy: 2, 2
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+Wheel_Bulb
+  rotate: false
+  xy: 32, 2
+  size: 26, 27
+  orig: 26, 27
+  offset: 0, 0
+  index: -1

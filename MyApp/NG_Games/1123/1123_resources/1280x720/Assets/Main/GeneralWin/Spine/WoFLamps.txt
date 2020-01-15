@@ -1,0 +1,27 @@
+
+WoFLamps.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+RAY_SPOT_BLUE
+  rotate: false
+  xy: 2, 5
+  size: 517, 140
+  orig: 517, 140
+  offset: 0, 0
+  index: -1
+RAY_SPOT_PURPLE
+  rotate: false
+  xy: 521, 5
+  size: 517, 140
+  orig: 517, 140
+  offset: 0, 0
+  index: -1
+TransparentPixel
+  rotate: false
+  xy: 2, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

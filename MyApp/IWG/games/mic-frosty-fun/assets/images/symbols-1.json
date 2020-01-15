@@ -1,0 +1,128 @@
+{"frames": {
+
+"symbols@2/images/symbolBig00_0009.png":
+{
+	"frame": {"x":219,"y":112,"w":104,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":105},
+	"sourceSize": {"w":104,"h":105}
+},
+"symbols@2/images/symbolBig00_0010.png":
+{
+	"frame": {"x":3,"y":3,"w":104,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":106},
+	"sourceSize": {"w":104,"h":106}
+},
+"symbols@2/images/symbolBig00_0013.png":
+{
+	"frame": {"x":111,"y":331,"w":104,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":105},
+	"sourceSize": {"w":104,"h":105}
+},
+"symbols@2/images/symbolBig00_0014.png":
+{
+	"frame": {"x":3,"y":113,"w":104,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":106},
+	"sourceSize": {"w":104,"h":106}
+},
+"symbols@2/images/symbolBig00_0015.png":
+{
+	"frame": {"x":111,"y":3,"w":105,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":105},
+	"sourceSize": {"w":105,"h":105}
+},
+"symbols@2/images/symbolBig00_0017.png":
+{
+	"frame": {"x":219,"y":331,"w":104,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":105},
+	"sourceSize": {"w":104,"h":105}
+},
+"symbols@2/images/symbolBig00_0018.png":
+{
+	"frame": {"x":3,"y":223,"w":104,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":106},
+	"sourceSize": {"w":104,"h":106}
+},
+"symbols@2/images/symbolBig00_0019.png":
+{
+	"frame": {"x":220,"y":3,"w":105,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":105},
+	"sourceSize": {"w":105,"h":105}
+},
+"symbols@2/images/symbolBig00_0021.png":
+{
+	"frame": {"x":220,"y":221,"w":104,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":105},
+	"sourceSize": {"w":104,"h":105}
+},
+"symbols@2/images/symbolBig00_0022.png":
+{
+	"frame": {"x":3,"y":333,"w":104,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":106},
+	"sourceSize": {"w":104,"h":106}
+},
+"symbols@2/images/symbolBig00_0023.png":
+{
+	"frame": {"x":329,"y":3,"w":105,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":105},
+	"sourceSize": {"w":105,"h":105}
+},
+"symbols@2/images/symbolBig00_0025.png":
+{
+	"frame": {"x":327,"y":112,"w":104,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":105},
+	"sourceSize": {"w":104,"h":105}
+},
+"symbols@2/images/symbolBig00_0026.png":
+{
+	"frame": {"x":111,"y":112,"w":104,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":106},
+	"sourceSize": {"w":104,"h":106}
+},
+"symbols@2/images/symbolBig00_0027.png":
+{
+	"frame": {"x":111,"y":222,"w":105,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":105},
+	"sourceSize": {"w":105,"h":105}
+}},
+"animations": {
+	"symbols@2/images/symbolBig00": ["symbols@2/images/symbolBig00_0009.png","symbols@2/images/symbolBig00_0010.png","symbols@2/images/symbolBig00_0013.png","symbols@2/images/symbolBig00_0014.png","symbols@2/images/symbolBig00_0015.png","symbols@2/images/symbolBig00_0017.png","symbols@2/images/symbolBig00_0018.png","symbols@2/images/symbolBig00_0019.png","symbols@2/images/symbolBig00_0021.png","symbols@2/images/symbolBig00_0022.png","symbols@2/images/symbolBig00_0023.png","symbols@2/images/symbolBig00_0025.png","symbols@2/images/symbolBig00_0026.png","symbols@2/images/symbolBig00_0027.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "symbols-1.png",
+	"format": "RGBA5555",
+	"size": {"w":512,"h":512},
+	"scale": "0.5",
+	"related_multi_packs": [ "symbols-0.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:d39f05fd1283b911c6f0b445a9f92f76:2e7aaaf2384cd8cb84e884fd1435391d:024a444797b012daec734207631bc6f1$"
+}
+}

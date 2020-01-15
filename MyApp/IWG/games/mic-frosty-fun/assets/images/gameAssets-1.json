@@ -1,0 +1,337 @@
+{"frames": {
+
+"arrowLButton.psd":
+{
+	"frame": {"x":1068,"y":592,"w":142,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":4,"w":142,"h":143},
+	"sourceSize": {"w":149,"h":151}
+},
+"arrowRButton.psd":
+{
+	"frame": {"x":1068,"y":739,"w":141,"h":143},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":141,"h":143},
+	"sourceSize": {"w":141,"h":143}
+},
+"bonusLeavesFront.psd":
+{
+	"frame": {"x":1213,"y":841,"w":411,"h":582},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":0,"w":411,"h":582},
+	"sourceSize": {"w":421,"h":582}
+},
+"bonusLeveasBack.psd":
+{
+	"frame": {"x":1628,"y":1091,"w":411,"h":582},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":0,"w":411,"h":582},
+	"sourceSize": {"w":421,"h":582}
+},
+"buttonUi.psd":
+{
+	"frame": {"x":195,"y":1332,"w":83,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":83,"h":86},
+	"sourceSize": {"w":92,"h":94}
+},
+"buttonUiLeft.psd":
+{
+	"frame": {"x":365,"y":1296,"w":83,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":83,"h":86},
+	"sourceSize": {"w":92,"h":94}
+},
+"clouds_big.png":
+{
+	"frame": {"x":208,"y":1230,"w":105,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":93},
+	"sourceSize": {"w":105,"h":93}
+},
+"fog.png":
+{
+	"frame": {"x":1221,"y":3,"w":587,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":587,"h":82},
+	"sourceSize": {"w":587,"h":82}
+},
+"iceBlock_03.psd":
+{
+	"frame": {"x":417,"y":1595,"w":80,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":62,"w":80,"h":75},
+	"sourceSize": {"w":201,"h":222}
+},
+"leafDarkBlur.png":
+{
+	"frame": {"x":3,"y":1427,"w":410,"h":578},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":58,"w":410,"h":578},
+	"sourceSize": {"w":520,"h":693}
+},
+"leafLightBlur.png":
+{
+	"frame": {"x":3,"y":630,"w":406,"h":575},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":49,"y":42,"w":406,"h":575},
+	"sourceSize": {"w":500,"h":695}
+},
+"lights0000.psd":
+{
+	"frame": {"x":1221,"y":239,"w":508,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":211,"y":24,"w":508,"h":143},
+	"sourceSize": {"w":927,"h":196}
+},
+"lights0001.psd":
+{
+	"frame": {"x":1221,"y":89,"w":517,"h":146},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":202,"y":21,"w":517,"h":146},
+	"sourceSize": {"w":927,"h":196}
+},
+"loaderWheel.psd":
+{
+	"frame": {"x":417,"y":1021,"w":109,"h":109},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":13,"w":109,"h":109},
+	"sourceSize": {"w":135,"h":135}
+},
+"minion_armBack01.psd":
+{
+	"frame": {"x":417,"y":1515,"w":91,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":256,"w":91,"h":76},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_armFront01.psd":
+{
+	"frame": {"x":3,"y":1337,"w":104,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":277,"y":288,"w":104,"h":86},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_armFront02.psd":
+{
+	"frame": {"x":111,"y":1332,"w":80,"h":91},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":276,"y":261,"w":80,"h":91},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_eyeRight02.psd":
+{
+	"frame": {"x":282,"y":1327,"w":79,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":214,"y":112,"w":79,"h":93},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_feathers.psd":
+{
+	"frame": {"x":1812,"y":86,"w":178,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":154,"y":88,"w":178,"h":133},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_nose.psd":
+{
+	"frame": {"x":530,"y":1021,"w":91,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":117,"y":147,"w":91,"h":117},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_shadow.psd":
+{
+	"frame": {"x":1812,"y":3,"w":183,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":183,"h":79},
+	"sourceSize": {"w":183,"h":79}
+},
+"minusButton.psd":
+{
+	"frame": {"x":417,"y":1677,"w":82,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":82,"h":84},
+	"sourceSize": {"w":82,"h":84}
+},
+"multiplierHighlight.psd":
+{
+	"frame": {"x":417,"y":1134,"w":108,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":0,"w":108,"h":92},
+	"sourceSize": {"w":158,"h":92}
+},
+"panelFreePlay.psd":
+{
+	"frame": {"x":1667,"y":760,"w":313,"h":327},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":99,"w":313,"h":327},
+	"sourceSize": {"w":370,"h":463}
+},
+"particleWood04.psd":
+{
+	"frame": {"x":317,"y":1209,"w":93,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":16,"w":93,"h":83},
+	"sourceSize": {"w":111,"h":118}
+},
+"plusButton.psd":
+{
+	"frame": {"x":417,"y":1427,"w":82,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":82,"h":84},
+	"sourceSize": {"w":82,"h":84}
+},
+"ringBurst.psd":
+{
+	"frame": {"x":111,"y":1230,"w":93,"h":98},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":93,"h":98},
+	"sourceSize": {"w":93,"h":99}
+},
+"snow.psd":
+{
+	"frame": {"x":1667,"y":605,"w":353,"h":151},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":31,"w":353,"h":151},
+	"sourceSize": {"w":353,"h":184}
+},
+"snowBallFlare.psd":
+{
+	"frame": {"x":1068,"y":886,"w":139,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":139,"h":76},
+	"sourceSize": {"w":139,"h":76}
+},
+"snowflakeParticle.psd":
+{
+	"frame": {"x":1068,"y":966,"w":123,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":47,"w":123,"h":116},
+	"sourceSize": {"w":215,"h":209}
+},
+"snowflakeParticleBlue.psd":
+{
+	"frame": {"x":1068,"y":1086,"w":123,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":47,"w":123,"h":116},
+	"sourceSize": {"w":215,"h":209}
+},
+"ticketCostPannel.psd":
+{
+	"frame": {"x":417,"y":630,"w":168,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":168,"h":149},
+	"sourceSize": {"w":171,"h":149}
+},
+"treasureChestBottom.psd":
+{
+	"frame": {"x":1221,"y":386,"w":442,"h":451},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":157,"y":253,"w":442,"h":451},
+	"sourceSize": {"w":749,"h":890}
+},
+"treasureChestTop.psd":
+{
+	"frame": {"x":1667,"y":476,"w":360,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":197,"y":312,"w":360,"h":125},
+	"sourceSize": {"w":749,"h":890}
+},
+"treasureChestWin.psd":
+{
+	"frame": {"x":626,"y":592,"w":438,"h":518},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":166,"y":173,"w":438,"h":518},
+	"sourceSize": {"w":749,"h":890}
+},
+"wheelFrame.psd":
+{
+	"frame": {"x":626,"y":3,"w":591,"h":585},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":591,"h":585},
+	"sourceSize": {"w":591,"h":588}
+},
+"wheelLights0000.psd":
+{
+	"frame": {"x":3,"y":3,"w":619,"h":623},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":28,"w":619,"h":623},
+	"sourceSize": {"w":677,"h":674}
+},
+"wheelSectionBgDimmBlue.psd":
+{
+	"frame": {"x":417,"y":783,"w":165,"h":234},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":87,"y":16,"w":165,"h":234},
+	"sourceSize": {"w":508,"h":508}
+},
+"wheelSlotLight.psd":
+{
+	"frame": {"x":3,"y":1230,"w":104,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":19,"w":104,"h":103},
+	"sourceSize": {"w":144,"h":141}
+},
+"yellowBurst.psd":
+{
+	"frame": {"x":1742,"y":223,"w":280,"h":249},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":280,"h":249},
+	"sourceSize": {"w":281,"h":251}
+}},
+"animations": {
+	"lights": ["lights0000.psd","lights0001.psd"],
+	"minion_armFront": ["minion_armFront01.psd","minion_armFront02.psd"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "gameAssets-1.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "0.5",
+	"related_multi_packs": [ "gameAssets-0.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:b78a6253b3f2cfb0e4312e89d31bcb35:aaba6743406a90784765b5fd6abe934c:0a2b86a7abc3ca226eaa28a64d5b0d15$"
+}
+}

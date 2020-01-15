@@ -1,0 +1,844 @@
+{"frames": {
+
+"arrowLButtonOver.psd":
+{
+	"frame": {"x":3,"y":891,"w":26,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":33},
+	"sourceSize": {"w":26,"h":33}
+},
+"arrowRButtonOver.psd":
+{
+	"frame": {"x":3,"y":928,"w":26,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":33},
+	"sourceSize": {"w":26,"h":33}
+},
+"backButton.psd":
+{
+	"frame": {"x":1041,"y":1761,"w":51,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":51,"h":45},
+	"sourceSize": {"w":53,"h":47}
+},
+"backButtonOver.psd":
+{
+	"frame": {"x":1096,"y":1761,"w":51,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":51,"h":45},
+	"sourceSize": {"w":53,"h":47}
+},
+"boxValue.psd":
+{
+	"frame": {"x":232,"y":825,"w":374,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":374,"h":268},
+	"sourceSize": {"w":399,"h":268}
+},
+"BtnGlowArchesOverlay.psd":
+{
+	"frame": {"x":1768,"y":1815,"w":188,"h":181},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":117,"y":133,"w":188,"h":181},
+	"sourceSize": {"w":432,"h":432}
+},
+"circleGradient.png":
+{
+	"frame": {"x":867,"y":1000,"w":56,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":6,"w":56,"h":56},
+	"sourceSize": {"w":70,"h":70}
+},
+"cogButton.psd":
+{
+	"frame": {"x":867,"y":1060,"w":53,"h":50},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":53,"h":50},
+	"sourceSize": {"w":55,"h":52}
+},
+"cogButtonOver.psd":
+{
+	"frame": {"x":1980,"y":1370,"w":53,"h":50},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":53,"h":50},
+	"sourceSize": {"w":55,"h":52}
+},
+"darkBlueLeaf.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":304,"h":223}
+},
+"frame.psd":
+{
+	"frame": {"x":3,"y":3,"w":928,"h":818},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":13,"w":928,"h":818},
+	"sourceSize": {"w":957,"h":850}
+},
+"frameDragons.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":641,"h":197}
+},
+"framePlantTop.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":91,"h":77}
+},
+"freePlayPanelLeaves.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":276,"h":126}
+},
+"homeButton .psd":
+{
+	"frame": {"x":1998,"y":1128,"w":47,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":47,"h":49},
+	"sourceSize": {"w":50,"h":51}
+},
+"homeButtonOver.psd":
+{
+	"frame": {"x":1998,"y":1181,"w":47,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":47,"h":49},
+	"sourceSize": {"w":50,"h":51}
+},
+"iceBlock_01.psd":
+{
+	"frame": {"x":1980,"y":1234,"w":63,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":108,"y":39,"w":63,"h":62},
+	"sourceSize": {"w":201,"h":222}
+},
+"iceBlock_02.psd":
+{
+	"frame": {"x":747,"y":1761,"w":86,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":39,"w":86,"h":54},
+	"sourceSize": {"w":201,"h":222}
+},
+"iceBlock_04.psd":
+{
+	"frame": {"x":1960,"y":1881,"w":84,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":111,"w":84,"h":71},
+	"sourceSize": {"w":201,"h":222}
+},
+"iceBlock_05.psd":
+{
+	"frame": {"x":1960,"y":1956,"w":81,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":90,"y":93,"w":81,"h":89},
+	"sourceSize": {"w":201,"h":222}
+},
+"infoButton.psd":
+{
+	"frame": {"x":2004,"y":867,"w":38,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":38,"h":53},
+	"sourceSize": {"w":40,"h":55}
+},
+"infoButtonOver.psd":
+{
+	"frame": {"x":2004,"y":924,"w":38,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":38,"h":53},
+	"sourceSize": {"w":40,"h":55}
+},
+"lightBlueLeaf.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":199,"h":279}
+},
+"loaderWheelGlow.psd":
+{
+	"frame": {"x":1968,"y":1530,"w":76,"h":33},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":5,"w":76,"h":33},
+	"sourceSize": {"w":135,"h":135}
+},
+"minion_armBack02.psd":
+{
+	"frame": {"x":1238,"y":1761,"w":72,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":240,"w":72,"h":90},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_armBackFlipped01.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_armBackFlipped02.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_armFrontFlipped01.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_armFrontFlipped02.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_body.psd":
+{
+	"frame": {"x":1809,"y":3,"w":224,"h":317},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":100,"y":134,"w":224,"h":317},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_bodyFlipped.psd":
+{
+	"frame": {"x":1809,"y":324,"w":223,"h":317},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":134,"w":223,"h":317},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_eyeBrowBack01.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_eyeBrowBack02.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_eyeBrowFront01.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_eyeBrowFront02.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_eyeLeft01.psd":
+{
+	"frame": {"x":1780,"y":364,"w":24,"h":26},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":170,"y":156,"w":24,"h":26},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_eyeLeft02.psd":
+{
+	"frame": {"x":232,"y":1100,"w":27,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":167,"y":156,"w":27,"h":23},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_eyeRight01.psd":
+{
+	"frame": {"x":3,"y":858,"w":27,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":219,"y":180,"w":27,"h":29},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_mouth01.psd":
+{
+	"frame": {"x":1151,"y":1761,"w":78,"h":36},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":141,"y":227,"w":78,"h":36},
+	"sourceSize": {"w":459,"h":498}
+},
+"minion_mouth02.psd":
+{
+	"frame": {"x":837,"y":1761,"w":88,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":137,"y":216,"w":88,"h":47},
+	"sourceSize": {"w":459,"h":498}
+},
+"minusButtonOver.psd":
+{
+	"frame": {"x":788,"y":1913,"w":44,"h":34},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":44,"h":34},
+	"sourceSize": {"w":46,"h":38}
+},
+"multiplierArrow.psd":
+{
+	"frame": {"x":3,"y":1100,"w":29,"h":24},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":6,"w":29,"h":24},
+	"sourceSize": {"w":34,"h":34}
+},
+"particleBlue.psd":
+{
+	"frame": {"x":3,"y":965,"w":26,"h":26},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":26,"h":26},
+	"sourceSize": {"w":32,"h":32}
+},
+"particleDash.psd":
+{
+	"frame": {"x":263,"y":1097,"w":78,"h":14},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":36,"w":78,"h":14},
+	"sourceSize": {"w":87,"h":87}
+},
+"particleDashVert.psd":
+{
+	"frame": {"x":2036,"y":324,"w":9,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":4,"w":9,"h":78},
+	"sourceSize": {"w":87,"h":87}
+},
+"particleFrame01.png":
+{
+	"frame": {"x":2037,"y":3,"w":8,"h":6},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":8,"h":6},
+	"sourceSize": {"w":12,"h":11}
+},
+"particleFrame02.png":
+{
+	"frame": {"x":1780,"y":421,"w":12,"h":11},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":11},
+	"sourceSize": {"w":12,"h":11}
+},
+"particleFrame03.png":
+{
+	"frame": {"x":1795,"y":450,"w":10,"h":8},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":10,"h":8},
+	"sourceSize": {"w":12,"h":11}
+},
+"particleFrame04.png":
+{
+	"frame": {"x":1780,"y":436,"w":12,"h":10},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":12,"h":10},
+	"sourceSize": {"w":12,"h":11}
+},
+"particleFrame05.png":
+{
+	"frame": {"x":1780,"y":450,"w":11,"h":8},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":11,"h":8},
+	"sourceSize": {"w":12,"h":11}
+},
+"particleGlitter.psd":
+{
+	"frame": {"x":788,"y":2001,"w":42,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":42,"h":42},
+	"sourceSize": {"w":44,"h":44}
+},
+"particleStar.psd":
+{
+	"frame": {"x":1968,"y":1567,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":6,"w":75,"h":75},
+	"sourceSize": {"w":87,"h":87}
+},
+"particleWhite.psd":
+{
+	"frame": {"x":3,"y":995,"w":26,"h":26},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":26,"h":26},
+	"sourceSize": {"w":32,"h":32}
+},
+"particleWood01.psd":
+{
+	"frame": {"x":1780,"y":394,"w":20,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":30,"w":20,"h":23},
+	"sourceSize": {"w":69,"h":79}
+},
+"particleWood02.psd":
+{
+	"frame": {"x":1980,"y":1300,"w":55,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":5,"w":55,"h":66},
+	"sourceSize": {"w":64,"h":74}
+},
+"particleWood03.psd":
+{
+	"frame": {"x":2004,"y":981,"w":36,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":53},
+	"sourceSize": {"w":36,"h":53}
+},
+"particleWood05.psd":
+{
+	"frame": {"x":2004,"y":1038,"w":35,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":8,"w":35,"h":53},
+	"sourceSize": {"w":45,"h":69}
+},
+"particleYellow.psd":
+{
+	"frame": {"x":3,"y":1025,"w":26,"h":26},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":26,"h":26},
+	"sourceSize": {"w":32,"h":32}
+},
+"payTablePanel.psd":
+{
+	"frame": {"x":935,"y":335,"w":841,"h":617},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":841,"h":617},
+	"sourceSize": {"w":841,"h":617}
+},
+"playButton.psd":
+{
+	"frame": {"x":1780,"y":867,"w":220,"h":229},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":42,"w":220,"h":229},
+	"sourceSize": {"w":237,"h":305}
+},
+"plusButtonOver.psd":
+{
+	"frame": {"x":788,"y":1951,"w":42,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":42,"h":46},
+	"sourceSize": {"w":45,"h":49}
+},
+"prizeMultiplierPannel.psd":
+{
+	"frame": {"x":1007,"y":956,"w":288,"h":148},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":288,"h":148},
+	"sourceSize": {"w":288,"h":149}
+},
+"reelLight.png":
+{
+	"frame": {"x":1780,"y":645,"w":241,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":241,"h":218},
+	"sourceSize": {"w":241,"h":218}
+},
+"ribbon.psd":
+{
+	"frame": {"x":1318,"y":956,"w":458,"h":312},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":153,"y":359,"w":458,"h":312},
+	"sourceSize": {"w":749,"h":890}
+},
+"settingsButton.psd":
+{
+	"frame": {"x":788,"y":1819,"w":44,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":44,"h":43},
+	"sourceSize": {"w":46,"h":45}
+},
+"settingsButtonOver.psd":
+{
+	"frame": {"x":788,"y":1866,"w":44,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":44,"h":43},
+	"sourceSize": {"w":46,"h":45}
+},
+"smallPlantTop.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":234,"h":223}
+},
+"snowChunk_01.psd":
+{
+	"frame": {"x":1866,"y":2000,"w":50,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":66,"y":52,"w":50,"h":41},
+	"sourceSize": {"w":174,"h":145}
+},
+"snowChunk_02.psd":
+{
+	"frame": {"x":1768,"y":2000,"w":94,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":40,"y":51,"w":94,"h":43},
+	"sourceSize": {"w":174,"h":145}
+},
+"snowChunk_03.psd":
+{
+	"frame": {"x":690,"y":1761,"w":53,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":49,"y":39,"w":53,"h":55},
+	"sourceSize": {"w":174,"h":145}
+},
+"snowfall_01.psd":
+{
+	"frame": {"x":810,"y":825,"w":117,"h":171},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":117,"h":171},
+	"sourceSize": {"w":117,"h":171}
+},
+"snowfall_02.psd":
+{
+	"frame": {"x":1968,"y":1646,"w":66,"h":231},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":13,"w":66,"h":231},
+	"sourceSize": {"w":117,"h":267}
+},
+"snowfall_03.psd":
+{
+	"frame": {"x":810,"y":1000,"w":53,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":73,"w":53,"h":122},
+	"sourceSize": {"w":117,"h":267}
+},
+"soundOff.psd":
+{
+	"frame": {"x":929,"y":1761,"w":52,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":52,"h":47},
+	"sourceSize": {"w":53,"h":49}
+},
+"soundOffOver.psd":
+{
+	"frame": {"x":985,"y":1761,"w":52,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":52,"h":47},
+	"sourceSize": {"w":53,"h":49}
+},
+"soundOn.psd":
+{
+	"frame": {"x":1980,"y":1424,"w":52,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":52,"h":49},
+	"sourceSize": {"w":53,"h":51}
+},
+"soundOnOver.psd":
+{
+	"frame": {"x":1980,"y":1477,"w":52,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":52,"h":49},
+	"sourceSize": {"w":53,"h":51}
+},
+"spinButtonLights.psd":
+{
+	"frame": {"x":591,"y":1820,"w":193,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":54,"w":193,"h":192},
+	"sourceSize": {"w":230,"h":264}
+},
+"spinButtonWave.psd":
+{
+	"frame": {"x":931,"y":956,"w":72,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":133,"y":66,"w":72,"h":163},
+	"sourceSize": {"w":230,"h":264}
+},
+"splashScreen_chest.psd":
+{
+	"frame": {"x":837,"y":1815,"w":397,"h":228},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":54,"w":397,"h":228},
+	"sourceSize": {"w":426,"h":282}
+},
+"star.psd":
+{
+	"frame": {"x":1780,"y":335,"w":25,"h":25},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":25,"h":25},
+	"sourceSize": {"w":29,"h":29}
+},
+"star0000.psd":
+{
+	"frame": {"x":2004,"y":1095,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29}
+},
+"star0001.psd":
+{
+	"frame": {"x":3,"y":825,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29}
+},
+"TopLights0000.psd":
+{
+	"frame": {"x":377,"y":1820,"w":210,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":46,"w":210,"h":216},
+	"sourceSize": {"w":249,"h":296}
+},
+"TopLights0001.psd":
+{
+	"frame": {"x":160,"y":1820,"w":213,"h":217},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":45,"w":213,"h":217},
+	"sourceSize": {"w":249,"h":296}
+},
+"treasureChestBottomMasked.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":749,"h":890}
+},
+"treasureChestTopOpen.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":749,"h":890}
+},
+"treasureChestWinMasked.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":749,"h":890}
+},
+"treasureInactive.psd":
+{
+	"frame": {"x":1318,"y":1561,"w":446,"h":451},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":153,"y":253,"w":446,"h":451},
+	"sourceSize": {"w":749,"h":890}
+},
+"uiButtonsMask.png":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":89,"h":29}
+},
+"wheelLights0001.psd":
+{
+	"frame": {"x":690,"y":1128,"w":624,"h":629},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":25,"w":624,"h":629},
+	"sourceSize": {"w":677,"h":674}
+},
+"wheelSectionBgDimmYellow.psd":
+{
+	"frame": {"x":3,"y":1820,"w":153,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":99,"y":28,"w":153,"h":222},
+	"sourceSize": {"w":508,"h":508}
+},
+"wheelSectionBlue.psd":
+{
+	"frame": {"x":1772,"y":1516,"w":192,"h":295},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":246,"y":121,"w":192,"h":295},
+	"sourceSize": {"w":672,"h":672}
+},
+"wheelSectionBlueLight.psd":
+{
+	"frame": {"x":36,"y":825,"w":192,"h":298},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":246,"y":121,"w":192,"h":298},
+	"sourceSize": {"w":672,"h":672}
+},
+"wheelSectionPink.psd":
+{
+	"frame": {"x":610,"y":825,"w":196,"h":295},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":244,"y":121,"w":196,"h":295},
+	"sourceSize": {"w":672,"h":672}
+},
+"wheelSectionPinkLight.psd":
+{
+	"frame": {"x":1780,"y":1217,"w":196,"h":295},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":244,"y":121,"w":196,"h":295},
+	"sourceSize": {"w":672,"h":672}
+},
+"win01Shadow.png":
+{
+	"frame": {"x":1318,"y":1272,"w":450,"h":285},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":450,"h":285},
+	"sourceSize": {"w":450,"h":285}
+},
+"winningHighlight.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":1237,"h":730}
+},
+"winningPannel.psd":
+{
+	"frame": {"x":2037,"y":13,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":870,"h":424}
+},
+"winningPannelHighlight.psd":
+{
+	"frame": {"x":935,"y":3,"w":870,"h":328},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":74,"w":870,"h":328},
+	"sourceSize": {"w":870,"h":424}
+},
+"winRays.png":
+{
+	"frame": {"x":3,"y":1128,"w":683,"h":688},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":0,"w":683,"h":688},
+	"sourceSize": {"w":702,"h":697}
+},
+"winUpToPanel.psd":
+{
+	"frame": {"x":1780,"y":1100,"w":214,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":214,"h":113},
+	"sourceSize": {"w":215,"h":115}
+}},
+"animations": {
+	"TopLights": ["TopLights0000.psd","TopLights0001.psd"],
+	"iceBlock": ["iceBlock_01.psd","iceBlock_02.psd","iceBlock_04.psd","iceBlock_05.psd"],
+	"minion_armBackFlipped": ["minion_armBackFlipped01.psd","minion_armBackFlipped02.psd"],
+	"minion_armFrontFlipped": ["minion_armFrontFlipped01.psd","minion_armFrontFlipped02.psd"],
+	"minion_eyeBrowBack": ["minion_eyeBrowBack01.psd","minion_eyeBrowBack02.psd"],
+	"minion_eyeBrowFront": ["minion_eyeBrowFront01.psd","minion_eyeBrowFront02.psd"],
+	"minion_eyeLeft": ["minion_eyeLeft01.psd","minion_eyeLeft02.psd"],
+	"minion_mouth": ["minion_mouth01.psd","minion_mouth02.psd"],
+	"particleFrame": ["particleFrame01.png","particleFrame02.png","particleFrame03.png","particleFrame04.png","particleFrame05.png"],
+	"particleWood": ["particleWood01.psd","particleWood02.psd","particleWood03.psd","particleWood05.psd"],
+	"snowChunk": ["snowChunk_01.psd","snowChunk_02.psd","snowChunk_03.psd"],
+	"snowfall": ["snowfall_01.psd","snowfall_02.psd","snowfall_03.psd"],
+	"star": ["star0000.psd","star0001.psd"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "gameAssets-0.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "0.5",
+	"related_multi_packs": [ "gameAssets-1.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:b78a6253b3f2cfb0e4312e89d31bcb35:aaba6743406a90784765b5fd6abe934c:0a2b86a7abc3ca226eaa28a64d5b0d15$"
+}
+}

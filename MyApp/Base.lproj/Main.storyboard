@@ -35,6 +35,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter game id" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZH8-4P-Jd7">
+                                <rect key="frame" x="16" y="112" width="106" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfI-Bw-LWk">
                                 <rect key="frame" x="23" y="38" width="142" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -44,38 +51,30 @@
                                     <action selector="clearCache:" destination="CgX-0i-bbQ" eventType="touchUpInside" id="9aO-2d-qiq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hy7-Yf-s6g">
-                                <rect key="frame" x="23" y="121" width="179" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Queen of Diamond Money"/>
-                                <connections>
-                                    <action selector="openQODMoney:" destination="CgX-0i-bbQ" eventType="touchUpInside" id="S3p-3o-Yo9"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7t-sl-Vw8">
-                                <rect key="frame" x="23" y="318" width="187" height="30"/>
+                                <rect key="frame" x="247" y="108" width="47" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Wild Time Money"/>
+                                <state key="normal" title="Money"/>
                                 <connections>
-                                    <action selector="openWildTimeMoney:" destination="CgX-0i-bbQ" eventType="touchUpInside" id="B2O-zw-cf6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esG-i1-Aql">
-                                <rect key="frame" x="16" y="192" width="126" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Queen Demo"/>
-                                <connections>
-                                    <action selector="openQODDemo:" destination="CgX-0i-bbQ" eventType="touchUpInside" id="veJ-UI-Wc5"/>
+                                    <action selector="openGameMoneyMode:" destination="CgX-0i-bbQ" eventType="touchUpInside" id="vrj-AU-wEQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdj-fH-0gA">
-                                <rect key="frame" x="56" y="356" width="114" height="30"/>
+                                <rect key="frame" x="314" y="108" width="45" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Wild Time Demo"/>
+                                <state key="normal" title=" Demo"/>
                                 <connections>
-                                    <action selector="openWildTimeDemo:" destination="CgX-0i-bbQ" eventType="touchUpInside" id="Qld-kC-KAK"/>
+                                    <action selector="openGameDemoMode:" destination="CgX-0i-bbQ" eventType="touchUpInside" id="20J-7i-6qA"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aIn-Lf-bHA">
+                                <rect key="frame" x="139" y="109" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" hint="Enter Game ID"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="gMb-GR-M2z"/>
@@ -83,6 +82,7 @@
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="gameIDTF" destination="aIn-Lf-bHA" id="chl-89-0Fl"/>
                         <segue destination="BYZ-38-t0r" kind="showDetail" identifier="WebViewController" id="xfG-aT-tHK"/>
                     </connections>
                 </viewController>

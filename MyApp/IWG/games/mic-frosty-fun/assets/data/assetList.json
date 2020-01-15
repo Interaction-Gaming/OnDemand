@@ -1,0 +1,513 @@
+{
+  "css": [],
+  "fontFamilies": [],
+  "fontCSSDefinitions": [],
+  "images": [
+    {
+      "id": "animationsData",
+      "src": "assets/images/animations.json"
+    },
+    {
+      "id": "animations",
+      "src": "assets/images/animations.png"
+    },
+    {
+      "id": "background",
+      "src": "assets/images/background.jpg"
+    },
+    {
+      "id": "backgroundBonus",
+      "src": "assets/images/backgroundBonus.jpg"
+    },
+    {
+      "id": "backgroundNight",
+      "src": "assets/images/backgroundNight.png"
+    },
+    {
+      "id": "bigWinAmount-export",
+      "src": "assets/images/bigWinAmount-export.png"
+    },
+    {
+      "id": "bigWinAmount-exportData",
+      "src": "assets/images/bigWinAmount-export.xml"
+    },
+    {
+      "id": "duality_blue-export",
+      "src": "assets/images/duality_blue-export.png"
+    },
+    {
+      "id": "duality_blue-exportData",
+      "src": "assets/images/duality_blue-export.xml"
+    },
+    {
+      "id": "duality_brown-export",
+      "src": "assets/images/duality_brown-export.png"
+    },
+    {
+      "id": "duality_brown-exportData",
+      "src": "assets/images/duality_brown-export.xml"
+    },
+    {
+      "id": "duality_orange-export",
+      "src": "assets/images/duality_orange-export.png"
+    },
+    {
+      "id": "duality_orange-exportData",
+      "src": "assets/images/duality_orange-export.xml"
+    },
+    {
+      "id": "explosions-0Data",
+      "src": "assets/images/explosions-0.json"
+    },
+    {
+      "id": "explosions-0",
+      "src": "assets/images/explosions-0.png"
+    },
+    {
+      "id": "foregroundBonus",
+      "src": "assets/images/foregroundBonus.png"
+    },
+    {
+      "id": "foregroundMain",
+      "src": "assets/images/foregroundMain.png"
+    },
+    {
+      "id": "gameAssets-0Data",
+      "src": "assets/images/gameAssets-0.json"
+    },
+    {
+      "id": "gameAssets-0",
+      "src": "assets/images/gameAssets-0.png"
+    },
+    {
+      "id": "gameAssets-1Data",
+      "src": "assets/images/gameAssets-1.json"
+    },
+    {
+      "id": "gameAssets-1",
+      "src": "assets/images/gameAssets-1.png"
+    },
+    {
+      "id": "languageData",
+      "src": "assets/images/language.json"
+    },
+    {
+      "id": "language",
+      "src": "assets/images/language.png"
+    },
+    {
+      "id": "loader-wheel",
+      "src": "assets/images/loader-wheel.png"
+    },
+    {
+      "id": "splashScreen",
+      "src": "assets/images/splashScreen.jpg"
+    },
+    {
+      "id": "symbols-0Data",
+      "src": "assets/images/symbols-0.json"
+    },
+    {
+      "id": "symbols-0",
+      "src": "assets/images/symbols-0.png"
+    },
+    {
+      "id": "symbols-1Data",
+      "src": "assets/images/symbols-1.json"
+    },
+    {
+      "id": "symbols-1",
+      "src": "assets/images/symbols-1.png"
+    },
+    {
+      "id": "symbols2x2-0Data",
+      "src": "assets/images/symbols2x2-0.json"
+    },
+    {
+      "id": "symbols2x2-0",
+      "src": "assets/images/symbols2x2-0.png"
+    },
+    {
+      "id": "symbolsBig-0Data",
+      "src": "assets/images/symbolsBig-0.json"
+    },
+    {
+      "id": "symbolsBig-0",
+      "src": "assets/images/symbolsBig-0.png"
+    },
+    {
+      "id": "touch-icon",
+      "src": "assets/images/touch-icon.png"
+    }
+  ],
+  "sounds": [
+    {
+      "id": "JB_Mu_BaseMusic_High",
+      "src": "assets/audio/JB_Mu_BaseMusic_High.mp3"
+    },
+    {
+      "id": "JB_Mu_BaseMusic_Low",
+      "src": "assets/audio/JB_Mu_BaseMusic_Low.mp3"
+    },
+    {
+      "id": "JB_Mu_BaseMusic_Med",
+      "src": "assets/audio/JB_Mu_BaseMusic_Med.mp3"
+    },
+    {
+      "id": "JB_Mu_BaseMusic_WheelBonus",
+      "src": "assets/audio/JB_Mu_BaseMusic_WheelBonus.mp3"
+    },
+    {
+      "id": "JB_SFX_Ambience",
+      "src": "assets/audio/JB_SFX_Ambience.mp3"
+    },
+    {
+      "id": "JB_SFX_BlockLand_01",
+      "src": "assets/audio/JB_SFX_BlockLand_01.mp3"
+    },
+    {
+      "id": "JB_SFX_BlockLand_02",
+      "src": "assets/audio/JB_SFX_BlockLand_02.mp3"
+    },
+    {
+      "id": "JB_SFX_BlockLand_03",
+      "src": "assets/audio/JB_SFX_BlockLand_03.mp3"
+    },
+    {
+      "id": "JB_SFX_BlockLand_04",
+      "src": "assets/audio/JB_SFX_BlockLand_04.mp3"
+    },
+    {
+      "id": "JB_SFX_BlockLand_05",
+      "src": "assets/audio/JB_SFX_BlockLand_05.mp3"
+    },
+    {
+      "id": "JB_SFX_BlockLand_06",
+      "src": "assets/audio/JB_SFX_BlockLand_06.mp3"
+    },
+    {
+      "id": "JB_SFX_BlockLand_07",
+      "src": "assets/audio/JB_SFX_BlockLand_07.mp3"
+    },
+    {
+      "id": "JB_SFX_BlockLand_08",
+      "src": "assets/audio/JB_SFX_BlockLand_08.mp3"
+    },
+    {
+      "id": "JB_SFX_BlockLand_09",
+      "src": "assets/audio/JB_SFX_BlockLand_09.mp3"
+    },
+    {
+      "id": "JB_SFX_BlockLand_10",
+      "src": "assets/audio/JB_SFX_BlockLand_10.mp3"
+    },
+    {
+      "id": "JB_SFX_BlockLand_11",
+      "src": "assets/audio/JB_SFX_BlockLand_11.mp3"
+    },
+    {
+      "id": "JB_SFX_BlocksExplode_01",
+      "src": "assets/audio/JB_SFX_BlocksExplode_01.mp3"
+    },
+    {
+      "id": "JB_SFX_BlocksExplode_02",
+      "src": "assets/audio/JB_SFX_BlocksExplode_02.mp3"
+    },
+    {
+      "id": "JB_SFX_BlocksExplode_03",
+      "src": "assets/audio/JB_SFX_BlocksExplode_03.mp3"
+    },
+    {
+      "id": "JB_SFX_BlocksFallIn",
+      "src": "assets/audio/JB_SFX_BlocksFallIn.mp3"
+    },
+    {
+      "id": "JB_SFX_BlocksFallOut",
+      "src": "assets/audio/JB_SFX_BlocksFallOut.mp3"
+    },
+    {
+      "id": "JB_SFX_BonusAdvance",
+      "src": "assets/audio/JB_SFX_BonusAdvance.mp3"
+    },
+    {
+      "id": "JB_SFX_BonusAdvanceAchieved",
+      "src": "assets/audio/JB_SFX_BonusAdvanceAchieved.mp3"
+    },
+    {
+      "id": "JB_SFX_BonusCollectAchieved",
+      "src": "assets/audio/JB_SFX_BonusCollectAchieved.mp3"
+    },
+    {
+      "id": "JB_SFX_BonusLands_01",
+      "src": "assets/audio/JB_SFX_BonusLands_01.mp3"
+    },
+    {
+      "id": "JB_SFX_BonusLands_02",
+      "src": "assets/audio/JB_SFX_BonusLands_02.mp3"
+    },
+    {
+      "id": "JB_SFX_BonusLands_03",
+      "src": "assets/audio/JB_SFX_BonusLands_03.mp3"
+    },
+    {
+      "id": "JB_SFX_BonusSpin",
+      "src": "assets/audio/JB_SFX_BonusSpin.mp3"
+    },
+    {
+      "id": "JB_SFX_BonusUnlock",
+      "src": "assets/audio/JB_SFX_BonusUnlock.mp3"
+    },
+    {
+      "id": "JB_SFX_ChestBonusUnlock",
+      "src": "assets/audio/JB_SFX_ChestBonusUnlock.mp3"
+    },
+    {
+      "id": "JB_SFX_ChestCloses",
+      "src": "assets/audio/JB_SFX_ChestCloses.mp3"
+    },
+    {
+      "id": "JB_SFX_ChestLands_01",
+      "src": "assets/audio/JB_SFX_ChestLands_01.mp3"
+    },
+    {
+      "id": "JB_SFX_ChestLands_02",
+      "src": "assets/audio/JB_SFX_ChestLands_02.mp3"
+    },
+    {
+      "id": "JB_SFX_ChestLands_03",
+      "src": "assets/audio/JB_SFX_ChestLands_03.mp3"
+    },
+    {
+      "id": "JB_SFX_ChestsHover_01",
+      "src": "assets/audio/JB_SFX_ChestsHover_01.mp3"
+    },
+    {
+      "id": "JB_SFX_ChestsHover_02",
+      "src": "assets/audio/JB_SFX_ChestsHover_02.mp3"
+    },
+    {
+      "id": "JB_SFX_ChestsHover_03",
+      "src": "assets/audio/JB_SFX_ChestsHover_03.mp3"
+    },
+    {
+      "id": "JB_SFX_ChestsZoomIn",
+      "src": "assets/audio/JB_SFX_ChestsZoomIn.mp3"
+    },
+    {
+      "id": "JB_SFX_ChestsZoomOut",
+      "src": "assets/audio/JB_SFX_ChestsZoomOut.mp3"
+    },
+    {
+      "id": "JB_SFX_CoinslotDown",
+      "src": "assets/audio/JB_SFX_CoinslotDown.mp3"
+    },
+    {
+      "id": "JB_SFX_CoinslotUp",
+      "src": "assets/audio/JB_SFX_CoinslotUp.mp3"
+    },
+    {
+      "id": "JB_SFX_CounterAppears",
+      "src": "assets/audio/JB_SFX_CounterAppears.mp3"
+    },
+    {
+      "id": "JB_SFX_CounterTicker",
+      "src": "assets/audio/JB_SFX_CounterTicker.mp3"
+    },
+    {
+      "id": "JB_SFX_CritterFlame",
+      "src": "assets/audio/JB_SFX_CritterFlame.mp3"
+    },
+    {
+      "id": "JB_SFX_CritterHopsIn",
+      "src": "assets/audio/JB_SFX_CritterHopsIn.mp3"
+    },
+    {
+      "id": "JB_SFX_CritterVoice_01",
+      "src": "assets/audio/JB_SFX_CritterVoice_01.mp3"
+    },
+    {
+      "id": "JB_SFX_CritterVoice_02",
+      "src": "assets/audio/JB_SFX_CritterVoice_02.mp3"
+    },
+    {
+      "id": "JB_SFX_CritterVoice_03",
+      "src": "assets/audio/JB_SFX_CritterVoice_03.mp3"
+    },
+    {
+      "id": "JB_SFX_CritterVoice_04",
+      "src": "assets/audio/JB_SFX_CritterVoice_04.mp3"
+    },
+    {
+      "id": "JB_SFX_CritterVoice_05",
+      "src": "assets/audio/JB_SFX_CritterVoice_05.mp3"
+    },
+    {
+      "id": "JB_SFX_CritterVoice_06",
+      "src": "assets/audio/JB_SFX_CritterVoice_06.mp3"
+    },
+    {
+      "id": "JB_SFX_CritterVoice_07",
+      "src": "assets/audio/JB_SFX_CritterVoice_07.mp3"
+    },
+    {
+      "id": "JB_SFX_FreePlayCounter",
+      "src": "assets/audio/JB_SFX_FreePlayCounter.mp3"
+    },
+    {
+      "id": "JB_SFX_FreePlayCounterIn",
+      "src": "assets/audio/JB_SFX_FreePlayCounterIn.mp3"
+    },
+    {
+      "id": "JB_SFX_FreePlayCounterOut",
+      "src": "assets/audio/JB_SFX_FreePlayCounterOut.mp3"
+    },
+    {
+      "id": "JB_SFX_FreePlayStarts",
+      "src": "assets/audio/JB_SFX_FreePlayStarts.mp3"
+    },
+    {
+      "id": "JB_SFX_FreePlayUnlocked",
+      "src": "assets/audio/JB_SFX_FreePlayUnlocked.mp3"
+    },
+    {
+      "id": "JB_SFX_FreeSpinLands_01",
+      "src": "assets/audio/JB_SFX_FreeSpinLands_01.mp3"
+    },
+    {
+      "id": "JB_SFX_FreeSpinLands_02",
+      "src": "assets/audio/JB_SFX_FreeSpinLands_02.mp3"
+    },
+    {
+      "id": "JB_SFX_FreeSpinLands_03",
+      "src": "assets/audio/JB_SFX_FreeSpinLands_03.mp3"
+    },
+    {
+      "id": "JB_SFX_GorillaBlocks",
+      "src": "assets/audio/JB_SFX_GorillaBlocks.mp3"
+    },
+    {
+      "id": "JB_SFX_Hover",
+      "src": "assets/audio/JB_SFX_Hover.mp3"
+    },
+    {
+      "id": "JB_SFX_LargeBlockHighlight",
+      "src": "assets/audio/JB_SFX_LargeBlockHighlight.mp3"
+    },
+    {
+      "id": "JB_SFX_LargeBlockLand_01",
+      "src": "assets/audio/JB_SFX_LargeBlockLand_01.mp3"
+    },
+    {
+      "id": "JB_SFX_LargeBlockLand_02",
+      "src": "assets/audio/JB_SFX_LargeBlockLand_02.mp3"
+    },
+    {
+      "id": "JB_SFX_LargeBlockLand_03",
+      "src": "assets/audio/JB_SFX_LargeBlockLand_03.mp3"
+    },
+    {
+      "id": "JB_SFX_LouderAmbience",
+      "src": "assets/audio/JB_SFX_LouderAmbience.mp3"
+    },
+    {
+      "id": "JB_SFX_Multiplier_01",
+      "src": "assets/audio/JB_SFX_Multiplier_01.mp3"
+    },
+    {
+      "id": "JB_SFX_Multiplier_02",
+      "src": "assets/audio/JB_SFX_Multiplier_02.mp3"
+    },
+    {
+      "id": "JB_SFX_Multiplier_03",
+      "src": "assets/audio/JB_SFX_Multiplier_03.mp3"
+    },
+    {
+      "id": "JB_SFX_Multiplier_04",
+      "src": "assets/audio/JB_SFX_Multiplier_04.mp3"
+    },
+    {
+      "id": "JB_SFX_Multiplier_05",
+      "src": "assets/audio/JB_SFX_Multiplier_05.mp3"
+    },
+    {
+      "id": "JB_SFX_OpenChest",
+      "src": "assets/audio/JB_SFX_OpenChest.mp3"
+    },
+    {
+      "id": "JB_SFX_PlayButton",
+      "src": "assets/audio/JB_SFX_PlayButton.mp3"
+    },
+    {
+      "id": "JB_SFX_PopupClose",
+      "src": "assets/audio/JB_SFX_PopupClose.mp3"
+    },
+    {
+      "id": "JB_SFX_PopupOpen",
+      "src": "assets/audio/JB_SFX_PopupOpen.mp3"
+    },
+    {
+      "id": "JB_SFX_Select",
+      "src": "assets/audio/JB_SFX_Select.mp3"
+    },
+    {
+      "id": "JB_SFX_SmallBlockHighlight",
+      "src": "assets/audio/JB_SFX_SmallBlockHighlight.mp3"
+    },
+    {
+      "id": "JB_SFX_TigerBlocks",
+      "src": "assets/audio/JB_SFX_TigerBlocks.mp3"
+    },
+    {
+      "id": "JB_SFX_VinesWrapChest",
+      "src": "assets/audio/JB_SFX_VinesWrapChest.mp3"
+    },
+    {
+      "id": "JB_SFX_WinLarge",
+      "src": "assets/audio/JB_SFX_WinLarge.mp3"
+    },
+    {
+      "id": "JB_SFX_WinMedium",
+      "src": "assets/audio/JB_SFX_WinMedium.mp3"
+    },
+    {
+      "id": "JB_SFX_WinRoundOver",
+      "src": "assets/audio/JB_SFX_WinRoundOver.mp3"
+    },
+    {
+      "id": "JB_SFX_WinSmall",
+      "src": "assets/audio/JB_SFX_WinSmall.mp3"
+    },
+    {
+      "id": "JB_SFX_WinningsTicker",
+      "src": "assets/audio/JB_SFX_WinningsTicker.mp3"
+    },
+    {
+      "id": "JB_SFX_WinningsUpdate",
+      "src": "assets/audio/JB_SFX_WinningsUpdate.mp3"
+    },
+    {
+      "id": "JB_SFX_WinningsUpdate_Large",
+      "src": "assets/audio/JB_SFX_WinningsUpdate_Large.mp3"
+    },
+    {
+      "id": "JB_SFX_WinningsUpdate_Small",
+      "src": "assets/audio/JB_SFX_WinningsUpdate_Small.mp3"
+    },
+    {
+      "id": "JB_SFX_WinningsWhoosh",
+      "src": "assets/audio/JB_SFX_WinningsWhoosh.mp3"
+    },
+    {
+      "id": "JB_SFX_WitchDoctorBlocks",
+      "src": "assets/audio/JB_SFX_WitchDoctorBlocks.mp3"
+    },
+    {
+      "id": "JB_SFX_x2Multiplier",
+      "src": "assets/audio/JB_SFX_x2Multiplier.mp3"
+    },
+    {
+      "id": "silence",
+      "src": "assets/audio/silence.mp3"
+    }
+  ]
+}

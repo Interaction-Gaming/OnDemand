@@ -1,0 +1,167 @@
+
+LegendWheel.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Legend_CircleShine
+  rotate: false
+  xy: 606, 793
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework00
+  rotate: false
+  xy: 2, 1210
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework01
+  rotate: false
+  xy: 599, 1727
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework02
+  rotate: false
+  xy: 2, 908
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework03
+  rotate: false
+  xy: 901, 1727
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework04
+  rotate: false
+  xy: 2, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework05
+  rotate: false
+  xy: 1203, 1727
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework06
+  rotate: false
+  xy: 2, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework07
+  rotate: false
+  xy: 1505, 1727
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework08
+  rotate: false
+  xy: 2, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework09
+  rotate: false
+  xy: 304, 1210
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework10
+  rotate: false
+  xy: 304, 908
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework11
+  rotate: false
+  xy: 304, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework12
+  rotate: false
+  xy: 304, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework13
+  rotate: false
+  xy: 304, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework14
+  rotate: false
+  xy: 606, 1425
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework15
+  rotate: false
+  xy: 606, 1123
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework16
+  rotate: false
+  xy: 908, 1425
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Legend_Firework Seq/Legend_Firework17
+  rotate: false
+  xy: 606, 821
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+RadialGlow
+  rotate: false
+  xy: 1210, 1597
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+WheelRays
+  rotate: false
+  xy: 2, 1512
+  size: 595, 515
+  orig: 595, 515
+  offset: 0, 0
+  index: -1
+wheel_OFF
+  rotate: false
+  xy: 1807, 1886
+  size: 141, 141
+  orig: 141, 141
+  offset: 0, 0
+  index: -1
+wheel_ON
+  rotate: false
+  xy: 908, 1292
+  size: 131, 131
+  orig: 131, 131
+  offset: 0, 0
+  index: -1

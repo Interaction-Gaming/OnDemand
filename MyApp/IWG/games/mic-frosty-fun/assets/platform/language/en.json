@@ -1,0 +1,34 @@
+{
+  "translations": {},
+  "demo": {
+    "translations": {},
+    "imagesToSwap": [
+      "languageData",
+      "language",
+      "touch-icon"
+    ]
+  },
+  "imagesToSwap": [
+    "gameAssets-0Data",
+    "gameAssets-0",
+    "gameAssets-1Data",
+    "gameAssets-1",
+    "languageData",
+    "language",
+    "splashScreen",
+    "symbols-0Data",
+    "symbols-0",
+    "symbols2x2-0Data",
+    "symbols2x2-0",
+    "touch-icon"
+  ],
+  "soundsToSwap": [
+    "JB_SFX_CritterVoice_01",
+    "JB_SFX_CritterVoice_02",
+    "JB_SFX_CritterVoice_03",
+    "JB_SFX_CritterVoice_04",
+    "JB_SFX_CritterVoice_05",
+    "JB_SFX_CritterVoice_06",
+    "JB_SFX_CritterVoice_07"
+  ]
+}

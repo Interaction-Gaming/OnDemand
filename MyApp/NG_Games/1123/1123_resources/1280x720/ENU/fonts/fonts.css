@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Gotham';
+    src:
+    url('GOTHAM-MEDIUM.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url('GOTHAM-BLACK.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src:
+    url('RobotoCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed Light';
+    src:
+    url('RobotoCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Arial";
+    src: local("Arial"), url(arial.ttf);
+}

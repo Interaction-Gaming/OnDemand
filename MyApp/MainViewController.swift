@@ -11,6 +11,7 @@ import UIKit
 class MainViewController: UIViewController {
    
     
+    @IBOutlet weak var gameIDTF: UITextField!
     var gameID = ""
     var gameType = ""
     var gameMode = ""
@@ -21,10 +22,23 @@ class MainViewController: UIViewController {
     static let NG_FOLDER_NAME = "NG_Games"
     
     
+    
     override func loadView() {
         super.loadView()
         loadGameConfigurations()
         copyCommonFolder()
+    }
+    
+    @IBAction func openGameMoneyMode(_ sender: Any) {
+        self.gameID = gameIDTF.text!
+        self.gameMode = "M"
+        startGameProcess()
+    }
+    
+    @IBAction func openGameDemoMode(_ sender: Any) {
+        self.gameID = gameIDTF.text!
+        self.gameMode = "D"
+        startGameProcess()
     }
     
     @IBAction func clearCache(_ sender: Any)
@@ -57,29 +71,11 @@ class MainViewController: UIViewController {
        
     }
 
-    @IBAction func openWildTimeMoney(_ sender: Any)
-    {
-        self.gameID = "1107"
-        self.gameMode = "M"
-        startGameProcess()
-    }
-    @IBAction func openQODDemo(_ sender: Any) {
-        self.gameID = "431"
-        self.gameMode = "D"
-        startGameProcess()
-    }
-    
-    @IBAction func openQODMoney(_ sender: Any) {
-        self.gameID = "431"
-        self.gameMode = "M"
-        startGameProcess()
-    }
 
-    @IBAction func openWildTimeDemo(_ sender: Any) {
-        self.gameID = "1107"
-        self.gameMode = "D"
-        startGameProcess()
-    }
+    
+
+
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         //update the web view controller with the data
         let vc = segue.destination as! ViewController
@@ -89,17 +85,33 @@ class MainViewController: UIViewController {
      }
     
     func startGameProcess(){
+      
         //extract the game type from the configuration file according to the game's id
-       let gameConfig = (gameConfigurationsJson[self.gameID] as? [String:String])!
-        self.gameType = (gameConfig["Type"])!
+      
+        if(gameConfigurationsJson[self.gameID] != nil){
+            let gameConfig = (gameConfigurationsJson[self.gameID] as! [String:String])
+            self.gameType = (gameConfig["Type"])!
+        }
+        else{
+            self.gameType = "IWG"
+        }
+        
+     
         self.showSpinner(onView: self.view)
         downloadGameResources(gameID)
         
     }
     
     func copyGameToLibraryFolder(){
-        copyGameScriptFolder()
-        copyGameResources()
+        if(self.gameType.elementsEqual("IWG"))
+        {
+            self.copyIWGGame()
+        }
+        else{
+            copyGameScriptFolder()
+            copyGameResources()
+        }
+        
         DispatchQueue.main.async {
             //open the web view controller
             self.performSegue(withIdentifier: "WebViewController", sender: self)
@@ -128,9 +140,11 @@ class MainViewController: UIViewController {
                self.copyGameToLibraryFolder()
             }
             else{
-                let alert = UIAlertController(title: "Error", message: "Error loading On-Demand resources", preferredStyle: .alert)
-                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-                self.present(alert, animated: true, completion: nil)
+                DispatchQueue.main.async {
+                    let alert = UIAlertController(title: "Error", message: "Error loading On-Demand resources", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                    self.present(alert, animated: true, completion: nil)
+                }
                 self.removeSpinner()
             }
             self.request.endAccessingResources()
@@ -181,6 +195,17 @@ class MainViewController: UIViewController {
        
     }
     
+    func copyIWGGame()
+    {
+        //TODO: instead of 'mic-frosty-fun' should be gameID
+        var destinationFolderPath = MainViewController.NG_FOLDER_NAME + "/IWG/games/mic-frosty-fun"
+        var localFolderPath = "mic-frosty-fun";
+        copyLocalFolderToLibrary(localFolderPath, destinationFolderPath)
+        
+        destinationFolderPath = MainViewController.NG_FOLDER_NAME + "/IWG/loader.js"
+        localFolderPath = "loader.js";
+        copyLocalFolderToLibrary(localFolderPath, destinationFolderPath)
+    }
     
     func copyGameScriptFolder()
     {
