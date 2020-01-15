@@ -25,8 +25,6 @@
 		08A64F1923706B7500932286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1723706B7500932286 /* LaunchScreen.storyboard */; };
 		08A8CEB023CEF8CC00627A25 /* loader.js in Resources */ = {isa = PBXBuildFile; fileRef = 08A8CDA323CEF8CC00627A25 /* loader.js */; };
 		08A8CEB223CEF8DB00627A25 /* mic-frosty-fun in Resources */ = {isa = PBXBuildFile; fileRef = 08A8CEB123CEF8DB00627A25 /* mic-frosty-fun */; settings = {ASSET_TAGS = (659, ); }; };
-		08F1A1E723CB1B11008B0C09 /* 1121_resources in Resources */ = {isa = PBXBuildFile; fileRef = 08F1A1E523CB1B11008B0C09 /* 1121_resources */; settings = {ASSET_TAGS = (1121, ); }; };
-		08F1A1E823CB1B11008B0C09 /* 1121_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 08F1A1E623CB1B11008B0C09 /* 1121_scripts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,8 +48,6 @@
 		08A64F1A23706B7500932286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08A8CDA323CEF8CC00627A25 /* loader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = loader.js; sourceTree = "<group>"; };
 		08A8CEB123CEF8DB00627A25 /* mic-frosty-fun */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "mic-frosty-fun"; sourceTree = "<group>"; };
-		08F1A1E523CB1B11008B0C09 /* 1121_resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1121_resources; sourceTree = "<group>"; };
-		08F1A1E623CB1B11008B0C09 /* 1121_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1121_scripts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +88,6 @@
 				083C34FD23AF9AE700CBFACA /* GameConfigurations.json */,
 				083C34F723AF9A8800CBFACA /* GWTCommon */,
 				083C34EB23AF83F100CBFACA /* GamesCore */,
-				08F1A0FF23CB1AEA008B0C09 /* 1121 */,
 				083C31F523AF83DA00CBFACA /* 431 */,
 			);
 			path = NG_Games;
@@ -154,15 +149,6 @@
 				08A8CEB123CEF8DB00627A25 /* mic-frosty-fun */,
 			);
 			path = games;
-			sourceTree = "<group>";
-		};
-		08F1A0FF23CB1AEA008B0C09 /* 1121 */ = {
-			isa = PBXGroup;
-			children = (
-				08F1A1E523CB1B11008B0C09 /* 1121_resources */,
-				08F1A1E623CB1B11008B0C09 /* 1121_scripts */,
-			);
-			path = 1121;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,14 +216,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08F1A1E823CB1B11008B0C09 /* 1121_scripts in Resources */,
 				08A8CEB223CEF8DB00627A25 /* mic-frosty-fun in Resources */,
 				08A64F1923706B7500932286 /* LaunchScreen.storyboard in Resources */,
 				083A580E23CDEC3F0078E787 /* 1123_scripts in Resources */,
 				083C34EE23AF841700CBFACA /* 431_resources in Resources */,
 				083C34F023AF842100CBFACA /* 431_scripts in Resources */,
 				08A8CEB023CEF8CC00627A25 /* loader.js in Resources */,
-				08F1A1E723CB1B11008B0C09 /* 1121_resources in Resources */,
 				083A580D23CDEC3F0078E787 /* 1123_resources in Resources */,
 				08A64F1623706B7500932286 /* Assets.xcassets in Resources */,
 				08A64F1423706B7300932286 /* Main.storyboard in Resources */,
