@@ -1,0 +1,2 @@
+var loc = loc || {}; 
+ loc.res_BonusWheelGame_Loc={BonusLogo_mc:{},BonusWofLogo_mc:{},SpinsLeft_mc:{TicketCost_mc:{tf_Title:{w:191,h:26.35,y:2.3,x:31}},SpinsLeftText_mc:{tf_Title:{w:148,h:33,y:7.8,x:18}},SpinsLeftNum_mc:{}},LastRoundText_mc:{tf:{w:515.15,h:58.15,y:-38,x:-259.05}},InfoWheelText_mc:{tf:{w:515.15,h:58.15,y:-32,x:-258.05}},Info_mc:{tf:{w:389,h:63,y:-120.95,x:35}},TotalWins_mc:{tf1:{w:145,h:48.75,y:-111.25,x:274},tf:{w:184,h:28.55,y:-98.25,x:34},TotalWinsAnim_mc:{}},WheelContainer_mc:{}};

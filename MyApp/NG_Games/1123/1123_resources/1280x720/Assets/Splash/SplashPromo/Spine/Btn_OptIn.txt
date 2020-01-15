@@ -1,0 +1,55 @@
+
+Btn_OptIn.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Glow
+  rotate: false
+  xy: 339, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+OptInBtn_Disabled
+  rotate: false
+  xy: 644, 132
+  size: 294, 87
+  orig: 294, 87
+  offset: 0, 0
+  index: -1
+OptInBtn_Over
+  rotate: false
+  xy: 2, 15
+  size: 303, 87
+  orig: 303, 87
+  offset: 0, 0
+  index: -1
+OptInBtn_Press
+  rotate: false
+  xy: 339, 132
+  size: 303, 87
+  orig: 303, 87
+  offset: 0, 0
+  index: -1
+OptInBtn_Up
+  rotate: false
+  xy: 2, 104
+  size: 335, 115
+  orig: 335, 115
+  offset: 0, 0
+  index: -1
+OptInBtn_Up_ArrowGlow
+  rotate: false
+  xy: 940, 174
+  size: 53, 45
+  orig: 53, 45
+  offset: 0, 0
+  index: -1
+TransparentPixel
+  rotate: false
+  xy: 2, 12
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

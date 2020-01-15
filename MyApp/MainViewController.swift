@@ -11,6 +11,7 @@ import UIKit
 class MainViewController: UIViewController {
    
     
+    @IBOutlet weak var gameIDTF: UITextField!
     var gameID = ""
     var gameType = ""
     var gameMode = ""
@@ -18,6 +19,8 @@ class MainViewController: UIViewController {
     var libraryPath = try! FileManager.default.url(for: .libraryDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
     var gameConfigurationsJson : NSDictionary!
     var vSpinner : UIView?
+    static let NG_FOLDER_NAME = "NG_Games"
+    
     
     
     override func loadView() {
@@ -26,12 +29,27 @@ class MainViewController: UIViewController {
         copyCommonFolder()
     }
     
+    @IBAction func openGameMoneyMode(_ sender: Any) {
+        self.gameID = gameIDTF.text!
+        self.gameMode = "M"
+        startGameProcess()
+    }
+    
+    @IBAction func openGameDemoMode(_ sender: Any) {
+        self.gameID = gameIDTF.text!
+        self.gameMode = "D"
+        startGameProcess()
+    }
+    
     @IBAction func clearCache(_ sender: Any)
     {
-        let destinationPath = self.libraryPath.appendingPathComponent("NG_Games")
+        let destinationPath = self.libraryPath.appendingPathComponent(MainViewController.NG_FOLDER_NAME)
         try? FileManager.default.removeItem(at: destinationPath)
         //the common data must be there
         copyCommonFolder()
+        let alert = UIAlertController(title: "Clear Cashe", message: "Your application's cache was cleared", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
  
     func loadGameConfigurations()
@@ -52,16 +70,11 @@ class MainViewController: UIViewController {
         }
        
     }
-    @IBAction func openQODDemo(_ sender: Any) {
-        self.gameID = "431"
-        self.gameMode = "D"
-        startGameProcess()
-    }
-    @IBAction func openQODMoney(_ sender: Any) {
-        self.gameID = "431"
-        self.gameMode = "M"
-        startGameProcess()
-    }
+
+
+    
+
+
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         //update the web view controller with the data
@@ -72,17 +85,35 @@ class MainViewController: UIViewController {
      }
     
     func startGameProcess(){
-       let gameConfig = (gameConfigurationsJson[self.gameID] as? [String:String])!
-        self.gameType = (gameConfig["Type"])!
+      
+        //extract the game type from the configuration file according to the game's id
+      
+        if(gameConfigurationsJson[self.gameID] != nil){
+            let gameConfig = (gameConfigurationsJson[self.gameID] as! [String:String])
+            self.gameType = (gameConfig["Type"])!
+        }
+        else{
+            self.gameType = "IWG"
+        }
+        
+     
         self.showSpinner(onView: self.view)
         downloadGameResources(gameID)
         
     }
     
     func copyGameToLibraryFolder(){
-        copyGameScriptFolder()
-        copyGameResources()
+        if(self.gameType.elementsEqual("IWG"))
+        {
+            self.copyIWGGame()
+        }
+        else{
+            copyGameScriptFolder()
+            copyGameResources()
+        }
+        
         DispatchQueue.main.async {
+            //open the web view controller
             self.performSegue(withIdentifier: "WebViewController", sender: self)
         }
         self.removeSpinner()
@@ -104,8 +135,17 @@ class MainViewController: UIViewController {
     
     func accessResources(){
         self.request.beginAccessingResources { (error:Error!) in
+            //seccsessfully downloaded the on demand resources
             if error == nil{
                self.copyGameToLibraryFolder()
+            }
+            else{
+                DispatchQueue.main.async {
+                    let alert = UIAlertController(title: "Error", message: "Error loading On-Demand resources", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                    self.present(alert, animated: true, completion: nil)
+                }
+                self.removeSpinner()
             }
             self.request.endAccessingResources()
         }
@@ -130,7 +170,6 @@ class MainViewController: UIViewController {
             }
         }
         do {
-            //TODO: need to find correct way
             try FileManager.default.copyItem(at: bundlePath, to: destinationPath)
         }
         catch
@@ -141,26 +180,37 @@ class MainViewController: UIViewController {
     
     func copyCommonFolder()
     {
-        copyLocalFolderToLibrary("GamesCore", "NG_Games/secure/GamesCore")
-        copyLocalFolderToLibrary("GWTCommon/common", "NG_Games/secure/OP/version/Resources/640x834/Brands/General/games/common")
-        copyLocalFolderToLibrary("GWTCommon/games/POC.css", "NG_Games/secure/OP/version/Scripts/games/POC.css")
-         copyLocalFolderToLibrary("GWTCommon/games/soundjs-0.5.1.min.js", "NG_Games/secure/OP/version/Scripts/games/soundjs-0.5.1.min.js")
-         copyLocalFolderToLibrary("GWTCommon/games/Tween.min.js", "NG_Games/secure/OP/version/Scripts/games/Tween.min.js")
-         copyLocalFolderToLibrary("GWTCommon/games/TweenMax.min.js", "NG_Games/secure/OP/version/Scripts/games/TweenMax.min.js")
-         copyLocalFolderToLibrary("Launcher/BaseGame.html", "NG_Games//BaseGame.html")
-        copyLocalFolderToLibrary("Launcher/callback.js", "NG_Games/callback.js")
-        copyLocalFolderToLibrary("Launcher/GamesCoreLauncher.js", "NG_Games/GamesCoreLauncher.js")
-        copyLocalFolderToLibrary("Launcher/GWTHTML5ScriptsLauncher.js", "NG_Games/GWTHTML5ScriptsLauncher.js")
-        copyLocalFolderToLibrary("Launcher/PixiHTML5ScriptsLauncher.js", "NG_Games/PixiHTML5ScriptsLauncher.js")
+        copyLocalFolderToLibrary("GamesCore", MainViewController.NG_FOLDER_NAME + "/secure/GamesCore")
+        copyLocalFolderToLibrary("GWTCommon/common", MainViewController.NG_FOLDER_NAME + "/secure/OP/version/Resources/640x834/Brands/General/games/common")
+        copyLocalFolderToLibrary("GWTCommon/games/POC.css", MainViewController.NG_FOLDER_NAME + "/secure/OP/version/Scripts/games/POC.css")
+         copyLocalFolderToLibrary("GWTCommon/games/soundjs-0.5.1.min.js", MainViewController.NG_FOLDER_NAME + "/secure/OP/version/Scripts/games/soundjs-0.5.1.min.js")
+         copyLocalFolderToLibrary("GWTCommon/games/Tween.min.js", MainViewController.NG_FOLDER_NAME + "/secure/OP/version/Scripts/games/Tween.min.js")
+         copyLocalFolderToLibrary("GWTCommon/games/TweenMax.min.js", MainViewController.NG_FOLDER_NAME + "/secure/OP/version/Scripts/games/TweenMax.min.js")
+         copyLocalFolderToLibrary("Launcher/BaseGame.html", MainViewController.NG_FOLDER_NAME + "/BaseGame.html")
+        copyLocalFolderToLibrary("Launcher/callback.js", MainViewController.NG_FOLDER_NAME + "/callback.js")
+        copyLocalFolderToLibrary("Launcher/GamesCoreLauncher.js", MainViewController.NG_FOLDER_NAME + "/GamesCoreLauncher.js")
+        copyLocalFolderToLibrary("Launcher/GWTHTML5ScriptsLauncher.js", MainViewController.NG_FOLDER_NAME + "/GWTHTML5ScriptsLauncher.js")
+        copyLocalFolderToLibrary("Launcher/PixiHTML5ScriptsLauncher.js", MainViewController.NG_FOLDER_NAME + "/PixiHTML5ScriptsLauncher.js")
+        copyLocalFolderToLibrary("Launcher/main.js", MainViewController.NG_FOLDER_NAME + "/main.js")
        
     }
     
+    func copyIWGGame()
+    {
+        //TODO: instead of 'mic-frosty-fun' should be gameID
+        var destinationFolderPath = MainViewController.NG_FOLDER_NAME + "/IWG/games/mic-frosty-fun"
+        var localFolderPath = "mic-frosty-fun";
+        copyLocalFolderToLibrary(localFolderPath, destinationFolderPath)
+        
+        destinationFolderPath = MainViewController.NG_FOLDER_NAME + "/IWG/loader.js"
+        localFolderPath = "loader.js";
+        copyLocalFolderToLibrary(localFolderPath, destinationFolderPath)
+    }
     
     func copyGameScriptFolder()
     {
         let scriptsPathDic = gameConfigurationsJson["libraryScriptsPath"] as?[String:String]
         let destinationFolderPath = scriptsPathDic![self.gameType]! + "/" + self.gameID
-        //let folderName = getGameScriptDestinationFolder()
         let localFolderPath = self.gameID + "_scripts";
         copyLocalFolderToLibrary(localFolderPath, destinationFolderPath)
     }
@@ -173,13 +223,11 @@ class MainViewController: UIViewController {
         
         let gameConfig = (gameConfigurationsJson[self.gameID] as? [String:String])!
        let subFolder = (gameConfig["ResourceSubFolder"])!
-        //let folderName = getGameScriptDestinationFolder()
         let localFolderPath = self.gameID + "_resources" + subFolder;
         destinationFolderPath += "/" + subFolder
         copyLocalFolderToLibrary(localFolderPath, destinationFolderPath)
     }
     
-  
     func showSpinner(onView : UIView) {
         let spinnerView = UIView.init(frame: onView.bounds)
         spinnerView.backgroundColor = UIColor.init(red: 0.5, green: 0.5, blue: 0.5, alpha: 0.5)

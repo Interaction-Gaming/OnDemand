@@ -1,0 +1,145 @@
+{
+  "sprite": {
+    "Ambiance_bonus": [
+      0,
+      25874.784580498865,
+      true
+    ],
+    "Ambiance_main": [
+      27000,
+      61553.21995464853,
+      true
+    ],
+    "Big_win_pop_up": [
+      90000,
+      3591.9501133786866
+    ],
+    "Bonus_Scatter_flying": [
+      95000,
+      1000
+    ],
+    "Bonus_Scatter_reveal": [
+      97000,
+      2208.7981859410493
+    ],
+    "cound_down": [
+      101000,
+      1448.6848072562425
+    ],
+    "Enter_bonus_coins_splash": [
+      104000,
+      1536.9614512471658
+    ],
+    "Enter_bonus_elements_in": [
+      107000,
+      1321.020408163264
+    ],
+    "Enter_bonus_elements_out": [
+      110000,
+      1196.4625850340126
+    ],
+    "Enter_Bonus_from_blue_fill": [
+      113000,
+      5121.587301587298
+    ],
+    "Enter_Bonus_from_coin_jump": [
+      120000,
+      3532.335600907032
+    ],
+    "Enter_Bonus_popup_full_flow": [
+      125000,
+      5987.573696145119
+    ],
+    "Enter_bonus_win_music": [
+      132000,
+      5121.587301587311
+    ],
+    "General_Win": [
+      139000,
+      2533.174603174615
+    ],
+    "Info_open": [
+      143000,
+      1000
+    ],
+    "Its_a_winner": [
+      145000,
+      3487.936507936496
+    ],
+    "Legend_win": [
+      150000,
+      1448.6848072562282
+    ],
+    "Play": [
+      153000,
+      1000
+    ],
+    "Prize_meter_entrance": [
+      155000,
+      1045.170068027204
+    ],
+    "Prize_Meter_fill": [
+      158000,
+      1000
+    ],
+    "Reveals_left_entrance": [
+      160000,
+      1801.9501133786946
+    ],
+    "Rollup": [
+      163000,
+      5900.725623582758,
+      true
+    ],
+    "Rollup_End": [
+      170000,
+      1017.8004535147522
+    ],
+    "Scatter_coins_flying": [
+      173000,
+      1905.759637188197
+    ],
+    "Scatter_flying": [
+      176000,
+      1055.9863945578343
+    ],
+    "Scatter_Legend": [
+      179000,
+      1448.6848072562282
+    ],
+    "Scatter_reveal": [
+      182000,
+      1323.9002267573596
+    ],
+    "Summary": [
+      185000,
+      4817.95918367348
+    ],
+    "Winning_cell": [
+      191000,
+      1670.4081632653072
+    ],
+    "Winning_numbers_entrance": [
+      194000,
+      1000
+    ],
+    "Winning_numbers_reveal": [
+      196000,
+      1000
+    ],
+    "Your_tickets_entrance": [
+      198000,
+      1831.7233560090642
+    ],
+    "Your_Tickets_reveal": [
+      201000,
+      1000
+    ]
+  },
+  "src": [
+    "sprite.webm",
+    "sprite.mp3",
+    "sprite.m4a",
+    "sprite.ogg"
+  ]
+}

@@ -1,0 +1,9 @@
+﻿{
+    "dropShadow": true,
+    "dropShadowAngle": 180,
+    "dropShadowColor": "white",
+    "dropShadowDistance": 1,
+    "fill": "#bbb",
+    "fontSize": 20,
+    "fontWeight": "bold"
+}

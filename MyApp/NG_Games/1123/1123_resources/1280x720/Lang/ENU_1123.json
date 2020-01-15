@@ -1,0 +1,69 @@
+{  
+   "translations":{
+
+      "BONUS_SUMMARY_POPUP_COLLECT":"",
+      "BONUS_SUMMARY_POPUP_YOU_WON":"",
+      "BONUS_SUMMARY_POPUP_YOUR_MULTIPLIER":"",
+      "BONUS_SUMMARY_POPUP_TICKET_COST":"TICKET\nCOST",
+      "BONUS_SUMMARY_POPUP_BONUS_MULTIPLIER":"BONUS\nMULTIPLIER",
+      "BONUS_SUMMARY_POPUP_BONUS_TOTAL_WIN":"TOTAL BONUS\nROUND WINNINGS",
+      
+      "SPLASH_ROCKET_REVEAL":"ROCKET\nREVEAL",
+      "SPLASH1":"Unlock the MANIA Meter or Rocket Reveals to keep the fun going!",
+      "SPLASH_DO_NOT_SHOW_AGAIN":"Do not show again",
+      "SPLASH_CONTINUE":"CONTINUE",
+      "CELL_SURPRISE_WIN": "SURPRISE\nWIN",
+
+
+      "WINNING_NUMBERS":"Winning Numbers",
+      "YOUR_TICKETS":"Your Tickets",
+      "BIG_WIN1":"BIG",
+      "BIG_WIN2":"WIN!",
+      "IT'S_A_WINNER1":"IT'S A",
+      "IT'S_A_WINNER2":"WINNER!",
+
+
+      "BALANCE":"BALANCE:  ",
+      "DEMO_BALANCE":"DEMO BALANCE:  ",
+      "TOTAL_COST":"TOTAL COST:  ",
+      "TOTAL_WINS":"TOTAL WINS:  ",
+      "WIN_UP_TO":"WIN UP TO:  ",
+      "TOOLTIP_PLAY": "Press here to\nPLAY",
+      "TOOLTIP_REVEAL_ALL":"Press here to\nREVEAL ALL",
+      "MONEY_MODE":"Move to money",
+      "DEPOSIT":"Deposit",
+
+      "BONUS_GAME_TICKET_COST" : "TICKET COST:  ",
+      "BONUS_GAME_SPINS_LEFT" : "SPINS LEFT:",
+      "BONUS_GAME_INFO_LINE" : "Line up 3 matching numbers\nto win a prize",
+      "BONUS_LEGEND" : "BONUS WIN",
+
+      "GAME_ADJUSTMENTS_TITLE":"Game Adjustments",
+      "GAME_ADJUSTMENTS_KNOWING_YOUR_LIMITS":"Knowing your limit is always the best bet. Call 1-800-270-7117 for help.",
+      "GAME_ADJUSTMENTS_TOTAL_COST":"Total Cost",
+      "GAME_ADJUSTMENTS_WIN_UP_TO":"Win Up To",
+      "GAME_ADJUSTMENTS_SELECT_TICKETS":"Select Tickets",
+      "GAME_ADJUSTMENTS_TICKET_COST":"Ticket Cost",
+          
+      "HOW_TO_PLAY_TITLE":"HOW TO PLAY",
+      "HOW_TO_PLAY1":"Select the number of tickets.",
+      "HOW_TO_PLAY2":"Select the cost per ticket.",
+      "HOW_TO_PLAY3":"Your Total Cost equals the number of tickets multiplied by the ticket cost.",
+      "HOW_TO_PLAY4":"To purchase the game, press PLAY or press the spacebar.",
+      "HOW_TO_PLAY5":"To play the game, press REVEAL ALL or press each ticket manually.",
+      "HOW_TO_PLAY6":"If any of the letters on Your Tickets match the Winning Letters, win the prize shown on that ticket.",
+      "HOW_TO_PLAY7":"Reveal an Envelope to play a mini game for a surprise win!",
+
+      "HOW_TO_PLAY_BONUS_TITLE": "Bonus Wheel",
+      "HOW_TO_BONUS_1":"Reveal 3 Wheel symbols to play the Bonus Wheel game for guaranteed prizes.",
+      "HOW_TO_BONUS_2":"Press the wheel to Spin it. You start with 10 spins.",
+      "HOW_TO_BONUS_3":"Match 3 numbers in a line to win the prize shown for that line.",
+
+
+      "HOW_TO_PLAY_GAME_RULES_TITLE":"GAME RULES",
+
+      "HOW_TO_PLAY_GAME_RULES1":"For more details about the game refer to the [Game Rules]."
+    
+      
+   }
+}

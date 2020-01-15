@@ -1,0 +1,2 @@
+var loc = loc || {}; 
+ loc.res_MainGame_Loc={PopupsContainer_mc:{},Copyright_Text:{tf:{w:238,h:57,x:3.45,y:609.75}},Menu_mc:{},TopRightScreen_mc:{},LegendContainer_mc:{},EntranceContainer_mc:{},GeneralWin_mc:{},ScratchAreaContainer_mc:{},Text_Your:{},Text_WinningLetters:{},Text_Tickets:{},LogoContainer_mc:{},Wheel_mc:{},allTimeContainer_mc:{},AlltimeAnim_mc:{}};

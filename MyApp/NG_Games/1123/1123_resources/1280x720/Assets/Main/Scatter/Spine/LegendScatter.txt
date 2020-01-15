@@ -1,0 +1,20 @@
+
+LegendScatter.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cell_BonusWheel
+  rotate: false
+  xy: 2, 2
+  size: 47, 43
+  orig: 47, 43
+  offset: 0, 0
+  index: -1
+wheel_ON
+  rotate: false
+  xy: 2, 47
+  size: 131, 131
+  orig: 131, 131
+  offset: 0, 0
+  index: -1

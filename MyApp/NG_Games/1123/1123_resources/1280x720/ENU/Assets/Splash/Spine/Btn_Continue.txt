@@ -1,0 +1,48 @@
+
+Btn_Continue.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Continue_Disabled
+  rotate: false
+  xy: 1401, 49
+  size: 341, 113
+  orig: 341, 113
+  offset: 0, 0
+  index: -1
+Continue_Over
+  rotate: false
+  xy: 2, 5
+  size: 350, 157
+  orig: 350, 157
+  offset: 0, 0
+  index: -1
+Continue_Pressed
+  rotate: false
+  xy: 1058, 14
+  size: 341, 148
+  orig: 341, 148
+  offset: 0, 0
+  index: -1
+Continue_Up
+  rotate: false
+  xy: 354, 7
+  size: 350, 155
+  orig: 350, 155
+  offset: 0, 0
+  index: -1
+Continue_Up_Glow
+  rotate: false
+  xy: 706, 7
+  size: 350, 155
+  orig: 350, 155
+  offset: 0, 0
+  index: -1
+TransparentPixel
+  rotate: false
+  xy: 2, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

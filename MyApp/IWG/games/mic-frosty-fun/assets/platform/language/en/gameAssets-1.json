@@ -1,0 +1,248 @@
+{"frames": {
+
+"arrowLButton.psd":
+{
+	"frame": {"x":1068,"y":592,"w":142,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":4,"w":142,"h":143},
+	"sourceSize": {"w":149,"h":151}
+},
+"arrowRButton.psd":
+{
+	"frame": {"x":1068,"y":739,"w":141,"h":143},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":141,"h":143},
+	"sourceSize": {"w":141,"h":143}
+},
+"bonusLeavesFront.psd":
+{
+	"frame": {"x":1213,"y":841,"w":411,"h":582},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":0,"w":411,"h":582},
+	"sourceSize": {"w":421,"h":582}
+},
+"bonusLeveasBack.psd":
+{
+	"frame": {"x":1628,"y":896,"w":411,"h":582},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":0,"w":411,"h":582},
+	"sourceSize": {"w":421,"h":582}
+},
+"boxValue.psd":
+{
+	"frame": {"x":1671,"y":624,"w":374,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":374,"h":268},
+	"sourceSize": {"w":399,"h":268}
+},
+"circleGradient.png":
+{
+	"frame": {"x":1742,"y":89,"w":56,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":6,"w":56,"h":56},
+	"sourceSize": {"w":70,"h":70}
+},
+"fog.png":
+{
+	"frame": {"x":1221,"y":3,"w":587,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":587,"h":82},
+	"sourceSize": {"w":587,"h":82}
+},
+"homeButton .psd":
+{
+	"frame": {"x":1671,"y":537,"w":47,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":47,"h":49},
+	"sourceSize": {"w":50,"h":51}
+},
+"homeButtonOver.psd":
+{
+	"frame": {"x":1144,"y":886,"w":47,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":47,"h":49},
+	"sourceSize": {"w":50,"h":51}
+},
+"leafDarkBlur.png":
+{
+	"frame": {"x":3,"y":1427,"w":410,"h":578},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":58,"w":410,"h":578},
+	"sourceSize": {"w":520,"h":693}
+},
+"leafLightBlur.png":
+{
+	"frame": {"x":417,"y":1427,"w":406,"h":575},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":49,"y":42,"w":406,"h":575},
+	"sourceSize": {"w":500,"h":695}
+},
+"lights0000.psd":
+{
+	"frame": {"x":1221,"y":239,"w":508,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":211,"y":24,"w":508,"h":143},
+	"sourceSize": {"w":927,"h":196}
+},
+"lights0001.psd":
+{
+	"frame": {"x":1221,"y":89,"w":517,"h":146},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":202,"y":21,"w":517,"h":146},
+	"sourceSize": {"w":927,"h":196}
+},
+"panelFreePlay.psd":
+{
+	"frame": {"x":827,"y":1114,"w":313,"h":327},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":99,"w":313,"h":327},
+	"sourceSize": {"w":370,"h":463}
+},
+"particleWood02.psd":
+{
+	"frame": {"x":1742,"y":149,"w":55,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":5,"w":55,"h":66},
+	"sourceSize": {"w":64,"h":74}
+},
+"prizeMultiplierPannel.psd":
+{
+	"frame": {"x":1742,"y":219,"w":288,"h":148},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":288,"h":148},
+	"sourceSize": {"w":288,"h":149}
+},
+"snowChunk_01.psd":
+{
+	"frame": {"x":1671,"y":492,"w":50,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":66,"y":52,"w":50,"h":41},
+	"sourceSize": {"w":174,"h":145}
+},
+"soundOn.psd":
+{
+	"frame": {"x":1671,"y":386,"w":52,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":52,"h":49},
+	"sourceSize": {"w":53,"h":51}
+},
+"soundOnOver.psd":
+{
+	"frame": {"x":1671,"y":439,"w":52,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":52,"h":49},
+	"sourceSize": {"w":53,"h":51}
+},
+"spinButtonLights.psd":
+{
+	"frame": {"x":1812,"y":3,"w":193,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":54,"w":193,"h":192},
+	"sourceSize": {"w":230,"h":264}
+},
+"ticketCostPannel.psd":
+{
+	"frame": {"x":3,"y":929,"w":168,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":168,"h":149},
+	"sourceSize": {"w":171,"h":149}
+},
+"treasureChestWin.psd":
+{
+	"frame": {"x":626,"y":592,"w":438,"h":518},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":166,"y":173,"w":438,"h":518},
+	"sourceSize": {"w":749,"h":890}
+},
+"treasureInactive.psd":
+{
+	"frame": {"x":1221,"y":386,"w":446,"h":451},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":153,"y":253,"w":446,"h":451},
+	"sourceSize": {"w":749,"h":890}
+},
+"wheelFrame.psd":
+{
+	"frame": {"x":626,"y":3,"w":591,"h":585},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":591,"h":585},
+	"sourceSize": {"w":591,"h":588}
+},
+"wheelLights0000.psd":
+{
+	"frame": {"x":3,"y":3,"w":619,"h":623},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":28,"w":619,"h":623},
+	"sourceSize": {"w":677,"h":674}
+},
+"wheelSectionBgDimmBlue.psd":
+{
+	"frame": {"x":417,"y":929,"w":165,"h":234},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":87,"y":16,"w":165,"h":234},
+	"sourceSize": {"w":508,"h":508}
+},
+"wheelSectionBlue.psd":
+{
+	"frame": {"x":417,"y":630,"w":192,"h":295},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":246,"y":121,"w":192,"h":295},
+	"sourceSize": {"w":672,"h":672}
+},
+"wheelSectionBlueLight.psd":
+{
+	"frame": {"x":3,"y":1114,"w":192,"h":298},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":246,"y":121,"w":192,"h":298},
+	"sourceSize": {"w":672,"h":672}
+},
+"yellowBurst.psd":
+{
+	"frame": {"x":1733,"y":371,"w":280,"h":249},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":280,"h":249},
+	"sourceSize": {"w":281,"h":251}
+}},
+"animations": {
+	"lights": ["lights0000.psd","lights0001.psd"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "gameAssets-1.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "0.5",
+	"related_multi_packs": [ "gameAssets-0.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:65adb3550b4c566f579caa85fcb53d1e:c626a7225c37a5ba63035f452640593c:0a2b86a7abc3ca226eaa28a64d5b0d15$"
+}
+}

@@ -1,0 +1,111 @@
+
+Splash.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+AllRights
+  rotate: false
+  xy: 2, 148
+  size: 628, 105
+  orig: 628, 105
+  offset: 0, 0
+  index: -1
+BG
+  rotate: false
+  xy: 2, 255
+  size: 1282, 722
+  orig: 1282, 722
+  offset: 0, 0
+  index: -1
+Envelope_Text
+  rotate: false
+  xy: 2, 17
+  size: 330, 129
+  orig: 330, 129
+  offset: 0, 0
+  index: -1
+Envelopes
+  rotate: false
+  xy: 1286, 430
+  size: 362, 547
+  orig: 362, 547
+  offset: 0, 0
+  index: -1
+Glow
+  rotate: false
+  xy: 1598, 269
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Logo
+  rotate: true
+  xy: 1650, 508
+  size: 469, 175
+  orig: 469, 175
+  offset: 0, 0
+  index: -1
+Logo_Copyright
+  rotate: false
+  xy: 2, 2
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+Logo_Rays
+  rotate: true
+  xy: 1827, 656
+  size: 321, 154
+  orig: 321, 154
+  offset: 0, 0
+  index: -1
+O_LIGHTS
+  rotate: true
+  xy: 1650, 399
+  size: 107, 147
+  orig: 107, 147
+  offset: 0, 0
+  index: -1
+RAY_SPOT_BLUE
+  rotate: false
+  xy: 632, 183
+  size: 259, 70
+  orig: 259, 70
+  offset: 0, 0
+  index: -1
+RAY_SPOT_PURPLE
+  rotate: false
+  xy: 893, 183
+  size: 259, 70
+  orig: 259, 70
+  offset: 0, 0
+  index: -1
+TransparentPixel
+  rotate: false
+  xy: 334, 35
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+U_LIGHTS
+  rotate: false
+  xy: 1827, 548
+  size: 199, 106
+  orig: 199, 106
+  offset: 0, 0
+  index: -1
+WheelBonus
+  rotate: true
+  xy: 1286, 128
+  size: 300, 310
+  orig: 300, 310
+  offset: 0, 0
+  index: -1
+WheelBonus_Text
+  rotate: false
+  xy: 334, 38
+  size: 256, 108
+  orig: 256, 108
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,2 @@
+var loc = loc || {}; 
+ loc.res_EnterBonusPopup_Loc={EnterBonusPopup_mc:{PopupContent_mc:{TextAnim_mc:{tf:{w:360,h:59.85,x:223,y:-11.25}},TextAnim2_mc:{tf:{w:698.15,h:134.05,x:66.05,y:25}},TextAnim1_mc:{tf:{w:360,h:45.35,x:222,y:48.15}}}}};

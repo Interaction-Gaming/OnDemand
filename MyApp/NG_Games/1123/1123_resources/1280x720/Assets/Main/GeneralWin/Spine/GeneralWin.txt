@@ -1,0 +1,523 @@
+
+GeneralWin.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GeneralWin Seq/GeneralWin01
+  rotate: false
+  xy: 2, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin02
+  rotate: false
+  xy: 2, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin03
+  rotate: false
+  xy: 184, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin04
+  rotate: false
+  xy: 2, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin05
+  rotate: false
+  xy: 184, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin06
+  rotate: false
+  xy: 366, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin07
+  rotate: false
+  xy: 2, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin08
+  rotate: false
+  xy: 184, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin09
+  rotate: false
+  xy: 366, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin10
+  rotate: false
+  xy: 548, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin11
+  rotate: false
+  xy: 184, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin12
+  rotate: false
+  xy: 366, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin13
+  rotate: false
+  xy: 548, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin14
+  rotate: false
+  xy: 730, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin15
+  rotate: false
+  xy: 366, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin16
+  rotate: true
+  xy: 2, 2
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin17
+  rotate: false
+  xy: 548, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin18
+  rotate: false
+  xy: 730, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin19
+  rotate: false
+  xy: 912, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin20
+  rotate: false
+  xy: 548, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin21
+  rotate: false
+  xy: 730, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin22
+  rotate: false
+  xy: 912, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin23
+  rotate: false
+  xy: 1094, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin24
+  rotate: false
+  xy: 730, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin25
+  rotate: true
+  xy: 454, 2
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin26
+  rotate: false
+  xy: 912, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin27
+  rotate: false
+  xy: 1094, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin28
+  rotate: false
+  xy: 1276, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin29
+  rotate: false
+  xy: 912, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin30
+  rotate: false
+  xy: 1094, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin31
+  rotate: false
+  xy: 1276, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin32
+  rotate: false
+  xy: 1458, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin33
+  rotate: false
+  xy: 1094, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin34
+  rotate: false
+  xy: 1276, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin35
+  rotate: false
+  xy: 1458, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin36
+  rotate: false
+  xy: 1640, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin37
+  rotate: false
+  xy: 1276, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin38
+  rotate: true
+  xy: 906, 2
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin39
+  rotate: false
+  xy: 1458, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin40
+  rotate: false
+  xy: 1640, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin41
+  rotate: false
+  xy: 1822, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin42
+  rotate: false
+  xy: 1458, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin43
+  rotate: false
+  xy: 1640, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin44
+  rotate: false
+  xy: 1822, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin45
+  rotate: false
+  xy: 1640, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin46
+  rotate: true
+  xy: 1358, 2
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin47
+  rotate: false
+  xy: 1822, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin48
+  rotate: false
+  xy: 1822, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+
+GeneralWin2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GeneralWin Seq/GeneralWin49
+  rotate: false
+  xy: 2, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin50
+  rotate: false
+  xy: 2, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin51
+  rotate: false
+  xy: 184, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin52
+  rotate: false
+  xy: 2, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin53
+  rotate: false
+  xy: 184, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin54
+  rotate: false
+  xy: 366, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin55
+  rotate: false
+  xy: 2, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin56
+  rotate: false
+  xy: 184, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin57
+  rotate: false
+  xy: 366, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin58
+  rotate: false
+  xy: 548, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin59
+  rotate: false
+  xy: 184, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin60
+  rotate: false
+  xy: 366, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin61
+  rotate: false
+  xy: 548, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin62
+  rotate: false
+  xy: 730, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin63
+  rotate: false
+  xy: 366, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin64
+  rotate: true
+  xy: 2, 2
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin65
+  rotate: false
+  xy: 548, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin66
+  rotate: false
+  xy: 730, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin67
+  rotate: false
+  xy: 912, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin68
+  rotate: false
+  xy: 548, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin69
+  rotate: false
+  xy: 730, 636
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin70
+  rotate: false
+  xy: 912, 1088
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin71
+  rotate: false
+  xy: 1094, 1540
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin72
+  rotate: false
+  xy: 730, 184
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+GeneralWin Seq/GeneralWin73
+  rotate: true
+  xy: 454, 2
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1

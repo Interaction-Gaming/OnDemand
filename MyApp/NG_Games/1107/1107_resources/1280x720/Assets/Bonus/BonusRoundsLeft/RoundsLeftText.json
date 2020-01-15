@@ -1,0 +1,14 @@
+{
+  "align": "center",
+  "dropShadow": true,
+  "dropShadowAngle": 1.1,
+  "dropShadowBlur": 2,
+  "dropShadowDistance": 3,
+  "fill": "#c0c4c5",
+  "fontSize": 38,
+  "fontWeight": "bold",
+  "letterSpacing": 6,
+  "miterLimit": 4,
+  "strokeThickness": 4,
+  "wordWrapWidth": 0
+}

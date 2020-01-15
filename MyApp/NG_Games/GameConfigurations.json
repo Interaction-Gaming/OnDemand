@@ -4,7 +4,11 @@
        "Type": "GWT",
        "ResourceSubFolder":""
    },
-   "1121":{ 
+   "1123":{
+       "Type": "H_PIXI",
+       "ResourceSubFolder":"/1280x720"
+   },
+   "1107":{
        "Type": "H_PIXI",
        "ResourceSubFolder":"/1280x720"
    },

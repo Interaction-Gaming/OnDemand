@@ -1,0 +1,503 @@
+
+WinningLetters.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shine
+  rotate: false
+  xy: 2017, 976
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/A_TOP_REGULAR
+  rotate: false
+  xy: 2, 2
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/B_TOP_REGULAR
+  rotate: false
+  xy: 730, 730
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/C_TOP_REGULAR
+  rotate: false
+  xy: 912, 912
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/D_TOP_REGULAR
+  rotate: false
+  xy: 548, 366
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/E_TOP_REGULAR
+  rotate: false
+  xy: 366, 184
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/F_TOP_REGULAR
+  rotate: false
+  xy: 87, 2
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/G_TOP_REGULAR
+  rotate: false
+  xy: 730, 638
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/H_TOP_REGULAR
+  rotate: false
+  xy: 815, 730
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/I_TOP_REGULAR
+  rotate: false
+  xy: 997, 912
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/J_TOP_REGULAR
+  rotate: true
+  xy: 912, 827
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/K_TOP_REGULAR
+  rotate: false
+  xy: 451, 184
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/L_TOP_REGULAR
+  rotate: true
+  xy: 366, 99
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/M_TOP_REGULAR
+  rotate: false
+  xy: 633, 366
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/N_TOP_REGULAR
+  rotate: true
+  xy: 548, 281
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/O_TOP_REGULAR
+  rotate: false
+  xy: 172, 2
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/P_TOP_REGULAR
+  rotate: false
+  xy: 730, 546
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/Q_TOP_REGULAR
+  rotate: false
+  xy: 815, 638
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/R_TOP_REGULAR
+  rotate: false
+  xy: 1082, 912
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/S_TOP_REGULAR
+  rotate: true
+  xy: 1004, 827
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/T_TOP_REGULAR
+  rotate: false
+  xy: 257, 2
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/U_TOP_REGULAR
+  rotate: false
+  xy: 815, 546
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/V_TOP_REGULAR
+  rotate: true
+  xy: 730, 461
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/W_TOP_REGULAR
+  rotate: false
+  xy: 1167, 912
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/X_TOP_REGULAR
+  rotate: true
+  xy: 1096, 827
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/Y_TOP_REGULAR
+  rotate: false
+  xy: 1252, 912
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_REGULAR/Z_TOP_REGULAR
+  rotate: true
+  xy: 1188, 827
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/A_TOP_WINS
+  rotate: false
+  xy: 1337, 912
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/B_TOP_WINS
+  rotate: true
+  xy: 1280, 827
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/C_TOP_WINS
+  rotate: false
+  xy: 1422, 912
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/D_TOP_WINS
+  rotate: false
+  xy: 1507, 912
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/E_TOP_WINS
+  rotate: true
+  xy: 1372, 827
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/F_TOP_WINS
+  rotate: true
+  xy: 1464, 827
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/G_TOP_WINS
+  rotate: false
+  xy: 1592, 912
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/H_TOP_WINS
+  rotate: true
+  xy: 1556, 827
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/I_TOP_WINS
+  rotate: false
+  xy: 1677, 912
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/J_TOP_WINS
+  rotate: true
+  xy: 1648, 827
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/K_TOP_WINS
+  rotate: false
+  xy: 1762, 912
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/L_TOP_WINS
+  rotate: true
+  xy: 1740, 827
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/M_TOP_WINS
+  rotate: false
+  xy: 1847, 912
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/N_TOP_WINS
+  rotate: true
+  xy: 1832, 827
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/O_TOP_WINS
+  rotate: false
+  xy: 1932, 912
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/P_TOP_WINS
+  rotate: true
+  xy: 1924, 827
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/Q_TOP_WINS
+  rotate: false
+  xy: 458, 92
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/R_TOP_WINS
+  rotate: false
+  xy: 640, 274
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/S_TOP_WINS
+  rotate: false
+  xy: 822, 454
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/T_TOP_WINS
+  rotate: false
+  xy: 342, 2
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/U_TOP_WINS
+  rotate: true
+  xy: 427, 7
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/V_TOP_WINS
+  rotate: false
+  xy: 536, 184
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/W_TOP_WINS
+  rotate: false
+  xy: 543, 92
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/X_TOP_WINS
+  rotate: true
+  xy: 519, 7
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/Y_TOP_WINS
+  rotate: true
+  xy: 621, 189
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WINNING_LETTERS_WINNING/Z_TOP_WINS
+  rotate: false
+  xy: 628, 97
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX00
+  rotate: false
+  xy: 2, 822
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX01
+  rotate: false
+  xy: 2, 640
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX02
+  rotate: false
+  xy: 184, 822
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX03
+  rotate: false
+  xy: 2, 458
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX04
+  rotate: false
+  xy: 184, 640
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX05
+  rotate: false
+  xy: 366, 822
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX06
+  rotate: false
+  xy: 2, 276
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX07
+  rotate: false
+  xy: 184, 458
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX08
+  rotate: false
+  xy: 366, 640
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX09
+  rotate: false
+  xy: 548, 822
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX10
+  rotate: false
+  xy: 2, 94
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX11
+  rotate: false
+  xy: 184, 276
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX12
+  rotate: false
+  xy: 366, 458
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX13
+  rotate: false
+  xy: 548, 640
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX14
+  rotate: false
+  xy: 730, 822
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX15
+  rotate: false
+  xy: 184, 94
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX16
+  rotate: false
+  xy: 366, 276
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+WinningLettersVFX seq/WinningLettersVFX17
+  rotate: false
+  xy: 548, 458
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1

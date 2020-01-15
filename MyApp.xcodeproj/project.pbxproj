@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		082C945F23A0CA3D00DB5754 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C945E23A0CA3D00DB5754 /* MainViewController.swift */; };
+		083A533923CC89D30078E787 /* 1107_resources in Resources */ = {isa = PBXBuildFile; fileRef = 083A533723CC89D30078E787 /* 1107_resources */; settings = {ASSET_TAGS = (1107, ); }; };
+		083A533A23CC89D30078E787 /* 1107_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 083A533823CC89D30078E787 /* 1107_scripts */; };
+		083A580D23CDEC3F0078E787 /* 1123_resources in Resources */ = {isa = PBXBuildFile; fileRef = 083A580B23CDEC3F0078E787 /* 1123_resources */; settings = {ASSET_TAGS = (1123, ); }; };
+		083A580E23CDEC3F0078E787 /* 1123_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 083A580C23CDEC3F0078E787 /* 1123_scripts */; };
 		083C34EC23AF83F100CBFACA /* GamesCore in Resources */ = {isa = PBXBuildFile; fileRef = 083C34EB23AF83F100CBFACA /* GamesCore */; };
 		083C34EE23AF841700CBFACA /* 431_resources in Resources */ = {isa = PBXBuildFile; fileRef = 083C34ED23AF841700CBFACA /* 431_resources */; settings = {ASSET_TAGS = (431, ); }; };
 		083C34F023AF842100CBFACA /* 431_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 083C34EF23AF842100CBFACA /* 431_scripts */; };
-		083C34F523AF846F00CBFACA /* 1121_resources in Resources */ = {isa = PBXBuildFile; fileRef = 083C34F323AF846F00CBFACA /* 1121_resources */; settings = {ASSET_TAGS = (1121, ); }; };
-		083C34F623AF846F00CBFACA /* 1121_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 083C34F423AF846F00CBFACA /* 1121_scripts */; };
 		083C34F823AF9A8800CBFACA /* GWTCommon in Resources */ = {isa = PBXBuildFile; fileRef = 083C34F723AF9A8800CBFACA /* GWTCommon */; };
 		083C350423AF9AE700CBFACA /* GameConfigurations.json in Resources */ = {isa = PBXBuildFile; fileRef = 083C34FD23AF9AE700CBFACA /* GameConfigurations.json */; };
 		087E324D23BDCCBA00DFEB1A /* Launcher in Resources */ = {isa = PBXBuildFile; fileRef = 087E324C23BDCCBA00DFEB1A /* Launcher */; };
@@ -21,15 +23,19 @@
 		08A64F1423706B7300932286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1223706B7300932286 /* Main.storyboard */; };
 		08A64F1623706B7500932286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1523706B7500932286 /* Assets.xcassets */; };
 		08A64F1923706B7500932286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A64F1723706B7500932286 /* LaunchScreen.storyboard */; };
+		08A8CEB023CEF8CC00627A25 /* loader.js in Resources */ = {isa = PBXBuildFile; fileRef = 08A8CDA323CEF8CC00627A25 /* loader.js */; };
+		08A8CEB223CEF8DB00627A25 /* mic-frosty-fun in Resources */ = {isa = PBXBuildFile; fileRef = 08A8CEB123CEF8DB00627A25 /* mic-frosty-fun */; settings = {ASSET_TAGS = (659, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		082C945E23A0CA3D00DB5754 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		083A533723CC89D30078E787 /* 1107_resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1107_resources; sourceTree = "<group>"; };
+		083A533823CC89D30078E787 /* 1107_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1107_scripts; sourceTree = "<group>"; };
+		083A580B23CDEC3F0078E787 /* 1123_resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1123_resources; sourceTree = "<group>"; };
+		083A580C23CDEC3F0078E787 /* 1123_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1123_scripts; sourceTree = "<group>"; };
 		083C34EB23AF83F100CBFACA /* GamesCore */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GamesCore; sourceTree = "<group>"; };
 		083C34ED23AF841700CBFACA /* 431_resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 431_resources; sourceTree = "<group>"; };
 		083C34EF23AF842100CBFACA /* 431_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 431_scripts; sourceTree = "<group>"; };
-		083C34F323AF846F00CBFACA /* 1121_resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1121_resources; sourceTree = "<group>"; };
-		083C34F423AF846F00CBFACA /* 1121_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1121_scripts; sourceTree = "<group>"; };
 		083C34F723AF9A8800CBFACA /* GWTCommon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GWTCommon; sourceTree = "<group>"; };
 		083C34FD23AF9AE700CBFACA /* GameConfigurations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GameConfigurations.json; sourceTree = "<group>"; };
 		087E324C23BDCCBA00DFEB1A /* Launcher */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Launcher; sourceTree = "<group>"; };
@@ -40,6 +46,8 @@
 		08A64F1523706B7500932286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08A64F1823706B7500932286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08A64F1A23706B7500932286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A8CDA323CEF8CC00627A25 /* loader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = loader.js; sourceTree = "<group>"; };
+		08A8CEB123CEF8DB00627A25 /* mic-frosty-fun */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "mic-frosty-fun"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,15 +61,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		083A51F023CC89B30078E787 /* 1107 */ = {
+			isa = PBXGroup;
+			children = (
+				083A533723CC89D30078E787 /* 1107_resources */,
+				083A533823CC89D30078E787 /* 1107_scripts */,
+			);
+			path = 1107;
+			sourceTree = "<group>";
+		};
+		083A55A523CDEC1D0078E787 /* 1123 */ = {
+			isa = PBXGroup;
+			children = (
+				083A580B23CDEC3F0078E787 /* 1123_resources */,
+				083A580C23CDEC3F0078E787 /* 1123_scripts */,
+			);
+			path = 1123;
+			sourceTree = "<group>";
+		};
 		083C317623AF83DA00CBFACA /* NG_Games */ = {
 			isa = PBXGroup;
 			children = (
+				083A55A523CDEC1D0078E787 /* 1123 */,
+				083A51F023CC89B30078E787 /* 1107 */,
 				087E324C23BDCCBA00DFEB1A /* Launcher */,
 				083C34FD23AF9AE700CBFACA /* GameConfigurations.json */,
 				083C34F723AF9A8800CBFACA /* GWTCommon */,
 				083C34EB23AF83F100CBFACA /* GamesCore */,
 				083C31F523AF83DA00CBFACA /* 431 */,
-				083C32D123AF83DA00CBFACA /* 1121 */,
 			);
 			path = NG_Games;
 			sourceTree = "<group>";
@@ -73,15 +100,6 @@
 				083C34ED23AF841700CBFACA /* 431_resources */,
 			);
 			path = 431;
-			sourceTree = "<group>";
-		};
-		083C32D123AF83DA00CBFACA /* 1121 */ = {
-			isa = PBXGroup;
-			children = (
-				083C34F323AF846F00CBFACA /* 1121_resources */,
-				083C34F423AF846F00CBFACA /* 1121_scripts */,
-			);
-			path = 1121;
 			sourceTree = "<group>";
 		};
 		08A64F0223706B7300932286 = {
@@ -103,6 +121,7 @@
 		08A64F0D23706B7300932286 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				08A8CC8423CEF8CC00627A25 /* IWG */,
 				083C317623AF83DA00CBFACA /* NG_Games */,
 				08A64F0E23706B7300932286 /* AppDelegate.swift */,
 				08A64F1023706B7300932286 /* ViewController.swift */,
@@ -113,6 +132,23 @@
 				08A64F1A23706B7500932286 /* Info.plist */,
 			);
 			path = MyApp;
+			sourceTree = "<group>";
+		};
+		08A8CC8423CEF8CC00627A25 /* IWG */ = {
+			isa = PBXGroup;
+			children = (
+				08A8CC8823CEF8CC00627A25 /* games */,
+				08A8CDA323CEF8CC00627A25 /* loader.js */,
+			);
+			path = IWG;
+			sourceTree = "<group>";
+		};
+		08A8CC8823CEF8CC00627A25 /* games */ = {
+			isa = PBXGroup;
+			children = (
+				08A8CEB123CEF8DB00627A25 /* mic-frosty-fun */,
+			);
+			path = games;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +178,11 @@
 			isa = PBXProject;
 			attributes = {
 				KnownAssetTags = (
+					1107,
 					1121,
+					1123,
 					431,
+					659,
 				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
@@ -177,17 +216,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A8CEB223CEF8DB00627A25 /* mic-frosty-fun in Resources */,
 				08A64F1923706B7500932286 /* LaunchScreen.storyboard in Resources */,
-				083C34F623AF846F00CBFACA /* 1121_scripts in Resources */,
-				083C34F523AF846F00CBFACA /* 1121_resources in Resources */,
+				083A580E23CDEC3F0078E787 /* 1123_scripts in Resources */,
 				083C34EE23AF841700CBFACA /* 431_resources in Resources */,
 				083C34F023AF842100CBFACA /* 431_scripts in Resources */,
+				08A8CEB023CEF8CC00627A25 /* loader.js in Resources */,
+				083A580D23CDEC3F0078E787 /* 1123_resources in Resources */,
 				08A64F1623706B7500932286 /* Assets.xcassets in Resources */,
 				08A64F1423706B7300932286 /* Main.storyboard in Resources */,
 				083C34EC23AF83F100CBFACA /* GamesCore in Resources */,
 				087E324D23BDCCBA00DFEB1A /* Launcher in Resources */,
+				083A533923CC89D30078E787 /* 1107_resources in Resources */,
 				083C34F823AF9A8800CBFACA /* GWTCommon in Resources */,
 				083C350423AF9AE700CBFACA /* GameConfigurations.json in Resources */,
+				083A533A23CC89D30078E787 /* 1107_scripts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -336,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

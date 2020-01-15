@@ -1,0 +1,174 @@
+
+SurprisePopup.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 565, 1673
+  size: 641, 361
+  orig: 641, 361
+  offset: 0, 0
+  index: -1
+BG_Logo
+  rotate: true
+  xy: 432, 527
+  size: 385, 147
+  orig: 385, 147
+  offset: 0, 0
+  index: -1
+BG_Win
+  rotate: false
+  xy: 1628, 1321
+  size: 321, 181
+  orig: 321, 181
+  offset: 0, 0
+  index: -1
+Envelope_Light
+  rotate: false
+  xy: 1951, 1460
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+Envelope_OpenBackside
+  rotate: false
+  xy: 1208, 1634
+  size: 392, 400
+  orig: 392, 400
+  offset: 0, 0
+  index: -1
+Envelope_OpenOver
+  rotate: false
+  xy: 2, 193
+  size: 407, 275
+  orig: 407, 275
+  offset: 0, 0
+  index: -1
+Envelope_Shadow
+  rotate: false
+  xy: 1602, 1669
+  size: 405, 245
+  orig: 405, 245
+  offset: 0, 0
+  index: -1
+Envelope_UpperTriangle
+  rotate: false
+  xy: 2, 2
+  size: 391, 189
+  orig: 391, 189
+  offset: 0, 0
+  index: -1
+Neon
+  rotate: false
+  xy: 1208, 1459
+  size: 418, 173
+  orig: 418, 173
+  offset: 0, 0
+  index: -1
+Note
+  rotate: false
+  xy: 2, 470
+  size: 428, 442
+  orig: 428, 442
+  offset: 0, 0
+  index: -1
+NoteIn_Text
+  rotate: false
+  xy: 556, 1160
+  size: 265, 187
+  orig: 265, 187
+  offset: 0, 0
+  index: -1
+Note_Shadow
+  rotate: true
+  xy: 1036, 1312
+  size: 134, 137
+  orig: 134, 137
+  offset: 0, 0
+  index: -1
+PickEnvelope_Text
+  rotate: false
+  xy: 1602, 1916
+  size: 444, 118
+  orig: 444, 118
+  offset: 0, 0
+  index: -1
+Rays
+  rotate: false
+  xy: 2, 1433
+  size: 561, 601
+  orig: 561, 601
+  offset: 0, 0
+  index: -1
+Ribbon_Back
+  rotate: false
+  xy: 859, 1319
+  size: 175, 127
+  orig: 175, 127
+  offset: 0, 0
+  index: -1
+Ribbon_Front
+  rotate: false
+  xy: 556, 991
+  size: 183, 167
+  orig: 183, 167
+  offset: 0, 0
+  index: -1
+Spotlight
+  rotate: false
+  xy: 565, 1448
+  size: 641, 223
+  orig: 641, 223
+  offset: 0, 0
+  index: -1
+Stage
+  rotate: false
+  xy: 1628, 1504
+  size: 365, 163
+  orig: 365, 163
+  offset: 0, 0
+  index: -1
+TransparentPixel
+  rotate: false
+  xy: 2009, 1913
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+WheelOfFortune_CircleLogo
+  rotate: false
+  xy: 741, 1050
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+WheelOfFortune_Logo
+  rotate: false
+  xy: 565, 1349
+  size: 292, 97
+  orig: 292, 97
+  offset: 0, 0
+  index: -1
+WheelRays
+  rotate: false
+  xy: 2, 914
+  size: 552, 517
+  orig: 552, 517
+  offset: 0, 0
+  index: -1
+WoF_Glow
+  rotate: false
+  xy: 556, 925
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+YOUWON_Text
+  rotate: true
+  xy: 411, 261
+  size: 207, 41
+  orig: 207, 41
+  offset: 0, 0
+  index: -1

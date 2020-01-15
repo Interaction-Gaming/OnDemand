@@ -1,0 +1,64 @@
+{
+	"alpha": {
+		"start": 1,
+		"end": 0
+	},
+	"scale": {
+		"start": 0.27,
+		"end": 0.09,
+		"minimumScaleMultiplier": 0.6
+	},
+	"color": {
+		"start": "#3a2cd1",
+		"end": "#84eb9e"
+	},
+	"speed": {
+		"start": 47,
+		"end": 14,
+		"minimumSpeedMultiplier": 1
+	},
+	"acceleration": {
+		"x": 3,
+		"y": -29
+	},
+	"maxSpeed": 23.9,
+	"startRotation": {
+		"min": 65,
+		"max": -56
+	},
+	"noRotation": true,
+	"rotationSpeed": {
+		"min": 3,
+		"max": 1
+	},
+	"lifetime": {
+		"min": 2.14,
+		"max": 5.92
+	},
+	"blendMode": "normal",
+	"emitRotationSpeed": 0,
+	"emitRotationInterval": 0,
+	"frequency": 0.14,
+	"emitterLifetime": -1,
+	"maxParticles": 47,
+	"pos": {
+		"x": 0,
+		"y": 0
+	},
+	"addAtBack": false,
+	"spawnType": "rect",
+	"spawnRect": {
+		"x": 0,
+		"y": 0,
+		"w": 1280,
+		"h": 720
+	},
+	"randomSize": true,
+	"emitRandomRectWStart": 0,
+	"emitRandomRectWEnd": 0,
+	"emitRandomRectHStart": 0,
+	"emitRandomRectHEnd": 0,
+	"emitRandomCircleRStart": 0,
+	"emitRandomCircleREnd": 0,
+	"randomInterval": 0
+}

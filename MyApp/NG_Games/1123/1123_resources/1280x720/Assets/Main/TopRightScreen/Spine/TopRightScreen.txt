@@ -1,0 +1,27 @@
+
+TopRightScreen.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TopRight_Logo
+  rotate: false
+  xy: 2, 2
+  size: 162, 62
+  orig: 162, 62
+  offset: 0, 0
+  index: -1
+TopRight_Opt_Text
+  rotate: false
+  xy: 296, 127
+  size: 208, 98
+  orig: 208, 98
+  offset: 0, 0
+  index: -1
+TopRight_Screen
+  rotate: false
+  xy: 2, 66
+  size: 292, 159
+  orig: 292, 159
+  offset: 0, 0
+  index: -1

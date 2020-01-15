@@ -1,0 +1,15 @@
+﻿{
+   "align": "center",
+   "dropShadowAlpha": 0.5,
+   "dropShadowAngle": -1.5,
+   "dropShadowBlur": 2,
+   "dropShadowColor": "#9b26e1",
+   "fontFamily": "Gotham-Black",
+   "dropShadowDistance": 10,
+   "fill": "#1f1006",
+   "fontSize": 20,
+   "lineHeight": 18,
+   "lineJoin": "round",
+   "stroke": "#fee8b7",
+   "strokeThickness": 0
+}
